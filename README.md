@@ -14,7 +14,7 @@ My curated list of audio Digital Signal Processing resources. New resources may 
 
 - [`3Blue1Brown`] - An excellent YouTube channel on complex algebra, linear algebra, calculus, and differential equations.
   - His video on the [`Fourier Transform`] is particularly excellent.
-- This video on the [`Laplace Transform`].
+- This video on the [`Laplace Transform`] by Zach Star.
 
 ## Algorithms
 
