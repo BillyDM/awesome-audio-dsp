@@ -35,7 +35,7 @@ My curated list of audio Digital Signal Processing resources. New resources may 
 
 ## Rust Resources
 - [`simdeez`] - Write generic SIMD code across an array of architectures.
-- [`FunDSP`] - An Audio DSP library with a custom clean syntax.
+- [`FunDSP`] - An audio DSP library with a custom clean syntax.
 - [`Learn Rust the Dangerous Way`]: Tips on writing low-level Rust code from a C background.
 - [`How-to Optimize Rust Programs on Linux`]: How-to guide on profiling Rust code on Linux.
 
