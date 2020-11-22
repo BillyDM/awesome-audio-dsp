@@ -1,7 +1,7 @@
 # Audio DSP Resources
-My curated list of audio Digital Signal Processing resources. New resources may be added in the future. Feel free to create a PR if you wish!
+My curated list of audio digital signal processing resources. New resources may be added in the future. Feel free to create a PR if you wish!
 
-## DSP textbooks
+## Textbooks
 
 - [`Designing Software Synthesizer Plug-Ins in C++`] and [`Designing Audio Effect Plugins in C++`] by Will Pirkle
   - Great beginner resource that teaches fundamental DSP concepts with examples.
