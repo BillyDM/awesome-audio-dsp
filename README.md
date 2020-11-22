@@ -13,6 +13,7 @@ My curated list of audio Digital Signal Processing resources. New resources may 
 ## Mathematics
 
 - [`3Blue1Brown`] - An excellent YouTube channel on complex algebra, linear algebra, calculus, and differential equations.
+  - His video on the [`Fourier Transform`] is particularly excellent.
 
 ## Algorithms
 
@@ -56,3 +57,4 @@ My curated list of audio Digital Signal Processing resources. New resources may 
 [`Desmos`]: https://www.desmos.com/calculator
 [`Wolfram Alpha`]: https://www.wolframalpha.com/
 [`Curcuit JS`]: https://www.falstad.com/circuit/circuitjs.html
+[`Fourier Transform`]: https://www.youtube.com/watch?v=spUNpyF58BY
