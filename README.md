@@ -19,7 +19,7 @@ My curated list of audio Digital Signal Processing resources. New resources may 
 ## Algorithms
 
 - [`Musicdsp.org`] - A collection of open source DSP algorithms by the community.
-- [`Cytomic Technical Papers`] - Excellent real-world useable filters and explanations by a Cytomic.
+- [`Cytomic Technical Papers`] - Excellent real-world useable filters and explanations by Cytomic.
 - [`Freeverb`]: An open-source reverb algorithm.
 
 ## Software Optimization
