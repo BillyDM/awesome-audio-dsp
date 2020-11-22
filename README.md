@@ -29,7 +29,7 @@ My curated list of audio Digital Signal Processing resources. New resources may 
   ![DSP Rules](fast_dsp.png?raw=true)
 
 ## Math Tools
-- [`Desmos`] - Free online graphing calculator with many features.
+- [`Desmos`] - Free online graphing calculator.
 - [`Wolfram Alpha`] - A helpful math partner.
 - [`Curcuit JS`] - A cool little circuit simulation tool.
 
