@@ -20,6 +20,7 @@ My curated list of audio digital signal processing resources. New resources may 
 
 - [`Musicdsp.org`] - A collection of open source DSP algorithms by the community.
 - [`Cytomic Technical Papers`] - Excellent real-world useable filters and explanations by Cytomic.
+- [`deip.pdf`] - High quality resampling and oversampling.
 - [`Freeverb`]: An open-source reverb algorithm.
 
 ## Software Optimization
@@ -60,3 +61,4 @@ My curated list of audio digital signal processing resources. New resources may 
 [`Curcuit JS`]: https://www.falstad.com/circuit/circuitjs.html
 [`Fourier Transform`]: https://www.youtube.com/watch?v=spUNpyF58BY
 [`Laplace Transform`]: https://www.youtube.com/watch?v=n2y7n6jw5d0
+[`deip.pdf`]: https://github.com/BillyDM/Audio-DSP-Resources/blob/main/deip.pdf
