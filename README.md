@@ -24,7 +24,7 @@ My curated list of audio Digital Signal Processing resources. New resources may 
 
 - [`Intel Intrinsics Guide`] - x86 processor instrinsics
 - Follow these rules:
-  - ![DSP Rules](fast_dsp.png?raw=true)
+  ![DSP Rules](fast_dsp.png?raw=true)
 
 ## Math Tools
 - [`Desmos`] - Free online graphing calculator with many features.
