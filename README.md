@@ -1,5 +1,5 @@
 # Audio DSP Resources
-My curated list of audio digital signal processing resources. New resources may be added in the future. Feel free to create a PR if you wish!
+My curated list of audio digital signal processing resources. New resources may be added in the future. Feel free to open a PR if you wish!
 
 ## Textbooks
 
