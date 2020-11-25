@@ -13,7 +13,7 @@ My curated list of audio digital signal processing resources. New resources may 
 ## Mathematics
 
 - [`3Blue1Brown`] - An excellent YouTube channel on complex algebra, linear algebra, calculus, and differential equations.
-  - His video on the [`Fourier Transform`] is particularly excellent.
+  - His videos on [`Euler's Formula`] and the [`Fourier Transform`] are particularly excellent.
 - This video on the [`Laplace Transform`] by Zach Star.
 
 ## Algorithms
@@ -34,9 +34,19 @@ My curated list of audio digital signal processing resources. New resources may 
 - [`Wolfram Alpha`] - A helpful math partner.
 - [`Curcuit JS`] - A cool little circuit simulation tool.
 
-## Rust Resources
+## System Tools
+- [`MrsWatson`] - Command-line audio plugin host with support for printing to the terminal from your DSP code.
+- [`Carla`] - System-wide virtual audio and MIDI patching software, using [`Jack`] as the backend. Available as a standalone application or a VST/LV2 plugin.
+- [`Jack`] - Cross-platform audio driver with support for system-wide patching.
+- [`Cadence`] - A suite of tools for configuring, monitoring, and controlling system-wide audio in Linux (includes [`Carla`]).
+- [`Ardour`] - Open-source DAW with useful plugin analysis tools.
+
+## Rust Crates
+- [`baseplug`] - Create VST plugins in Rust. (GUI and other plugin formats are still a work in progress.)
 - [`simdeez`] - Write generic SIMD code across an array of architectures.
-- [`FunDSP`] - An audio DSP library with a custom clean syntax.
+- [`FunDSP`] - An audio DSP library with a nifty clean syntax.
+
+## Rust Resources
 - [`Learn Rust the Dangerous Way`]: Tips on writing low-level Rust code from a C background.
 - [`How-to Optimize Rust Programs on Linux`]: How-to guide on profiling Rust code on Linux.
 
@@ -60,5 +70,12 @@ My curated list of audio digital signal processing resources. New resources may 
 [`Wolfram Alpha`]: https://www.wolframalpha.com/
 [`Curcuit JS`]: https://www.falstad.com/circuit/circuitjs.html
 [`Fourier Transform`]: https://www.youtube.com/watch?v=spUNpyF58BY
+[`Euler's Formula`]: https://www.youtube.com/watch?v=mvmuCPvRoWQ
 [`Laplace Transform`]: https://www.youtube.com/watch?v=n2y7n6jw5d0
 [`deip.pdf`]: https://github.com/BillyDM/Audio-DSP-Resources/blob/main/deip.pdf
+[`MrsWatson`]: http://teragonaudio.com/MrsWatson.html
+[`Jack`]: https://jackaudio.org/
+[`Carla`]: https://kx.studio/Applications:Carla
+[`Cadence`]: https://kx.studio/Applications:Cadence
+[`Ardour`]: https://ardour.org/
+[`baseplug`]: https://github.com/wrl/baseplug
