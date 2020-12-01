@@ -55,6 +55,7 @@ While this is not *strictly* development related, knowing how plugins are actual
 
 ## Forums
 - [`Rust Audio Discord Server`] - A community of passionate Rust audio programmers.
+- [`KVR DSP Forum`] - A large community of plugin developers.
 
 [`Designing Software Synthesizer Plug-Ins in C++`]: https://www.amazon.com/Designing-Software-Synthesizer-Plug-Ins-RackAFX/dp/1138787078
 [`Designing Audio Effect Plugins in C++`]: https://www.amazon.com/Designing-Audio-Effect-Plugins-C/dp/1138591939
@@ -85,3 +86,4 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`SeamlessR`]: https://www.youtube.com/playlist?list=PLGYoE903Nir5LfIWap-x8aEV6Q-YkE6c4
 [`Au5`]: https://www.youtube.com/playlist?list=PLCP_w7OAVom-d5SMebEPdwrkiNNGCv53N
 [`Bertom EQ Curve Analyzer`]: https://www.bertomaudio.com/eqca.html
+[`KVR DSP Forum`]: https://www.kvraudio.com/forum/viewforum.php?f=33
