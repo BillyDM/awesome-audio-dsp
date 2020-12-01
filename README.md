@@ -19,7 +19,7 @@ My curated list of audio digital signal processing resources. New resources may 
 - [`Cytomic Technical Papers`] - Excellent real-world useable filters and explanations by Cytomic.
 - [`deip.pdf`] - High quality resampling and oversampling.
 - [`Freeverb`] - An open-source reverb algorithm.
-- [`DAFX`] - An archive of scientific papers and presentations given during an annual DSP research conference.
+- [`DAFx`] - An archive of scientific papers and presentations given during an annual DSP research conference.
 
 ## Sound Design & Mixing
 While this is not *strictly* development related, knowing how plugins are actually used can give valuable insight.
@@ -87,4 +87,4 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`Au5`]: https://www.youtube.com/playlist?list=PLCP_w7OAVom-d5SMebEPdwrkiNNGCv53N
 [`Bertom EQ Curve Analyzer`]: https://www.bertomaudio.com/eqca.html
 [`KVR DSP Forum`]: https://www.kvraudio.com/forum/viewforum.php?f=33
-[`DAFX`]: http://www.dafx.de/
+[`DAFx`]: http://www.dafx.de/
