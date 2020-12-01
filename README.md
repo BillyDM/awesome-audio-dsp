@@ -2,7 +2,6 @@
 My curated list of audio digital signal processing resources. New resources may be added in the future. Feel free to open a PR if you wish!
 
 ## Textbooks
-
 - [`Designing Software Synthesizer Plug-Ins in C++`] and [`Designing Audio Effect Plugins in C++`] by Will Pirkle
   - Great beginner resource that teaches fundamental DSP concepts with examples.
   - Focuses on teaching concepts, not on writing performant code. His coding sytle is quite ineffecient.
@@ -11,20 +10,23 @@ My curated list of audio digital signal processing resources. New resources may 
   - Free online book on DSP in general.
 
 ## Mathematics
-
 - [`3Blue1Brown`] - An excellent YouTube channel on complex algebra, linear algebra, calculus, and differential equations.
   - His videos on [`Euler's Formula`] and the [`Fourier Transform`] are particularly excellent.
 - This video on the [`Laplace Transform`] by Zach Star.
 
 ## Algorithms
-
 - [`Musicdsp.org`] - A collection of open source DSP algorithms by the community.
 - [`Cytomic Technical Papers`] - Excellent real-world useable filters and explanations by Cytomic.
 - [`deip.pdf`] - High quality resampling and oversampling.
 - [`Freeverb`]: An open-source reverb algorithm.
 
-## Software Optimization
+## Sound Design & Mixing
+While this is not *strictly* development related, knowing how plugins are actually used can give valuable insight.
+- [`SeamlessR`] - This guy is a great teacher and really knows his stuff.
+- [`Au5`] - A beast legend. Need I say more?
 
+
+## Software Optimization
 - [`Intel Intrinsics Guide`] - x86 processor instrinsics
 - Follow these rules:
   ![DSP Rules](fast_dsp.png?raw=true)
@@ -79,3 +81,5 @@ My curated list of audio digital signal processing resources. New resources may 
 [`Cadence`]: https://kx.studio/Applications:Cadence
 [`Ardour`]: https://ardour.org/
 [`baseplug`]: https://github.com/wrl/baseplug
+[`SeamlessR`]: https://www.youtube.com/playlist?list=PLGYoE903Nir5LfIWap-x8aEV6Q-YkE6c4
+[`Au5`]: https://www.youtube.com/playlist?list=PLCP_w7OAVom-d5SMebEPdwrkiNNGCv53N
