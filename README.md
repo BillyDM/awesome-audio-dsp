@@ -50,8 +50,8 @@ While this is not *strictly* development related, knowing how plugins are actual
 - [`FunDSP`] - An audio DSP library with a nifty clean syntax.
 
 ## Rust Resources
-- [`Learn Rust the Dangerous Way`]: Tips on writing low-level Rust code from a C background.
-- [`How-to Optimize Rust Programs on Linux`]: How-to guide on profiling Rust code on Linux.
+- [`Learn Rust the Dangerous Way`] - Tips on writing low-level Rust code from a C background.
+- [`How-to Optimize Rust Programs on Linux`] - How-to guide on profiling Rust code on Linux.
 
 ## Forums
 - [`Rust Audio Discord Server`] - A community of passionate Rust audio programmers.
