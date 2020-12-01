@@ -42,6 +42,7 @@ While this is not *strictly* development related, knowing how plugins are actual
 - [`Jack`] - Cross-platform audio driver with support for system-wide patching.
 - [`Cadence`] - A suite of tools for configuring, monitoring, and controlling system-wide audio in Linux (includes [`Carla`]).
 - [`Ardour`] - Open-source DAW with useful plugin analysis tools.
+- [`Bertom EQ Curve Analyzer`] - Analyze the frequency and phase response of any plugin.
 
 ## Rust Crates
 - [`baseplug`] - Create VST plugins in Rust. (GUI and other plugin formats are still a work in progress.)
@@ -83,3 +84,4 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`baseplug`]: https://github.com/wrl/baseplug
 [`SeamlessR`]: https://www.youtube.com/playlist?list=PLGYoE903Nir5LfIWap-x8aEV6Q-YkE6c4
 [`Au5`]: https://www.youtube.com/playlist?list=PLCP_w7OAVom-d5SMebEPdwrkiNNGCv53N
+[`Bertom EQ Curve Analyzer`]: https://www.bertomaudio.com/eqca.html
