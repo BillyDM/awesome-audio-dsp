@@ -14,17 +14,17 @@ My curated list of audio digital signal processing resources. New resources may 
   - His videos on [`Euler's Formula`] and the [`Fourier Transform`] are particularly excellent.
 - This video on the [`Laplace Transform`] by Zach Star.
 
-## Algorithms
+## Algorithms & Technical Reading
 - [`Musicdsp.org`] - A collection of open source DSP algorithms by the community.
 - [`Cytomic Technical Papers`] - Excellent real-world useable filters and explanations by Cytomic.
 - [`deip.pdf`] - High quality resampling and oversampling.
-- [`Freeverb`]: An open-source reverb algorithm.
+- [`Freeverb`] - An open-source reverb algorithm.
+- [`DAFX`] - An archive of scientific papers and presentations given during an annual DSP research conference.
 
 ## Sound Design & Mixing
 While this is not *strictly* development related, knowing how plugins are actually used can give valuable insight.
 - [`SeamlessR`] - This guy is a great teacher and really knows his stuff.
 - [`Au5`] - A beast legend. Need I say more?
-
 
 ## Software Optimization
 - [`Intel Intrinsics Guide`] - x86 processor instrinsics
@@ -87,3 +87,4 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`Au5`]: https://www.youtube.com/playlist?list=PLCP_w7OAVom-d5SMebEPdwrkiNNGCv53N
 [`Bertom EQ Curve Analyzer`]: https://www.bertomaudio.com/eqca.html
 [`KVR DSP Forum`]: https://www.kvraudio.com/forum/viewforum.php?f=33
+[`DAFX`]: http://www.dafx.de/
