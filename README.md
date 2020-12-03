@@ -5,8 +5,8 @@ My curated list of audio digital signal processing resources. New resources may 
 - [`Designing Software Synthesizer Plug-Ins in C++`] and [`Designing Audio Effect Plugins in C++`] by Will Pirkle
   - Great beginner resource that teaches fundamental DSP concepts with examples.
   - The synthesizer one is better than the effect one imo, so go for that if you plan on only buying one.
-  - There is now a [`newer edition`] as well.
   - Focuses on teaching concepts, not on writing performant code. His coding sytle is quite ineffecient.
+  - There is now a [`newer edition`] as well.
 
 - [`The Scientist and Engineer's Guide to Digital Signal Processing`] by Steven W. Smith, Ph.D.
   - Free online book on DSP in general.
