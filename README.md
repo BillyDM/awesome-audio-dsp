@@ -11,6 +11,10 @@ My curated list of audio digital signal processing resources. New resources may 
 - [`The Scientist and Engineer's Guide to Digital Signal Processing`] by Steven W. Smith, Ph.D.
   - Free online book on DSP in general.
 
+- [`DAFX: Digital Audio Effects`] by Udo Zölzer (Editor)
+  - Explores good modern advanced effects. It's made by the [`DAFx`] annual scientific research conference.
+  - It uses MATLAB for its code examples, so stomach that if you can.
+
 ## Mathematics
 - [`3Blue1Brown`] - An excellent YouTube channel on complex algebra, linear algebra, calculus, and differential equations.
   - His videos on [`Euler's Formula`] and the [`Fourier Transform`] are particularly excellent.
@@ -91,3 +95,4 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`KVR DSP Forum`]: https://www.kvraudio.com/forum/viewforum.php?f=33
 [`DAFx`]: http://www.dafx.de/
 [`newer edition`]: https://www.amazon.com/Designing-Software-Synthesizer-Plug-Ins-Audio/dp/0367510480
+[`DAFX: Digital Audio Effects`]: https://www.amazon.com/DAFX-Digital-Effects-Udo-Z%C3%B6lzer/dp/0470665998
