@@ -135,7 +135,7 @@ While this is not *strictly* development related, knowing how plugins are actual
   - Targets Mac, Windows, Linux, iOS, Android, and Raspberry Pi platforms.
   - Well known, and many commercial plugins are built with it.
 - [`Tracktion Engine`]
-  - Full-stack framework in C++ with GUI. It built on top of on [`JUCE`].
+  - Full-stack framework in C++ with GUI. It is built on top of [`JUCE`].
   - Targeted formats and platforms are the same as [`JUCE`].
   - Made and used by the commercial company Tracktion.
 - [`iPlug2`]
