@@ -59,14 +59,10 @@ Reading the source code of real-world projects can give valueable insight into d
 - [`CloudReverb`] - Beautiful shimmering reverb based on the `CloudSeed` plugin by Valdemar Erlingsson. I choose this over the original as that uses a Windows-only C# platform for its GUI.
 - [`EQ10Q`] - A suite of plugins containing a 10-band parametric equalizer, gate, compressor, bass enhancer, and mid-side encoders.
 - [`Luftikus`] - Good quality analogue modeled equalizer.
-- [`Misstortion`] - Good quality hard/soft clipper.
-- [`DISTRHO Mini-Series`] - Three simple effects: a 3-band EQ, 3-band Splitter, and a ping-pong panner.
-- [`NDC Plugs`] - Three simple effects including a distortion pedal effect.
 - [`Fogpad`] - Reverb plugin where reflections can be frozen, filtered, pitch-shifted, and mangled.
-- [`Stone Phaser`] - Classic analogue-modeled phaser effect.
-- [`YK Chorus`] - Classic analogue-modeled chorus effect.
+- [`DISTRHO Plugin Framework`] - A bunch more open-source plugins are listed here.
 - [`lkjb plugins`] - Additional plugins made by the creator of [`Luftikus`].
-- [`DISTRHO Plugin Framework`] - More example plugins can be found listed here.
+- [`Misstortion`] - Good quality hard/soft clipper.
 ### MIDI FX
 - [`QMidiArp`] - Advanced arpeggiator, sequencer, and MIDI LFO.
 ### Meters & Visualizers
@@ -80,10 +76,17 @@ Reading the source code of real-world projects can give valueable insight into d
 - [`Audacity`] - Popular multi-track audio editor.
 - [`Carla`] - Cross platform plugin host with support for many plugin formats.
 
-## Sound Design & Mixing
+## Sound Design, Arrangement, & Mixing
 While this is not *strictly* development related, knowing how plugins are actually used can give valuable insight.
-- [`SeamlessR`] - This guy is a great teacher and really knows his stuff.
+- [`SeamlessR`] - This guy is a fantastic teacher and really knows his stuff.
 - [`Au5`] - A beast legend. Need I say more?
+- [`Virtual Riot`] - Another beast legend.
+- [`Zircon`] - An underrated artist, and I'm personally a huge fan of his more organic, jazzy breakbeat style. Great if you're tired of loud and obnoxious "dubstep" sound design and production.
+- [`Nosia`] - He and another cutting edge sound designer have a tutorial series on their Patreon.
+- [`Mr. Bill`] - This guy has a lot of good tutorials on his channel.
+- [`Nigel Good`] - This guy makes sounds that are *so* clean.
+- [`Frequent`] - Good sound design & arrangment tutorials.
+- [`Crow`] - Good tutorials on sound design and mixing.
 
 ## Software Optimization
 - [`Intel Intrinsics Guide`] - x86 processor instrinsics
@@ -93,6 +96,8 @@ While this is not *strictly* development related, knowing how plugins are actual
 ## Math Tools
 - [`Desmos`] - Free online graphing calculator.
 - [`Wolfram Alpha`] - A helpful math partner.
+- [`Symbolab`] - Another helpful math partner.
+- [`Octave`] - An open-source alternative to MATLAB.
 - [`Curcuit JS`] - A cool little circuit simulation tool.
 
 ## System Tools
@@ -235,3 +240,12 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`goldenrod`]: https://github.com/BillyDM/goldenrod
 [`QMidiArp`]: https://github.com/emuse/qmidiarp
 [`Rust Community Discord Server`]: https://discord.com/channels/273534239310479360/273534239310479360
+[`Virtual Riot`]: https://www.youtube.com/c/OfficialVirtualRiot/featured
+[`Zircon`]: https://www.youtube.com/playlist?list=PLD8FC11AD5EB41006
+[`Mr. Bill`]: https://www.youtube.com/playlist?list=PLDxTQYPyq4JTRvdmYDiykyOdoEjjyuQgI
+[`Nigel Good`]: https://www.youtube.com/channel/UCnqL5z-OAN-QHT4aRFtpvWA
+[`Frequent`]: https://www.youtube.com/channel/UCVMbWJCB-79KbDZ51eakZgQ
+[`Crow`]: https://www.youtube.com/c/CrowOfficial/videos
+[`Nosia`]: https://www.youtube.com/watch?v=PzM37xuFFxY
+[`Symbolab`]: https://www.symbolab.com/
+[`Octave`]: https://octave-online.net/
