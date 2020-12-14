@@ -53,9 +53,9 @@ Reading the source code of real-world projects can give valueable insight into d
 - [`ADLplug`] - Emulation of FM-synthesizers found in some classic game consoles.
 - [`Ninjas 2`] - Sample slicer and player.
 ### Audio FX
+- [`Airwindows`] - Many, many good quality effects and experiments developed over many years.
 - [`Wolf Shaper`] - Good quality waveshaper with support for unlimited nodes.
 - [`Mverb`] - Nice-sounding plate reverb.
-- [`Airwindows`] - Many, many good quality effects and experiments developed over many years.
 - [`Dragonfly Reverb`] - Algorithmic reverb based on [`Freeverb`].
 - [`CloudReverb`] - Beautiful shimmering reverb based on the `CloudSeed` plugin by Valdemar Erlingsson. I choose this over the original as that uses a Windows-only C# platform for its GUI.
 - [`EQ10Q`] - A suite of plugins containing a 10-band parametric equalizer, gate, compressor, bass enhancer, and mid-side encoders.
