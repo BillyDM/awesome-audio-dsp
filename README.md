@@ -50,6 +50,7 @@ Reading the source code of real-world projects can give valueable insight into d
 - [`Dexed`] - Synthesizer closely modelled after the Yamaha DX7.
 - [`ZynAddSubFX`] - Feature-rich additive synthesizer with a great clean sound. Also sold as a commercial product.
 - [`Odin 2`] - Modern analogue-modeled hybrid synthesizer.
+- [`Geonkick`] - Advanced drum synthesizer.
 - [`ADLplug`] - Emulation of FM-synthesizers found in some classic game consoles.
 - [`Ninjas 2`] - Sample slicer and player.
 ### Audio FX
@@ -251,3 +252,4 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`Symbolab`]: https://www.symbolab.com/
 [`Octave`]: https://octave-online.net/
 [`Airwindows Plugins`]: https://github.com/airwindows/airwindows/tree/master/plugins
+[`Geonkick`]: https://github.com/iurie-sw/geonkick
