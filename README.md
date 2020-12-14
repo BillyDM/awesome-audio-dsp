@@ -53,7 +53,7 @@ Reading the source code of real-world projects can give valueable insight into d
 - [`ADLplug`] - Emulation of FM-synthesizers found in some classic game consoles.
 - [`Ninjas 2`] - Sample slicer and player.
 ### Audio FX
-- [`Airwindows`] - Many, many good quality effects and experiments developed over many years.
+- [`Airwindows Plugins`] - Many, many good quality effects and experiments developed over many years.
 - [`Wolf Shaper`] - Good quality waveshaper with support for unlimited nodes.
 - [`Mverb`] - Nice-sounding plate reverb.
 - [`Dragonfly Reverb`] - Algorithmic reverb based on [`Freeverb`].
@@ -250,4 +250,4 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`Nosia`]: https://www.youtube.com/watch?v=PzM37xuFFxY
 [`Symbolab`]: https://www.symbolab.com/
 [`Octave`]: https://octave-online.net/
-[`Airwindows`]: https://github.com/airwindows/airwindows/tree/master/plugins
+[`Airwindows Plugins`]: https://github.com/airwindows/airwindows/tree/master/plugins
