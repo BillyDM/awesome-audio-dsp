@@ -55,6 +55,7 @@ Reading the source code of real-world projects can give valueable insight into d
 ### Audio FX
 - [`Wolf Shaper`] - Good quality waveshaper with support for unlimited nodes.
 - [`Mverb`] - Nice-sounding plate reverb.
+- [`Airwindows`] - Many, many good quality effects and experiments developed over many years.
 - [`Dragonfly Reverb`] - Algorithmic reverb based on [`Freeverb`].
 - [`CloudReverb`] - Beautiful shimmering reverb based on the `CloudSeed` plugin by Valdemar Erlingsson. I choose this over the original as that uses a Windows-only C# platform for its GUI.
 - [`EQ10Q`] - A suite of plugins containing a 10-band parametric equalizer, gate, compressor, bass enhancer, and mid-side encoders.
@@ -249,3 +250,4 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`Nosia`]: https://www.youtube.com/watch?v=PzM37xuFFxY
 [`Symbolab`]: https://www.symbolab.com/
 [`Octave`]: https://octave-online.net/
+[`Airwindows`]: https://github.com/airwindows/airwindows/tree/master/plugins
