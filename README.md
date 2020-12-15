@@ -265,4 +265,4 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`The Art of VA Filter Design`]: https://www.native-instruments.com/fileadmin/ni_media/downloads/pdf/VAFilterDesign_2.1.0.pdf
 [`Khan Academy`]: https://www.khanacademy.org/math
 [`Paul's Online Math Notes`]: https://tutorial.math.lamar.edu/
-[`Paul's Cheet Sheets`]: https://tutorial.math.lamar.edu/Extras/CheatSheets_Tables.aspx
+[`Paul's Cheat Sheets`]: https://tutorial.math.lamar.edu/Extras/CheatSheets_Tables.aspx
