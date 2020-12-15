@@ -37,7 +37,7 @@ My curated list of audio DSP (digital signal processing) and plugin development 
 ## Mathematics
 - [`3Blue1Brown`] - An excellent YouTube channel on complex algebra, linear algebra, calculus, and differential equations.
   - His videos on [`Euler's Formula`] and the [`Fourier Transform`] are particularly excellent.
-- [`Paul's Online Math Notes`] - Excellent resources written and used by a professor of Lamar University.
+- [`Paul's Online Math Notes`] - Excellent resources written and used by a professor at Lamar University.
 - [`Paul's Cheat Sheets`] - Cheat sheets for many common identities and formulas in algebra, trig, calculus, and laplace transformations. Because who can remeber all this stuff?
 - This video on the [`Laplace Transform`] by Zach Star.
 - [`Khan Academy`] - Free college-level courses.
