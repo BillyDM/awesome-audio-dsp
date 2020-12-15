@@ -6,13 +6,17 @@ My curated list of audio DSP (digital signal processing) and plugin development 
   - A common recommendation from many folks.
   - Focuses on DSP in general, not just audio DSP.
 
+- [`The Art of VA Filter Design`] by Vadim Zavalishin
+  - Teaches good techniques for adapting analogue designs into the digital realm.
+  - Relatively heavy on mathematics.
+
 - [`Julius Orion Smith III Collection`]
   - A collection of books and resources by Julius Orion Smith III.
   - Relatively heavy on mathematics.
 
 - [`The Theory and Technique of Electronic Music`] by Miller Puckette
   - Focuses more on musical DSP.
-  - Also relatively heavy on mathematics.
+  - Relatively heavy on mathematics.
 
 ## Paid Textbooks
 - [`Designing Software Synthesizer Plug-Ins in C++`] and [`Designing Audio Effect Plugins in C++`] by Will Pirkle
@@ -34,6 +38,7 @@ My curated list of audio DSP (digital signal processing) and plugin development 
 - [`3Blue1Brown`] - An excellent YouTube channel on complex algebra, linear algebra, calculus, and differential equations.
   - His videos on [`Euler's Formula`] and the [`Fourier Transform`] are particularly excellent.
 - This video on the [`Laplace Transform`] by Zach Star.
+- [`Khan Academy`] - Affordable college-level courses.
 
 ## Algorithms & Technical Reading
 - [`Musicdsp.org`] - A collection of open source DSP algorithms by the community.
@@ -92,6 +97,7 @@ While this is not *strictly* development related, knowing how plugins are actual
 
 ## Software Optimization
 - [`Intel Intrinsics Guide`] - x86 processor instrinsics
+- [`Real-time audio programming 101`] - Tips on writing real-time code.
 - Follow these rules:
   ![DSP Rules](fast_dsp.png?raw=true)
 
@@ -253,3 +259,6 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`Octave`]: https://octave-online.net/
 [`Airwindows Plugins`]: https://github.com/airwindows/airwindows/tree/master/plugins
 [`Geonkick`]: https://github.com/iurie-sw/geonkick
+[`Real-time audio programming 101`]: http://www.rossbencina.com/code/real-time-audio-programming-101-time-waits-for-nothing
+[`The Art of VA Filter Design`]: https://www.native-instruments.com/fileadmin/ni_media/downloads/pdf/VAFilterDesign_2.1.0.pdf
+[`Khan Academy`]: https://www.khanacademy.org/math
