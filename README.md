@@ -37,6 +37,8 @@ My curated list of audio DSP (digital signal processing) and plugin development 
 ## Mathematics
 - [`3Blue1Brown`] - An excellent YouTube channel on complex algebra, linear algebra, calculus, and differential equations.
   - His videos on [`Euler's Formula`] and the [`Fourier Transform`] are particularly excellent.
+- [`Paul's Online Math Notes`] - Excellent resources written and used by a professor of Lamar University.
+- [`Paul's Cheat Sheets`] - Cheat sheets for many common identities and formulas in algebra, trig, calculus, and laplace transformations. Because who can remeber all this stuff?
 - This video on the [`Laplace Transform`] by Zach Star.
 - [`Khan Academy`] - Free college-level courses.
 
@@ -262,3 +264,5 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`Real-time audio programming 101`]: http://www.rossbencina.com/code/real-time-audio-programming-101-time-waits-for-nothing
 [`The Art of VA Filter Design`]: https://www.native-instruments.com/fileadmin/ni_media/downloads/pdf/VAFilterDesign_2.1.0.pdf
 [`Khan Academy`]: https://www.khanacademy.org/math
+[`Paul's Online Math Notes`]: https://tutorial.math.lamar.edu/
+[`Paul's Cheet Sheets`]: https://tutorial.math.lamar.edu/Extras/CheatSheets_Tables.aspx
