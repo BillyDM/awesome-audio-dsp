@@ -38,7 +38,7 @@ My curated list of audio DSP (digital signal processing) and plugin development 
 - [`3Blue1Brown`] - An excellent YouTube channel on complex algebra, linear algebra, calculus, and differential equations.
   - His videos on [`Euler's Formula`] and the [`Fourier Transform`] are particularly excellent.
 - This video on the [`Laplace Transform`] by Zach Star.
-- [`Khan Academy`] - Affordable college-level courses.
+- [`Khan Academy`] - Free college-level courses.
 
 ## Algorithms & Technical Reading
 - [`Musicdsp.org`] - A collection of open source DSP algorithms by the community.
