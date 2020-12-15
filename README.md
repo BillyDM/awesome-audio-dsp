@@ -50,7 +50,7 @@ My curated list of audio DSP (digital signal processing) and plugin development 
 ## Open Source Plugins & Software
 Reading the source code of real-world projects can give valueable insight into different techniques and solutions people have come up with over the years.
 ### Synths
-- [`Helm`] - High-quality modern synthesizer with a flexible modulation system. The oscillators and not stereo though.
+- [`Helm`] - High-quality modern synthesizer with a flexible modulation system. The oscillators are not stereo though.
 - [`Surge`] - Feature-rich hybrid synthesizer that was once sold as a commercial product.
 - [`Dexed`] - Synthesizer closely modelled after the Yamaha DX7.
 - [`ZynAddSubFX`] - Feature-rich additive synthesizer with a great clean sound. Also sold as a commercial product.
