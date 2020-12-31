@@ -39,6 +39,7 @@ My curated list of audio DSP (digital signal processing) and plugin development 
   - His videos on [`Euler's Formula`] and the [`Fourier Transform`] are particularly excellent.
 - [`Paul's Online Math Notes`] - Excellent resources written and used by a professor at Lamar University.
 - [`Paul's Cheat Sheets`] - Cheat sheets for many common identities and formulas in algebra, trig, calculus, and laplace transformations. Because who can remeber all this stuff?
+- [`katjaas`] - Neat visual explanations of DSP mathematics and techniques.
 - This video on the [`Laplace Transform`] by Zach Star.
 - [`Khan Academy`] - Free college-level courses.
 
@@ -48,6 +49,7 @@ My curated list of audio DSP (digital signal processing) and plugin development 
 - [`deip.pdf`] - High quality resampling and oversampling.
 - [`Freeverb`] - An open-source reverb algorithm.
 - [`DAFx`] - An archive of scientific papers and presentations given during an annual DSP research conference.
+- [`katjaas`] - Neat visual explanations of DSP mathematics and techniques.
 
 ## Open Source Plugins & Software
 Reading the source code of real-world projects can give valueable insight into different techniques and solutions people have come up with over the years.
@@ -266,3 +268,4 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`Khan Academy`]: https://www.khanacademy.org/math
 [`Paul's Online Math Notes`]: https://tutorial.math.lamar.edu/
 [`Paul's Cheat Sheets`]: https://tutorial.math.lamar.edu/Extras/CheatSheets_Tables.aspx
+[`katjaas`]: http://www.katjaas.nl/home/home.html
