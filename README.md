@@ -1,6 +1,12 @@
 # Audio DSP Resources
 My curated list of audio DSP (digital signal processing) and plugin development resources. New resources may be added in the future. Feel free to open a PR if you wish!
 
+## More Lists
+Here I'll link curated lists that others have made.
+- [`dsp-learning`] by crsaracco
+- [`Awesome Rust Audio`] by kfrncs
+- [`Useful Links for DSP and Audio Programming`] from rust.audio
+
 ## Free Online Textbooks
 - [`The Scientist and Engineer's Guide to Digital Signal Processing`] by Steven W. Smith, Ph.D.
   - A common recommendation from many folks.
@@ -269,3 +275,6 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`Paul's Online Math Notes`]: https://tutorial.math.lamar.edu/
 [`Paul's Cheat Sheets`]: https://tutorial.math.lamar.edu/Extras/CheatSheets_Tables.aspx
 [`katjaas`]: http://www.katjaas.nl/home/home.html
+[`dsp-learning`]: https://github.com/crsaracco/dsp-learning
+[`Awesome Rust Audio`]: https://github.com/kfrncs/awesome-rust-audio
+[`Useful Links for DSP and Audio Programming`]: https://rust.audio/articles/useful-resources/
