@@ -70,6 +70,7 @@ Reading the source code of real-world projects can give valueable insight into d
 - [`Ninjas 2`] - Sample slicer and player.
 ### Audio FX
 - [`Airwindows Plugins`] - Many, many good quality effects and experiments developed over many years.
+- [`x42-plugins`] - A collection of good quality effects and visualizers. Some plugins are also sold as a commercial product.
 - [`Wolf Shaper`] - Good quality waveshaper with support for unlimited nodes.
 - [`Mverb`] - Nice-sounding plate reverb.
 - [`Dragonfly Reverb`] - Algorithmic reverb based on [`Freeverb`].
@@ -87,6 +88,7 @@ Reading the source code of real-world projects can give valueable insight into d
 - [`Wolf Spectrum`] - Real-time heat-map spectrum analyzer plugin.
 - [`EasySSP`] - Real-time spectrum analyzer and stereo analyzer plugin.
 - [`LUFS Meter`] - Real-time loudness meter with support for several international loudness standards.
+- [`x42-plugins`] - A collection of good quality effects and visualizers. Some plugins are also sold as a commercial product.
 ### DAWs & Hosts
 - [`Ardour`] - Feature-rich DAW. Focuses more on recorded music production over electronic music production.
 - [`LMMS`] - Feature-rich DAW focused on electronic music production. Contains many built-in synths and effects.
@@ -278,3 +280,4 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`dsp-learning`]: https://github.com/crsaracco/dsp-learning
 [`Awesome Rust Audio`]: https://github.com/kfrncs/awesome-rust-audio
 [`Useful Links for DSP and Audio Programming`]: https://rust.audio/articles/useful-resources/
+[`x42-plugins`]: https://github.com/x42/x42-plugins
