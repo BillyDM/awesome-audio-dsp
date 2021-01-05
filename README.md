@@ -177,6 +177,7 @@ While this is not *strictly* development related, knowing how plugins are actual
 ## Rust Resources
 - [`Learn Rust the Dangerous Way`] - Tips on writing low-level Rust code from a C background.
 - [`How-to Optimize Rust Programs on Linux`] - How-to guide on profiling Rust code on Linux.
+- [`The Rust Performance Book`] - Tips on optimizing code in Rust.
 
 ## Forums
 - [`Rust Audio Discord Server`] - A community of passionate Rust audio programmers.
@@ -283,3 +284,4 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`Useful Links for DSP and Audio Programming`]: https://rust.audio/articles/useful-resources/
 [`x42-plugins`]: https://github.com/x42/x42-plugins
 [`Jatin Chowdhury`]: https://jatinchowdhury18.medium.com/
+[`The Rust Performance Book`]: https://nnethercote.github.io/perf-book/title-page.html
