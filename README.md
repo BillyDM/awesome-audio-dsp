@@ -111,6 +111,7 @@ While this is not *strictly* development related, knowing how plugins are actual
 ## Software Optimization
 - [`Intel Intrinsics Guide`] - x86 processor instrinsics
 - [`Real-time audio programming 101`] - Tips on writing real-time code.
+- [`The Rust Performance Book`] - Tips on optimizing code in Rust.
 - Follow these rules:
   ![DSP Rules](fast_dsp.png?raw=true)
 
