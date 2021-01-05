@@ -56,6 +56,7 @@ Here I'll link curated lists that others have made.
 - [`Freeverb`] - An open-source reverb algorithm.
 - [`DAFx`] - An archive of scientific papers and presentations given during an annual DSP research conference.
 - [`katjaas`] - Neat visual explanations of DSP mathematics and techniques.
+- [`Jatin Chowdhury`] - An active blog that explores cutting-edge DSP techniques.
 
 ## Open Source Plugins & Software
 Reading the source code of real-world projects can give valueable insight into different techniques and solutions people have come up with over the years.
@@ -281,3 +282,4 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`Awesome Rust Audio`]: https://github.com/kfrncs/awesome-rust-audio
 [`Useful Links for DSP and Audio Programming`]: https://rust.audio/articles/useful-resources/
 [`x42-plugins`]: https://github.com/x42/x42-plugins
+[`Jatin Chowdhury`]: https://jatinchowdhury18.medium.com/
