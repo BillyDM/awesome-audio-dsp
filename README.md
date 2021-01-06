@@ -83,6 +83,7 @@ Reading the source code of real-world projects can give valueable insight into d
 - [`lkjb plugins`] - Additional plugins made by the creator of [`Luftikus`].
 - [`Misstortion`] - Good quality hard/soft clipper.
 ### MIDI FX
+- [`Helio Workstation`] - A very modern and feature-rich sequencer.
 - [`QMidiArp`] - Advanced arpeggiator, sequencer, and MIDI LFO.
 ### Meters & Visualizers
 - [`Spectacle`] - Modern real-time spectrum analyzer plugin.
@@ -286,3 +287,4 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`x42-plugins`]: https://github.com/x42/x42-plugins
 [`Jatin Chowdhury`]: https://jatinchowdhury18.medium.com/
 [`The Rust Performance Book`]: https://nnethercote.github.io/perf-book/title-page.html
+[`Helio Workstation`]: https://github.com/helio-fm/helio-workstation
