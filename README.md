@@ -105,6 +105,7 @@ Reading the source code of real-world projects can give valueable insight into d
 
 ## Sound Design, Arrangement, & Mixing
 While this is not *strictly* development related, knowing how plugins are actually used can give valuable insight.
+- [`Mixing Secrets for the Small Studio`] - A great beginner resource on mixing fundamentals.
 - [`SeamlessR`] - This guy is a fantastic teacher and really knows his stuff.
 - [`Au5`] - A beast legend. Need I say more?
 - [`Virtual Riot`] - Another beast legend.
@@ -299,3 +300,4 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`pressure4`]: https://github.com/airwindows/airwindows/tree/master/plugins/LinuxVST/src/Pressure4
 [`totape5`]: https://github.com/airwindows/airwindows/tree/master/plugins/LinuxVST/src/ToTape5
 [`ironoxide`]: https://github.com/airwindows/airwindows/tree/master/plugins/LinuxVST/src/IronOxide5
+[`Mixing Secrets for the Small Studio`]: https://www.amazon.com/Mixing-Secrets-Small-Studio-Presents/dp/0240815807
