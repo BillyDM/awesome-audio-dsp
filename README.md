@@ -60,6 +60,13 @@ Here I'll link curated lists that others have made.
 
 ## Open Source Plugins & Software
 Reading the source code of real-world projects can give valueable insight into different techniques and solutions people have come up with over the years.
+### Collections
+- [`Airwindows Plugins`] - Many, many good quality effects and experiments developed over many years.
+- [`sjaehn`] - Several cool MIDI based slicing/glitching effects and synthesizers.
+- [`x42-plugins`] - A collection of good quality effects and visualizers. Some plugins are also sold as a commercial product.
+- [`EQ10Q`] - A suite of plugins containing a 10-band parametric equalizer, gate, compressor, bass enhancer, and mid-side encoders.
+- [`DISTRHO Plugin Framework`] - A bunch more open-source plugins are listed here.
+- [`lkjb plugins`] - Additional plugins made by the creator of [`Luftikus`].
 ### Synths
 - [`Helm`] - High-quality modern synthesizer with a flexible modulation system. The oscillators are not stereo though.
 - [`Surge`] - Feature-rich hybrid synthesizer that was once sold as a commercial product.
@@ -70,17 +77,12 @@ Reading the source code of real-world projects can give valueable insight into d
 - [`ADLplug`] - Emulation of FM-synthesizers found in some classic game consoles.
 - [`Ninjas 2`] - Sample slicer and player.
 ### Audio FX
-- [`Airwindows Plugins`] - Many, many good quality effects and experiments developed over many years.
-- [`x42-plugins`] - A collection of good quality effects and visualizers. Some plugins are also sold as a commercial product.
 - [`Wolf Shaper`] - Good quality waveshaper with support for unlimited nodes.
 - [`Mverb`] - Nice-sounding plate reverb.
 - [`Dragonfly Reverb`] - Algorithmic reverb based on [`Freeverb`].
 - [`CloudReverb`] - Beautiful shimmering reverb based on the `CloudSeed` plugin by Valdemar Erlingsson. I choose this over the original as that uses a Windows-only C# platform for its GUI.
-- [`EQ10Q`] - A suite of plugins containing a 10-band parametric equalizer, gate, compressor, bass enhancer, and mid-side encoders.
 - [`Luftikus`] - Good quality analogue modeled equalizer.
 - [`Fogpad`] - Reverb plugin where reflections can be frozen, filtered, pitch-shifted, and mangled.
-- [`DISTRHO Plugin Framework`] - A bunch more open-source plugins are listed here.
-- [`lkjb plugins`] - Additional plugins made by the creator of [`Luftikus`].
 - [`Misstortion`] - Good quality hard/soft clipper.
 ### MIDI FX
 - [`Helio Workstation`] - A very modern and feature-rich sequencer.
@@ -90,7 +92,6 @@ Reading the source code of real-world projects can give valueable insight into d
 - [`Wolf Spectrum`] - Real-time heat-map spectrum analyzer plugin.
 - [`EasySSP`] - Real-time spectrum analyzer and stereo analyzer plugin.
 - [`LUFS Meter`] - Real-time loudness meter with support for several international loudness standards.
-- [`x42-plugins`] - A collection of good quality effects and visualizers. Some plugins are also sold as a commercial product.
 ### DAWs & Hosts
 - [`Ardour`] - Feature-rich DAW. Focuses more on recorded music production over electronic music production.
 - [`LMMS`] - Feature-rich DAW focused on electronic music production. Contains many built-in synths and effects.
@@ -288,3 +289,4 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`Jatin Chowdhury`]: https://jatinchowdhury18.medium.com/
 [`The Rust Performance Book`]: https://nnethercote.github.io/perf-book/title-page.html
 [`Helio Workstation`]: https://github.com/helio-fm/helio-workstation
+[`sjaehn`]: https://github.com/sjaehn?tab=repositories
