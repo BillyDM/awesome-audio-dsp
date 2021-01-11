@@ -62,6 +62,11 @@ Here I'll link curated lists that others have made.
 Reading the source code of real-world projects can give valueable insight into different techniques and solutions people have come up with over the years.
 ### Collections
 - [`Airwindows Plugins`] - Many, many good quality effects and experiments developed over many years.
+  There are a *ton* of plugins here, so here is a list of community favorites:
+  - [`density`]
+  - [`pressure4`]
+  - [`totape5`]
+  - [`ironoxide`]
 - [`sjaehn`] - Several cool MIDI based slicing/glitching effects and synthesizers.
 - [`x42-plugins`] - A collection of good quality effects and visualizers. Some plugins are also sold as a commercial product.
 - [`EQ10Q`] - A suite of plugins containing a 10-band parametric equalizer, gate, compressor, bass enhancer, and mid-side encoders.
@@ -290,3 +295,7 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`The Rust Performance Book`]: https://nnethercote.github.io/perf-book/title-page.html
 [`Helio Workstation`]: https://github.com/helio-fm/helio-workstation
 [`sjaehn`]: https://github.com/sjaehn?tab=repositories
+[`density`]: https://github.com/airwindows/airwindows/tree/master/plugins/LinuxVST/src/Density
+[`pressure4`]: https://github.com/airwindows/airwindows/tree/master/plugins/LinuxVST/src/Pressure4
+[`totape5`]: https://github.com/airwindows/airwindows/tree/master/plugins/LinuxVST/src/ToTape5
+[`ironoxide`]: https://github.com/airwindows/airwindows/tree/master/plugins/LinuxVST/src/IronOxide5
