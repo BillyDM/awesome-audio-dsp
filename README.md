@@ -57,6 +57,7 @@ Here I'll link curated lists that others have made.
 - [`DAFx`] - An archive of scientific papers and presentations given during an annual DSP research conference.
 - [`katjaas`] - Neat visual explanations of DSP mathematics and techniques.
 - [`Jatin Chowdhury`] - An active blog that explores cutting-edge DSP techniques.
+- [`The Design of the Roland Juno oscillators`] - A beautiful and simple explanation on the oscillators of this classic synth.
 
 ## Open Source Plugins & Software
 Reading the source code of real-world projects can give valueable insight into different techniques and solutions people have come up with over the years.
@@ -301,3 +302,4 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`totape5`]: https://github.com/airwindows/airwindows/tree/master/plugins/LinuxVST/src/ToTape5
 [`ironoxide`]: https://github.com/airwindows/airwindows/tree/master/plugins/LinuxVST/src/IronOxide5
 [`Mixing Secrets for the Small Studio`]: https://www.amazon.com/Mixing-Secrets-Small-Studio-Presents/dp/0240815807
+[`The Design of the Roland Juno oscillators`]: https://blog.thea.codes/the-design-of-the-juno-dco/
