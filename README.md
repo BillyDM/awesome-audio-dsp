@@ -207,7 +207,7 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`How-to Optimize Rust Programs on Linux`]: http://www.codeofview.com/fix-rs/2017/01/24/how-to-optimize-rust-programs-on-linux/
 [`Cytomic Technical Papers`]: https://cytomic.com/index.php?q=technical-papers
 [`Freeverb`]: https://ccrma.stanford.edu/~jos/pasp/Freeverb.html
-[`Rust Audio Discord Server`]: https://discord.com/channels/590254806208217089/590298650068910119
+[`Rust Audio Discord Server`]: https://discord.gg/Qs2Zwtf9Gf
 [`Desmos`]: https://www.desmos.com/calculator
 [`Wolfram Alpha`]: https://www.wolframalpha.com/
 [`Curcuit JS`]: https://www.falstad.com/circuit/circuitjs.html
