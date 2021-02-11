@@ -118,6 +118,7 @@ While this is not *strictly* development related, knowing how plugins are actual
 - [`Crow`] - Good tutorials on sound design and mixing.
 
 ## Software Optimization
+- [`Fast-DSP-Approximations`] - My own list of public-domain fast approximations of various expensive calculations.
 - [`Intel Intrinsics Guide`] - x86 processor instrinsics
 - [`Real-time audio programming 101`] - Tips on writing real-time code.
 - [`The Rust Performance Book`] - Tips on optimizing code in Rust.
@@ -303,3 +304,4 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`ironoxide`]: https://github.com/airwindows/airwindows/tree/master/plugins/LinuxVST/src/IronOxide5
 [`Mixing Secrets for the Small Studio`]: https://www.amazon.com/Mixing-Secrets-Small-Studio-Presents/dp/0240815807
 [`The Design of the Roland Juno oscillators`]: https://blog.thea.codes/the-design-of-the-juno-dco/
+[`Fast-DSP-Approximations`]: https://github.com/BillyDM/Fast-DSP-Approximations
