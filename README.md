@@ -68,6 +68,7 @@ Reading the source code of real-world projects can give valueable insight into d
   - [`pressure4`]
   - [`totape5`]
   - [`ironoxide`]
+- [`LSP Plugins`] - A collection of high quality mixing effects.
 - [`sjaehn`] - Several cool MIDI based slicing/glitching effects and synthesizers.
 - [`x42-plugins`] - A collection of good quality effects and visualizers. Some plugins are also sold as a commercial product.
 - [`EQ10Q`] - A suite of plugins containing a 10-band parametric equalizer, gate, compressor, bass enhancer, and mid-side encoders.
@@ -305,3 +306,4 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`Mixing Secrets for the Small Studio`]: https://www.amazon.com/Mixing-Secrets-Small-Studio-Presents/dp/0240815807
 [`The Design of the Roland Juno oscillators`]: https://blog.thea.codes/the-design-of-the-juno-dco/
 [`Fast-DSP-Approximations`]: https://github.com/BillyDM/Fast-DSP-Approximations
+[`LSP Plugins`]: https://github.com/sadko4u/lsp-plugins/tree/master/src/plugins
