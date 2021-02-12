@@ -306,4 +306,4 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`Mixing Secrets for the Small Studio`]: https://www.amazon.com/Mixing-Secrets-Small-Studio-Presents/dp/0240815807
 [`The Design of the Roland Juno oscillators`]: https://blog.thea.codes/the-design-of-the-juno-dco/
 [`Fast-DSP-Approximations`]: https://github.com/BillyDM/Fast-DSP-Approximations
-[`LSP Plugins`]: https://github.com/sadko4u/lsp-plugins/tree/master/src/plugins
+[`LSP Plugins`]: https://github.com/sadko4u/lsp-plugins
