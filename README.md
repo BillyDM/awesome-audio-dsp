@@ -109,6 +109,7 @@ Reading the source code of real-world projects can give valueable insight into d
 While this is not *strictly* development related, knowing how plugins are actually used can give valuable insight.
 - [`Mixing Secrets for the Small Studio`] - A great beginner resource on mixing fundamentals.
 - [`SeamlessR`] - This guy is a fantastic teacher and really knows his stuff.
+- [`How to Hear Compression`] - A brilliant video that teaches how to "hear" compressors as an artistic tool.
 - [`Au5`] - A beast legend. Need I say more?
 - [`Virtual Riot`] - Another beast legend.
 - [`Zircon`] - An underrated artist, and I'm personally a huge fan of his more organic, jazzy breakbeat style. Great if you're tired of loud and obnoxious "dubstep" sound design and production.
@@ -307,3 +308,4 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`The Design of the Roland Juno oscillators`]: https://blog.thea.codes/the-design-of-the-juno-dco/
 [`Fast-DSP-Approximations`]: https://github.com/BillyDM/Fast-DSP-Approximations
 [`LSP Plugins`]: https://github.com/sadko4u/lsp-plugins
+[`How to Hear Compression`]: https://youtu.be/K0XGXz6SHco
