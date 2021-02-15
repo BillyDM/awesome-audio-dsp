@@ -40,6 +40,11 @@ Here I'll link curated lists that others have made.
   - Explores good modern advanced effects. It's made by the [`DAFx`] annual scientific research conference.
   - MATLAB is used for its code examples, so stomach that if you can.
 
+- [`Digital Signal Processing: Concepts and Applications`] by Mulgrew, Grant & Thompson
+  - Covers the basic principles of DSP in an easy-to-digest way without going into too much mathematics.
+  - Focuses more on general DSP rather than audio DSP.
+  - Also uses MATLAB for its code examples.
+
 ## Mathematics
 - [`3Blue1Brown`] - An excellent YouTube channel on complex algebra, linear algebra, calculus, and differential equations.
   - His videos on [`Euler's Formula`] and the [`Fourier Transform`] are particularly excellent.
@@ -309,3 +314,4 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`Fast-DSP-Approximations`]: https://github.com/BillyDM/Fast-DSP-Approximations
 [`LSP Plugins`]: https://github.com/sadko4u/lsp-plugins
 [`How to Hear Compression`]: https://youtu.be/K0XGXz6SHco
+[`Digital Signal Processing: Concepts and Applications`]: https://www.amazon.com/Digital-Signal-Processing-Concepts-Applications-ebook/dp/B015OLJ5JG/
