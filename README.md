@@ -1,4 +1,4 @@
-# Audio DSP Resources
+# Awesome Audio DSP
 My curated list of audio DSP (digital signal processing) and plugin development resources. New resources may be added in the future. Feel free to open a PR if you wish!
 
 ## More Lists
