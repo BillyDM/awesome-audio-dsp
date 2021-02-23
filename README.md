@@ -80,7 +80,8 @@ Reading the source code of real-world projects can give valueable insight into d
 - [`DISTRHO Plugin Framework`] - A bunch more open-source plugins are listed here.
 - [`lkjb plugins`] - Additional plugins made by the creator of [`Luftikus`].
 ### Synths
-- [`Helm`] - High-quality modern synthesizer with a flexible modulation system. The oscillators are not stereo though.
+- [`Vital`] - An incredibly powerful and high quality modern synthesizer. Rivals that of Xfer Serum and NI Massive.
+- [`Helm`] - High-quality modern monophonic synthesizer. The younger brother to "Vital". The oscillators are not stereo though.
 - [`Surge`] - Feature-rich hybrid synthesizer that was once sold as a commercial product.
 - [`Dexed`] - Synthesizer closely modelled after the Yamaha DX7.
 - [`ZynAddSubFX`] - Feature-rich additive synthesizer with a great clean sound. Also sold as a commercial product.
@@ -315,3 +316,4 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`LSP Plugins`]: https://github.com/sadko4u/lsp-plugins
 [`How to Hear Compression`]: https://youtu.be/K0XGXz6SHco
 [`Digital Signal Processing: Concepts and Applications`]: https://www.amazon.com/Digital-Signal-Processing-Concepts-Applications-ebook/dp/B015OLJ5JG/
+[`Vital`] - https://github.com/mtytel/vital
