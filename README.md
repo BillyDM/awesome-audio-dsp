@@ -316,4 +316,4 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`LSP Plugins`]: https://github.com/sadko4u/lsp-plugins
 [`How to Hear Compression`]: https://youtu.be/K0XGXz6SHco
 [`Digital Signal Processing: Concepts and Applications`]: https://www.amazon.com/Digital-Signal-Processing-Concepts-Applications-ebook/dp/B015OLJ5JG/
-[`Vital`] - https://github.com/mtytel/vital
+[`Vital`]: https://github.com/mtytel/vital
