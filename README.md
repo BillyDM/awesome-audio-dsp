@@ -77,6 +77,7 @@ Reading the source code of real-world projects can give valueable insight into d
 - [`sjaehn`] - Several cool MIDI based slicing/glitching effects and synthesizers.
 - [`x42-plugins`] - A collection of good quality effects and visualizers. Some plugins are also sold as a commercial product.
 - [`EQ10Q`] - A suite of plugins containing a 10-band parametric equalizer, gate, compressor, bass enhancer, and mid-side encoders.
+- [`Shiru Plugins`] - A suite of old video-game sound chips synths and effects.
 - [`DISTRHO Plugin Framework`] - A bunch more open-source plugins are listed here.
 - [`lkjb plugins`] - Additional plugins made by the creator of [`Luftikus`].
 ### Synths
@@ -317,3 +318,4 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`How to Hear Compression`]: https://youtu.be/K0XGXz6SHco
 [`Digital Signal Processing: Concepts and Applications`]: https://www.amazon.com/Digital-Signal-Processing-Concepts-Applications-ebook/dp/B015OLJ5JG/
 [`Vital`]: https://github.com/mtytel/vital
+[`Shiru Plugins`]: https://github.com/linuxmao-org/shiru-plugins
