@@ -154,7 +154,7 @@ While this is not *strictly* development related, knowing how plugins are actual
 - Please note that you must have a licensing agreement with Steinberg to *distribute* any VST2 and any non-GPLv3 VST3 plugins as per [`Steinberg's VST3 License`]. If you don't already have a VST2 license, you're out of luck since Steinberg doesn't support it anymore (yeah it stinks). Target VST3 instead in that case.
 ### RustAudio Framework
   - Full-stack and modular framework in Rust (currently a WIP and not fully-production ready yet for anything but VST2 plugins). I'm personally biased towards this as one of its creators.
-  - Fully open-source under the MIT or Apache2 license.
+  - Fully open-source under the permissive MIT or Apache2 license.
   - Plugin FFI bindings
     - [`vst-rs`] - Provides nice bindings to the VST2 api.
       - Does not contain a GUI framework, but other frameworks can be attached to provide the GUI.
