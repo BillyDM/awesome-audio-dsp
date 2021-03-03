@@ -151,8 +151,10 @@ While this is not *strictly* development related, knowing how plugins are actual
 - [`pluginval`] - Cross-platform open-source plugin validation tool made by the company Tracktion.
 
 ## Plugin Development Frameworks
-- RustAudio Framework
+- Please note that you must have a licensing agreement with Steinberg to *distribute* any VST2 and any non-GPLv3 VST3 plugins as per [`Steinberg's VST3 License`]. If you don't already have a VST2 license, you're out of luck since Steinberg doesn't support it anymore (yeah it stinks). Target VST3 instead in that case.
+### RustAudio Framework
   - Full-stack and modular framework in Rust (currently a WIP and not fully-production ready yet for anything but VST2 plugins). I'm personally biased towards this as one of its creators.
+  - Fully open-source under the MIT or Apache2 license.
   - Plugin FFI bindings
     - [`vst-rs`] - Provides nice bindings to the VST2 api.
       - Does not contain a GUI framework, but other frameworks can be attached to provide the GUI.
@@ -181,27 +183,32 @@ While this is not *strictly* development related, knowing how plugins are actual
       - [`imgui-baseview`] - Provides the [`imgui-rs`] GUI framework on top of [`baseview`].
       - [`imgui_baseview_test_vst2`] - Example of a full-stack plugin built using the [`vst-rs`] and [`imgui-baseview`] modules.
       - [`imgui-compressor`] - An experimental/WIP compressor plugin built using the [`vst-rs`] and [`imgui-baseview`] modules.
-- [`DISTRHO Plugin Framework`]
-  - Full-stack framework with GUI in C++. Fully open-source.
+### [`DISTRHO Plugin Framework`]
+  - Full-stack framework with GUI in C++.
+  - Fully open-source using a permissive license.
   - Targets LADSPA, DSSI, LV2, VST2, and Jack plugin formats.
   - Targets Mac, Windows, and Linux platforms.
-- [`Dplug`]
-  - Full-stack framework with GUI in te D programming language (if you're into that sort-of thing).
+### [`Dplug`]
+  - Full-stack framework with GUI in te D programming language.
+  - Fully open-source using a permissive license.
   - The GUI framework has fancy physically-modeled rendering inspired by game engines.
   - Targets VST2, VST3, AUv2, AAX, and LV2 plugin formats.
   - Targets Mac, Windows, Linux, and Raspberry Pi platforms.
   - Used by several commercial plugins.
-- [`JUCE`]
-  - Full-stack framework with GUI in C++. Open source, but some of its modules require a hefty commercial license to use.
+### [`JUCE`]
+  - Full-stack framework with GUI in C++.
+  - Open source, but some of its modules require a hefty commercial license to distribute any non-GPLv3 plugins.
   - Targets VST2, VST3, AUv2, AUv3, RTAS, and AAX plugin formats.
   - Targets Mac, Windows, Linux, iOS, Android, and Raspberry Pi platforms.
-  - Well known, and many commercial plugins are built with it.
-- [`Tracktion Engine`]
+  - Well known in the industry, and many commercial plugins are built with it.
+### [`Tracktion Engine`]
   - Full-stack framework in C++ with GUI. It is built on top of [`JUCE`].
+  - Same licensing as [`JUCE`] since it's built on top of it.
   - Targeted formats and platforms are the same as [`JUCE`].
   - Made and used by the commercial company Tracktion.
-- [`iPlug2`]
-  - Full-stack framework in C++ with GUI. Fully open-source.
+### [`iPlug2`]
+  - Full-stack framework in C++ with GUI.
+  - Fully open-source using a permissive license.
   - Targets VST2, VST3, AUv2, AUv3, AAX and the Web Audio Module (WAM) plugin formats.
   - Targets Mac, Windows, iOS, and Web. It does not target Linux, so I'm personally not a fan of this one.
 
@@ -347,3 +354,4 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`imgui-baseview`]: https://github.com/BillyDM/imgui-baseview
 [`imgui_baseview_test_vst2`]: https://github.com/DGriffin91/imgui_baseview_test_vst2
 [`imgui-compressor`]: https://github.com/DGriffin91/compressor-plugin
+[`Steinberg's VST3 License`]: https://developer.steinberg.help/display/VST/VST+3+Licensing
