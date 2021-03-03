@@ -151,20 +151,36 @@ While this is not *strictly* development related, knowing how plugins are actual
 - [`pluginval`] - Cross-platform open-source plugin validation tool made by the company Tracktion.
 
 ## Plugin Development Frameworks
-- Rust Community Framework
-  - Full-stack modular framework in Rust (currently a WIP and not production ready yet). I'm personally biased towards this as one of the main contributors.
-  - [`baseplug`] - Provides an abstraction-layer over the different plugin formats, and simplifies parameter management.
-    - Does not contain a GUI framework, but other frameworks can be attached to provide the GUI.
-    - Currently only targets the VST2 plugin format. VST3, AU, LV2, and JACK targets are currently planned.
-    - Targets Mac, Windows, and Linux platforms.
+- RustAudio Framework
+  - Full-stack and modular framework in Rust (currently a WIP and not fully-production ready yet for anything but VST2 plugins). I'm personally biased towards this as one of its creators.
+  - Plugin FFI bindings
+    - [`vst-rs`] - Provides nice bindings to the VST2 api.
+      - Does not contain a GUI framework, but other frameworks can be attached to provide the GUI.
+      - Targets Mac, Windows, and Linux platforms.
+    - [`baseplug`] - Provides an abstraction-layer over several different plugin formats, and simplifies parameter management.
+      - Does not contain a GUI framework, but other frameworks can be attached to provide the GUI.
+      - Currently only targets the VST2 plugin format. VST3, AU, LV2, and JACK targets are currently planned.
+      - Targets Mac, Windows, and Linux platforms.
   - [`baseview`] - Provides windowing and input events for plugins / standalone applications.
     - Targets Mac, Windows, and Linux.
-  - [`iced_baseview`] - Provides the [`iced`] GUI framework on top of [`baseview`].
-    - Targets Mac, Windows, and Linux.
-  - [`iced_audio`] - An extension to the [`iced`] GUI framework that provides audio-specific widgets like knobs and sliders.
-  - [`iced-baseplug-examples`] - Example plugins built using the [`baseplug`], [`iced_baseview`], and [`iced_audio`] modules.
-  - [`goldenrod`] - A personal raster-based GUI framework built on top of [`baseview`]. Currently very WIP and experimental.
-    - Targets Mac, Windows, and Linux.
+  - GUI frameworks
+    - Iced
+      - [`iced_baseview`] - Provides the [`iced`] GUI framework on top of [`baseview`].
+        - Targets Mac, Windows, and Linux.
+      - [`iced_audio`] - An extension to the [`iced`] GUI framework that provides audio-specific widgets like knobs and sliders.
+      - [`iced-baseplug-examples`] - Example of full-stack plugins built using the [`baseplug`], [`iced_baseview`], and [`iced_audio`] modules.
+    - Tuix
+      - [`tuix`] - Experimental/WIP GUI library with an official [`baseview`] backend.
+      - [`tuix_audio_synth`] - Example of how to build audio widgets using [`tuix`].
+      - [`tuix_baseview_test_vst2`] - Example of a full-stack plugin built using the [`vst-rs`] and [`tuix`] modules.
+    - Egui
+      - [`egui-baseview`] - Provides the [`egui`] GUI framework on top of [`baseview`].
+      - [`egui_baseview_test_vst2`] - Example of a full-stack plugin built using the [`vst-rs`] and [`egui-baseview`] modules.
+    - Imgui
+      - [`imgui-rs`] - Rust bindings to the popular [`Dear ImGui`] C framework.
+      - [`imgui-baseview`] - Provides the [`imgui-rs`] GUI framework on top of [`baseview`].
+      - [`imgui_baseview_test_vst2`] - Example of a full-stack plugin built using the [`vst-rs`] and [`imgui-baseview`] modules.
+      - [`imgui-compressor`] - An experimental/WIP compressor plugin built using the [`vst-rs`] and [`imgui-baseview`] modules.
 - [`DISTRHO Plugin Framework`]
   - Full-stack framework with GUI in C++. Fully open-source.
   - Targets LADSPA, DSSI, LV2, VST2, and Jack plugin formats.
@@ -277,7 +293,7 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`iced_baseview`]: https://github.com/BillyDM/iced_baseview
 [`iced`]: https://github.com/hecrj/iced
 [`baseview`]: https://github.com/RustAudio/baseview
-[`iced_audio`]: https://github.com/BillyDM/iced_audio
+[`iced_audio`]: https://github.com/iced-rs/iced_audio
 [`iced-baseplug-examples`]: https://github.com/BillyDM/iced-baseplug-examples
 [`goldenrod`]: https://github.com/BillyDM/goldenrod
 [`QMidiArp`]: https://github.com/emuse/qmidiarp
@@ -319,3 +335,15 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`Digital Signal Processing: Concepts and Applications`]: https://www.amazon.com/Digital-Signal-Processing-Concepts-Applications-ebook/dp/B015OLJ5JG/
 [`Vital`]: https://github.com/mtytel/vital
 [`Shiru Plugins`]: https://github.com/linuxmao-org/shiru-plugins
+[`vst-rs`]: https://github.com/RustAudio/vst-rs
+[`tuix`]: https://github.com/geom3trik/tuix
+[`tuix_audio_synth`]: https://github.com/geom3trik/tuix_audio_synth
+[`tuix_baseview_test_vst2`]: https://github.com/geom3trik/tuix_baseview_test_vst2
+[`egui`]: https://github.com/emilk/egui
+[`egui-baseview`]: https://github.com/BillyDM/egui-baseview
+[`egui_baseview_test_vst2`]: https://github.com/DGriffin91/egui_baseview_test_vst2
+[`Dear ImGui`]: https://github.com/ocornut/imgui
+[`imgui-rs`]: https://github.com/imgui-rs/imgui-rs
+[`imgui-baseview`]: https://github.com/BillyDM/imgui-baseview
+[`imgui_baseview_test_vst2`]: https://github.com/DGriffin91/imgui_baseview_test_vst2
+[`imgui-compressor`]: https://github.com/DGriffin91/compressor-plugin
