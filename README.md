@@ -132,9 +132,10 @@ While this is not *strictly* development related, knowing how plugins are actual
 ## Software Optimization
 - [`Fast-DSP-Approximations`] - My own list of public-domain fast approximations of various expensive calculations.
 - [`Intel Intrinsics Guide`] - x86 processor instrinsics
+- [`Software Optimization Resources`] - A popular resource on optimizing for x86 based architectures.
+- [`Agner Fog's Instruction Tables`] - A useful table that lists the latency and throughput performance of various x86 instructions.
 - [`Real-time audio programming 101`] - Tips on writing real-time code.
 - [`The Rust Performance Book`] - Tips on optimizing code in Rust.
-- [`Agner Fog's Instruction Tables`] - A useful table that lists the latency and throughput performance of various Intel and AMD CPU instructions.
 - Follow these rules:
   ![DSP Rules](fast_dsp.png?raw=true)
 
@@ -363,3 +364,4 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`Cocoa Delay`]: https://github.com/tesselode/cocoa-delay
 [`Flutterbird`]: https://github.com/tesselode/flutterbird
 [`Agner Fog's Instruction Tables`]: https://www.agner.org/optimize/instruction_tables.pdf
+[`Software Optimization Resources`]: https://www.agner.org/optimize/
