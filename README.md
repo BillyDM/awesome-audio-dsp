@@ -134,6 +134,7 @@ While this is not *strictly* development related, knowing how plugins are actual
 - [`Intel Intrinsics Guide`] - x86 processor instrinsics
 - [`Real-time audio programming 101`] - Tips on writing real-time code.
 - [`The Rust Performance Book`] - Tips on optimizing code in Rust.
+- [`Agner Fog's Instruction Tables`] - A useful table that lists the latency and throughput performance of various Intel and AMD CPU instructions.
 - Follow these rules:
   ![DSP Rules](fast_dsp.png?raw=true)
 
@@ -361,3 +362,4 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`Mika Micro`]: https://github.com/tesselode/mika-micro
 [`Cocoa Delay`]: https://github.com/tesselode/cocoa-delay
 [`Flutterbird`]: https://github.com/tesselode/flutterbird
+[`Agner Fog's Instruction Tables`]: https://www.agner.org/optimize/instruction_tables.pdf
