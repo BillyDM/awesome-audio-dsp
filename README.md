@@ -90,6 +90,7 @@ Reading the source code of real-world projects can give valueable insight into d
 - [`Geonkick`] - Advanced drum synthesizer.
 - [`ADLplug`] - Emulation of FM-synthesizers found in some classic game consoles.
 - [`Ninjas 2`] - Sample slicer and player.
+- [`Mika Micro`] - A nice and simple synthesizer with a clean design.
 ### Audio FX
 - [`Wolf Shaper`] - Good quality waveshaper with support for unlimited nodes.
 - [`Mverb`] - Nice-sounding plate reverb.
@@ -98,6 +99,8 @@ Reading the source code of real-world projects can give valueable insight into d
 - [`Luftikus`] - Good quality analogue modeled equalizer.
 - [`Fogpad`] - Reverb plugin where reflections can be frozen, filtered, pitch-shifted, and mangled.
 - [`Misstortion`] - Good quality hard/soft clipper.
+- [`Cocoa Delay`] - A nice delay plugin with ducking, saturation, filtering, and pitching features.
+- [`Flutterbird`] - Simple multi-lfo than modulates pitch and volume, creating a "fluttering" effect.
 ### MIDI FX
 - [`Helio Workstation`] - A very modern and feature-rich sequencer.
 - [`QMidiArp`] - Advanced arpeggiator, sequencer, and MIDI LFO.
@@ -355,3 +358,6 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`imgui_baseview_test_vst2`]: https://github.com/DGriffin91/imgui_baseview_test_vst2
 [`imgui-compressor`]: https://github.com/DGriffin91/compressor-plugin
 [`Steinberg's VST3 License`]: https://developer.steinberg.help/display/VST/VST+3+Licensing
+[`Mika Micro`]: https://github.com/tesselode/mika-micro
+[`Cocoa Delay`]: https://github.com/tesselode/cocoa-delay
+[`Flutterbird`]: https://github.com/tesselode/flutterbird
