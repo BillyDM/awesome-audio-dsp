@@ -105,6 +105,7 @@ Reading the source code of real-world projects can give valueable insight into d
 ### MIDI FX
 - [`Helio Workstation`] - A very modern and feature-rich sequencer.
 - [`QMidiArp`] - Advanced arpeggiator, sequencer, and MIDI LFO.
+- [`Stochas`] - An advanced probabilistic polyrythmic sequencer. Made by the same team behind the [`Surge`] synthesizer.
 ### Meters & Visualizers
 - [`Spectacle`] - Modern real-time spectrum analyzer plugin.
 - [`Wolf Spectrum`] - Real-time heat-map spectrum analyzer plugin.
@@ -367,3 +368,4 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`Agner Fog's Instruction Tables`]: https://www.agner.org/optimize/instruction_tables.pdf
 [`Software Optimization Resources`]: https://www.agner.org/optimize/
 [`Synth2`]: https://github.com/klknn/synth2
+[`Stochas`]: https://github.com/surge-synthesizer/stochas
