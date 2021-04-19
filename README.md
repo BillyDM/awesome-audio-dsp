@@ -12,12 +12,13 @@ Here I'll link curated lists that others have made.
   - A common recommendation from many folks.
   - Focuses on DSP in general, not just audio DSP.
 
+- [`Julius Orion Smith III Collection`]
+  - A highly recommended collection of books and resources by Julius Orion Smith III.
+  - Very comprehensive, and covers many topics on the mathematics and applications of audio DSP.
+  - Contains code examples in C and MatLab (although [`GNU Octave`] can be used as well).
+
 - [`The Art of VA Filter Design`] by Vadim Zavalishin
   - Teaches good techniques for adapting analogue designs into the digital realm.
-  - Relatively heavy on mathematics.
-
-- [`Julius Orion Smith III Collection`]
-  - A collection of books and resources by Julius Orion Smith III.
   - Relatively heavy on mathematics.
 
 - [`The Theory and Technique of Electronic Music`] by Miller Puckette
@@ -145,7 +146,7 @@ While this is not *strictly* development related, knowing how plugins are actual
 - [`Desmos`] - Free online graphing calculator.
 - [`Wolfram Alpha`] - A helpful math partner.
 - [`Symbolab`] - Another helpful math partner.
-- [`Octave`] - An open-source alternative to MATLAB.
+- [`GNU Octave`] - An open-source alternative to MATLAB.
 - [`Curcuit JS`] - A cool little circuit simulation tool.
 
 ## System Tools
@@ -320,7 +321,7 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`Crow`]: https://www.youtube.com/c/CrowOfficial/videos
 [`Nosia`]: https://www.youtube.com/watch?v=PzM37xuFFxY
 [`Symbolab`]: https://www.symbolab.com/
-[`Octave`]: https://octave-online.net/
+[`GNU Octave`]: https://octave-online.net/
 [`Airwindows Plugins`]: https://github.com/airwindows/airwindows/tree/master/plugins
 [`Geonkick`]: https://github.com/iurie-sw/geonkick
 [`Real-time audio programming 101`]: http://www.rossbencina.com/code/real-time-audio-programming-101-time-waits-for-nothing
