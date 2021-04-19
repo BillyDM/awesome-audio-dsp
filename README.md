@@ -146,7 +146,7 @@ While this is not *strictly* development related, knowing how plugins are actual
 - [`Desmos`] - Free online graphing calculator.
 - [`Wolfram Alpha`] - A helpful math partner.
 - [`Symbolab`] - Another helpful math partner.
-- [`GNU Octave`] - An open-source alternative to MATLAB.
+- [`GNU Octave`] - An open-source alternative to MATLAB. There is also an [`online version of GNU Octave`] available.
 - [`Curcuit JS`] - A cool little circuit simulation tool.
 
 ## System Tools
@@ -321,7 +321,8 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`Crow`]: https://www.youtube.com/c/CrowOfficial/videos
 [`Nosia`]: https://www.youtube.com/watch?v=PzM37xuFFxY
 [`Symbolab`]: https://www.symbolab.com/
-[`GNU Octave`]: https://octave-online.net/
+[`GNU Octave`]: https://www.gnu.org/software/octave/index
+[`online version of GNU Octave`]: https://octave-online.net/
 [`Airwindows Plugins`]: https://github.com/airwindows/airwindows/tree/master/plugins
 [`Geonkick`]: https://github.com/iurie-sw/geonkick
 [`Real-time audio programming 101`]: http://www.rossbencina.com/code/real-time-audio-programming-101-time-waits-for-nothing
