@@ -57,7 +57,7 @@ Here I'll link curated lists that others have made.
 
 ## Algorithms & Technical Reading
 - [`Musicdsp.org`] - A collection of open source DSP algorithms by the community.
-- [`Cytomic Technical Papers`] - Excellent real-world useable filters and explanations by Cytomic. Use these better alternative to Biquad filters that behave much better while being modulated.
+- [`Cytomic Technical Papers`] - Excellent real-world useable filters and explanations by Cytomic. Use these as a better alternative to Biquad filters that behave much better while being modulated.
 - [`deip.pdf`] - High quality resampling and oversampling.
 - [`Freeverb`] - An open-source reverb algorithm.
 - [`DAFx`] - An archive of scientific papers and presentations given during an annual DSP research conference.
