@@ -18,6 +18,7 @@ My curated list of audio DSP (digital signal processing) and plugin development 
 
 - [`The Theory and Technique of Electronic Music`] by Miller Puckette
   - Focuses more on musical DSP.
+  - Teaches core concepts of many common audio effects and synthesizers.
   - Relatively heavy on mathematics.
 
 ## Paid Textbooks
