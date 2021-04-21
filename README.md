@@ -13,9 +13,10 @@ Here I'll link curated lists that others have made.
   - Focuses on DSP in general, not just audio DSP.
 
 - [`Julius Orion Smith III Collection`]
-  - A highly recommended collection of books and resources by Julius Orion Smith III.
-  - Very comprehensive, and covers many topics on the mathematics and applications of audio DSP.
+  - A great collection of books and resources by Julius Orion Smith III.
+  - Very comprehensive, and covers many topics on the mathematics and applications of audio DSP. Good for getting a solid foundation.
   - Contains code examples in C and MatLab (although [`GNU Octave`] can be used as well).
+  - Relatively heavy on mathematics.
 
 - [`The Art of VA Filter Design`] by Vadim Zavalishin
   - Teaches good techniques for adapting analogue designs into the digital realm.
@@ -28,23 +29,23 @@ Here I'll link curated lists that others have made.
 ## Paid Textbooks
 - [`Designing Software Synthesizer Plug-Ins in C++`] and [`Designing Audio Effect Plugins in C++`] by Will Pirkle
   - One of the most highly recommended resources for entering the world of audio DSP.
-  - Great beginner resource that teaches fundamental DSP concepts with examples.
+  - Great beginner resource that teaches fundamental DSP concepts without (too much) math.
   - The synthesizer one is better than the effect one imo, so go for that if you plan on only buying one.
   - Focuses on teaching concepts, not on writing performant code. His coding sytle is quite ineffecient.
   - There will also be [`newer edition`] in 2021 as well.
 
 - [`A Digital Signal Processing Primer`] by Kenneth Steiglitz
   - Great introduction to the mathematics of DSP.
-  - Focuses more and mathematics and does not have many example effects.
+  - Focuses more on mathematics and does not have many example effects.
 
 - [`DAFX: Digital Audio Effects`] by Udo Zölzer (Editor)
   - Explores good modern advanced effects. It's made by the [`DAFx`] annual scientific research conference.
-  - MATLAB is used for its code examples, so stomach that if you can.
+  - MATLAB is used for its code examples, but [`GNU Octave`] could probably be used as well.
 
 - [`Digital Signal Processing: Concepts and Applications`] by Mulgrew, Grant & Thompson
   - Covers the basic principles of DSP in an easy-to-digest way without going into too much mathematics.
   - Focuses more on general DSP rather than audio DSP.
-  - Also uses MATLAB for its code examples.
+  - Uses MATLAB for its code examples, but [`GNU Octave`] could probably be used as well.
 
 ## Mathematics
 - [`3Blue1Brown`] - An excellent YouTube channel on complex algebra, linear algebra, calculus, and differential equations.
