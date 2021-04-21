@@ -29,7 +29,7 @@ Here I'll link curated lists that others have made.
 ## Paid Textbooks
 - [`Designing Software Synthesizer Plug-Ins in C++`] and [`Designing Audio Effect Plugins in C++`] by Will Pirkle
   - One of the most highly recommended resources for entering the world of audio DSP.
-  - Great beginner resource that teaches fundamental DSP concepts without (too much) math.
+  - Great beginner resource that teaches fundamental DSP concepts without going into too much mathematics.
   - The synthesizer one is better than the effect one imo, so go for that if you plan on only buying one.
   - Focuses on teaching concepts, not on writing performant code. His coding sytle is quite ineffecient.
   - There will also be [`newer edition`] in 2021 as well.
