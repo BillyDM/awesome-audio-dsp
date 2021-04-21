@@ -1,12 +1,6 @@
 # Awesome Audio DSP
 My curated list of audio DSP (digital signal processing) and plugin development resources. New resources may be added in the future. Feel free to open a PR if you wish!
 
-## More Lists
-Here I'll link curated lists that others have made.
-- [`dsp-learning`] by crsaracco
-- [`Awesome Rust Audio`] by kfrncs
-- [`Useful Links for DSP and Audio Programming`] from rust.audio
-
 ## Free Online Textbooks
 - [`The Scientist and Engineer's Guide to Digital Signal Processing`] by Steven W. Smith, Ph.D.
   - A common recommendation from many folks.
@@ -236,6 +230,12 @@ While this is not *strictly* development related, knowing how plugins are actual
 - [`The Audio Programmer Discord Server`] - Another Discord community for audio programmers using any programming languages, not just Rust.
 - [`Rust Community Discord Server`] - Not strictly DSP related, but the people there can help you with any Rust questions.
 - [`KVR DSP Forum`] - A large community of plugin developers.
+
+## More Lists
+Here I'll link curated lists that others have made.
+- [`dsp-learning`] by crsaracco
+- [`Awesome Rust Audio`] by kfrncs
+- [`Useful Links for DSP and Audio Programming`] from rust.audio
 
 [`Designing Software Synthesizer Plug-Ins in C++`]: https://www.amazon.com/Designing-Software-Synthesizer-Plug-Ins-RackAFX/dp/1138787078
 [`Designing Audio Effect Plugins in C++`]: https://www.amazon.com/Designing-Audio-Effect-Plugins-C/dp/1138591939
