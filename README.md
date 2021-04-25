@@ -143,6 +143,7 @@ While this is not *strictly* development related, knowing how plugins are actual
 - [`Wolfram Alpha`] - A helpful math partner.
 - [`Symbolab`] - Another helpful math partner.
 - [`GNU Octave`] - An open-source alternative to MATLAB. There is also an [`online version of GNU Octave`] available.
+  - [`Signal package`] - Signal processing tools for [`GNU Octave`], including filtering, windowing and display functions.
 - [`Curcuit JS`] - A cool little circuit simulation tool.
 
 ## System Tools
@@ -373,3 +374,4 @@ Here I'll link curated lists that others have made.
 [`Software Optimization Resources`]: https://www.agner.org/optimize/
 [`Synth2`]: https://github.com/klknn/synth2
 [`Stochas`]: https://github.com/surge-synthesizer/stochas
+[`Signal package`]: https://octave.sourceforge.io/signal/index.html
