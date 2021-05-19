@@ -89,6 +89,7 @@ Reading the source code of real-world projects can give valueable insight into d
 - [`Ninjas 2`] - Sample slicer and player.
 - [`Mika Micro`] - A nice and simple synthesizer with a clean design.
 - [`Synth2`] - A recreation of the classic Synth1 virtual synth. (Still a work in progress).
+- [`py-modular`] - A modular and experimental programming environment with basic DSP routines in python.
 ### Audio FX
 - [`Wolf Shaper`] - Good quality waveshaper with support for unlimited nodes.
 - [`Mverb`] - Nice-sounding plate reverb.
@@ -373,5 +374,6 @@ Here I'll link curated lists that others have made.
 [`Agner Fog's Instruction Tables`]: https://www.agner.org/optimize/instruction_tables.pdf
 [`Software Optimization Resources`]: https://www.agner.org/optimize/
 [`Synth2`]: https://github.com/klknn/synth2
+[`py-modular`]: http://py-modular.readthedocs.io/
 [`Stochas`]: https://github.com/surge-synthesizer/stochas
 [`Signal package`]: https://octave.sourceforge.io/signal/index.html
