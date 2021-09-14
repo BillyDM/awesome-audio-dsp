@@ -102,6 +102,7 @@ These can be a great start for learning and experimenting with DSP for those wit
 - [`katjaas`] - Neat visual explanations of DSP mathematics and techniques.
 - [`Jatin Chowdhury`] - An active blog that explores cutting-edge DSP techniques.
 - [`The Design of the Roland Juno oscillators`] - A beautiful and simple explanation on the oscillators of this classic synth.
+- [`TimeStretch PDF`] - A PDF explaining the DSP of [`TimeStretch`], a refinement of the famous [`PaulStretch`] time stretching effect.
 
 ## Open Source Plugins & Software
 Reading the source code of real-world projects can give valueable insight into different techniques and solutions people have come up with over the years.
@@ -112,10 +113,10 @@ Reading the source code of real-world projects can give valueable insight into d
   - [`pressure4`]
   - [`totape5`]
   - [`ironoxide`]
-- [`zam-plugins`] - A suite of high quality mixing/mastering plugins. The limiter, tube amp, and multiband compressor are particulary excellent.
+- [`zam-plugins`] - A suite of high quality mixing/mastering plugins. The limiter, tube amp, and multiband compressor are particularly excellent.
 - [`LSP Plugins`] - Another collection of high quality mixing/mastering effects.
 - [`sjaehn`] - Several cool MIDI based slicing/glitching effects and synthesizers.
-- [`x42-plugins`] - A collection of good quality effects and visualizers. Some plugins are also sold as a commercial product.
+- [`x42-plugins`] - A collection of high quality effects and visualizers. Some plugins are also sold as a commercial product. The compressor is particularly excellent.
 - [`EQ10Q`] - A suite of plugins containing a 10-band parametric equalizer, gate, compressor, bass enhancer, and mid-side encoders.
 - [`Shiru Plugins`] - A suite of old video-game sound chips synths and effects.
 - [`DISTRHO Plugin Framework`] - A bunch more open-source plugins are listed here.
@@ -132,6 +133,7 @@ Reading the source code of real-world projects can give valueable insight into d
 - [`Ninjas 2`] - Sample slicer and player.
 - [`Mika Micro`] - A nice and simple synthesizer with a clean design.
 - [`Synth2`] - A recreation of the classic Synth1 virtual synth. (Still a work in progress).
+- [`Sfizz`] - A sampler that plays [`SFZ`] files. (SFZ is like SoundFonts but with more features).
 ### Audio FX
 - [`Wolf Shaper`] - Good quality waveshaper with support for unlimited nodes.
 - [`Mverb`] - Nice-sounding plate reverb.
@@ -142,6 +144,8 @@ Reading the source code of real-world projects can give valueable insight into d
 - [`Misstortion`] - Good quality hard/soft clipper.
 - [`Cocoa Delay`] - A nice delay plugin with ducking, saturation, filtering, and pitching features.
 - [`Flutterbird`] - Simple multi-lfo than modulates pitch and volume, creating a "fluttering" effect.
+- [`DelayArchitect`] - A feature-rich delay designer plugin.
+- [`TimeStretch`] - A refinement of the famous [`PaulStretch`] time stretching effect. Includes a PDF explaining the DSP.
 ### MIDI FX
 - [`Helio Workstation`] - A very modern and feature-rich sequencer.
 - [`QMidiArp`] - Advanced arpeggiator, sequencer, and MIDI LFO.
@@ -152,10 +156,12 @@ Reading the source code of real-world projects can give valueable insight into d
 - [`EasySSP`] - Real-time spectrum analyzer and stereo analyzer plugin.
 - [`LUFS Meter`] - Real-time loudness meter with support for several international loudness standards.
 ### DAWs & Hosts
+- [`Meadowlark`] - Definitely biased here since this is my main project that I work on full-time. It's still in its very early stages, but check it out if you're interested in contributing! :)
 - [`Ardour`] - Feature-rich DAW. Focuses more on recorded music production over electronic music production.
 - [`LMMS`] - Feature-rich DAW focused on electronic music production. Contains many built-in synths and effects.
-- [`Audacity`] - Popular multi-track audio editor.
+- [`Audacity`] - Popular multi-track audio editor. There is also a fully-libre open source fork called [`Tenacity`].
 - [`Carla`] - Cross platform plugin host with support for many plugin formats.
+- [`termdaw`] - A neat little DAW experiment that uses a terminal as its interface instead of a GUI.
 
 ## Sound Design, Arrangement, & Mixing
 While this is not *strictly* development related, knowing how plugins are actually used can give valuable insight.
@@ -427,3 +433,12 @@ Here I'll link curated lists that others have made.
 [`VCV Rack`]: https://vcvrack.com/
 [`The Grid`]: https://www.bitwig.com/the-grid/
 [`zam-plugins`]: https://github.com/zamaudio/zam-plugins
+[`TimeStretch`]: https://github.com/spluta/TimeStretch
+[`TimeStretch PDF`]: https://github.com/spluta/TimeStretch/blob/main/NessStretchICMC_Final.pdf
+[`PaulStretch`]: http://hypermammut.sourceforge.net/paulstretch/
+[`termdaw`]: https://github.com/ocdy1001/termdaw
+[`Sfizz`]: https://github.com/sfztools/sfizz
+[`SFZ`]: https://sfzformat.com/
+[`DelayArchitect`]: https://github.com/jpcima/DelayArchitect
+[`Tenacity`]: https://github.com/tenacityteam/tenacity
+[`Meadowlark`]: https://github.com/MeadowlarkDAW/Meadowlark
