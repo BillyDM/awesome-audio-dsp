@@ -112,7 +112,8 @@ Reading the source code of real-world projects can give valueable insight into d
   - [`pressure4`]
   - [`totape5`]
   - [`ironoxide`]
-- [`LSP Plugins`] - A collection of high quality mixing effects.
+- [`zam-plugins`] - A suite of high quality mixing/mastering plugins. The limiter, tube amp, and multiband compressor are particulary excellent.
+- [`LSP Plugins`] - Another collection of high quality mixing/mastering effects.
 - [`sjaehn`] - Several cool MIDI based slicing/glitching effects and synthesizers.
 - [`x42-plugins`] - A collection of good quality effects and visualizers. Some plugins are also sold as a commercial product.
 - [`EQ10Q`] - A suite of plugins containing a 10-band parametric equalizer, gate, compressor, bass enhancer, and mid-side encoders.
@@ -425,3 +426,4 @@ Here I'll link curated lists that others have made.
 [`Python`]: https://www.python.org/
 [`VCV Rack`]: https://vcvrack.com/
 [`The Grid`]: https://www.bitwig.com/the-grid/
+[`zam-plugins`]: https://github.com/zamaudio/zam-plugins
