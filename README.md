@@ -180,6 +180,7 @@ While this is not *strictly* development related, knowing how plugins are actual
 ## Software Optimization
 - [`Fast-DSP-Approximations`] - My own list of public-domain fast approximations of various expensive calculations.
 - [`Intel Intrinsics Guide`] - x86 processor instrinsics
+- [`Compiler Explorer`] - Very useful tool that lets you analyze the assembly output of many different languages including Rust, C, and C++.
 - [`Software Optimization Resources`] - A popular resource on optimizing for x86 based architectures.
 - [`Agner Fog's Instruction Tables`] - A useful table that lists the latency and throughput performance of various x86 instructions.
 - [`Real-time audio programming 101`] - Tips on writing real-time code.
@@ -268,6 +269,7 @@ While this is not *strictly* development related, knowing how plugins are actual
 
 ## Rust Crates
 - [`baseplug`] - Create VST plugins in Rust. (GUI and other plugin formats are still a work in progress.)
+- [`basedrop`] - Memory management tools for interfacing with realtime threads.
 - [`simdeez`] - Write generic SIMD code across an array of architectures.
 - [`FunDSP`] - An audio DSP library with a nifty clean syntax.
 
@@ -442,3 +444,5 @@ Here I'll link curated lists that others have made.
 [`DelayArchitect`]: https://github.com/jpcima/DelayArchitect
 [`Tenacity`]: https://github.com/tenacityteam/tenacity
 [`Meadowlark`]: https://github.com/MeadowlarkDAW/Meadowlark
+[`Compiler Explorer`]: https://rust.godbolt.org/
+[`basedrop`]: https://github.com/glowcoil/basedrop
