@@ -134,6 +134,7 @@ Reading the source code of real-world projects can give valueable insight into d
 - [`Mika Micro`] - A nice and simple synthesizer with a clean design.
 - [`Synth2`] - A recreation of the classic Synth1 virtual synth. (Still a work in progress).
 - [`Sfizz`] - A sampler that plays [`SFZ`] files. (SFZ is like SoundFonts but with more features).
+- [`Bespoke Synth`] - A very modular synthesizer with support for complex routing, modulation, and sequencing. It can even host VST plugins, blurring the lines between synth and DAW.
 ### Audio FX
 - [`Wolf Shaper`] - Good quality waveshaper with support for unlimited nodes.
 - [`Mverb`] - Nice-sounding plate reverb.
@@ -161,6 +162,7 @@ Reading the source code of real-world projects can give valueable insight into d
 - [`LMMS`] - Feature-rich DAW focused on electronic music production. Contains many built-in synths and effects.
 - [`Audacity`] - Popular multi-track audio editor. There is also a fully-libre open source fork called [`Tenacity`].
 - [`Carla`] - Cross platform plugin host with support for many plugin formats.
+- [`Bespoke Synth`] - A very modular synthesizer with support for complex routing, modulation, and sequencing. It can even host VST plugins, blurring the lines between synth and DAW.
 - [`termdaw`] - A neat little DAW experiment that uses a terminal as its interface instead of a GUI.
 
 ## Sound Design, Arrangement, & Mixing
@@ -446,3 +448,4 @@ Here I'll link curated lists that others have made.
 [`Meadowlark`]: https://github.com/MeadowlarkDAW/Meadowlark
 [`Compiler Explorer`]: https://rust.godbolt.org/
 [`basedrop`]: https://github.com/glowcoil/basedrop
+[`Bespoke Synth`]: https://github.com/BespokeSynth/BespokeSynth
