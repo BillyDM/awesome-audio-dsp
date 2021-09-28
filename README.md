@@ -197,6 +197,7 @@ While this is not *strictly* development related, knowing how plugins are actual
 - [`GNU Octave`] - An open-source alternative to MATLAB. There is also an [`online version of GNU Octave`] available.
   - [`Signal package`] - Signal processing tools for [`GNU Octave`], including filtering, windowing and display functions.
 - [`Curcuit JS`] - A cool little circuit simulation tool.
+- [`Russell`] - A collection of mathematical tools used for testing and solving scientific computations (and by extension audio DSP). It includes testers and solvers for matrixes, linear algebra, statistics, tensors, and more. It is written in the [`Rust`] programming lanugage. 
 
 ## System Tools
 - [`MrsWatson`] - Command-line audio plugin host with support for printing to the terminal from your DSP code.
@@ -449,3 +450,4 @@ Here I'll link curated lists that others have made.
 [`Compiler Explorer`]: https://rust.godbolt.org/
 [`basedrop`]: https://github.com/glowcoil/basedrop
 [`Bespoke Synth`]: https://github.com/BespokeSynth/BespokeSynth
+[`Russell`]: https://github.com/cpmech/russell
