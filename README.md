@@ -104,6 +104,10 @@ These can be a great start for learning and experimenting with DSP for those wit
 - [`The Design of the Roland Juno oscillators`] - A beautiful and simple explanation on the oscillators of this classic synth.
 - [`TimeStretch PDF`] - A PDF explaining the DSP of [`TimeStretch`], a refinement of the famous [`PaulStretch`] time stretching effect.
 
+## Machine Learning
+Machine learning has been gaining traction in the audio industry lately. I don't know much about the topic myself, but I'll link some potentially useful resources here if you're interested.
+- [`SmartCore`] - An advanced and comprehensive machine learning library written in the [`Rust`] programming language.
+
 ## Open Source Plugins & Software
 Reading the source code of real-world projects can give valueable insight into different techniques and solutions people have come up with over the years.
 ### Collections
@@ -451,3 +455,4 @@ Here I'll link curated lists that others have made.
 [`basedrop`]: https://github.com/glowcoil/basedrop
 [`Bespoke Synth`]: https://github.com/BespokeSynth/BespokeSynth
 [`Russell`]: https://github.com/cpmech/russell
+[`SmartCore`]: https://smartcorelib.org/
