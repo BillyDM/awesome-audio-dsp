@@ -169,6 +169,9 @@ Reading the source code of real-world projects can give valueable insight into d
 - [`Carla`] - Cross platform plugin host with support for many plugin formats.
 - [`Bespoke Synth`] - A very modular synthesizer with support for complex routing, modulation, and sequencing. It can even host VST plugins, blurring the lines between synth and DAW.
 - [`termdaw`] - A neat little DAW experiment that uses a terminal as its interface instead of a GUI.
+### Musical Notation
+- [`MuseScore`] - A popular and mature open-source sheet music editor.
+- [`composing.studio`] - An experimental open-source web app that allows you to collaborate on editing sheet music.
 
 ## Sound Design, Arrangement, & Mixing
 While this is not *strictly* development related, knowing how plugins are actually used can give valuable insight.
@@ -458,3 +461,5 @@ Here I'll link curated lists that others have made.
 [`Russell`]: https://github.com/cpmech/russell
 [`SmartCore`]: https://smartcorelib.org/
 [`3Blue1Brown - Neural Networks`]: https://youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi
+[`MuseScore`]: https://musescore.org
+[`composing.studio`]: https://github.com/ekzhang/composing.studio
