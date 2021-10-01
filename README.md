@@ -556,3 +556,4 @@ Here I'll link curated lists that others have made.
 [`VCV Rack Licensing`]: https://vcvrack.com/manual/PluginLicensing
 [`VCV Rack Plugin Tutorial`]: https://vcvrack.com/manual/PluginDevelopmentTutorial
 [`sjaehn's LV2 Tutorial`]: https://github.com/sjaehn/lv2tutorial
+[`VST3 License Agreement`]: https://developer.steinberg.help/pages/viewpage.action?pageId=9797944
