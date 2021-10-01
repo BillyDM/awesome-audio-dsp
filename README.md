@@ -240,9 +240,9 @@ There are quite a few audio plugin API standards which allow your plugin be comp
   - License: Proprietary / [`GPLv3`]
   - Platforms: Linux, Mac, Windows
   - Support: Supported by most modern commercial DAWs (with notable exception of Apple's DAW Logic) and a few open source DAWs.
-  - Distribution - If you are distributing your plugin open source with the [`GPLv3`] license (or host VST3 plugins with a [`GPLv3`] host), then you do not need to have a signed license agreement with Steinberg. However, if you want to distribute your plugin closed source (for commercial purposes), then you need to get a signed [`VST3 License Agreement`].
+  - Distribution - If you are distributing your plugin with the [`GPLv3`] open source license (or host VST3 plugins with your own [`GPLv3`] host), then you do not need to have a signed license agreement with Steinberg. However, if you want to distribute your plugin closed source (for commercial purposes) or create a closed-source host, then you need to get a signed [`VST3 License Agreement`].
     - Also note that Steinberg has a history of changing their license agreements for however they see fit (like they did when they stopped giving out VST2 licenses). If you want to ever distribute plugins commerically, I would advise to get a license agreement as soon as possible before Steinberg changes their mind.
-  - Special note - Steinberg is making it difficult to legally create bindings to the VST3 SDK to use it with other programming languages other than C++. As a Rust developer myself, this has been a big pain in the backside. There have been proposed lawsuits that aim to prevent companies from doing this, but who knows what the future will hold? (By now you can probably see why a lot of the audio industry does not like Steinberg).
+  - Special note - Steinberg is making it difficult to legally create bindings to the VST3 SDK so it can be used with other programming languages (the SDK is in C++). As a Rust developer myself, this has been a big pain in the backside. There have been proposed lawsuits that aim to prevent companies from doing this, but who knows what the future will hold? (By now you can probably see why a lot of the audio industry does not like Steinberg).
   - SDK download: [`VST3 SDK`]
 ### AUv2/AUv3 (aka AU or Audio Units, version 2 and 3)
   - License: [`Apache 2.0`]
