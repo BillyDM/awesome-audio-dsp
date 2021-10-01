@@ -216,6 +216,83 @@ While this is not *strictly* development related, knowing how plugins are actual
 - [`Bertom EQ Curve Analyzer`] - Analyze the frequency and phase response of any plugin.
 - [`pluginval`] - Cross-platform open-source plugin validation tool made by the company Tracktion.
 
+## Plugin APIs
+There are quite a few audio plugin API standards which allow your plugin be compatible with certain DAWs and Hosts. I'll list the most relevant ones today and their advantages/disadvantages.
+### VST2 (aka VST, version 2)
+  - Why?: It is the most well-known and mature format, supported by almost every DAW.
+  - Why Not?: Unless you already have a signed license agreement from Steinberg, you're not even allowed to distribute your VST2 plugins or create a host for VST2 plugins (yeah it stinks).
+  - License: Proprietary
+  - Platforms: Linux, Mac, Windows
+  - Support: Supported by pretty much every commercial DAW (with notable exception of Apple's DAW Logic) and by most open source DAWs.
+  - Distribution: Must have a signed license agreement to distribute any VST2 plugin. If you don't already have a VST2 license, you're out of luck since Steinberg doesn't support it anymore (yeah it stinks).
+  - SDK source: (Not available anymore).
+### Vestige (Reversed engineered VST2)
+  - Why?: If you still *really* want to distribute or host VST2 plugins without a signed license agreement, this is another option.
+  - Why Not?: Gray legal area.
+  - License: *Technically* [`GPLv2`]/[`GPLv3`], but again this is a gray legal area. It is technically legal since the author claims it to be cleanly and legally reverse engineered without reference to the official VST2 SDK. However, I don't believe this has been tested in court, so I wouldn't rely on it.
+  - Platforms: Same as VST2 above.
+  - Support: Same as VST2 above.
+  - Distribution: You can only distribute your plugins or host as open source under either the [`GPLv2`] or [`GPLv3`] license. Though again, this is a gray legal area so I would be weary.
+  - SDK source: [`Vestige Header File`]
+### VST3 (aka VST version 3)
+  - Why?: This plugin standard is widely used and has excellent support in most modern commercial DAWs.
+  - Why Not?: Requires a signed license agreement with Steinberg in order to distribute commercial (closed source) VST3 plugins (or to host VST3 plugins in a closed source host). Also, Steinberg makes it hard to bind this C++ library to use with other languages (like [`Rust`]).
+  - License: Proprietary / [`GPLv3`]
+  - Platforms: Linux, Mac, Windows
+  - Support: Supported by most modern commercial DAWs (with notable exception of Apple's DAW Logic) and a few open source DAWs.
+  - Distribution - If you are distributing your plugin open source with the [`GPLv3`] license (or host VST3 plugins with a [`GPLv3`] host), then you do not need to have a signed license agreement with Steinberg. However, if you want to distribute your plugin closed source (for commercial purposes), then you need to get a signed [`VST3 License Agreement`].
+    - Also note that Steinberg has a history of changing their license agreements for however they see fit (like they did when they stopped giving out VST2 licenses). If you want to ever distribute plugins commerically, I would advise to get a license agreement as soon as possible before Steinberg changes their mind.
+  - Special note - Steinberg is making it difficult to legally create bindings to the VST3 SDK to use it with other programming languages other than C++. As a Rust developer myself, this has been a big pain in the backside. There have been proposed lawsuits that aim to prevent companies from doing this, but who knows what the future will hold? (By now you can probably see why a lot of the audio industry does not like Steinberg).
+  - SDK download: [`VST3 SDK`]
+### AUv2/AUv3 (aka AU or Audio Units, version 2 and 3)
+  - License: [`Apache 2.0`]
+  - Platforms: Mac, iOS
+  - Support: Main support is for Apple's own DAW Logic, but a few other DAWs that run on Mac support it as well. AU is the only plugin standard supported by Logic.
+  - Distribution - You can distribute open source and close sourced versions of your plugins (and host AU plugins) freely without restriction.
+  - SDK source: [`AU SDK`]
+### AAX
+This is a proprietary plugin standard for use exclusively with Avid's DAW Pro Tools.
+  - Why?: Pro Tools is pretty standard in the professional/corporate recording/mixing/mastering industry. Pro Tools only supports AAX plugins.
+  - Why Not?: No other DAW supports it. Also, it requires a signed license agreement with Avid, and also requires joining Avid's developer program.
+  - License: Proprietary
+  - Platforms: Mac, Windows
+  - Support: Only Pro Tools
+  - Distribution: Requires a signed license agreement with Avid, and also requires joining Avid's developer program.
+  - SDK source: (must register to download)
+ ### LV2
+ LV2 is a libre open source plugin standard created for use within the Linux ecosystem.
+  - Why?: Even though support on Mac and Windows is rare, Linux has by far the best development ecosystem in my opinion. There is also a growing community of music producers using Linux.
+  - Why Not?: Lack of support in most major commercial DAWs.
+  - License: [`MIT`]
+  - Platforms: Linux, Mac, Windows (Although support for Mac and Windows is rare.)
+  - Support: Supported by most open-source DAWs, but hardly any commercial DAWs support it (maybe even none of them do).
+  - Distribution -  You can distribute open source and close sourced versions of your plugins (and host LV2 plugins) freely without restriction.
+  - SDK source: [`LV2 SDK`]
+### LADSPA
+LADSPA is the precursor to LV2.
+  - Why?: It is dead simple to work with.
+  - Why Not?: Lack of support in most major commercial DAWs. Also, LADSPA only supports GUI-less plugins.
+  - License: [`LGPLv2.1`]/[`LGPLv3`]
+  - Platforms: Same as LV2 above
+  - Support: Same as LV2 above
+  - Distribution: Same as LV2 above
+  - SDK source: [`LADSPA Header File`]
+### WAP (Web Audio Plugins)
+An open source audio plugin standard for use with web browsers using WebAudio.
+  - Why?: If you want create plugins using web technologies if that is something you are already familiar with.
+  - Why Not?: Only works in a web browser, so all native DAWs don't support it.
+  - License: [`MIT`]
+  - Platforms: Web
+  - Support: Only web-browser based DAWs
+  - Distribution: You can distribute open source and close sourced versions of your plugins (and host WAP plugins) freely without restriction.
+  - SDK source: [`WAP SDK`]
+### VCV Rack Plugin
+The audio plugin standard for use with the open source [`VCV Rack`] virtual synthesizer.
+  - Why?: If you want to create plugins for [`VCV Rack`].
+  - License: [`GPLv3`]
+  - Distribution: You can distribute freely if your plugin is [`GPLv3`] or a multitude of other accepted open source licenses. You are allowed to sell closed-source versions if you get special permission from the author via email. See [`VCV Rack Licensing`] for more details.
+  - SDK source: [`VCV Rack Plugin SDK`]
+
 ## Plugin Development Frameworks
 - Please note that you must have a licensing agreement with Steinberg to *distribute* any VST2 and any non-GPLv3 VST3 plugins as per [`Steinberg's VST3 License`]. If you don't already have a VST2 license, you're out of luck since Steinberg doesn't support it anymore (yeah it stinks). Target VST3 instead in that case.
 ### RustAudio Framework
@@ -463,3 +540,19 @@ Here I'll link curated lists that others have made.
 [`3Blue1Brown - Neural Networks`]: https://youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi
 [`MuseScore`]: https://musescore.org
 [`composing.studio`]: https://github.com/ekzhang/composing.studio
+[`GPLv2`]: https://opensource.org/licenses/gpl-2.0.php
+[`GPLv3`]: https://choosealicense.com/licenses/gpl-3.0/
+[`MIT`]: https://choosealicense.com/licenses/mit/
+[`Apache 2.0`]: https://choosealicense.com/licenses/apache-2.0/
+[`Vestige Header File`]: https://github.com/x42/lv2vst/blob/master/include/vestige.h
+[`VST3 SDK`]: https://github.com/steinbergmedia/vst3sdk
+[`AU SDK`]: https://github.com/apple/AudioUnitSDK
+[`LV2 SDK`]: https://gitlab.com/lv2/lv2
+[`LADSPA Header File`]: https://www.ladspa.org/ladspa_sdk/ladspa.h.txt
+[`LGPLv2.1`]: https://opensource.org/licenses/lgpl-2.1.php
+[`LGPLv3`]: https://choosealicense.com/licenses/lgpl-3.0/
+[`WAP SDK`]: https://github.com/micbuffa/WebAudioPlugins
+[`VCV Rack Plugin SDK`]: https://vcvrack.com/downloads/
+[`VCV Rack Licensing`]: https://vcvrack.com/manual/PluginLicensing
+[`VCV Rack Plugin Tutorial`]: https://vcvrack.com/manual/PluginDevelopmentTutorial
+[`sjaehn's LV2 Tutorial`]: https://github.com/sjaehn/lv2tutorial
