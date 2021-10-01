@@ -217,7 +217,7 @@ While this is not *strictly* development related, knowing how plugins are actual
 - [`pluginval`] - Cross-platform open-source plugin validation tool made by the company Tracktion.
 
 ## Plugin APIs
-There are quite a few audio plugin API standards which allow your plugin be compatible with certain DAWs and Hosts. I'll list the most relevant ones today and their advantages/disadvantages.
+There are quite a few audio plugin API standards which allow your plugin be compatible with certain DAWs and hosts. I'll list the most relevant ones today and their advantages/disadvantages.
 ### VST2 (aka VST, version 2)
   - Why?: It is the most well-known and mature format, supported by almost every DAW.
   - Why Not?: Unless you already have a signed license agreement from Steinberg, you're not even allowed to distribute your VST2 plugins or create a host for VST2 plugins (yeah it stinks).
