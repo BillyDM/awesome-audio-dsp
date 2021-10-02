@@ -103,6 +103,7 @@ These can be a great start for learning and experimenting with DSP for those wit
 - [`Jatin Chowdhury`] - An active blog that explores cutting-edge DSP techniques.
 - [`The Design of the Roland Juno oscillators`] - A beautiful and simple explanation on the oscillators of this classic synth.
 - [`TimeStretch PDF`] - A PDF explaining the DSP of [`TimeStretch`], a refinement of the famous [`PaulStretch`] time stretching effect.
+- [`Valhalla Blog`] - Valhalla DSP has an excellent blog linking many resources that helped them create their industry-leading reverbs.
 
 ## Machine Learning
 Machine learning has been gaining traction in the audio industry lately. I don't know much about the topic myself, but I'll link some potentially useful resources here if you're interested.
@@ -374,6 +375,7 @@ The audio plugin standard for use with the open source [`VCV Rack`] virtual synt
 
 ## More Lists
 Here I'll link curated lists that others have made.
+- [`Valhalla Blog`] - Valhalla DSP has an excellent blog linking many resources that helped them create their industry-leading reverbs.
 - [`dsp-learning`] by crsaracco
 - [`Awesome Rust Audio`] by kfrncs
 - [`Useful Links for DSP and Audio Programming`] from rust.audio
@@ -557,3 +559,4 @@ Here I'll link curated lists that others have made.
 [`VCV Rack Plugin Tutorial`]: https://vcvrack.com/manual/PluginDevelopmentTutorial
 [`sjaehn's LV2 Tutorial`]: https://github.com/sjaehn/lv2tutorial
 [`VST3 License Agreement`]: https://developer.steinberg.help/pages/viewpage.action?pageId=9797944
+[`Valhalla Blog`]: https://valhalladsp.com/blog/
