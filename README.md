@@ -1,7 +1,7 @@
 # Awesome Audio DSP
 My curated list of audio DSP (digital signal processing) and plugin development resources. New resources may be added in the future. Feel free to open a PR if you wish!
 
-## Free Online Textbooks
+# Free Online Textbooks
 - [`The Scientist and Engineer's Guide to Digital Signal Processing`] by Steven W. Smith, Ph.D.
   - A common recommendation from many folks.
   - Focuses on DSP in general, not just audio DSP.
@@ -21,7 +21,7 @@ My curated list of audio DSP (digital signal processing) and plugin development 
   - Teaches core concepts of many common audio effects and synthesizers.
   - Relatively heavy on mathematics.
 
-## Paid Textbooks
+# Paid Textbooks
 - [`Designing Software Synthesizer Plug-Ins in C++`] and [`Designing Audio Effect Plugins in C++`] by Will Pirkle
   - One of the most highly recommended resources for entering the world of audio DSP.
   - Great beginner resource that teaches fundamental DSP concepts without going into too much mathematics.
@@ -42,7 +42,7 @@ My curated list of audio DSP (digital signal processing) and plugin development 
   - Focuses more on general DSP rather than audio DSP.
   - Uses MATLAB for its code examples, but [`GNU Octave`] could probably be used as well.
 
-## DSP Playgrounds
+# DSP Playgrounds
 These can be a great start for learning and experimenting with DSP for those with little or no programming experience.
 
 ### Codeless
@@ -84,7 +84,7 @@ These can be a great start for learning and experimenting with DSP for those wit
   - Relatively new and experimental project.
   - Free and open-source.
 
-## Mathematics
+# Mathematics
 - [`3Blue1Brown`] - An excellent YouTube channel on complex algebra, linear algebra, calculus, and differential equations.
   - His videos on [`Euler's Formula`] and the [`Fourier Transform`] are particularly excellent.
 - [`Paul's Online Math Notes`] - Excellent resources written and used by a professor at Lamar University.
@@ -93,7 +93,7 @@ These can be a great start for learning and experimenting with DSP for those wit
 - This video on the [`Laplace Transform`] by Zach Star.
 - [`Khan Academy`] - Free college-level courses.
 
-## Algorithms & Technical Reading
+# Algorithms & Technical Reading
 - [`Musicdsp.org`] - A collection of open source DSP algorithms by the community.
 - [`Cytomic Technical Papers`] - Excellent real-world useable filters and explanations by Cytomic. Use these as a better alternative to Biquad filters that behave much better while being modulated.
 - [`deip.pdf`] - High quality resampling and oversampling.
@@ -105,12 +105,12 @@ These can be a great start for learning and experimenting with DSP for those wit
 - [`TimeStretch PDF`] - A PDF explaining the DSP of [`TimeStretch`], a refinement of the famous [`PaulStretch`] time stretching effect.
 - [`Valhalla Blog`] - Valhalla DSP has an excellent blog linking many resources that helped them create their industry-leading reverbs.
 
-## Machine Learning
+# Machine Learning
 Machine learning has been gaining traction in the audio industry lately. I don't know much about the topic myself, but I'll link some potentially useful resources here if you're interested.
 - [`3Blue1Brown - Neural Networks`] - An excellent short series of YouTube videos explaining the basics of how machine learning actually works.
 - [`SmartCore`] - An advanced and comprehensive machine learning library written in the [`Rust`] programming language.
 
-## Open Source Plugins & Software
+# Open Source Plugins & Software
 Reading the source code of real-world projects can give valueable insight into different techniques and solutions people have come up with over the years.
 ### Collections
 - [`Airwindows Plugins`] - Many, many good quality effects and experiments developed over many years.
@@ -174,7 +174,7 @@ Reading the source code of real-world projects can give valueable insight into d
 - [`MuseScore`] - A popular and mature open-source sheet music editor.
 - [`composing.studio`] - An experimental open-source web app that allows you to collaborate on editing sheet music.
 
-## Sound Design, Arrangement, & Mixing
+# Sound Design, Arrangement, & Mixing
 While this is not *strictly* development related, knowing how plugins are actually used can give valuable insight.
 - [`Mixing Secrets for the Small Studio`] - A great beginner resource on mixing fundamentals.
 - [`SeamlessR`] - This guy is a fantastic teacher and really knows his stuff.
@@ -188,7 +188,7 @@ While this is not *strictly* development related, knowing how plugins are actual
 - [`Frequent`] - Good sound design & arrangment tutorials.
 - [`Crow`] - Good tutorials on sound design and mixing.
 
-## Software Optimization
+# Software Optimization
 - [`Fast-DSP-Approximations`] - My own list of public-domain fast approximations of various expensive calculations.
 - [`Intel Intrinsics Guide`] - x86 processor instrinsics
 - [`Compiler Explorer`] - Very useful tool that lets you analyze the assembly output of many different languages including Rust, C, and C++.
@@ -199,7 +199,7 @@ While this is not *strictly* development related, knowing how plugins are actual
 - Follow these rules:
   ![DSP Rules](fast_dsp.png?raw=true)
 
-## Math Tools
+# Math Tools
 - [`Desmos`] - Free online graphing calculator.
 - [`Wolfram Alpha`] - A helpful math partner.
 - [`Symbolab`] - Another helpful math partner.
@@ -208,7 +208,7 @@ While this is not *strictly* development related, knowing how plugins are actual
 - [`Curcuit JS`] - A cool little circuit simulation tool.
 - [`Russell`] - A collection of tools that assist in the development of scientific computations (and by extension audio DSP). It includes numerical methods and solvers for differential equations, tools for statistical analysis, and other linear algebra tools. It is written in the [`Rust`] programming lanugage. 
 
-## System Tools
+# System Tools
 - [`MrsWatson`] - Command-line audio plugin host with support for printing to the terminal from your DSP code.
 - [`Carla`] - System-wide virtual audio and MIDI patching software, using [`Jack`] as the backend. Available as a standalone application or a VST/LV2 plugin.
 - [`Jack`] - Cross-platform audio driver with support for system-wide patching.
@@ -217,7 +217,73 @@ While this is not *strictly* development related, knowing how plugins are actual
 - [`Bertom EQ Curve Analyzer`] - Analyze the frequency and phase response of any plugin.
 - [`pluginval`] - Cross-platform open-source plugin validation tool made by the company Tracktion.
 
-## Plugin APIs
+# Programming Languages
+When you want to get serious with audio DSP & audio plugin development, nothing beats writing code in a low-level programming language with manual memory management.
+ - Multiplying even just a single gain to a stereo signal will require around 96,000 multiply operations per second on the CPU (2 channels * 48,000 samples per second).
+ - Compound that with the fact that complex plugins can have hundreds or thousands of CPU operations applied per-sample, and there are usually many plugin instances loaded at the same time in a single project.
+ - On top of that, using an easier higher-level programming language with runtime-safety checks and automatic garbage collection will create problems with latency because allocating/deallocating memory can take an undertermined amount of time (i.e. they are not "realtime safe" languages).
+
+Here I'll list the best languages to use for serious DSP and their pros and cons:
+### C++
+- Pros:
+  - C++ is the most commonly used programming language in the audio industry, so it is the best bet if you wish to get hired into an audio software company.
+  - It has the greatest official support for audio SDKs and APIs.
+  - Most books and tutorials on audio plugin development teach using C++.
+- Cons:
+  - Hard to learn and much harder to properly master and use safely.
+  - It is infamously easy to accidentally create endless crashes, undefined behavior, and security vulnerabilities with C++. This can however be greatly mitigated using an IDE with modern static-analyzing linters and debuggers, and also fuzzing tools like [`AFL`] and [`Honggfuzz`], but that of course means added development time.
+  - C++ is bloated with features that have been added over time. There are many supposed "correct" and "incorrect" ways to do the same thing, causing arguments and confusions on forums.
+  - Error messages can be hard to decipher. However this has gotten *much* better over the past decade, but it still isn't perfect.
+  - Dependency management can be a pain.
+  - Uses separate header and source files for the same piece of code.
+- Resources:
+  - [`Learn C++`] - A fantastic free online book that thouroughly teaches C++ and how to use it safely and effectively.
+### C
+- Pros:
+  - Relatively easy to learn.
+  - It has a simple feature set that has pretty much stayed constant for the past several decades.
+  - C compilers can be found for almost any processor in existence.
+  - Fast compile times.
+  - It is the closest thing you can get to writing pure assembly. It is a great way to learn more on how computers actually work.
+- Cons:
+  - While it is simple to learn, it is hard to properly master using it safely.
+  - It is infamously easy to accidentally create endless crashes, undefined behavior, and security vulnerabilities with C. This can however be greatly mitigated using an IDE with modern static-analyzing linters and debuggers, and also fuzzing tools like [`AFL`] and [`Honggfuzz`], but that of course means added development time.
+  - Some useful C++ features like inheritence and dynamic dispatch are much harder to do in C.
+  - Dependency management can be a pain.
+  - The lack of namespaces makes it difficult to manage larger projects.
+  - Uses separate header and source files for the same piece of code.
+### Rust
+- Pros:
+  - [`Rust`] is a more modern language that is specifically designed to avoid many of the pitfalls of C/C++ development. It can ensure that serious and hard-to-debug bugs (like dereferencing null pointers, indexing out-of-bounds, single-threaded data races, multi-threaded data races) cannot even occur in the first place. Many other higher-level languages of course also make these gaurantees, but they come at the cost of considerably worse performance since they use things like runtime checks and garbage collection. Rust however uses a clever system of lifetime and borrow restrictions that ensures safety while also allowing the code to be compiled to run just as fast as if it was written in C/C++.
+  - The better safety against crashes reduces the amount of time you need to spend debugging & testing.
+  - It has a built-in dependency and build management system called Cargo that can automatically grab the needed dependencies from the web.
+  - It has a built-in system for testing code.
+  - Does not require a separate header/source file.
+  - It has a welcoming and inclusive community.
+- Cons:
+  - Hard to learn and master.
+  - The language is very restrictive on what you are able to do (this is of course by design). You are able to use explicit "unsafe" blocks when you need more control, but that of course can be suceptible to the same pitfalls of C/C++ if you're not careful.
+  - Slower compile times.
+  - The language is still relatively young, so library support such as GUIs and audio plugin development are not even close to the level of support C++ has. (I am however personally working on these Rust audio plugin libraries. If you are interested in helping with development, please check out the [`Rust Audio Discord Server`]!)
+- Resources:
+  - [`Rust Book`] - The fantastic official online book on learning Rust.
+  - [`Learn Rust the Dangerous Way`] - Tips on writing low-level Rust code from a C background.
+  - [`How-to Optimize Rust Programs on Linux`] - How-to guide on profiling Rust code on Linux.
+  - [`The Rust Performance Book`] - Tips on optimizing code in Rust.
+### D
+- Pros:
+  - D is a language based on C/C++ but with a much more streamlined and focused feature set. It also aims to be harder to "mess something up" than C/C++.
+  - Has a great open-source audio plugin development library called [`DPlug`].
+  - Relatively easy to learn.
+  - It has a built-in system for testing code.
+  - Does not require a separate header/source file.
+  - Fast compile times.
+- Cons:
+  - While it does aim to be harder to mess something up than C/C++, it is still susceptible to the same pitfalls.
+  - It uses garbage collection by default (which is not "realtime safe"). It can (and should) be disabled for the DSP portion of your code, but that of course makes it less memory safe and thus requires more care and attention.
+  - Library support is nowhere near the level of support that C/C++ has. (Although luckily [`DPlug`] is a great library for audio plugin development).
+
+# Plugin APIs
 There are quite a few audio plugin API standards which allow your plugin be compatible with certain DAWs and hosts. I'll list the most relevant ones today and their advantages/disadvantages.
 ### VST2 (aka VST, version 2)
   - Why?: It is the most well-known and mature format, supported by almost every DAW.
@@ -294,7 +360,7 @@ The audio plugin standard for use with the open source [`VCV Rack`] virtual synt
   - Distribution: You can distribute freely if your plugin is [`GPLv3`] or a multitude of other accepted open source licenses. You are allowed to sell closed-source versions if you get special permission from the author via email. See [`VCV Rack Licensing`] for more details.
   - SDK source: [`VCV Rack Plugin SDK`]
 
-## Plugin Development Frameworks
+# Plugin Development Frameworks
 - Please note that you must have a licensing agreement with Steinberg to *distribute* any VST2 and any non-GPLv3 VST3 plugins as per [`Steinberg's VST3 License`]. If you don't already have a VST2 license, you're out of luck since Steinberg doesn't support it anymore (yeah it stinks). Target VST3 instead in that case.
 ### RustAudio Framework
   - Full-stack and modular framework in Rust (currently a WIP and not fully-production ready yet for anything but VST2 plugins). I'm personally biased towards this as one of its creators.
@@ -356,24 +422,19 @@ The audio plugin standard for use with the open source [`VCV Rack`] virtual synt
   - Targets VST2, VST3, AUv2, AUv3, AAX and the Web Audio Module (WAM) plugin formats.
   - Targets Mac, Windows, iOS, and Web. It does not target Linux, so I'm personally not a fan of this one.
 
-## Rust Crates
+# Rust Crates
 - [`baseplug`] - Create VST plugins in Rust. (GUI and other plugin formats are still a work in progress.)
 - [`basedrop`] - Memory management tools for interfacing with realtime threads.
 - [`simdeez`] - Write generic SIMD code across an array of architectures.
 - [`FunDSP`] - An audio DSP library with a nifty clean syntax.
 
-## Rust Resources
-- [`Learn Rust the Dangerous Way`] - Tips on writing low-level Rust code from a C background.
-- [`How-to Optimize Rust Programs on Linux`] - How-to guide on profiling Rust code on Linux.
-- [`The Rust Performance Book`] - Tips on optimizing code in Rust.
-
-## Forums
+# Forums
 - [`Rust Audio Discord Server`] - A community of passionate Rust audio programmers.
 - [`The Audio Programmer Discord Server`] - Another Discord community for audio programmers using any programming languages, not just Rust.
 - [`Rust Community Discord Server`] - Not strictly DSP related, but the people there can help you with any Rust questions.
 - [`KVR DSP Forum`] - A large community of plugin developers.
 
-## More Lists
+# More Lists
 Here I'll link curated lists that others have made.
 - [`Valhalla Blog`] - Valhalla DSP has an excellent blog linking many resources that helped them create their industry-leading reverbs.
 - [`dsp-learning`] by crsaracco
@@ -560,3 +621,7 @@ Here I'll link curated lists that others have made.
 [`sjaehn's LV2 Tutorial`]: https://github.com/sjaehn/lv2tutorial
 [`VST3 License Agreement`]: https://developer.steinberg.help/pages/viewpage.action?pageId=9797944
 [`Valhalla Blog`]: https://valhalladsp.com/blog/
+[`Learn C++`]: https://www.learncpp.com/
+[`Rust Book`]: https://doc.rust-lang.org/stable/book/
+[`AFL`]: https://github.com/google/AFL
+[`Honggfuzz`]: https://github.com/google/honggfuzz
