@@ -254,6 +254,7 @@ Here I'll list the best languages to use for serious DSP and their pros and cons
   - Uses separate header and source files for the same piece of code. Not a problem for some, but it midly annoys me.
 ### [`Rust`]
 - Pros:
+  - My personal favorite programming language ;)
   - Rust is modern language that aims to avoid many of the pitfalls of C/C++ development.
   - It is "memory safe", meaning it can ensure that whole slew of common crashes and security bugs cannot happen in the first place.
     - Most high-level languages are also memory safe, but they come at the cost of considerably worse performance since they use things like runtime checks and garbage collection. Rust however uses a clever system of lifetime and borrow restrictions that ensures safety while still allowing compiled code to run just as fast as if it was written in C/C++ (a feature known as "zero-cost abstractions").
@@ -263,7 +264,6 @@ Here I'll list the best languages to use for serious DSP and their pros and cons
   - It has a built-in system for testing code.
   - Does not require a separate header/source file.
   - It has a welcoming and inclusive community.
-  - My personal favorite programming language ;)
 - Cons:
   - While it is easier to learn and master than C++ in my opinion, it can still be quite tricky to get used to especially if you are used to other low-level languages.
   - The language is very restrictive on what you are able to do, and thus requires more time up-front figuring out how to structure your code to make the compiler happy (this is of course by design). You are able to use explicit "unsafe" blocks when you need more control, but that of course can be suceptible to the same pitfalls of C/C++ if you're not careful.
