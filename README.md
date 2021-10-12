@@ -217,7 +217,7 @@ While this is not *strictly* development related, knowing how plugins are actual
 - [`Bertom EQ Curve Analyzer`] - Analyze the frequency and phase response of any plugin.
 - [`pluginval`] - Cross-platform open-source plugin validation tool made by the company Tracktion.
 
-# Programming Languages
+# Low-level Programming Languages
 When you want to get serious with audio DSP & audio plugin development, nothing beats writing code in a low-level programming language with manual memory management.
  - Multiplying even just a single gain to a stereo signal will require around 96,000 multiply operations per second on the CPU (2 channels * 48,000 samples per second).
  - Compound that with the fact that complex plugins can have hundreds or thousands of CPU operations applied per-sample, and there are usually many plugin instances loaded at the same time in a single project.
