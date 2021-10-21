@@ -85,6 +85,20 @@ These can be a great start for learning and experimenting with DSP for those wit
   - Free and open-source.
 
 # Mathematics
+DSP (Digital Signal Processing) is the study of using a digital computer to process what is normally thought of as an analogue signal (such as sound). Unfortunately (or fortunately depending on who you are 😉), the reality is that DSP is quite a math heavy field. However, the math needed to get started is not *too* difficult in my opinion. Knowing high-school level math and some of the basics of college-level math will get you most of the way there.
+
+### Prerequisites
+I recommend knowing at least these fundamental concepts in order best get started with learning DSP:
+- Algebra dealing with polynomials, fractions, and exponents (exponents are especially important here)
+- Basic trigonometry like sine, cosine, tangent, arctangent, etc.
+- Logarithms (especially the natural logarithm and the number "e")
+- Complex (imaginary) numbers & complex algebra (using algebra with complex numbers). (Yes, imaginary numbers do actually have a real-world use and are a core pillar of DSP mathematics.)
+- Basic knowledge of linear algebra (the study of transforming data with matrices). (You *can* get by without this, but this is really helpful when it comes to actually implementing the mathematics into code.)
+- Basic knowledge of calculus such as derivatives and integrals. (You *can* get by without this, but it will really help you to understand why things are the way they are.)
+  - In the topic of calculus, basic knowledge of what differential equations are why there are important will also help (although I'm not talking about how to actually *solve* differential equations, because they are "really freakin' hard to solve" to put it lightly)
+
+### Learning Resources
+
 - [`3Blue1Brown`] - An excellent YouTube channel on complex algebra, linear algebra, calculus, and differential equations.
   - His videos on [`Euler's Formula`] and the [`Fourier Transform`] are particularly excellent.
 - [`Paul's Online Math Notes`] - Excellent resources written and used by a professor at Lamar University.
@@ -92,6 +106,15 @@ These can be a great start for learning and experimenting with DSP for those wit
 - [`katjaas`] - Neat visual explanations of DSP mathematics and techniques.
 - This video on the [`Laplace Transform`] by Zach Star.
 - [`Khan Academy`] - Free college-level courses.
+
+### Tools
+- [`Desmos`] - Free online graphing calculator.
+- [`Wolfram Alpha`] - A helpful math partner.
+- [`Symbolab`] - Another helpful math partner.
+- [`GNU Octave`] - An open-source alternative to MATLAB. There is also an [`online version of GNU Octave`] available.
+  - [`Signal package`] - Signal processing tools for [`GNU Octave`], including filtering, windowing and display functions.
+- [`Curcuit JS`] - A cool little circuit simulation tool.
+- [`Russell`] - A collection of tools that assist in the development of scientific computations (and by extension audio DSP). It includes numerical methods and solvers for differential equations, tools for statistical analysis, and other linear algebra tools. It is written in the [`Rust`] programming lanugage. 
 
 # Algorithms & Technical Reading
 - [`Musicdsp.org`] - A collection of open source DSP algorithms by the community.
@@ -198,15 +221,6 @@ While this is not *strictly* development related, knowing how plugins are actual
 - [`The Rust Performance Book`] - Tips on optimizing code in Rust.
 - Follow these rules:
   ![DSP Rules](fast_dsp.png?raw=true)
-
-# Math Tools
-- [`Desmos`] - Free online graphing calculator.
-- [`Wolfram Alpha`] - A helpful math partner.
-- [`Symbolab`] - Another helpful math partner.
-- [`GNU Octave`] - An open-source alternative to MATLAB. There is also an [`online version of GNU Octave`] available.
-  - [`Signal package`] - Signal processing tools for [`GNU Octave`], including filtering, windowing and display functions.
-- [`Curcuit JS`] - A cool little circuit simulation tool.
-- [`Russell`] - A collection of tools that assist in the development of scientific computations (and by extension audio DSP). It includes numerical methods and solvers for differential equations, tools for statistical analysis, and other linear algebra tools. It is written in the [`Rust`] programming lanugage. 
 
 # System Tools
 - [`MrsWatson`] - Command-line audio plugin host with support for printing to the terminal from your DSP code.
