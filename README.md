@@ -2,6 +2,12 @@
 My curated list of audio DSP (digital signal processing) and plugin development resources. New resources may be added in the future. Feel free to open a PR if you wish!
 
 # Free Online Textbooks
+- [`project μ`] by Yü Fang
+  - An incredible online guide walking you through how audio DSP works with examples of common algorithms to get you started.
+  - Shows very clearly how to apply these algorithms in actual code, and also has helpful and nice looking graphs.
+  - Requires knowledge of complex numbers, integral calculus, and the C programming language. (It is also very unix-focused).
+  - Currently a work in progress, and more tutorials will likely be added later.
+
 - [`The Scientist and Engineer's Guide to Digital Signal Processing`] by Steven W. Smith, Ph.D.
   - A common recommendation from many folks.
   - Focuses on DSP in general, not just audio DSP.
@@ -647,3 +653,4 @@ Here I'll link curated lists that others have made.
 [`C++`]: https://en.wikipedia.org/wiki/C%2B%2B
 [`C`]: https://en.wikipedia.org/wiki/C_(programming_language)
 [`D`]: https://dlang.org/
+[`project μ`]: https://mu.krj.st/
