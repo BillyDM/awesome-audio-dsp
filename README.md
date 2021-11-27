@@ -556,7 +556,7 @@ Here I'll link curated lists that others have made.
 [`Airwindows Plugins`]: https://github.com/airwindows/airwindows/tree/master/plugins
 [`Geonkick`]: https://github.com/iurie-sw/geonkick
 [`Real-time audio programming 101`]: http://www.rossbencina.com/code/real-time-audio-programming-101-time-waits-for-nothing
-[`The Art of VA Filter Design`]: https://www.native-instruments.com/fileadmin/ni_media/downloads/pdf/VAFilterDesign_2.1.0.pdf
+[`The Art of VA Filter Design`]: https://www.native-instruments.com/fileadmin/ni_media/downloads/pdf/VAFilterDesign_2.1.2.pdf
 [`Khan Academy`]: https://www.khanacademy.org/math
 [`Paul's Online Math Notes`]: https://tutorial.math.lamar.edu/
 [`Paul's Cheat Sheets`]: https://tutorial.math.lamar.edu/Extras/CheatSheets_Tables.aspx
