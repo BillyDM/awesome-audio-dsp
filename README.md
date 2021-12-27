@@ -160,7 +160,7 @@ Reading the source code of real-world projects can give valueable insight into d
 - [`Vital`] - An incredibly powerful and high quality modern synthesizer. Rivals that of Xfer Serum and NI Massive.
 - [`Helm`] - High-quality modern monophonic synthesizer. The older sibling to Vital. The oscillators are not stereo though.
 - [`Surge`] - Feature-rich hybrid synthesizer that was once sold as a commercial product.
-- [`Monique Mono-Synth`] - High-quality virtual analog monophonic synth. Now open source!
+- [`Monique Mono-Synth`] - High-quality subtractive monophonic synth. Now open source!
 - [`Dexed`] - Synthesizer closely modelled after the Yamaha DX7.
 - [`ZynAddSubFX`] - Feature-rich additive synthesizer with a great clean sound. Also sold as a commercial product.
 - [`Odin 2`] - Modern analogue-modeled hybrid synthesizer.
