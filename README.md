@@ -126,13 +126,14 @@ I recommend knowing at least these fundamental concepts in order best get starte
 - [`Musicdsp.org`] - A collection of open source DSP algorithms by the community.
 - [`Cytomic Technical Papers`] - Excellent real-world useable filters and explanations by Cytomic. Use these as a better alternative to Biquad filters that behave much better while being modulated.
 - [`deip.pdf`] - High quality resampling and oversampling.
+- [`Signalsmith Audio Blog`] - An amazing and very useful collection of articles by Signalsmith Audio. The [`Let's Write A Reverb`] article is particularly excellent. 
+- [`Valhalla Blog`] - Valhalla DSP has an excellent blog linking many resources that helped them create their industry-leading reverbs.
 - [`Freeverb`] - An open-source reverb algorithm.
 - [`DAFx`] - An archive of scientific papers and presentations given during an annual DSP research conference.
 - [`katjaas`] - Neat visual explanations of DSP mathematics and techniques.
 - [`Jatin Chowdhury`] - An active blog that explores cutting-edge DSP techniques.
 - [`The Design of the Roland Juno oscillators`] - A beautiful and simple explanation on the oscillators of this classic synth.
 - [`TimeStretch PDF`] - A PDF explaining the DSP of [`TimeStretch`], a refinement of the famous [`PaulStretch`] time stretching effect.
-- [`Valhalla Blog`] - Valhalla DSP has an excellent blog linking many resources that helped them create their industry-leading reverbs.
 
 # Machine Learning
 Machine learning has been gaining traction in the audio industry lately. I don't know much about the topic myself, but I'll link some potentially useful resources here if you're interested.
@@ -656,3 +657,5 @@ Here I'll link curated lists that others have made.
 [`D`]: https://dlang.org/
 [`project μ`]: https://mu.krj.st/
 [`Monique Mono-Synth`]: https://github.com/surge-synthesizer/monique-monosynth
+[`Signalsmith Audio Blog`]: https://signalsmith-audio.co.uk/writing/
+[`Let's Write A Reverb`]: https://signalsmith-audio.co.uk/writing/2021/lets-write-a-reverb/
