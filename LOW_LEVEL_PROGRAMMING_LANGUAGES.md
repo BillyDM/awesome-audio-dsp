@@ -7,7 +7,7 @@ When you want to get serious with audio DSP & audio plugin development, nothing 
  - On top of that, using an easier higher-level programming language with runtime-safety checks and automatic garbage collection will create problems with latency because allocating/deallocating memory can take an undertermined amount of time (i.e. they are not "realtime safe" languages).
 
 Here I'll list the best languages to use for serious DSP and their pros and cons:
-### [`C++`]
+## [`C++`]
 - Pros:
   - C++ is the most commonly used programming language in the audio industry, so it is the best bet if you wish to get hired into an audio software company.
   - It has the greatest official support for audio SDKs and APIs with the largest selection of available libraries.
@@ -22,7 +22,7 @@ Here I'll list the best languages to use for serious DSP and their pros and cons
 - Resources:
   - [`Learn C++`] - A fantastic free online book that thouroughly teaches C++ and how to use it safely and effectively.
 
-### [`C`]
+## [`C`]
 - Pros:
   - Relatively easy to learn.
   - It has a simple feature set that has pretty much stayed constant for the past several decades.
@@ -37,7 +37,7 @@ Here I'll list the best languages to use for serious DSP and their pros and cons
   - The lack of namespaces makes it difficult to manage larger projects.
   - Uses separate header and source files for the same piece of code. Not a problem for some, but it midly annoys me.
 
-### [`Rust`]
+## [`Rust`]
 - Pros:
   - My personal favorite programming language ;)
   - Rust is modern language that aims to avoid many of the pitfalls of C/C++ development.
@@ -65,7 +65,7 @@ Here I'll list the best languages to use for serious DSP and their pros and cons
   - [`simdeez`] - Write generic SIMD code across an array of architectures.
   - [`FunDSP`] - An audio DSP library with a nifty clean syntax.
 
-### [`D`]
+## [`D`]
 - Pros:
   - D is a language inspired by C/C++, but with a more streamlined and focused feature set. It also aims to be harder to "mess something up" than C/C++.
   - Has a great open-source audio plugin development library called [`DPlug`].

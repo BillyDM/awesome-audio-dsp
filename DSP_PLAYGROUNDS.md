@@ -1,7 +1,7 @@
 # DSP Playgrounds
 A list of software tools that are useful for quickly and easily prototyping DSP. These can be a great start for learning and experimenting with DSP for those with little or no programming experience.
 
-### Codeless
+## Codeless
 - [`Reaktor 6`] by Native Instruments
   - A popular modular environment for creating DSP without code.
   - Has a sizeable community.
@@ -24,7 +24,7 @@ A list of software tools that are useful for quickly and easily prototyping DSP.
   - Free and open source.
   - Runs on Linux, Mac, and Windows.
 
-### Easy Code
+## Easy Code
 - [`CSound`]
   - A custom scripting language that is easy to learn and use.
   - Well-known and long standing in the industry.

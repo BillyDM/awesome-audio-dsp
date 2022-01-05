@@ -1,7 +1,7 @@
 # Open Source Plugins & Software
 A list of open source audio software that you can inspect and learn from.
 
-### Collections
+## Collections
 - [`Airwindows Plugins`] - Many, many good quality effects and experiments developed over many years.
   There are a *ton* of plugins here, so here is a list of community favorites:
   - [`density`]
@@ -17,7 +17,7 @@ A list of open source audio software that you can inspect and learn from.
 - [`DISTRHO Plugin Framework`] - A bunch more open-source plugins are listed here.
 - [`lkjb plugins`] - Additional plugins made by the creator of [`Luftikus`].
 
-### Synths
+## Synths
 - [`Vital`] - An incredibly powerful and high quality modern synthesizer. Rivals that of Xfer Serum and NI Massive.
 - [`Helm`] - High-quality modern monophonic synthesizer. The older sibling to Vital. The oscillators are not stereo though.
 - [`Surge`] - Feature-rich hybrid synthesizer that was once sold as a commercial product.
@@ -33,7 +33,7 @@ A list of open source audio software that you can inspect and learn from.
 - [`Sfizz`] - A sampler that plays [`SFZ`] files. (SFZ is like SoundFonts but with more features).
 - [`Bespoke Synth`] - A very modular synthesizer with support for complex routing, modulation, and sequencing. It can even host VST plugins, blurring the lines between synth and DAW.
 
-### Audio FX
+## Audio FX
 - [`Wolf Shaper`] - Good quality waveshaper with support for unlimited nodes.
 - [`Mverb`] - Nice-sounding plate reverb.
 - [`Dragonfly Reverb`] - Algorithmic reverb based on [`Freeverb`].
@@ -46,18 +46,18 @@ A list of open source audio software that you can inspect and learn from.
 - [`DelayArchitect`] - A feature-rich delay designer plugin.
 - [`TimeStretch`] - A refinement of the famous [`PaulStretch`] time stretching effect. Includes a PDF explaining the DSP.
 
-### MIDI FX
+## MIDI FX
 - [`Helio Workstation`] - A very modern and feature-rich sequencer.
 - [`QMidiArp`] - Advanced arpeggiator, sequencer, and MIDI LFO.
 - [`Stochas`] - An advanced probabilistic polyrythmic sequencer. Made by the same team behind the [`Surge`] synthesizer.
 
-### Meters & Visualizers
+## Meters & Visualizers
 - [`Spectacle`] - Modern real-time spectrum analyzer plugin.
 - [`Wolf Spectrum`] - Real-time heat-map spectrum analyzer plugin.
 - [`EasySSP`] - Real-time spectrum analyzer and stereo analyzer plugin.
 - [`LUFS Meter`] - Real-time loudness meter with support for several international loudness standards.
 
-### DAWs & Hosts
+## DAWs & Hosts
 - [`Meadowlark`] - Definitely biased here since this is my main project that I work on full-time. It's still in its very early stages, but check it out if you're interested in contributing! :)
 - [`Ardour`] - Feature-rich DAW. Focuses more on recorded music production over electronic music production.
 - [`LMMS`] - Feature-rich DAW focused on electronic music production. Contains many built-in synths and effects.
@@ -66,7 +66,7 @@ A list of open source audio software that you can inspect and learn from.
 - [`Bespoke Synth`] - A very modular synthesizer with support for complex routing, modulation, and sequencing. It can even host VST plugins, blurring the lines between synth and DAW.
 - [`termdaw`] - A neat little DAW experiment that uses a terminal as its interface instead of a GUI.
 
-### Musical Notation
+## Musical Notation
 - [`MuseScore`] - A popular and mature open-source sheet music editor.
 - [`composing.studio`] - An experimental open-source web app that allows you to collaborate on editing sheet music.
 

@@ -3,7 +3,7 @@ Learning resources and tools for the mathematics of audio DSP.
 
 DSP (Digital Signal Processing) is the study of using a digital computer to process what is normally thought of as an analogue signal (such as sound). Unfortunately (or fortunately depending on who you are 😉), the reality is that DSP is quite a math heavy field. However, the math needed to get started is not *too* difficult in my opinion. Knowing high-school level math and some of the basics of college-level math will get you most of the way there.
 
-### Prerequisites
+## Prerequisites
 I recommend knowing at least these fundamental concepts in order best get started with learning DSP:
 - Algebra dealing with polynomials, fractions, and exponents (exponents are especially important here)
 - Basic trigonometry like sine, cosine, tangent, arctangent, etc.
@@ -13,7 +13,7 @@ I recommend knowing at least these fundamental concepts in order best get starte
 - Basic knowledge of calculus such as derivatives and integrals. (You *can* get by without this, but it will really help you to understand why things are the way they are.)
   - In the topic of calculus, basic knowledge of what differential equations are why there are important will also help (although I'm not talking about how to actually *solve* differential equations, because they are "really freakin' hard to solve" to put it lightly)
 
-### Learning Resources
+## Learning Resources
 
 - [`3Blue1Brown`] - An excellent YouTube channel on complex algebra, linear algebra, calculus, and differential equations.
   - His videos on [`Euler's Formula`] and the [`Fourier Transform`] are particularly excellent.
@@ -23,7 +23,7 @@ I recommend knowing at least these fundamental concepts in order best get starte
 - This video on the [`Laplace Transform`] by Zach Star.
 - [`Khan Academy`] - Free college-level courses.
 
-### Tools
+## Tools
 - [`Desmos`] - Free online graphing calculator.
 - [`Wolfram Alpha`] - A helpful math partner.
 - [`Symbolab`] - Another helpful math partner.
