@@ -30,5 +30,6 @@ A list of free online textbooks on audio DSP.
 [`project μ`]: https://mu.krj.st/
 [`The Scientist and Engineer's Guide to Digital Signal Processing`]: http://www.dspguide.com/pdfbook.htm
 [`Julius Orion Smith III Collection`]: https://ccrma.stanford.edu/~jos/
+[`GNU Octave`]: https://www.gnu.org/software/octave/index
 [`The Art of VA Filter Design`]: https://www.native-instruments.com/fileadmin/ni_media/downloads/pdf/VAFilterDesign_2.1.2.pdf
 [`The Theory and Technique of Electronic Music`]: http://msp.ucsd.edu/techniques.htm
