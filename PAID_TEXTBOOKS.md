@@ -25,4 +25,5 @@ A list of non-free textbooks on audio DSP.
 [`A Digital Signal Processing Primer`]: https://www.amazon.com/Digital-Signal-Processing-Primer-Applications/dp/0486845834
 [`DAFX: Digital Audio Effects`]: https://www.amazon.com/DAFX-Digital-Effects-Udo-Z%C3%B6lzer/dp/0470665998
 [`DAFx`]: http://www.dafx.de/
+[`GNU Octave`]: https://www.gnu.org/software/octave/index
 [`Digital Signal Processing: Concepts and Applications`]: https://www.amazon.com/Digital-Signal-Processing-Concepts-Applications-ebook/dp/B015OLJ5JG/

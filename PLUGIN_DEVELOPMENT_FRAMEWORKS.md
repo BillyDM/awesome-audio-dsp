@@ -68,7 +68,7 @@ A list of software stacks/frameworks used to make audio plugins, along with thei
   - Targets VST2, VST3, AUv2, AUv3, AAX and the Web Audio Module (WAM) plugin formats.
   - Targets Mac, Windows, iOS, and Web. It does not target Linux, so I'm personally not a fan of this one.
 
-[`VST3 License Agreement`]: https://developer.steinberg.help/pages/viewpage.action?pageId=9797944
+[`Steinberg's VST3 License`]: https://developer.steinberg.help/display/VST/VST+3+Licensing
 
 [`vst-rs`]: https://github.com/RustAudio/vst-rs
 [`baseplug`]: https://github.com/wrl/baseplug

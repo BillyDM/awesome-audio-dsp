@@ -22,7 +22,7 @@ My curated list of audio DSP (digital signal processing) and plugin development 
 [`DSP Playgrounds`]: DSP_PLAYGROUNDS.md
 [`Mathematics`]: MATHEMATICS.md
 [`Algorithms & Technical Papers`]: ALGORITHMS_AND_TECHNICAL_PAPERS.md
-[`Machine Learning]: MACHINE_LEARNING.md
+[`Machine Learning`]: MACHINE_LEARNING.md
 [`Open Source Plugins & Software`]: OPEN_SOURCE_PLUGINS_AND_SOFTWARE.md
 [`Sound Design & Music Production`]: SOUND_DESIGN_AND_MUSIC_PRODUCTION.md
 [`Software Optimization`]: SOFTWARE_OPTIMIZATION.md
