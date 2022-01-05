@@ -374,11 +374,11 @@ LADSPA is the precursor to LV2.
 ### CLAP
   - Why?: A brand new fully open-source plugin standard with no licensing restrictions. It was started by an employee of the Bitwig DAW and has since gotten development support from several key players in the audio industry. It is built from the ground up by people with real-world experience developing audio software, and such it is designed to fit the needs of actual developers as much as possible. It is written in a stable header-only C API, making it easy to create bindings to it in any programming language.
   - Why Not?: The standard is very young (or at-least the latest incarnation of it is young). So young that no DAW actually supports it yet aside from maybe some unrealeased development builds. Also, the spec is still a work in progress and is subject to change before the final release. The reason I am talking about it here is because I am hopeful this will become the plugin standard of the future. It's an exciting time to be an audio developer! Please join the discussions in the issues tab of the [`CLAP SDK`] repository if you are interested!
-  - Why not just improve LV2? The developers of CLAP have had many issues with the core design decisions of LV2 (which I won't get into here), and the maintainers of LV2 were not open to changing it. These flawed design decisions are in my opinion a big reason why LV2 has not had any adoption outside of Linux and open-source DAWs.
+  - Why not just improve LV2? The developers of CLAP have had many issues with the core design decisions of LV2 (which I won't get into here), and the maintainers of LV2 were not open to changing it. These flawed design decisions are in my opinion a big reason why LV2 has not had any real adoption outside of Linux and open-source DAWs.
   - License: [`MIT`]
   - Platforms: Linux, Mac, Windows, iOS, Android
   - Support: Not supported by any DAW yet aside from maybe some unreleased development builds.
-  - Distribution - You can distribute open source and close sourced versions of your plugins (and host LV2 plugins) freely without restriction.
+  - Distribution - You can distribute open source and close sourced versions of your plugins (and host CLAP plugins) freely without restriction.
   - SDK source: [`CLAP SDK`]
 ### WAP (Web Audio Plugins)
 An open source audio plugin standard for use with web browsers using WebAudio.
