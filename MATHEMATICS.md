@@ -11,7 +11,7 @@ I recommend knowing at least these fundamental concepts in order best get starte
 - Complex (imaginary) numbers & complex algebra (using algebra with complex numbers). (Yes, imaginary numbers do actually have a real-world use and are a core pillar of DSP mathematics.)
 - Basic knowledge of linear algebra (the study of transforming data with matrices). (You *can* get by without this, but this is really helpful when it comes to actually implementing the mathematics into code.)
 - Basic knowledge of calculus such as derivatives and integrals. (You *can* get by without this, but it will really help you to understand why things are the way they are.)
-  - In the topic of calculus, basic knowledge of what differential equations are why there are important will also help (although I'm not talking about how to actually *solve* differential equations, because they are "really freakin' hard to solve" to put it lightly)
+  - In the topic of calculus, basic knowledge of what differential equations are and why they are important will also help (although I'm not talking about how to actually *solve* differential equations, because they are "really freakin' hard to solve" to put it lightly)
 
 ## Learning Resources
 
