@@ -9,8 +9,6 @@ Tips and tools for optimizing audio software.
 - [`Real-time audio programming 101`] - Tips on writing real-time code.
 - [`The Rust Performance Book`] - Tips on optimizing code in Rust.
 - [`How-to Optimize Rust Programs on Linux`] - How-to guide on profiling Rust code on Linux.
-- Follow these rules:
-  ![DSP Rules](fast_dsp.png?raw=true)
 
 [`Fast-DSP-Approximations`]: https://github.com/BillyDM/Fast-DSP-Approximations
 [`Intel Intrinsics Guide`]: https://software.intel.com/sites/landingpage/IntrinsicsGuide
