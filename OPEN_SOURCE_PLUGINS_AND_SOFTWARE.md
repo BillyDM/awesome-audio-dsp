@@ -16,6 +16,7 @@ A list of open source audio software that you can inspect and learn from.
 - [`Shiru Plugins`] - A suite of old video-game sound chips synths and effects.
 - [`DISTRHO Plugin Framework`] - A bunch more open-source plugins are listed here.
 - [`lkjb plugins`] - Additional plugins made by the creator of [`Luftikus`].
+- [`SOUL-VA`] - A non-trivial virtual analog filter library written in [`SOUL`]. Plugin versions are also sold as commercial products.
 
 ## Synths
 - [`Vital`] - An incredibly powerful and high quality modern synthesizer. Rivals that of Xfer Serum and NI Massive.
@@ -83,6 +84,8 @@ A list of open source audio software that you can inspect and learn from.
 [`Shiru Plugins`]: https://github.com/linuxmao-org/shiru-plugins
 [`DISTRHO Plugin Framework`]: https://github.com/DISTRHO/DPF
 [`lkjb plugins`]: https://github.com/lkjbdsp/lkjb-plugins
+[`SOUL-VA`]: https://github.com/thezhe/SOUL-VA
+[`SOUL`]: https://github.com/soul-lang/SOUL
 
 [`Vital`]: https://github.com/mtytel/vital
 [`Helm`]: https://github.com/mtytel/helm
