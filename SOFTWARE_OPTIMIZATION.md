@@ -7,6 +7,7 @@ Tips and tools for optimizing audio software.
 - [`Software Optimization Resources`] - A popular resource on optimizing for x86 based architectures.
 - [`Agner Fog's Instruction Tables`] - A useful table that lists the latency and throughput performance of various x86 instructions.
 - [`Real-time audio programming 101`] - Tips on writing real-time code.
+- [`Auto-Vectorization in LLVM`] - Tips and tricks on how to structure your code to most effectively take advantage of auto-vectorization.
 - [`The Rust Performance Book`] - Tips on optimizing code in Rust.
 - [`How-to Optimize Rust Programs on Linux`] - How-to guide on profiling Rust code on Linux.
 
@@ -16,5 +17,6 @@ Tips and tools for optimizing audio software.
 [`Software Optimization Resources`]: https://www.agner.org/optimize/
 [`Agner Fog's Instruction Tables`]: https://www.agner.org/optimize/instruction_tables.pdf
 [`Real-time audio programming 101`]: http://www.rossbencina.com/code/real-time-audio-programming-101-time-waits-for-nothing
+[`Auto-Vectorization in LLVM`]: https://llvm.org/docs/Vectorizers.html
 [`The Rust Performance Book`]: https://nnethercote.github.io/perf-book/title-page.html
 [`How-to Optimize Rust Programs on Linux`]: http://www.codeofview.com/fix-rs/2017/01/24/how-to-optimize-rust-programs-on-linux/
