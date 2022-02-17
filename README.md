@@ -6,6 +6,7 @@ My curated list of audio DSP (digital signal processing) and plugin development 
 - [`DSP Playgrounds`] - Software tools that are useful for quickly and easily prototyping DSP.
 - [`Mathematics`] - Learning resources and tools for the mathematics of audio DSP.
 - [`Algorithms & Technical Papers`] - A list of useful articles, blogs, and scientific papers on modern algorithms and techniques for audio DSP.
+- [`Electronics & Embedded`] - Resources for developing analog and embedded hardware systems.
 - [`Machine Learning`] - A few resources on this popular and powerful technology.
 - [`Open Source Plugins & Software`] - A list of open source audio software that you can inspect and learn from.
 - [`Sound Design & Music Production`] - While this is not *strictly* development related, knowing how plugins are actually used to make and edit sound can give valuable insight.
@@ -17,11 +18,17 @@ My curated list of audio DSP (digital signal processing) and plugin development 
 - [`Forums`] - A list of audio-development-related forums you can join.
 - [`More Lists`] - Here I'll link curated lists of resources that others have made.
 
+## "If I'm a total noob, where should I start?"
+- [`project μ`]: An excellent and free online blog that neatly explains the basics of DSP.
+- [`Designing Software Synthesizer Plug-Ins in C++`] and [`Designing Audio Effect Plugins in C++`] by Will Pirkle
+    - These textbooks are a common recommendation to beginners.
+
 [`Free Online Textbooks`]: FREE_ONLINE_TEXTBOOKS.md
 [`Paid Textbooks`]: PAID_TEXTBOOKS.md
 [`DSP Playgrounds`]: DSP_PLAYGROUNDS.md
 [`Mathematics`]: MATHEMATICS.md
 [`Algorithms & Technical Papers`]: ALGORITHMS_AND_TECHNICAL_PAPERS.md
+[`Electronics & Embedded`]: ELECTRONICS_AND_EMBEDDED.md
 [`Machine Learning`]: MACHINE_LEARNING.md
 [`Open Source Plugins & Software`]: OPEN_SOURCE_PLUGINS_AND_SOFTWARE.md
 [`Sound Design & Music Production`]: SOUND_DESIGN_AND_MUSIC_PRODUCTION.md
@@ -32,3 +39,6 @@ My curated list of audio DSP (digital signal processing) and plugin development 
 [`Plugin Development Frameworks`]: PLUGIN_DEVELOPMENT_FRAMEWORKS.md
 [`Forums`]: FORUMS.md
 [`More Lists`]: MORE_LISTS.md
+[`project μ`]: https://mu.krj.st/
+[`Designing Software Synthesizer Plug-Ins in C++`]:  https://www.amazon.com/Designing-Software-Synthesizer-Plug-Ins-Audio/dp/0367510480
+[`Designing Audio Effect Plugins in C++`]: https://www.amazon.com/Designing-Audio-Effect-Plugins-C/dp/1138591939

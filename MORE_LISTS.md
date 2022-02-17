@@ -5,8 +5,10 @@ Here I'll link curated lists of resources that others have made.
 - [`dsp-learning`] by crsaracco
 - [`Awesome Rust Audio`] by kfrncs
 - [`Useful Links for DSP and Audio Programming`] from rust.audio
+- [`Awesome Electronics`] - An excellent and detailed list of resources for electronics engineering, focused on low-power DC circuits.
 
 [`Valhalla Blog`]: https://valhalladsp.com/blog/
 [`dsp-learning`]: https://github.com/crsaracco/dsp-learning
 [`Awesome Rust Audio`]: https://github.com/kfrncs/awesome-rust-audio
 [`Useful Links for DSP and Audio Programming`]: https://rust.audio/articles/useful-resources/
+[`Awesome Electronics`]: https://github.com/kitspace/awesome-electronics

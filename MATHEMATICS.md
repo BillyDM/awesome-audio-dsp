@@ -30,6 +30,7 @@ I recommend knowing at least these fundamental concepts in order best get starte
 - [`GNU Octave`] - An open-source alternative to MATLAB. There is also an [`online version of GNU Octave`] available.
   - [`Signal package`] - Signal processing tools for [`GNU Octave`], including filtering, windowing and display functions.
 - [`Curcuit JS`] - A cool little circuit simulation tool.
+- [`Awesome Electronics - Simulators`]: This awesome list has a list of useful circuit simulation tools.
 - [`Russell`] - A collection of tools that assist in the development of scientific computations (and by extension audio DSP). It includes numerical methods and solvers for differential equations, tools for statistical analysis, and other linear algebra tools. It is written in the [`Rust`] programming lanugage.
 
 [`3Blue1Brown`]: https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw
@@ -47,5 +48,6 @@ I recommend knowing at least these fundamental concepts in order best get starte
 [`online version of GNU Octave`]: https://octave-online.net/
 [`Signal package`]: https://octave.sourceforge.io/signal/index.html
 [`Curcuit JS`]: https://www.falstad.com/circuit/circuitjs.html
+[`Awesome Electronics - Simulators`]: https://github.com/kitspace/awesome-electronics#analog-and-mixed-signal-circuit-simulators
 [`Russell`]: https://github.com/cpmech/russell
 [`Rust`]: https://www.rust-lang.org/
