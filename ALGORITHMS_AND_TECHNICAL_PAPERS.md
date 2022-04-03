@@ -5,6 +5,7 @@ A list of useful articles, blogs, and scientific papers on modern algorithms and
 - [`DAFx`] - An archive of scientific papers and presentations given during an annual DSP research conference.
 - [`deip.pdf`] - High quality resampling and oversampling.
 - [`Signalsmith Audio Blog`] - An amazing and very useful collection of articles by Signalsmith Audio. The [`Let's Write A Reverb`] article is particularly excellent.
+- [`Freeverb3 - DSP References`] - A huge list of technical DSP resources focused mainly on reverb design.
 - [`Valhalla Blog`] - Valhalla DSP has an excellent blog linking many resources that helped them create their industry-leading reverbs.
 - [`Freeverb`] - An open-source reverb algorithm.
 - [`katjaas`] - Neat visual explanations of DSP mathematics and techniques.
@@ -17,6 +18,7 @@ A list of useful articles, blogs, and scientific papers on modern algorithms and
 [`DAFx`]: http://www.dafx.de/
 [`deip.pdf`]: https://github.com/BillyDM/Audio-DSP-Resources/blob/main/deip.pdf
 [`Signalsmith Audio Blog`]: https://signalsmith-audio.co.uk/writing/
+[`Freeverb3 - DSP References`]: https://freeverb3vst.osdn.jp/ref.shtml
 [`Let's Write A Reverb`]: https://signalsmith-audio.co.uk/writing/2021/lets-write-a-reverb/
 [`Valhalla Blog`]: https://valhalladsp.com/blog/
 [`Freeverb`]: https://ccrma.stanford.edu/~jos/pasp/Freeverb.html
