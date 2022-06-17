@@ -33,6 +33,7 @@ A list of open source audio software that you can inspect and learn from.
 - [`Synth2`] - A recreation of the classic Synth1 virtual synth. (Still a work in progress).
 - [`Sfizz`] - A sampler that plays [`SFZ`] files. (SFZ is like SoundFonts but with more features).
 - [`Bespoke Synth`] - A very modular synthesizer with support for complex routing, modulation, and sequencing. It can even host VST plugins, blurring the lines between synth and DAW.
+- [`OctaSine`] - A versitile FM synth written in full-stack [`Rust`].
 
 ## Audio FX
 - [`Wolf Shaper`] - Good quality waveshaper with support for unlimited nodes.
@@ -102,6 +103,7 @@ A list of open source audio software that you can inspect and learn from.
 [`Sfizz`]: https://github.com/sfztools/sfizz
 [`SFZ`]: https://sfzformat.com/
 [`Bespoke Synth`]: https://github.com/BespokeSynth/BespokeSynth
+[`OctaSine`]: https://github.com/greatest-ape/OctaSine
 
 [`Wolf Shaper`]: https://github.com/pdesaulniers/wolf-shaper
 [`Mverb`]: https://github.com/DISTRHO/MVerb
@@ -136,3 +138,5 @@ A list of open source audio software that you can inspect and learn from.
 
 [`MuseScore`]: https://musescore.org
 [`composing.studio`]: https://github.com/ekzhang/composing.studio
+
+[`Rust`]: https://www.rust-lang.org/
