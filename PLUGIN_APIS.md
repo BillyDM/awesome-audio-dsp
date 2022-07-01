@@ -1,9 +1,20 @@
 # Plugin APIs
 There are quite a few audio plugin API standards which allow your plugin be compatible with certain DAWs and hosts. I'll list the most relevant ones today and their advantages/disadvantages.
 
+(If you just want one recommendation from me, go for the CLAP plugin standard.)
+
+## CLAP
+  - Why?: A brand new fully free and open-source plugin standard with no licensing restrictions. It was started by an employee of the Bitwig DAW and has since gotten development support from several key players in the audio industry. It is built from the ground up by people with real-world experience developing audio software, and such it is designed to fit the needs of actual developers as much as possible. It is written in a stable header-only C API, making it easy to create bindings to it in any programming language.
+  - Why Not?: It is still kind-of young, and only a handful of DAWs support this standard. But this is changing pretty quick, and expect many more DAWs to adpot this standard!
+  - License: [`MIT`]
+  - Platforms: Linux, Mac, Windows, Android, iOS
+  - Support: Currently only supported by a handful of DAWs such as Bitwig, MultitrackStudio, and QTractor, but more DAWs are currently in the works to adopt this standard.
+  - Distribution - You can distribute open source and close sourced versions of your plugins (and host CLAP plugins) freely without restriction.
+  - SDK source: [`CLAP SDK`] (also includes links to examples)
+
 ## VST2 (aka VST, version 2)
   - Why?: It is the most well-known and mature format, supported by almost every DAW.
-  - Why Not?: Unless you already have a signed license agreement from Steinberg, you're not even allowed to distribute your VST2 plugins or create a host for VST2 plugins (yeah it stinks).
+  - Why Not?: Unless you already have a signed license agreement from Steinberg, you're not even allowed to distribute your VST2 plugins or create a host for VST2 plugins.
   - License: Proprietary
   - Platforms: Linux, Mac, Windows
   - Support: Supported by pretty much every commercial DAW (with notable exception of Apple's DAW Logic) and by most open source DAWs.
@@ -11,7 +22,7 @@ There are quite a few audio plugin API standards which allow your plugin be comp
   - SDK source: (Not available anymore).
 
 ## Vestige (Reversed engineered VST2)
-  - Why?: If you still *really* want to distribute or host VST2 plugins without a signed license agreement, this is another option.
+  - Why?: If you still *really* need to distribute or host VST2 plugins without a signed license agreement, this is another option.
   - Why Not?: Gray legal area.
   - License: *Technically* [`GPLv2`]/[`GPLv3`], but again this is a gray legal area. It is technically legal since the author claims it to be cleanly and legally reverse engineered without reference to the official VST2 SDK. However, I don't believe this has been tested in court, so I wouldn't rely on it.
   - Platforms: Same as VST2 above.
@@ -21,19 +32,18 @@ There are quite a few audio plugin API standards which allow your plugin be comp
 
 ## VST3 (aka VST version 3)
   - Why?: This plugin standard is widely used and has excellent support in most modern commercial DAWs.
-  - Why Not?: Requires a signed license agreement with Steinberg in order to distribute commercial (closed source) VST3 plugins (or to host VST3 plugins in a closed source host). Also, Steinberg makes it hard to bind this C++ library to use with other languages (like [`Rust`]).
+  - Why Not?: Requires a signed license agreement with Steinberg in order to distribute commercial (closed source) VST3 plugins (or to host VST3 plugins in a closed source host). Also, the standard is based on a large and complicated C++ codebase, and Steinberg is not on-board with people distributing bindings to other languages (like [`Rust`]).
   - License: Proprietary / [`GPLv3`]
   - Platforms: Linux, Mac, Windows
   - Support: Supported by most modern commercial DAWs (with notable exception of Apple's DAW Logic) and a few open source DAWs.
   - Distribution - If you are distributing your plugin with the [`GPLv3`] open source license (or host VST3 plugins with your own [`GPLv3`] host), then you do not need to have a signed license agreement with Steinberg. However, if you want to distribute your plugin closed source (for commercial purposes) or create a closed-source host, then you need to get a signed [`VST3 License Agreement`].
     - Also note that Steinberg has a history of changing their license agreements for however they see fit (like they did when they stopped giving out VST2 licenses). If you want to ever distribute plugins commerically, I would advise to get a license agreement as soon as possible before Steinberg changes their mind.
-  - Special note - Steinberg is making it difficult to legally create bindings to the VST3 SDK so it can be used with other programming languages (the SDK is in C++). As a Rust developer myself, this has been a big pain in the backside. There have been proposed lawsuits that aim to prevent companies from doing this, but who knows what the future will hold? (By now you can probably see why a lot of the audio industry has an issue with Steinberg).
   - SDK download: [`VST3 SDK`]
 
 ## AUv2/AUv3 (aka AU or Audio Units, version 2 and 3)
   - License: [`Apache 2.0`]
   - Platforms: Mac, iOS
-  - Support: Main support is for Apple's own DAW Logic, but a few other DAWs that run on Mac support it as well. AU is the only plugin standard supported by Logic.
+  - Support: Main support is for Apple's own Logic DAW, but a few other DAWs that run on Mac support it as well. AU is the only plugin standard supported by Logic.
   - Distribution - You can distribute open source and close sourced versions of your plugins (and host AU plugins) freely without restriction.
   - SDK source: [`AU SDK`]
 
@@ -48,9 +58,9 @@ This is a proprietary plugin standard for use exclusively with Avid's DAW Pro To
   - SDK source: (must register to download)
 
  ## LV2
- LV2 is a libre open source plugin standard created for use within the Linux ecosystem.
+ LV2 is a free and open source plugin standard created for use within the Linux ecosystem.
   - Why?: Even though support on Mac and Windows is rare, Linux has by far the best development ecosystem in my opinion. There is also a growing community of music producers using Linux.
-  - Why Not?: Lack of support in most major commercial DAWs.
+  - Why Not?: Lack of support in most major commercial DAWs, and the new CLAP spec makes this standard obselete in my opinion.
   - License: [`MIT`]
   - Platforms: Linux, Mac, Windows (Although support for Mac and Windows is rare.)
   - Support: Supported by most open-source DAWs, but hardly any commercial DAWs support it (maybe even none of them do).
@@ -61,26 +71,16 @@ This is a proprietary plugin standard for use exclusively with Avid's DAW Pro To
 ## LADSPA
 LADSPA is the precursor to LV2.
   - Why?: It is dead simple to work with.
-  - Why Not?: Lack of support in most major commercial DAWs. Also, LADSPA only supports GUI-less plugins.
+  - Why Not?: Lack of support in most major commercial DAWs. Also, LADSPA only supports GUI-less plugins. Again, the new CLAP spec makes this standard obselete in my opinion.
   - License: [`LGPLv2.1`]/[`LGPLv3`]
   - Platforms: Same as LV2 above
   - Support: Same as LV2 above
   - Distribution: Same as LV2 above
   - SDK source: [`LADSPA Header File`]
 
-## CLAP
-  - Why?: A brand new fully open-source plugin standard with no licensing restrictions. It was started by an employee of the Bitwig DAW and has since gotten development support from several key players in the audio industry. It is built from the ground up by people with real-world experience developing audio software, and such it is designed to fit the needs of actual developers as much as possible. It is written in a stable header-only C API, making it easy to create bindings to it in any programming language.
-  - Why Not?: The standard is very young (or at-least the latest incarnation of it is young). So young that no DAW actually supports it yet aside from maybe some unrealeased development builds. Also, the spec is still a work in progress and is subject to change before the final release. The reason I am talking about it here is because I am hopeful this will become the plugin standard of the future. It's an exciting time to be an audio developer! Please join the discussions in the issues tab of the [`CLAP SDK`] repository if you are interested!
-  - Why not just improve LV2? The developers of CLAP have had many issues with the core design decisions of LV2 (which I won't get into here), and the maintainers of LV2 were not open to changing it. These flawed design decisions are in my opinion a big reason why LV2 has not had any real adoption outside of Linux and open-source DAWs.
-  - License: [`MIT`]
-  - Platforms: Linux, Mac, Windows (and possibly Android and iOS at some point?)
-  - Support: Not supported by any DAW yet aside from maybe some unreleased development builds.
-  - Distribution - You can distribute open source and close sourced versions of your plugins (and host CLAP plugins) freely without restriction.
-  - SDK source: [`CLAP SDK`] (also includes links to examples)
-
 ## WAP (Web Audio Plugins)
 An open source audio plugin standard for use with web browsers using WebAudio.
-  - Why?: If you want create plugins using web technologies if that is something you are already familiar with.
+  - Why?: If you want to target web-based DAWs.
   - Why Not?: Only works in a web browser, so all native DAWs don't support it.
   - License: [`MIT`]
   - Platforms: Web
