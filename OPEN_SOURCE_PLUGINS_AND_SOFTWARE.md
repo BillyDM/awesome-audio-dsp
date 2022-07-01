@@ -39,8 +39,10 @@ A list of open source audio software that you can inspect and learn from.
 ## Audio FX
 - [`Wolf Shaper`] - Good quality waveshaper with support for unlimited nodes.
 - [`Mverb`] - Nice-sounding plate reverb.
+- [`Room Reverb`] - Nice sounding algorithmic reverb based on [`Freeverb`].
 - [`Dragonfly Reverb`] - Algorithmic reverb based on [`Freeverb`].
 - [`CloudReverb`] - Beautiful shimmering reverb based on the `CloudSeed` plugin by Valdemar Erlingsson. I choose this over the original as that uses a Windows-only C# platform for its GUI.
+  - There is also a port of this plugin with a GUI called [`Aether`].
 - [`Luftikus`] - Good quality analogue modeled equalizer.
 - [`Fogpad`] - Reverb plugin where reflections can be frozen, filtered, pitch-shifted, and mangled.
 - [`Misstortion`] - Good quality hard/soft clipper.
@@ -109,9 +111,11 @@ A list of open source audio software that you can inspect and learn from.
 
 [`Wolf Shaper`]: https://github.com/pdesaulniers/wolf-shaper
 [`Mverb`]: https://github.com/DISTRHO/MVerb
+[`Room Reverb`]: https://github.com/cvde/RoomReverb
 [`Dragonfly Reverb`]: https://github.com/michaelwillis/dragonfly-reverb
 [`Freeverb`]: https://ccrma.stanford.edu/~jos/pasp/Freeverb.html
 [`CloudReverb`]: https://github.com/xunil-cloud/CloudReverb
+[`Aether`]: https://github.com/Dougal-s/Aether
 [`Luftikus`]: https://github.com/lkjbdsp/lkjb-plugins/tree/master/Luftikus
 [`Fogpad`]: https://github.com/linuxmao-org/fogpad-port
 [`Misstortion`]: https://github.com/nimbletools/misstortion1
