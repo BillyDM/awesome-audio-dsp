@@ -41,7 +41,7 @@ A list of software stacks/frameworks used to make audio plugins, along with thei
 ## [`iPlug2`]
   - Full-stack framework in C++ with GUI.
   - Fully open-source using a permissive license.
-  - Targets VST2, VST3, AUv2, AUv3, AAX and the Web Audio Module (WAM) plugin formats.
+  - Targets VST2, VST3, AUv2, AUv3, AAX and the Web Audio Module (WAM) plugin formats (also support for CLAP is in the works).
   - Targets Mac, Windows, iOS, and Web. It does not target Linux, so I'm personally not a fan of this one.
 
 [`Steinberg's VST3 License`]: https://developer.steinberg.help/display/VST/VST+3+Licensing
