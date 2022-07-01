@@ -20,6 +20,7 @@ A list of open source audio software that you can inspect and learn from.
 
 ## Synths
 - [`Vital`] - An incredibly powerful and high quality modern synthesizer. Rivals that of Xfer Serum and NI Massive.
+  - There is also a fully GPLv3-licensed fork called [`Vitalium`] that has all the non-GPL stuff removed.
 - [`Helm`] - High-quality modern monophonic synthesizer. The older sibling to Vital. The oscillators are not stereo though.
 - [`Surge`] - Feature-rich hybrid synthesizer that was once sold as a commercial product.
 - [`Monique Mono-Synth`] - High-quality subtractive monophonic synth. Now open source!
@@ -89,6 +90,7 @@ A list of open source audio software that you can inspect and learn from.
 [`SOUL`]: https://github.com/soul-lang/SOUL
 
 [`Vital`]: https://github.com/mtytel/vital
+[`Vitalium`]: https://github.com/DISTRHO/DISTRHO-Ports/tree/master/ports-juce6/vitalium
 [`Helm`]: https://github.com/mtytel/helm
 [`Surge`]: https://github.com/surge-synthesizer/surge
 [`Monique Mono-Synth`]: https://github.com/surge-synthesizer/monique-monosynth
