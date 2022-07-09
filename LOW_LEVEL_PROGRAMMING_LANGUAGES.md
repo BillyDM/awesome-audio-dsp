@@ -56,6 +56,7 @@ Here I'll list the best languages to use for serious DSP and their pros and cons
   - The language is still relatively young, so library support such as GUIs and audio plugin development are not even close to the level of support C++ has. (I am however personally working on some of these Rust audio plugin libraries. If you are interested in helping with development, please check out the [`Rust Audio Discord Server`]!)
 - Resources:
   - [`Rust Book`] - The fantastic official online book on learning Rust.
+  - [`Rust By Practice`] - A great unofficial online book that helps you learn Rust through excersises.
   - [`Learn Rust the Dangerous Way`] - Tips on writing low-level Rust code from a C background.
   - [`The Rust Performance Book`] - Tips on optimizing code in Rust.
   - [`How-to Optimize Rust Programs on Linux`] - How-to guide on profiling Rust code on Linux.
@@ -89,6 +90,7 @@ Here I'll list the best languages to use for serious DSP and their pros and cons
 [`Rust`]: https://www.rust-lang.org/
 [`Rust Audio Discord Server`]: https://discord.gg/Qs2Zwtf9Gf
 [`Rust Book`]: https://doc.rust-lang.org/stable/book/
+[`Rust By Practice`]: https://practice.rs/why-exercise.html
 [`Learn Rust the Dangerous Way`]: http://cliffle.com/p/dangerust/
 [`The Rust Performance Book`]: https://nnethercote.github.io/perf-book/title-page.html
 [`How-to Optimize Rust Programs on Linux`]: http://www.codeofview.com/fix-rs/2017/01/24/how-to-optimize-rust-programs-on-linux/
