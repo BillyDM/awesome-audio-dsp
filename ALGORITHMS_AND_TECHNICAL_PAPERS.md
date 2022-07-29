@@ -3,6 +3,8 @@ A list of useful articles, blogs, and scientific papers on modern algorithms and
 
 - [`Cytomic Technical Papers`] - Excellent real-world useable filters and explanations by Cytomic. Use these as a better alternative to Biquad filters that behave much better while being modulated.
 - [`DAFx`] - An archive of scientific papers and presentations given during an annual DSP research conference.
+- [`ADC Videos`] - This YouTube channel hosts a bunch of talks and lectures given during the annual [`Audio Developer's Conference`].
+  - This one on [`high quality wavetable oscillators`] by the creator of the Vital synth is particularly good one for those interested in wavetable synthesis.
 - [`deip.pdf`] - High quality resampling and oversampling.
 - [`Signalsmith Audio Blog`] - An amazing and very useful collection of articles by Signalsmith Audio. The [`Let's Write A Reverb`] article is particularly excellent.
 - [`Freeverb3 - DSP References`] - A huge list of technical DSP resources focused mainly on reverb design.
@@ -29,3 +31,6 @@ A list of useful articles, blogs, and scientific papers on modern algorithms and
 [`TimeStretch`]: https://github.com/spluta/TimeStretch
 [`TimeStretch PDF`]: https://github.com/spluta/TimeStretch/blob/main/NessStretchICMC_Final.pdf
 [`PaulStretch`]: http://hypermammut.sourceforge.net/paulstretch/
+[`ADC Videos`]: https://www.youtube.com/c/JUCElibrary/featured
+[`Audio Developer's Conference`]: https://audio.dev/
+[`high quality wavetable oscillators`]: https://www.youtube.com/watch?v=qlinVx60778
