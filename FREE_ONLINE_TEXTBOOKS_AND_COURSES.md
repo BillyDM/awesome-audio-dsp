@@ -11,6 +11,9 @@ A list of free online textbooks on audio DSP.
   - A common recommendation from many folks.
   - Focuses on DSP in general, not just audio DSP.
 
+- [`MIT OCW: Signals and Systems`] by Prof. Dennis Freeman 
+  - A free online college level course including pre-recorded video lectures, lecture notes, and assignments.
+
 - [`Julius Orion Smith III Collection`]
   - A great collection of books and resources by Julius Orion Smith III.
   - Very comprehensive, and covers many topics on the mathematics and applications of audio DSP. Good for getting a solid foundation.
@@ -33,3 +36,4 @@ A list of free online textbooks on audio DSP.
 [`GNU Octave`]: https://www.gnu.org/software/octave/index
 [`The Art of VA Filter Design`]: https://www.native-instruments.com/fileadmin/ni_media/downloads/pdf/VAFilterDesign_2.1.2.pdf
 [`The Theory and Technique of Electronic Music`]: http://msp.ucsd.edu/techniques.htm
+[`MIT OCW: Signals and Systems`]: https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/
