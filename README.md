@@ -1,7 +1,7 @@
 # Awesome Audio DSP
 My curated list of audio DSP (digital signal processing) and plugin development resources. New resources may be added in the future. Feel free to open a PR if you wish!
 
-- [`Free Online Textbooks`] - A list of free online textbooks on audio DSP.
+- [`Free Online Textbooks & Courses`] - A list of free online textbooks and courses on audio DSP.
 - [`Paid Textbooks`] - A list of non-free textbooks on audio DSP.
 - [`DSP Playgrounds`] - Software tools that are useful for quickly and easily prototyping DSP.
 - [`Mathematics`] - Learning resources and tools for the mathematics of audio DSP.
@@ -25,7 +25,7 @@ My curated list of audio DSP (digital signal processing) and plugin development 
 - [`Designing Software Synthesizer Plug-Ins in C++`] and [`Designing Audio Effect Plugins in C++`] by Will Pirkle
     - These textbooks are a common recommendation for beginners.
 
-[`Free Online Textbooks`]: FREE_ONLINE_TEXTBOOKS.md
+[`Free Online Textbooks & Courses`]: FREE_ONLINE_TEXTBOOKS_AND_COURSES.md
 [`Paid Textbooks`]: PAID_TEXTBOOKS.md
 [`DSP Playgrounds`]: DSP_PLAYGROUNDS.md
 [`Mathematics`]: MATHEMATICS.md
