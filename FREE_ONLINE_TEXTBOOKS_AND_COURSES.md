@@ -13,6 +13,7 @@ A list of free online textbooks and courses on audio DSP.
 
 - [`MIT OCW: Signals and Systems`] by Prof. Dennis Freeman 
   - A free online college level course including pre-recorded video lectures, lecture notes, and assignments.
+  - Here is a link to the [`video lectures on Youtube`](https://www.youtube.com/playlist?list=PLUl4u3cNGP61kdPAOC7CzFjJZ8f1eMUxs) if you can't get the videos to play on their website.
 
 - [`Julius Orion Smith III Collection`]
   - A great collection of books and resources by Julius Orion Smith III.
