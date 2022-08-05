@@ -1,5 +1,5 @@
-# Free Online Textbooks
-A list of free online textbooks on audio DSP.
+# Free Online Textbooks & Courses
+A list of free online textbooks and courses on audio DSP.
 
 - [`project μ`] by Yü Fang
   - An incredible online guide walking you through how audio DSP works with examples of common algorithms to get you started.
