@@ -15,6 +15,7 @@ A list of useful articles, blogs, and scientific papers on modern algorithms and
 - [`Musicdsp.org`] - A collection of open source DSP algorithms by the community.
 - [`The Design of the Roland Juno oscillators`] - A beautiful and simple explanation on the oscillators of this classic synth.
 - [`TimeStretch PDF`] - A PDF explaining the DSP of [`TimeStretch`], a refinement of the famous [`PaulStretch`] time stretching effect.
+- [`synfx-dsp`] - A Rust crate that has several useful essential DSP algorithms you can reference, used by the [`HexoSynth`] plugin. Includes algorithms such as filters, oscillators, LFOs, sub-sample interpolation, envelopes, waveshapers, oversampling, and a reverb.
 
 [`Cytomic Technical Papers`]: https://cytomic.com/index.php?q=technical-papers
 [`DAFx`]: http://www.dafx.de/
@@ -34,3 +35,5 @@ A list of useful articles, blogs, and scientific papers on modern algorithms and
 [`ADC Videos`]: https://www.youtube.com/c/JUCElibrary/featured
 [`Audio Developer's Conference`]: https://audio.dev/
 [`high quality wavetable oscillators`]: https://www.youtube.com/watch?v=qlinVx60778
+[`synfx-dsp`]: https://github.com/WeirdConstructor/synfx-dsp
+[`HexoSynth`]: https://github.com/WeirdConstructor/HexoSynth
