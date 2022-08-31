@@ -9,7 +9,8 @@ A list of software stacks/frameworks used to make audio plugins, along with thei
   - Targets CLAP and VST3 plugin formats.
   - Targets Linux, Mac, and Windows platforms.
   - Has several different options for GUI such as [`Vizia`], [`Iced`], and [`egui`].
-  - Very new and still in the alpha stage.
+  - Very new and still somewhat a work in progress, but the essential features you need to get started are there.
+  - There is now a [`cookiecutter template`] to help get you started faster.
 
 ## [`DISTRHO Plugin Framework`]
   - Full-stack framework with GUI in C++.
@@ -58,3 +59,4 @@ A list of software stacks/frameworks used to make audio plugins, along with thei
 [`Vizia`]: https://github.com/vizia/vizia
 [`Iced`]: https://github.com/iced-rs/iced
 [`egui`]: https://github.com/emilk/egui
+[`cookiecutter template`]: https://github.com/robbert-vdh/nih-plug-template
