@@ -10,6 +10,7 @@ A list of open source audio software that you can inspect and learn from.
   - [`ironoxide`]
 - [`zam-plugins`] - A suite of good quality mixing/mastering plugins. The limiter, tube amp, and multiband compressor are particularly good.
 - [`LSP Plugins`] - Another collection of good quality mixing/mastering effects.
+- [`Chowdhury DSP`] - A collection of high quality effect plugins (as well as a kick drum synthesizer). A lot of these plugins make use of use neural network inferencing.
 - [`sjaehn`] - Several cool MIDI based slicing/glitching effects and synthesizers.
 - [`x42-plugins`] - A collection of good quality effects and visualizers. Some plugins are also sold as a commercial product. The compressor is particularly good.
 - [`EQ10Q`] - A suite of plugins containing a 10-band parametric equalizer, gate, compressor, bass enhancer, and mid-side encoders.
@@ -37,12 +38,14 @@ A list of open source audio software that you can inspect and learn from.
 - [`Bespoke Synth`] - A very modular synthesizer with support for complex routing, modulation, and sequencing. It can even host VST plugins, blurring the lines between synth and DAW.
 - [`Cardinal`] - An open source modular synthesizer plugin that can host [`VCV Rack`] plugins.
 - [`OctaSine`] - A versitile FM synth written in full-stack [`Rust`].
+- [`ChowKick`] - A high quality oldschool kick drum synthesizer.
 
 ## Audio FX
 - [`Wolf Shaper`] - Good quality waveshaper with support for unlimited nodes.
 - [`Mverb`] - Nice-sounding plate reverb.
 - [`Room Reverb`] - Nice sounding algorithmic reverb based on [`Freeverb`].
 - [`Dragonfly Reverb`] - Algorithmic reverb based on [`Freeverb`].
+- [`BYOD`] - A plugin with many high quality guitar pedal, amp, and cabinet effects (as well as some other effects). It has a fancy node-based UI.
 - [`CloudReverb`] - Beautiful shimmering reverb based on the `CloudSeed` plugin by Valdemar Erlingsson. I choose this over the original as that uses a Windows-only C# platform for its GUI.
   - There is also a port of this plugin with a GUI called [`Aether`].
 - [`Luftikus`] - Good quality analogue modeled equalizer.
@@ -85,6 +88,7 @@ A list of open source audio software that you can inspect and learn from.
 [`ironoxide`]: https://github.com/airwindows/airwindows/tree/master/plugins/LinuxVST/src/IronOxide5
 [`zam-plugins`]: https://github.com/zamaudio/zam-plugins
 [`LSP Plugins`]: https://github.com/sadko4u/lsp-plugins
+[`Chowdhury DSP`]: https://github.com/Chowdhury-DSP
 [`sjaehn`]: https://github.com/sjaehn?tab=repositories
 [`x42-plugins`]: https://github.com/x42/x42-plugins
 [`EQ10Q`]: http://eq10q.sourceforge.net/
@@ -114,6 +118,7 @@ A list of open source audio software that you can inspect and learn from.
 [`Cardinal`]: https://github.com/DISTRHO/Cardinal
 [`VCV Rack`]: https://vcvrack.com/
 [`OctaSine`]: https://github.com/greatest-ape/OctaSine
+[`ChowKick`]: https://github.com/Chowdhury-DSP/ChowKick
 
 [`Wolf Shaper`]: https://github.com/pdesaulniers/wolf-shaper
 [`Mverb`]: https://github.com/DISTRHO/MVerb
@@ -122,6 +127,7 @@ A list of open source audio software that you can inspect and learn from.
 [`Freeverb`]: https://ccrma.stanford.edu/~jos/pasp/Freeverb.html
 [`CloudReverb`]: https://github.com/xunil-cloud/CloudReverb
 [`Aether`]: https://github.com/Dougal-s/Aether
+[`BYOD`]: https://github.com/Chowdhury-DSP/BYOD
 [`Luftikus`]: https://github.com/lkjbdsp/lkjb-plugins/tree/master/Luftikus
 [`Fogpad`]: https://github.com/linuxmao-org/fogpad-port
 [`Misstortion`]: https://github.com/nimbletools/misstortion1
