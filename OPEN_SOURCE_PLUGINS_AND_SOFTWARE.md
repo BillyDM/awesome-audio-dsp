@@ -10,7 +10,7 @@ A list of open source audio software that you can inspect and learn from.
   - [`ironoxide`]
 - [`zam-plugins`] - A suite of good quality mixing/mastering plugins. The limiter, tube amp, and multiband compressor are particularly good.
 - [`LSP Plugins`] - Another collection of good quality mixing/mastering effects.
-- [`Chowdhury DSP`] - A collection of high quality effect plugins (as well as a kick drum synthesizer). A lot of these plugins make use of use neural network inferencing.
+- [`Chowdhury DSP`] - A collection of high quality effect plugins (as well as a kick drum synthesizer). A lot of these plugins make use of use of cutting-edge neural network inferencing.
 - [`sjaehn`] - Several cool MIDI based slicing/glitching effects and synthesizers.
 - [`x42-plugins`] - A collection of good quality effects and visualizers. Some plugins are also sold as a commercial product. The compressor is particularly good.
 - [`EQ10Q`] - A suite of plugins containing a 10-band parametric equalizer, gate, compressor, bass enhancer, and mid-side encoders.
