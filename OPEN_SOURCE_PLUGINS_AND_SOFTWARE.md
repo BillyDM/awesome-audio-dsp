@@ -35,6 +35,7 @@ A list of open source audio software that you can inspect and learn from.
 - [`Synth2`] - A recreation of the classic Synth1 virtual synth. (Still a work in progress).
 - [`Sfizz`] - A sampler that plays [`SFZ`] files. (SFZ is like SoundFonts but with more features).
 - [`Bespoke Synth`] - A very modular synthesizer with support for complex routing, modulation, and sequencing. It can even host VST plugins, blurring the lines between synth and DAW.
+- [`Cardinal`] - An open source modular synthesizer plugin that can host [`VCV Rack`] plugins.
 - [`OctaSine`] - A versitile FM synth written in full-stack [`Rust`].
 
 ## Audio FX
@@ -70,6 +71,7 @@ A list of open source audio software that you can inspect and learn from.
 - [`Audacity`] - Popular multi-track audio editor. There is also a fully-libre open source fork called [`Tenacity`].
 - [`Carla`] - Cross platform plugin host with support for many plugin formats.
 - [`Bespoke Synth`] - A very modular synthesizer with support for complex routing, modulation, and sequencing. It can even host VST plugins, blurring the lines between synth and DAW.
+- [`Cardinal`] - An open source modular synthesizer plugin that can host [`VCV Rack`] plugins.
 - [`termdaw`] - A neat little DAW experiment that uses a terminal as its interface instead of a GUI.
 
 ## Musical Notation
@@ -109,6 +111,8 @@ A list of open source audio software that you can inspect and learn from.
 [`Sfizz`]: https://github.com/sfztools/sfizz
 [`SFZ`]: https://sfzformat.com/
 [`Bespoke Synth`]: https://github.com/BespokeSynth/BespokeSynth
+[`Cardinal`]: https://github.com/DISTRHO/Cardinal
+[`VCV Rack`]: https://vcvrack.com/
 [`OctaSine`]: https://github.com/greatest-ape/OctaSine
 
 [`Wolf Shaper`]: https://github.com/pdesaulniers/wolf-shaper
