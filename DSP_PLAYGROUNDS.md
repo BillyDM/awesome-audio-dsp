@@ -39,6 +39,10 @@ A list of software tools that are useful for quickly and easily prototyping DSP.
   - Uses the [`Rust`] programming language, so it is not for those who are beginners to coding. However, the library itself does not require advance Rust skills.
   - Relatively new and experimental project.
   - Free and open-source.
+- [`Maximilian.js`]
+  - Javascript bindings to the Maximilian DSP library.
+  - Javascript can be great for those who are just learning to code, and it can be ran inside a web browser.
+  - Free and open source.
 
 [`Reaktor 6`]: https://www.native-instruments.com/en/products/komplete/synths/reaktor-6/
 [`Alpha Forever`]: https://www.afmodular.com/
@@ -49,3 +53,4 @@ A list of software tools that are useful for quickly and easily prototyping DSP.
 [`Python`]: https://www.python.org/
 [`FunDSP`]: https://github.com/SamiPerttu/fundsp
 [`Rust`]: https://www.rust-lang.org/
+[`Maximilian.js`]: https://mimicproject.com/guides/maximJS
