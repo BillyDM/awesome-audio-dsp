@@ -88,9 +88,9 @@ An open source audio plugin standard for use with web browsers using WebAudio.
   - Distribution: You can distribute open source and close sourced versions of your plugins (and host WAP plugins) freely without restriction.
   - SDK source: [`WAP SDK`]
 
-## VCV Rack Plugin
-The audio plugin standard for use with the open source [`VCV Rack`] virtual synthesizer.
-  - Why?: If you want to create plugins for [`VCV Rack`].
+## VCV Rack / Cardinal Plugin
+The audio plugin standard for use with the open source [`VCV Rack`] or [`Cardinal`] virtual synthesizer.
+  - Why?: If you want to create plugins for [`VCV Rack`] / [`Cardinal`].
   - License: [`GPLv3`]
   - Distribution: You can distribute freely if your plugin is [`GPLv3`] or a multitude of other accepted open source licenses. You are allowed to sell closed-source versions if you get special permission from the author via email. See [`VCV Rack Licensing`] for more details.
   - SDK source: [`VCV Rack Plugin SDK`]
@@ -114,6 +114,7 @@ The audio plugin standard for use with the open source [`VCV Rack`] virtual synt
 [`WAP SDK`]: https://github.com/micbuffa/WebAudioPlugins
 
 [`VCV Rack`]: https://vcvrack.com/
+[`Cardinal`]: https://github.com/DISTRHO/Cardinal
 [`VCV Rack Licensing`]: https://vcvrack.com/manual/PluginLicensing
 [`VCV Rack Plugin SDK`]: https://vcvrack.com/downloads/
 [`VCV Rack Plugin Tutorial`]: https://vcvrack.com/manual/PluginDevelopmentTutorial
