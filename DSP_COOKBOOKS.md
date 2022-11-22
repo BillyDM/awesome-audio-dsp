@@ -16,6 +16,7 @@ That being said, it can still be a great resource for learning about various DSP
 - [`signalo`](https://github.com/signalo/signalo) - A Rust DSP toolbox with focus on embedded environments.
 - [`juce_dsp`](https://docs.juce.com/master/group__juce__dsp.html) - A set of DSP classes that are included with the JUCE library. There is also an introductory [`tutorial`](https://docs.juce.com/master/tutorial_dsp_introduction.html) on using these libraries (as well as JUCE in general).
 - [`KFR`](https://kfrlib.com/) - A collection of very fast DSP algorithms. Commercial use requires a paid license.
+- [`Maximilian`](https://github.com/micknoise/Maximilian) - A comprehensive collection of DSP algorithms in C++. Also contains Javascript bindings.
 - [`Q`](https://github.com/cycfi/q) - A DSP library that leverages features of modern C++.
 - [`SOUL-VA`](https://github.com/thezhe/SOUL-VA) - A collection of virtual analog audio effects for the [`SOUL`](https://github.com/soul-lang/SOUL) programming language.
 - [`Bad Circuit Modeling`](https://github.com/jatinchowdhury18/Bad-Circuit-Modelling) - Contains analogue models of non-ideal circuits.
