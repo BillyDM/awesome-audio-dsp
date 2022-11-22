@@ -7,7 +7,7 @@ My curated list of audio DSP (digital signal processing) and plugin development 
 - [`Mathematics`] - Learning resources and tools for the mathematics of audio DSP.
 - [`Algorithms & Technical Papers`] - A list of useful articles, blogs, and scientific papers on modern algorithms and techniques for audio DSP.
 - [`Electronics & Embedded`] - Resources for developing analog and embedded hardware systems.
-- [`Machine Learning`] - A few resources on this popular and powerful technology.
+- [`Machine Learning`] - Resources on using this powerful emerging technology for audio DSP.
 - [`Open Source Plugins & Software`] - A list of open source audio software that you can inspect and learn from.
 - [`DSP Cookbooks`] - A list of ready-made libraries and algorithms for audio DSP.
 - [`Sound Design & Music Production`] - While this is not *strictly* development related, knowing how plugins are actually used to make and edit sound can give valuable insight.
