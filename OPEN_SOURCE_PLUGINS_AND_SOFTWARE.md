@@ -72,6 +72,7 @@ A list of open source audio software that you can inspect and learn from.
 - [`Ardour`] - Feature-rich DAW. Focuses more on recorded music production over electronic music production.
 - [`LMMS`] - Feature-rich DAW focused on electronic music production. Contains many built-in synths and effects.
 - [`Audacity`] - Popular multi-track audio editor. There is also a fully-libre open source fork called [`Tenacity`].
+- [`Mixxx`] - Popular cross-platform application for performing live DJ mixes.
 - [`Carla`] - Cross platform plugin host with support for many plugin formats.
 - [`Bespoke Synth`] - A very modular synthesizer with support for complex routing, modulation, and sequencing. It can even host VST plugins, blurring the lines between synth and DAW.
 - [`Cardinal`] - An open source modular synthesizer plugin that can host [`VCV Rack`] plugins.
@@ -151,6 +152,7 @@ A list of open source audio software that you can inspect and learn from.
 [`LMMS`]: https://github.com/LMMS/lmms
 [`Audacity`]: https://github.com/audacity/audacity
 [`Tenacity`]: https://github.com/tenacityteam/tenacity
+[`Mixxx`]: https://github.com/mixxxdj/mixxx
 [`Carla`]: https://kx.studio/Applications:Carla
 [`termdaw`]: https://github.com/ocdy1001/termdaw
 
