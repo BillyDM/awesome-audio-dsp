@@ -25,6 +25,7 @@ A list of open source audio software that you can inspect and learn from.
   - There is also a fully GPLv3-licensed fork called [`Vitalium`] that has all the non-GPL stuff removed.
 - [`Helm`] - High-quality modern monophonic synthesizer. The older sibling to Vital. The oscillators are not stereo though.
 - [`Surge`] - Feature-rich hybrid synthesizer that was once sold as a commercial product.
+- [`OB-Xd`] - A high quality subtractive analog synth modeled after the Oberheim OB-X.
 - [`Monique Mono-Synth`] - High-quality subtractive monophonic synth. Now open source!
 - [`Dexed`] - Synthesizer closely modelled after the Yamaha DX7.
 - [`ZynAddSubFX`] - Feature-rich additive synthesizer with a great clean sound. Also sold as a commercial product.
@@ -105,6 +106,7 @@ A list of open source audio software that you can inspect and learn from.
 [`Vitalium`]: https://github.com/DISTRHO/DISTRHO-Ports/tree/master/ports-juce6/vitalium
 [`Helm`]: https://github.com/mtytel/helm
 [`Surge`]: https://github.com/surge-synthesizer/surge
+[`OB-Xd`]: https://github.com/reales/OB-Xd
 [`Monique Mono-Synth`]: https://github.com/surge-synthesizer/monique-monosynth
 [`Dexed`]: https://github.com/asb2m10/dexed
 [`ZynAddSubFX`]: https://github.com/zynaddsubfx/zynaddsubfx
