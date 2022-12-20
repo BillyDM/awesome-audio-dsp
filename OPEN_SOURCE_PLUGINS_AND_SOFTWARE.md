@@ -84,6 +84,9 @@ A list of open source audio software that you can inspect and learn from.
 - [`MuseScore`] - A popular and mature open-source sheet music editor.
 - [`composing.studio`] - An experimental open-source web app that allows you to collaborate on editing sheet music.
 
+## Other
+- [`Ultimate Vocal Remover`] - A state-of-the-art program that uses machine learning to separate vocals from a mix.
+
 [`Airwindows Plugins`]: https://github.com/airwindows/airwindows/tree/master/plugins
 [`density`]: https://github.com/airwindows/airwindows/tree/master/plugins/LinuxVST/src/Density
 [`pressure4`]: https://github.com/airwindows/airwindows/tree/master/plugins/LinuxVST/src/Pressure4
@@ -162,5 +165,7 @@ A list of open source audio software that you can inspect and learn from.
 
 [`MuseScore`]: https://musescore.org
 [`composing.studio`]: https://github.com/ekzhang/composing.studio
+
+[`Ultimate Vocal Remover`]: https://github.com/Anjok07/ultimatevocalremovergui
 
 [`Rust`]: https://www.rust-lang.org/
