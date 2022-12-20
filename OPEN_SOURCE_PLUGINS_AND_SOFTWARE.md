@@ -15,6 +15,7 @@ A list of open source audio software that you can inspect and learn from.
 - [`x42-plugins`] - A collection of good quality effects and visualizers. Some plugins are also sold as a commercial product. The compressor is particularly good.
 - [`EQ10Q`] - A suite of plugins containing a 10-band parametric equalizer, gate, compressor, bass enhancer, and mid-side encoders.
 - [`Shiru Plugins`] - A suite of old video-game sound chips synths and effects.
+- [`Mrugalla Plugins`] - A collection of modern and unique plugins by Florian Mrugalla.
 - [`DISTRHO-Ports`] - A whole bunch of plugins ported to work on Linux/LV2.
 - [`DISTRHO Plugin Framework`] - Has a list of plugins that were made using this framework.
 - [`lkjb plugins`] - Additional plugins made by the creator of [`Luftikus`].
@@ -99,6 +100,7 @@ A list of open source audio software that you can inspect and learn from.
 [`x42-plugins`]: https://github.com/x42/x42-plugins
 [`EQ10Q`]: http://eq10q.sourceforge.net/
 [`Shiru Plugins`]: https://github.com/linuxmao-org/shiru-plugins
+[`Mrugalla Plugins`]: https://github.com/Mrugalla
 [`DISTRHO-Ports`]: https://github.com/DISTRHO/DISTRHO-Ports
 [`DISTRHO Plugin Framework`]: https://github.com/DISTRHO/DPF
 [`lkjb plugins`]: https://github.com/lkjbdsp/lkjb-plugins
