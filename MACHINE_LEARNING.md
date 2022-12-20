@@ -5,8 +5,15 @@ Machine learning has been gaining traction in the audio industry lately. I don't
 - [`RTNeural`] - A fast neural inferencing libray in C++ made specifically for audio plugins. Used by the [`Chowdhury DSP`] suite of plugins.
 - [`SmartCore`] - An advanced and comprehensive machine learning library written in the [`Rust`] programming language.
 
+## Open Source Projects
+Some open source projects that make use of machine learning for audio.
+
+- [`Chowdhury DSP`] - A suite of open source audio plugins. Many of them make use of machine learning.
+- [`Ultimate Vocal Remover`] - A state-of-the-art program that uses machine learning to separate vocals from a mix.
+
 [`3Blue1Brown - Neural Networks`]: https://youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi
 [`RTNeural`]: https://github.com/jatinchowdhury18/RTNeural
 [`Chowdhury DSP`]: https://github.com/Chowdhury-DSP
 [`SmartCore`]: https://smartcorelib.org/
 [`Rust`]: https://www.rust-lang.org/
+[`Ultimate Vocal Remover`]: https://github.com/Anjok07/ultimatevocalremovergui
