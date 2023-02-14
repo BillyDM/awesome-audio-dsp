@@ -13,8 +13,9 @@ A list of free online textbooks and courses on audio DSP.
   - Relatively heavy on mathematics.
 
 - [`Think DSP`] by Allen B. Downey
-  - A great book that teaches many fundamental DSP concepts using Python.
-  - Requires knowledge of complex numbers, integral calculus, and Python.
+  - Another great book for beginners that teaches many fundamental DSP concepts using Python.
+  - Teaches concepts from a programming-based approach, rather than an abstract mathematical approach.
+  - Requires some knowledge of complex numbers, integral calculus, and Python.
 
 - [`MIT OCW: Signals and Systems`] by Prof. Dennis Freeman 
   - A free online college level course including pre-recorded video lectures, lecture notes, and assignments.
@@ -37,7 +38,7 @@ A list of free online textbooks and courses on audio DSP.
 
 [`project μ`]: https://mu.krj.st/
 [`The Scientist and Engineer's Guide to Digital Signal Processing`]: http://www.dspguide.com/pdfbook.htm
-[`Think DSP`]: https://greenteapress.com/thinkdsp/html/index.html
+[`Think DSP`]: https://github.com/AllenDowney/ThinkDSP
 [`Julius Orion Smith III Collection`]: https://ccrma.stanford.edu/~jos/
 [`GNU Octave`]: https://www.gnu.org/software/octave/index
 [`The Art of VA Filter Design`]: https://www.native-instruments.com/fileadmin/ni_media/downloads/pdf/VAFilterDesign_2.1.2.pdf
