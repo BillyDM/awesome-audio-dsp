@@ -25,6 +25,8 @@ My curated list of audio DSP (digital signal processing) and plugin development 
 - [`project μ`]: An excellent and free online blog that neatly explains the basics of DSP.
 - [`Designing Software Synthesizer Plug-Ins in C++`] and [`Designing Audio Effect Plugins in C++`] by Will Pirkle
     - These textbooks are a common recommendation for beginners.
+    - The synthesizer one is better than the effect one imo, so go for that if you plan on only buying one.
+    - ISBN-10: 0367510480 and 1138591939, ISBN-13: 978-0367510480 and 978-1138591936
 
 [`Free Online Textbooks & Courses`]: FREE_ONLINE_TEXTBOOKS_AND_COURSES.md
 [`Paid Textbooks`]: PAID_TEXTBOOKS.md
