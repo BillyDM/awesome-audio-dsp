@@ -7,15 +7,15 @@ A list of free online textbooks and courses on audio DSP.
   - Requires knowledge of complex numbers, integral calculus, and the C programming language. (It is also very unix-focused).
   - Currently a work in progress, and more tutorials will likely be added later.
 
+- [`Think DSP`] by Allen B. Downey
+  - A great free online book for beginners that teaches many fundamental DSP concepts using Python.
+  - Teaches concepts from a programming-based approach, rather than an abstract mathematical approach.
+  - Requires knowledge of Python, and some knowledge of complex numbers and integral calculus.
+
 - [`The Scientist and Engineer's Guide to Digital Signal Processing`] by Steven W. Smith, Ph.D.
   - A common recommendation from many folks.
   - Focuses on DSP in general, not just audio DSP.
   - Relatively heavy on mathematics.
-
-- [`Think DSP`] by Allen B. Downey
-  - Another great book for beginners that teaches many fundamental DSP concepts using Python.
-  - Teaches concepts from a programming-based approach, rather than an abstract mathematical approach.
-  - Requires some knowledge of complex numbers, integral calculus, and Python.
 
 - [`MIT OCW: Signals and Systems`] by Prof. Dennis Freeman 
   - A free online college level course including pre-recorded video lectures, lecture notes, and assignments.
