@@ -41,6 +41,7 @@ A list of open source audio software that you can inspect and learn from.
 - [`Cardinal`] - An open source modular synthesizer plugin that can host [`VCV Rack`] plugins.
 - [`OctaSine`] - A versitile FM synth written in full-stack [`Rust`].
 - [`ChowKick`] - A high quality oldschool kick drum synthesizer.
+- [`DigiDrie`] - A "monster" monophonic synth.
 
 ## Audio FX
 - [`Wolf Shaper`] - Good quality waveshaper with support for unlimited nodes.
@@ -129,6 +130,7 @@ A list of open source audio software that you can inspect and learn from.
 [`VCV Rack`]: https://vcvrack.com/
 [`OctaSine`]: https://github.com/greatest-ape/OctaSine
 [`ChowKick`]: https://github.com/Chowdhury-DSP/ChowKick
+[`DigiDrie`]: https://github.com/magnetophon/DigiDrie
 
 [`Wolf Shaper`]: https://github.com/pdesaulniers/wolf-shaper
 [`Mverb`]: https://github.com/DISTRHO/MVerb
