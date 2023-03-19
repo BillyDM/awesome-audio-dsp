@@ -70,6 +70,7 @@ A list of open source audio software that you can inspect and learn from.
 - [`Wolf Spectrum`] - Real-time heat-map spectrum analyzer plugin.
 - [`EasySSP`] - Real-time spectrum analyzer and stereo analyzer plugin.
 - [`LUFS Meter`] - Real-time loudness meter with support for several international loudness standards.
+- [`Tuna`] - A musical instrument tuner with strobe characteristics.
 
 ## DAWs & Hosts
 - [`Meadowlark`] - Definitely biased here since this is my main project that I work on full-time. It's still in its very early stages, but check it out if you're interested in contributing! :)
@@ -158,6 +159,7 @@ A list of open source audio software that you can inspect and learn from.
 [`Wolf Spectrum`]: https://github.com/pdesaulniers/wolf-spectrum
 [`EasySSP`]: https://github.com/automatl/audio-dsp-multi-visualize/
 [`LUFS meter`]: https://github.com/klangfreund/LUFSMeter
+[`Tuna`]: https://github.com/x42/tuna.lv2
 
 [`Meadowlark`]: https://github.com/MeadowlarkDAW/Meadowlark
 [`Ardour`]: https://ardour.org/
