@@ -57,6 +57,7 @@ A list of open source audio software that you can inspect and learn from.
 - [`Flutterbird`] - Simple multi-lfo than modulates pitch and volume, creating a "fluttering" effect.
 - [`DelayArchitect`] - A feature-rich delay designer plugin.
 - [`TimeStretch`] - A refinement of the famous [`PaulStretch`] time stretching effect. Includes a PDF explaining the DSP.
+- [`Molot Lite`] - A cut-down version of the Molot compressor by Tokyo Dawn Records. It has a lot of color and character.
 
 ## MIDI FX
 - [`Helio Workstation`] - A very modern and feature-rich sequencer.
@@ -145,6 +146,7 @@ A list of open source audio software that you can inspect and learn from.
 [`DelayArchitect`]: https://github.com/jpcima/DelayArchitect
 [`TimeStretch`]: https://github.com/spluta/TimeStretch
 [`PaulStretch`]: http://hypermammut.sourceforge.net/paulstretch
+[`Molot Lite`]: https://github.com/magnetophon/molot-lite
 
 [`Helio Workstation`]: https://github.com/helio-fm/helio-workstation
 [`QMidiArp`]: https://github.com/emuse/qmidiarp
