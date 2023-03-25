@@ -11,6 +11,7 @@ Some open source projects that make use of machine learning for audio.
 
 - [`Chowdhury DSP`] - A suite of open source audio plugins. Many of them make use of machine learning.
 - [`Ultimate Vocal Remover`] - A state-of-the-art program that uses machine learning to separate vocals from a mix.
+- [`NeuralNote`] - A state-of-the-art plugin that uses machine learning to convert audio to MIDI.
 
 [`3Blue1Brown - Neural Networks`]: https://youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi
 [`RTNeural`]: https://github.com/jatinchowdhury18/RTNeural
@@ -19,3 +20,4 @@ Some open source projects that make use of machine learning for audio.
 [`SmartCore`]: https://smartcorelib.org/
 [`Rust`]: https://www.rust-lang.org/
 [`Ultimate Vocal Remover`]: https://github.com/Anjok07/ultimatevocalremovergui
+[`NeuralNote`]: https://github.com/DamRsn/NeuralNote
