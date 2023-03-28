@@ -5,6 +5,7 @@ Machine learning has been gaining traction in the audio industry lately. I don't
 - [`RTNeural`] - A fast neural inferencing libray in C++ made specifically for audio plugins. Used by the [`Chowdhury DSP`] suite of plugins.
 - [`audioFlux`] -  A deep learning tool library for audio and music analysis.
 - [`SmartCore`] - An advanced and comprehensive machine learning library written in the [`Rust`] programming language.
+- [`nnAudio`] - An audio processing toolbox using the PyTorch convolutional neural network backend.
 
 ## Open Source Projects
 Some open source projects that make use of machine learning for audio.
@@ -18,6 +19,7 @@ Some open source projects that make use of machine learning for audio.
 [`Chowdhury DSP`]: https://github.com/Chowdhury-DSP
 [`audioFlux`]: https://github.com/libAudioFlux/audioFlux
 [`SmartCore`]: https://smartcorelib.org/
+[`nnAudio`]: https://github.com/KinWaiCheuk/nnAudio
 [`Rust`]: https://www.rust-lang.org/
 [`Ultimate Vocal Remover`]: https://github.com/Anjok07/ultimatevocalremovergui
 [`NeuralNote`]: https://github.com/DamRsn/NeuralNote
