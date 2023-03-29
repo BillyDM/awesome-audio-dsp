@@ -27,7 +27,7 @@ A list of software stacks/frameworks used to make audio plugins, along with thei
   - Targets Linux, Mac, and Windows platforms.
 
 ## [`Dplug`]
-  - Full-stack framework with GUI in te D programming language.
+  - Full-stack framework with GUI in the D programming language.
   - Fully open-source using a permissive license.
   - The GUI framework has fancy physically-modeled rendering inspired by game engines.
   - Targets VST2, VST3, AUv2, AAX, and LV2 plugin formats.
