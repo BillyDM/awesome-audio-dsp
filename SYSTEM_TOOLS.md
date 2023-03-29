@@ -8,6 +8,7 @@ A list of system tools useful in developing audio plugins and software.
 - [`Ardour`] - Open-source DAW with useful plugin analysis tools.
 - [`Bertom EQ Curve Analyzer`] - Analyze the frequency and phase response of any plugin.
 - [`pluginval`] - Cross-platform open-source plugin validation tool made by the company Tracktion.
+- [`clap-validator`] - An open-source CLAP plugin validation tool.
 
 [`MrsWatson`]: http://teragonaudio.com/MrsWatson.html
 [`Carla`]: https://kx.studio/Applications:Carla
@@ -16,3 +17,4 @@ A list of system tools useful in developing audio plugins and software.
 [`Ardour`]: https://ardour.org/
 [`Bertom EQ Curve Analyzer`]: https://www.bertomaudio.com/eqca.html
 [`pluginval`]: https://github.com/Tracktion/pluginval
+[`clap-validator`]: https://github.com/free-audio/clap-validator
