@@ -3,13 +3,21 @@ A list of software stacks/frameworks used to make audio plugins, along with thei
 
 - Please note that you must have a licensing agreement with Steinberg to *distribute* any VST2 and any non-GPLv3 VST3 plugins as per [`Steinberg's VST3 License`]. If you don't already have a VST2 license, you're out of luck since Steinberg doesn't support it anymore (yeah it stinks). Target VST3 instead in that case. Or better yet, target the new [`CLAP`] standard ;).
 
+## [`JUCE`]
+  - Full-stack framework with GUI in C++.
+  - Open source, but it require a hefty commercial license if you want to distribute your plugin commercially with a closed-source license.
+  - Targets VST2, VST3, AUv2, AUv3, RTAS, and AAX plugin formats. Unofficial support for the CLAP standard is also in the works [`here`](https://github.com/free-audio/clap-juce-extensions).
+  - Targets Linux, Mac, Windows, iOS, Android, and Raspberry Pi platforms.
+  - Well known in the industry, and many commercial plugins are built with it.
+  - You can use code templates such as [`pamplejuce`](https://github.com/sudara/pamplejuce) that greatly improve the development process.
+
 ## [`nih-plug`]
   - Full-stack and modular framework with GUI in [`Rust`].
   - Fully open-source using a permissive license.
   - Targets CLAP and VST3 plugin formats.
   - Targets Linux, Mac, and Windows platforms.
   - Has several different options for GUI such as [`Vizia`], [`Iced`], and [`egui`].
-  - Very new and still somewhat a work in progress, but the essential features you need to get started are there.
+  - It's still somewhat experimental and missing some specialized features, but it's usable.
   - There is now a [`cookiecutter template`] to help get you started faster.
 
 ## [`DISTRHO Plugin Framework`]
@@ -25,13 +33,6 @@ A list of software stacks/frameworks used to make audio plugins, along with thei
   - Targets VST2, VST3, AUv2, AAX, and LV2 plugin formats.
   - Targets Linux, Mac, Windows, and Raspberry Pi platforms.
   - Used by several commercial plugins.
-
-## [`JUCE`]
-  - Full-stack framework with GUI in C++.
-  - Open source, but some of its modules require a hefty commercial license to distribute any non-GPLv3 plugins.
-  - Targets VST2, VST3, AUv2, AUv3, RTAS, and AAX plugin formats. Unofficial support for the CLAP standard is also in the works [`here`](https://github.com/free-audio/clap-juce-extensions).
-  - Targets Linux, Mac, Windows, iOS, Android, and Raspberry Pi platforms.
-  - Well known in the industry, and many commercial plugins are built with it.
 
 ## [`Tracktion Engine`]
   - Full-stack framework in C++ with GUI. It is built on top of [`JUCE`].
