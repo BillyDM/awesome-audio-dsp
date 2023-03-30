@@ -19,7 +19,7 @@ Tips and tools for optimizing audio software.
 - [`libsimdcpp`] (C++)
 - [`portable-simd`] (Rust, currently requires the nighly compiler)
 
-# My 8 Audio Software Optimization Tips
+# My 10 Audio Software Optimization Tips
 
 ## 1. Avoid using any operations that invoke the operating system in the process thread
 
@@ -46,19 +46,29 @@ Even then, a lot of times compilers will automatically take the reciprocal of a 
 
 ## 3. Prefer to use block-based processing instead of per-sample processing
 
-In other words, prefer to use loops that process a chunk (aka block) of samples in each loop iteration instead of loops that process just a single sample in each loop iteration. The reasons why tie into the points 4, 5, and 6.
+In other words, prefer to use processing loops that process a chunk (aka block) of samples in each loop iteration instead of loops that process just a single sample in each loop iteration.
+
+The optimal block size will usually be somewhere around 8 to 1024 samples. The key is to find the right balance between reducing the overhead of function calling and branching logic, and avoiding cache misses (which I will explain in points 4, 5, and 6). Experiment to see what performs best for your code.
+
+There are a few different way to go about using block-based processing:
+
+- The simplest way is to wait until a block is fully filled with samples before processing them. This can make your algorithm easier since you always know exactly how many samples are in each block. The downside to this approach is that it adds latency to the plugin (the latency introduced by the plugin will be equal to the block size, so try to use the smallest block size possible if you use this approach). 
+- Another way is to make your algorithm work with a dynamic number of samples per loop iteration (even with a block size of 1 sample). But this can be considerably more complicated to set up. The advantage is that you won't add extra latency.
+- Another way is to create different processing loops depending on how many samples are sent from the host (including a case where the host only sends 1 sample, yes it does happen). The downside of course is duplicated code.
+
+Also keep in mind that because block-based processing is considerbly more complicated to set up than per-sample processing, it's okay to use per-sample processing while you are still in the stages of developing and experimenting with your actual DSP algorithms.
 
 ## 4. Cache misses are expensive on modern CPUs
 
 Modern CPUs rely heavily on cached memory for their performance. If an operation causes the CPU to fetch data that is not readily available in its low-level cache, it has to wait around to pull that data from either high-level cache or from RAM.
 
-One way to avoid cache misses is to make sure your buffers aren't too large, so that the CPU can fit all of the working buffers into its low-level cache. The optimal block size will usually be somewhere around 32 to 1024 samples. But of course experiment to see what performs best for your code.
+One way to avoid cache misses is to make sure your buffers aren't too large, so that the CPU can fit all of the working buffers into its low-level cache. The optimal buffer (block) size will usually be somewhere around 8 to 2048 samples depending on how many buffers you have. Experiment to see what performs best for your code.
 
 ## 5. Avoid excessive calls to medium/large-sized functions
 
 Calling a function has a small amount of overhead, and this overhead can add up if called thousands or millions of times a second. Large function calls also makes it harder for a CPU to optimally cache its working memory.
 
-By using block-based processing, you can reduce the number of function calls by only calling the function once per block of samples instead of calling it once per sample.
+By using block-based processing, you can reduce the number of function calls by only calling the function once per block of samples instead of calling them once per sample.
 
 And note that I said "medium/large-sized functions". Modern compilers are really good at inlining small functions. But if you're still unsure whether or not a function is being inlined properly by the compiler, you can use tools like [`Compiler Explorer`] to verify the assembly. If it's not being inlined properly, you can use the `__forceinline` or `inline __attribute__((always_inline))` keywords in C++ or the `#[inline(always)]` keyword in Rust to try to force the compiler to inline it. Even then, always measure the performance to see if inlining the function actually improves performance, because a lot of times it can actually make the performance worse (it also can make the size of the compiled binary much larger).
 
@@ -76,7 +86,13 @@ Also note that sometimes compilers can optimize branching inside loops by automa
 
 Even then, modern CPUs tend to make heavy use of speculative execution to mitigate the overhead from branching. Always measure the performance to see if optimizing the branching logic actually makes a meaningful improvement.
 
-## 7. Use SIMD intrinsics
+## 7. Try caching expensive calculations into lookup tables
+
+A common way to speed up expensive calculations is to precompute the calculation for a large range of inputs, and then storing the results into a lookup table. This is especially common practice for filter coefficients.
+
+However, keep in mind that if the lookup table is too large, then it can cause cache misses in the CPU. Experiment to find the optimal lookup table size for your algorithm.
+
+## 8. Try using SIMD intrinsics
 
 SIMD intrinsics are special features built into CPUs that allow it to pack multiple numbers into a single "vector" object (not to be confused with `std::vector` in C++ or `std::Vec` in Rust) and then apply an operation to every number in that vector at the same time. It's kind of like multithreaded processing, but in a super fast single-threaded kind of way.
 
@@ -86,11 +102,24 @@ For a list of SIMD intrinsics in x86 processors, look at the [`Intel Intrinsics 
 
 Also note that modern compilers have a feature called "autovectorization" where they can automatically create SIMD code for the given target CPU. However, this process can be unreliable for all but the simplist algorithms. But if you want to rely on this, you can use [`Compiler Explorer`] to verify the assembly, and you can follow [`Auto-Vectorization in LLVM`] for some tips.
 
-One more thing to mention is that you should prefer to use single-precision floating point numbers instead of double-precision floating point numbers, because you can pack twice as many single-precision floats into an SIMD vector. While there is some debate on whether using double-precision actually makes a difference to sound quality (and there are specific algorithms that do require the extra precision), the general consensus is that the noise introduced from single-precision quantization errors is negligible, and other factors such as the quality of antialiasing algorithms have a far greater impact on sound quality. *However*, if your algorithm doesn't allow you to pack in more than two or four numbers into a vector anyway, then there's no harm in using double-precision if you want to.
+Also keep in mind that because SIMD intrinsics are considerably more complicated, it's fine to not use them while you are still in the stages of developing and experimenting with your actual DSP algorithms. Keeping a scalar version of your code around is also a smart idea for readability and future-proofness, even if you end up commenting it out.
 
-## 8. Don't assume that a change made your code faster, measure it!
+## 9. Prefer to use single-precision floats instead of double-precision floats
 
-This final point is probably the most important one. All the previous points (except for point 1) are just guidelines, they aren't hard and set rules. Perhaps you find that block-based processing performs worse for your algorithm, or maybe you find that forcing a function to be inlined performs worse, or maybe you find that SIMD intrinsics perform worse than before, or maybe you find that the trig functions built into the standard library perform better than a "fast approximation" you found online.
+Using single-precision floats have two main performance advantages:
+
+- The biggest advantage is that single-precision uses half the memory, so the CPU can fit more samples into its low-level cache and reduce the occurence of cache misses. This can especially be important for large lookup tables.
+- Twice as many single-precision floats can be packed into an SIMD vector, theoretically doubling the performance of algorithms that make heavy use of SIMD instrinsics.
+
+While there is some debate on whether using double-precision actually makes a difference to sound quality (and there are specific algorithms that do require the extra precision), the general consensus is that the noise introduced from single-precision quantization errors is negligible, and other factors such as the quality of antialiasing algorithms have a far greater impact on sound quality.
+
+*However*, if you find that using double-precision doesn't meaningfully impact performance in your algorithm, then there's no harm in using double-precision if you want to.
+
+## 10. Don't assume that a change made your code faster, measure it!
+
+This final point is probably the most important one. All the previous points (except for point 1) are just guidelines, they aren't hard and set rules.
+
+Perhaps you find that block-based processing performs worse for your algorithm, or maybe you find that forcing a function to be inlined performs worse, or maybe you find that SIMD intrinsics perform worse than their scalar counterparts, or maybe you find that using SIMD intrinsics to calculate filter coefficients performs better than using a lookup table, or maybe you find that the trig functions built into the standard library perform better than a "fast approximation" you found online.
 
 Point is, it's important to learn how to measure the performance of your code. You can use both benchmarking tools and profiling tools.
 
