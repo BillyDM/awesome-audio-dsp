@@ -59,6 +59,7 @@ A list of open source audio software that you can inspect and learn from.
 - [`DelayArchitect`] - A feature-rich delay designer plugin.
 - [`TimeStretch`] - A refinement of the famous [`PaulStretch`] time stretching effect. Includes a PDF explaining the DSP.
 - [`Molot Lite`] - A cut-down version of the Molot compressor by Tokyo Dawn Records. It has a lot of color and character.
+- [`AIDA-X`] - An amp model player that can load AI-trained models of music gear.
 
 ## MIDI FX
 - [`Helio Workstation`] - A very modern and feature-rich sequencer.
@@ -150,6 +151,7 @@ A list of open source audio software that you can inspect and learn from.
 [`TimeStretch`]: https://github.com/spluta/TimeStretch
 [`PaulStretch`]: http://hypermammut.sourceforge.net/paulstretch
 [`Molot Lite`]: https://github.com/magnetophon/molot-lite
+[`AIDA-X`]: https://github.com/AidaDSP/AIDA-X
 
 [`Helio Workstation`]: https://github.com/helio-fm/helio-workstation
 [`QMidiArp`]: https://github.com/emuse/qmidiarp
