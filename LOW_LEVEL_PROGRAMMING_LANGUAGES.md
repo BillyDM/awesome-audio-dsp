@@ -40,7 +40,7 @@ Here I'll list the best languages to use for serious DSP and their pros and cons
 ## [`Rust`]
 - Pros:
   - Rust is modern language that aims to avoid many of the pitfalls of C/C++ development.
-  - It is "memory safe", meaning it can ensure that whole slew of common crashes and security bugs cannot happen in the first place.
+  - It is "memory safe", meaning it can ensure that memory safety related crashes and security bugs cannot happen in the first place.
     - Most high-level languages are also memory safe, but they come at the cost of considerably worse performance since they use things like runtime checks and garbage collection. Rust however uses a clever system of lifetime checks and borrow restrictions that ensures safety while still allowing compiled code to run just as fast as if it was written in C/C++ (a feature known as "zero-cost abstractions").
   - Easier to master than C++ in my opinion.
   - The nature of using a memory safe language reduces the amount of time you need to spend debugging & testing.
@@ -51,8 +51,8 @@ Here I'll list the best languages to use for serious DSP and their pros and cons
   - There is an active open-source modular audio plugin development framework called [`nih-plug`]. (Some features are still missing, but it's usable.)
 - Cons:
   - It can be tricky to learn, especially if you are used to other low-level languages.
-  - The language is very restrictive on what you are able to do, and thus requires more time up-front figuring out how to structure your code to make the compiler happy (this is of course by design). You are able to use explicit "unsafe" blocks when you need more control, but that of course can be susceptible to the same pitfalls of C/C++ if you're not careful.
-  - You have to rely on the compiler to properly optimize your code. While this works the vast majority of the time, it can sometimes fail with complex algorithms in rare cases, requiring you to use unsafe blocks if you want better performance. Also some features such as SIMD intrinsics require unsafe blocks anyway (although a solution to this is in the works called [`portable-simd`]).
+  - The language is very restrictive on what you are able to do, and thus requires more time up-front figuring out how to structure your code to make the compiler happy (this is of course by design). You are able to use explicit "unsafe" blocks when you need more control, but that can be susceptible to the same pitfalls of C/C++ if you're not careful.
+  - You have to rely on the compiler to properly optimize your code. While this works the vast majority of the time, it can sometimes fail with complex algorithms in rare cases, requiring you to restructure your code or use unsafe blocks if you want better performance. Also some features such as SIMD intrinsics require unsafe blocks anyway (although a solution to this is in the works called [`portable-simd`]).
   - Much slower compile times.
   - The language is still relatively young, so library support such as GUIs and audio plugin development are not even close to the level of support C++ has. (I am however personally working on some of these Rust audio plugin libraries. If you are interested in helping with development, please check out the [`Rust Audio Discord Server`]!)
 - Resources:
