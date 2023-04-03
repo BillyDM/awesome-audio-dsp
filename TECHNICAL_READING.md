@@ -1,7 +1,7 @@
 # Technical Reading
 A list of useful articles, blogs, and scientific papers on modern algorithms and techniques for audio DSP.
 
-- [`Cytomic Technical Papers`] - Excellent filter designs, equations, and explanations by Cytomic. Use these as a better alternative to biquad filters.
+- [`Cytomic Technical Papers`] - Excellent filter designs, equations, and explanations by Cytomic. Use these as a better alternative to biquad filters that both sound better and perform better when being modulated. 
   - Specifically the document [`SvfLinearTrapOptimised2`](https://cytomic.com/files/dsp/SvfLinearTrapOptimised2.pdf) contains filters and equations that are a better alternative to the ones in the [`RBJ Cookbook`](https://webaudio.github.io/Audio-EQ-Cookbook/audio-eq-cookbook.html).
 - [`DAFx`] - An archive of scientific papers and presentations given during an annual DSP research conference.
 - [`ADC Videos`] - This YouTube channel hosts a bunch of talks and lectures given during the annual [`Audio Developer's Conference`].
