@@ -25,7 +25,7 @@ A list of open source audio software that you can inspect and learn from.
 - [`Vital`] - An incredibly powerful and high quality modern synthesizer. Rivals that of Xfer Serum and NI Massive.
   - There is also a fully GPLv3-licensed fork called [`Vitalium`] that has all the non-GPL stuff removed.
 - [`Helm`] - High-quality modern monophonic synthesizer. The older sibling to Vital. The oscillators are not stereo though.
-- [`Surge`] - Feature-rich hybrid synthesizer that was once sold as a commercial product.
+- [`Surge XT`] - Feature-rich hybrid synthesizer that was once sold as a commercial product. (It has since evolved into its own thing with many new features added.)
 - [`OB-Xd`] - A high quality subtractive analog synth modeled after the Oberheim OB-X.
 - [`Monique Mono-Synth`] - High-quality subtractive monophonic synth. Now open source!
 - [`Dexed`] - Synthesizer closely modelled after the Yamaha DX7.
@@ -64,7 +64,7 @@ A list of open source audio software that you can inspect and learn from.
 ## MIDI FX
 - [`Helio Workstation`] - A very modern and feature-rich sequencer.
 - [`QMidiArp`] - Advanced arpeggiator, sequencer, and MIDI LFO.
-- [`Stochas`] - An advanced probabilistic polyrythmic sequencer. Made by the same team behind the [`Surge`] synthesizer.
+- [`Stochas`] - An advanced probabilistic polyrythmic sequencer. Made by the same team behind the [`Surge XT`] synthesizer.
 
 ## Meters & Visualizers
 - [`Spectacle`] - Modern real-time spectrum analyzer plugin.
@@ -114,7 +114,7 @@ A list of open source audio software that you can inspect and learn from.
 [`Vital`]: https://github.com/mtytel/vital
 [`Vitalium`]: https://github.com/DISTRHO/DISTRHO-Ports/tree/master/ports-juce6/vitalium
 [`Helm`]: https://github.com/mtytel/helm
-[`Surge`]: https://github.com/surge-synthesizer/surge
+[`Surge XT`]: https://github.com/surge-synthesizer/surge
 [`OB-Xd`]: https://github.com/reales/OB-Xd
 [`Monique Mono-Synth`]: https://github.com/surge-synthesizer/monique-monosynth
 [`Dexed`]: https://github.com/asb2m10/dexed
