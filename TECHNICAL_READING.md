@@ -18,7 +18,7 @@ A list of useful articles, blogs, and scientific papers on modern algorithms and
 - [`TimeStretch PDF`] - A PDF explaining the DSP of [`TimeStretch`], a refinement of the famous [`PaulStretch`] time stretching effect.
 - [`synfx-dsp`] - A Rust crate that has several useful essential DSP algorithms you can reference along with links to relevant resources, used by the [`HexoSynth`] plugin. Includes algorithms such as filters, oscillators, LFOs, sub-sample interpolation, envelopes, waveshapers, oversampling, and a reverb.
 
-[`Cytomic Technical Papers`]: https://cytomic.com/index.php?q=technical-papers
+[`Cytomic Technical Papers`]: https://cytomic.com/technical-papers/
 [`DAFx`]: http://www.dafx.de/
 [`deip.pdf`]: https://github.com/BillyDM/Audio-DSP-Resources/blob/main/deip.pdf
 [`Signalsmith Audio Blog`]: https://signalsmith-audio.co.uk/writing/
