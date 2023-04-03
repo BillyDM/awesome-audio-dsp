@@ -9,6 +9,7 @@ A list of system tools useful in developing audio plugins and software.
 - [`Bertom EQ Curve Analyzer`] - Analyze the frequency and phase response of any plugin.
 - [`pluginval`] - Cross-platform open-source plugin validation tool made by the company Tracktion.
 - [`clap-validator`] - An open-source CLAP plugin validation tool.
+- [`yabridge`] - Allows you to load VST2, VST3, and CLAP plugins made for Windows into Linux DAWs using Wine. Supports both 32 bit and 64 bit plugins, and even allows bridged plugins to communicate with eachother.
 
 [`MrsWatson`]: http://teragonaudio.com/MrsWatson.html
 [`Carla`]: https://kx.studio/Applications:Carla
@@ -18,3 +19,4 @@ A list of system tools useful in developing audio plugins and software.
 [`Bertom EQ Curve Analyzer`]: https://www.bertomaudio.com/eqca.html
 [`pluginval`]: https://github.com/Tracktion/pluginval
 [`clap-validator`]: https://github.com/free-audio/clap-validator
+[`yabridge`]: https://github.com/robbert-vdh/yabridge
