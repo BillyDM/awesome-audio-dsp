@@ -77,16 +77,6 @@ Here I'll list the best languages to use for serious DSP and their pros and cons
   - It uses garbage collection by default (which is not "realtime safe"). It can (and should) be disabled for the DSP portion of your code, but that of course makes it less memory safe and thus requires more care and attention in those areas.
   - Library support is nowhere near the level of support that C/C++ has. (Although luckily [`DPlug`] is a great library for audio plugin development).
 
-## [`Cmajor`]
-- Pros:
-  - Specifically designed for writing DSP code.
-  - Easier to learn and master than C/C++.
-  - Aims to be safer than C/C++ while not sacrificing on performance. (It even claims to be faster than C/C++ in some cases because the compiler is specifically optimized for DSP code.)
-  - Aims to be very portable, allowing it to be compiled across diverse processor architectures without any extra work.
-- Cons:
-  - The project is still very young and its claims have not yet been battle-tested.
-  - There is currently no ecosystem of libraries for things such as GUIs and plugin development. It is a JIT (just in time) compiler, meaning the intended method is to create your GUI and bookkeeping code in another language such as C++, and then load your Cmajor patch at runtime for the DSP part.
-
 [`C++`]: https://en.wikipedia.org/wiki/C%2B%2B
 [`AFL`]: https://github.com/google/AFL
 [`Honggfuzz`]: https://github.com/google/honggfuzz
@@ -108,4 +98,3 @@ Here I'll list the best languages to use for serious DSP and their pros and cons
 [`D`]: https://dlang.org/
 [`Dplug`]: https://github.com/AuburnSounds/Dplug
 
-[`Cmajor`]: https://github.com/SoundStacks/cmajor

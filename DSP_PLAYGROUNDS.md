@@ -29,6 +29,11 @@ A list of software tools that are useful for quickly and easily prototyping DSP.
   - A custom scripting language that is easy to learn and use.
   - Well-known and long standing in the industry.
   - Free and open-source.
+- [`Cmajor`]
+  - A JIT (just in time) compiled language specifically designed for DSP. It aims to have performance similar to C/C++.
+  - Easier to learn than C/C++. However it is very similar to C, so it can be a bit harder for those who are beginners to coding.
+  - Relatively new and experimental project.
+  - Free and open-source.
 - [`py-modular`]
   - A modular and experimental programming environment with basic DSP routines.
   - Uses the very popular [`Python`] programming language, which is a great those who are learning to code.
@@ -49,6 +54,7 @@ A list of software tools that are useful for quickly and easily prototyping DSP.
 [`The Grid`]: https://www.bitwig.com/the-grid/
 [`VCV Rack`]: https://vcvrack.com/
 [`CSound`]: https://csound.com/
+[`Cmajor`]: https://github.com/SoundStacks/cmajor
 [`py-modular`]: http://py-modular.readthedocs.io/
 [`Python`]: https://www.python.org/
 [`FunDSP`]: https://github.com/SamiPerttu/fundsp
