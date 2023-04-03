@@ -1,11 +1,11 @@
-# Algorithms & Technical Papers
+# Technical Reading
 A list of useful articles, blogs, and scientific papers on modern algorithms and techniques for audio DSP.
 
-- [`Cytomic Technical Papers`] - Excellent real-world useable filters and explanations by Cytomic. Use these as a better alternative to Biquad filters that behave much better while being modulated.
+- [`Cytomic Technical Papers`] - Excellent filter designs and explanations by Cytomic. Use these as a better alternative to biquad filters.
 - [`DAFx`] - An archive of scientific papers and presentations given during an annual DSP research conference.
 - [`ADC Videos`] - This YouTube channel hosts a bunch of talks and lectures given during the annual [`Audio Developer's Conference`].
   - This one on [`high quality wavetable oscillators`] by the creator of the Vital synth is particularly good one for those interested in wavetable synthesis.
-- [`deip.pdf`] - High quality resampling and oversampling.
+- [`deip.pdf`] - A collection of high quality and fast sub-sample interpolators.
 - [`Signalsmith Audio Blog`] - An amazing and very useful collection of articles by Signalsmith Audio. The [`Let's Write A Reverb`] article is particularly excellent.
 - [`Freeverb3 - DSP References`] - A huge list of technical DSP resources focused mainly on reverb design.
 - [`Valhalla Blog`] - Valhalla DSP has an excellent blog linking many resources that helped them create their industry-leading reverbs.
@@ -15,7 +15,7 @@ A list of useful articles, blogs, and scientific papers on modern algorithms and
 - [`Musicdsp.org`] - A collection of open source DSP algorithms by the community.
 - [`The Design of the Roland Juno oscillators`] - A beautiful and simple explanation on the oscillators of this classic synth.
 - [`TimeStretch PDF`] - A PDF explaining the DSP of [`TimeStretch`], a refinement of the famous [`PaulStretch`] time stretching effect.
-- [`synfx-dsp`] - A Rust crate that has several useful essential DSP algorithms you can reference, used by the [`HexoSynth`] plugin. Includes algorithms such as filters, oscillators, LFOs, sub-sample interpolation, envelopes, waveshapers, oversampling, and a reverb.
+- [`synfx-dsp`] - A Rust crate that has several useful essential DSP algorithms you can reference along with links to relevant resources, used by the [`HexoSynth`] plugin. Includes algorithms such as filters, oscillators, LFOs, sub-sample interpolation, envelopes, waveshapers, oversampling, and a reverb.
 
 [`Cytomic Technical Papers`]: https://cytomic.com/index.php?q=technical-papers
 [`DAFx`]: http://www.dafx.de/

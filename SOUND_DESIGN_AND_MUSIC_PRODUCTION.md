@@ -10,7 +10,7 @@ While this is not *strictly* development related, knowing how plugins are actual
 - [`Nosia`] - He and another cutting edge sound designer have a tutorial series on their Patreon.
 - [`Mr. Bill`] - This guy has a lot of good tutorials on his channel.
 - [`Nigel Good`] - This guy makes sounds that are *so* clean.
-- [`Frequent`] - Good sound design & arrangment tutorials.
+- [`Frequent`] - Good sound design & arrangement tutorials.
 - [`Crow`] - Good tutorials on sound design and mixing.
 
 [`Mixing Secrets for the Small Studio`]: https://www.amazon.com/Mixing-Secrets-Small-Studio-Presents/dp/0240815807

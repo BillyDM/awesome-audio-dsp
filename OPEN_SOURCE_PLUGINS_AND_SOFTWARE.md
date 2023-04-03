@@ -39,8 +39,8 @@ A list of open source audio software that you can inspect and learn from.
 - [`Sfizz`] - A sampler that plays [`SFZ`] files. (SFZ is like SoundFonts but with more features).
 - [`Bespoke Synth`] - A very modular synthesizer with support for complex routing, modulation, and sequencing. It can even host VST plugins, blurring the lines between synth and DAW.
 - [`Cardinal`] - An open source modular synthesizer plugin that can host [`VCV Rack`] plugins.
-- [`OctaSine`] - A versitile FM synth written in full-stack [`Rust`].
-- [`ChowKick`] - A high quality oldschool kick drum synthesizer.
+- [`OctaSine`] - A versatile FM synth written in full-stack [`Rust`].
+- [`ChowKick`] - A high quality old school kick drum synthesizer.
 - [`DigiDrie`] - A "monster" monophonic synth.
 
 ## Audio FX

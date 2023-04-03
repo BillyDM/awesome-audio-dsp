@@ -18,7 +18,7 @@ I recommend knowing at least these fundamental concepts in order best get starte
 - [`3Blue1Brown`] - An excellent YouTube channel on complex algebra, linear algebra, calculus, and differential equations.
   - His videos on [`Euler's Formula`] and the [`Fourier Transform`] are particularly excellent.
 - [`Paul's Online Math Notes`] - Excellent resources written and used by a professor at Lamar University.
-- [`Paul's Cheat Sheets`] - Cheat sheets for many common identities and formulas in algebra, trig, calculus, and laplace transformations. Because who can remeber all this stuff?
+- [`Paul's Cheat Sheets`] - Cheat sheets for many common identities and formulas in algebra, trig, calculus, and laplace transformations. Because who can remember all this stuff?
 - [`katjaas`] - Neat visual explanations of DSP mathematics and techniques.
 - This video on the [`Laplace Transform`] by Zach Star.
 - [`Khan Academy`] - Free college-level courses.
@@ -31,7 +31,7 @@ I recommend knowing at least these fundamental concepts in order best get starte
   - [`Signal package`] - Signal processing tools for [`GNU Octave`], including filtering, windowing and display functions.
 - [`Curcuit JS`] - A cool little circuit simulation tool.
 - [`Awesome Electronics - Simulators`]: This awesome list has a list of useful circuit simulation tools.
-- [`Russell`] - A collection of tools that assist in the development of scientific computations (and by extension audio DSP). It includes numerical methods and solvers for differential equations, tools for statistical analysis, and other linear algebra tools. It is written in the [`Rust`] programming lanugage.
+- [`Russell`] - A collection of tools that assist in the development of scientific computations (and by extension audio DSP). It includes numerical methods and solvers for differential equations, tools for statistical analysis, and other linear algebra tools. It is written in the [`Rust`] programming language.
 
 [`3Blue1Brown`]: https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw
 [`Euler's Formula`]: https://www.youtube.com/watch?v=mvmuCPvRoWQ

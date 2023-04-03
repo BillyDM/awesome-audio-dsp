@@ -5,7 +5,7 @@ There are quite a few audio plugin API standards which allow your plugin be comp
 
 ## CLAP
   - Why?: A brand new fully free and open-source plugin standard with no licensing restrictions. It was started by an employee of the Bitwig DAW and has since gotten development support from several key players in the audio industry. It is built from the ground up by people with real-world experience developing audio software, and such it is designed to fit the needs of actual developers as much as possible. It is written in a stable header-only C API, making it easy to create bindings to it in any programming language.
-  - Why Not?: It is still kind-of young, and only a handful of DAWs support this standard. But this is changing pretty quick, and expect many more DAWs to adpot this standard!
+  - Why Not?: It is still kind-of young, and only a handful of DAWs support this standard. But this is changing pretty quick, and expect many more DAWs to adopt this standard!
   - License: [`MIT`]
   - Platforms: Linux, Mac, Windows, Android, iOS
   - Support: Currently only supported by a handful of DAWs such as Bitwig, MultitrackStudio, and QTractor, but more DAWs are currently in the works to adopt this standard.
@@ -37,7 +37,7 @@ There are quite a few audio plugin API standards which allow your plugin be comp
   - Platforms: Linux, Mac, Windows
   - Support: Supported by most modern commercial DAWs (with notable exception of Apple's DAW Logic) and a few open source DAWs.
   - Distribution - If you are distributing your plugin with the [`GPLv3`] open source license (or host VST3 plugins with your own [`GPLv3`] host), then you do not need to have a signed license agreement with Steinberg. However, if you want to distribute your plugin closed source (for commercial purposes) or create a closed-source host, then you need to get a signed [`VST3 License Agreement`].
-    - Also note that Steinberg has a history of changing their license agreements for however they see fit (like they did when they stopped giving out VST2 licenses). If you want to ever distribute plugins commerically, I would advise to get a license agreement as soon as possible before Steinberg changes their mind.
+    - Also note that Steinberg has a history of changing their license agreements for however they see fit (like they did when they stopped giving out VST2 licenses). If you want to ever distribute plugins commercially, I would advise to get a license agreement as soon as possible before Steinberg changes their mind.
   - SDK download: [`VST3 SDK`]
 
 ## AUv2/AUv3 (aka AU or Audio Units, version 2 and 3)
@@ -60,7 +60,7 @@ This is a proprietary plugin standard for use exclusively with Avid's DAW Pro To
  ## LV2
  LV2 is a free and open source plugin standard created for use within the Linux ecosystem.
   - Why?: Even though support on Mac and Windows is rare, Linux has by far the best development ecosystem in my opinion. There is also a growing community of music producers using Linux.
-  - Why Not?: Lack of support in most major commercial DAWs, and the new CLAP spec makes this standard obselete in my opinion.
+  - Why Not?: Lack of support in most major commercial DAWs, and the new CLAP spec makes this standard obsolete in my opinion.
   - License: [`MIT`]
   - Platforms: Linux, Mac, Windows (Although support for Mac and Windows is rare.)
   - Support: Supported by most open-source DAWs, but hardly any commercial DAWs support it (maybe even none of them do).
@@ -71,7 +71,7 @@ This is a proprietary plugin standard for use exclusively with Avid's DAW Pro To
 ## LADSPA
 LADSPA is the precursor to LV2.
   - Why?: It is dead simple to work with.
-  - Why Not?: Lack of support in most major commercial DAWs. Also, LADSPA only supports GUI-less plugins. Again, the new CLAP spec makes this standard obselete in my opinion.
+  - Why Not?: Lack of support in most major commercial DAWs. Also, LADSPA only supports GUI-less plugins. Again, the new CLAP spec makes this standard obsolete in my opinion.
   - License: [`LGPLv2.1`]/[`LGPLv3`]
   - Platforms: Same as LV2 above
   - Support: Same as LV2 above

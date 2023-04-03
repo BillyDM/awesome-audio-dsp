@@ -5,7 +5,7 @@ A list of non-free textbooks on audio DSP.
   - One of the most highly recommended resources for entering the world of audio DSP.
   - Great beginner resource that teaches fundamental DSP concepts without going into too much mathematics.
   - The synthesizer one is better than the effect one imo, so go for that if you plan on only buying one.
-  - Focuses on teaching concepts, not on writing performant code. His coding sytle is quite ineffecient for real-world use.
+  - Focuses on teaching concepts, not on writing performant code. His coding style is not that efficient for real-world use.
   - ISBN-10: 0367510480 and 1138591939, ISBN-13: 978-0367510480 and 978-1138591936
 
 - [`A Digital Signal Processing Primer`] by Kenneth Steiglitz
