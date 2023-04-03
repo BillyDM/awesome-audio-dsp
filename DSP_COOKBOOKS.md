@@ -3,7 +3,7 @@
 A list of algorithms and equations you can use and reference for your own DSP designs.
 
 - [`Musicdsp.org`](https://www.musicdsp.org/en/latest/index.html) - A large collection of open source DSP algorithms by the community.
-- [`Cytomic Technical Papers`](https://cytomic.com/index.php?q=technical-papers) - Excellent filter designs, equations, and explanations by Cytomic. Use these as a better alternative to biquad filters.
+- [`Cytomic Technical Papers`](https://cytomic.com/index.php?q=technical-papers) - Excellent filter designs, equations, and explanations by Cytomic. Use these as a better alternative to biquad filters that both sound better and perform better when being modulated.
   - Specifically the document [`SvfLinearTrapOptimised2`](https://cytomic.com/files/dsp/SvfLinearTrapOptimised2.pdf) contains filters and equations that are a better alternative to the ones in the RBJ Cookbook.
 - [`Audio EQ Cookbook`](https://webaudio.github.io/Audio-EQ-Cookbook/audio-eq-cookbook.html) (aka RBJ Cookbook) - A collection of equations for calculating biquad filter coefficients.
 - [`deip.pdf`](https://github.com/BillyDM/Audio-DSP-Resources/blob/main/deip.pdf) - A collection of high quality and fast sub-sample interpolators.
