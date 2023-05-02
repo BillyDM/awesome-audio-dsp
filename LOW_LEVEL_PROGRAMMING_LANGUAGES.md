@@ -54,7 +54,7 @@ Here I'll list the best languages to use for serious DSP and their pros and cons
   - The language is very restrictive on what you are able to do, and thus requires more time up-front figuring out how to structure your code to make the compiler happy (this is of course by design). You are able to use explicit "unsafe" blocks when you need more control, but that can be susceptible to the same pitfalls of C/C++ if you're not careful.
   - You have to rely on the compiler to properly optimize your code. While this works the vast majority of the time, it can sometimes fail with complex algorithms in rare cases, requiring you to restructure your code or use unsafe blocks if you want better performance. Also some features such as SIMD intrinsics require unsafe blocks anyway (although a solution to this is in the works called [`portable-simd`]).
   - Much slower compile times.
-  - The language is still relatively young, so library support such as GUIs and audio plugin development are not even close to the level of support C++ has. (I am however personally working on some of these Rust audio plugin libraries. If you are interested in helping with development, please check out the [`Rust Audio Discord Server`]!)
+  - The language is still relatively young, so library support such as GUIs and audio plugin development are not even close to the level of support C++ has. (There is however an active community of Rust developers working on some of these libraries. If you are interested in helping, check out the [`Rust Audio Discord Server`]!)
 - Resources:
   - [`Rust Book`] - The fantastic official online book on learning Rust.
   - [`How to learn modern Rust`] - An extensive list of resources for learning Rust.
