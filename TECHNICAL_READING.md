@@ -17,6 +17,7 @@ A list of useful articles, blogs, and scientific papers on modern algorithms and
 - [`The Design of the Roland Juno oscillators`] - A beautiful and simple explanation on the oscillators of this classic synth.
 - [`TimeStretch PDF`] - A PDF explaining the DSP of [`TimeStretch`], a refinement of the famous [`PaulStretch`] time stretching effect.
 - [`synfx-dsp`] - A Rust crate that has several useful essential DSP algorithms you can reference along with links to relevant resources, used by the [`HexoSynth`] plugin. Includes algorithms such as filters, oscillators, LFOs, sub-sample interpolation, envelopes, waveshapers, oversampling, and a reverb.
+- [`Reaktor 6 DSP Articles`] - A collection of DSP articles by Native Instruments. It also includes examples of how to implement them in Reaktor 6.
 
 [`Cytomic Technical Papers`]: https://cytomic.com/technical-papers/
 [`DAFx`]: http://www.dafx.de/
@@ -38,3 +39,4 @@ A list of useful articles, blogs, and scientific papers on modern algorithms and
 [`high quality wavetable oscillators`]: https://www.youtube.com/watch?v=qlinVx60778
 [`synfx-dsp`]: https://github.com/WeirdConstructor/synfx-dsp
 [`HexoSynth`]: https://github.com/WeirdConstructor/HexoSynth
+[`Reaktor 6 DSP Articles`]: https://www.native-instruments.com/en/products/komplete/synths/reaktor-6/dsp-articles/
