@@ -18,6 +18,7 @@ A list of open source audio software that you can inspect and learn from.
 - [`Mrugalla Plugins`] - A collection of modern and unique plugins by Florian Mrugalla.
 - [`DISTRHO-Ports`] - A whole bunch of plugins ported to work on Linux/LV2.
 - [`DISTRHO Plugin Framework`] - Has a list of plugins that were made using this framework.
+- [`JSFX`] - A collection of cool plugins and scripts for Reaper. Some of the GUIs are absolutely stunning.
 - [`lkjb plugins`] - Additional plugins made by the creator of [`Luftikus`].
 - [`SOUL-VA`] - A non-trivial virtual analog filter library written in [`SOUL`]. Plugin versions are also sold as commercial products.
 
@@ -108,6 +109,7 @@ A list of open source audio software that you can inspect and learn from.
 [`Mrugalla Plugins`]: https://github.com/Mrugalla
 [`DISTRHO-Ports`]: https://github.com/DISTRHO/DISTRHO-Ports
 [`DISTRHO Plugin Framework`]: https://github.com/DISTRHO/DPF
+[`JSFX`]: https://github.com/JoepVanlier/JSFX
 [`lkjb plugins`]: https://github.com/lkjbdsp/lkjb-plugins
 [`SOUL-VA`]: https://github.com/thezhe/SOUL-VA
 [`SOUL`]: https://github.com/soul-lang/SOUL
