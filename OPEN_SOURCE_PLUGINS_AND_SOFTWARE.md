@@ -76,7 +76,6 @@ A list of open source audio software that you can inspect and learn from.
 - [`Tuna`] - A musical instrument tuner with strobe characteristics.
 
 ## DAWs & Hosts
-- [`Meadowlark`] - Definitely biased here since this is my main project that I work on full-time. It's still in its very early stages, but check it out if you're interested in contributing! :)
 - [`Ardour`] - Feature-rich DAW. Focuses more on recorded music production over electronic music production.
 - [`LMMS`] - Feature-rich DAW focused on electronic music production. Contains many built-in synths and effects.
 - [`Audacity`] - Popular multi-track audio editor. There is also a fully-libre open source fork called [`Tenacity`].
@@ -167,7 +166,6 @@ A list of open source audio software that you can inspect and learn from.
 [`LUFS meter`]: https://github.com/klangfreund/LUFSMeter
 [`Tuna`]: https://github.com/x42/tuna.lv2
 
-[`Meadowlark`]: https://github.com/MeadowlarkDAW/Meadowlark
 [`Ardour`]: https://ardour.org/
 [`LMMS`]: https://github.com/LMMS/lmms
 [`Audacity`]: https://github.com/audacity/audacity
