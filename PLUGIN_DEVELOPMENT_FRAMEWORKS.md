@@ -9,7 +9,11 @@ A list of software stacks/frameworks used to make audio plugins, along with thei
   - Targets VST2, VST3, AUv2, AUv3, RTAS, and AAX plugin formats. Unofficial support for the CLAP standard is also in the works [`here`](https://github.com/free-audio/clap-juce-extensions).
   - Targets Linux, Mac, Windows, iOS, Android, and Raspberry Pi platforms.
   - Well known in the industry, and many commercial plugins are built with it.
-  - You can use code templates such as [`pamplejuce`](https://github.com/sudara/pamplejuce) that greatly improve the development process.
+
+### JUCE Resources
+  - [`pamplejuce`](https://github.com/sudara/pamplejuce) - Handy code template to help with the development process.
+  - [`JIVE`](https://github.com/ImJimmi/JIVE) - Framework that makes it easier to create GUIs in JUCE.
+  - [`Awesome JUCE`](https://github.com/sudara/awesome-juce) - A large list of resources for JUCE.
 
 ## [`nih-plug`]
   - Full-stack and modular framework with GUI in [`Rust`].
