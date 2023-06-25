@@ -9,6 +9,8 @@ Tips and tools for optimizing audio software.
 - [`Auto-Vectorization in LLVM`] - Tips and tricks on how to structure your code to most effectively take advantage of auto-vectorization.
 - [`The Rust Performance Book`] - Tips on optimizing code in Rust.
 - [`How-to Optimize Rust Programs on Linux`] - How-to guide on profiling Rust code on Linux.
+- [`Algorithms for Modern Hardware`] by Sergey Slotin - Free online book on high performance computing.
+  - The [`Profiling`](https://en.algorithmica.org/hpc/profiling/) chapter is a good guide on how to do effective profiling and benchmarking.
 - [`Fast-DSP-Approximations`] - My own list of public-domain fast approximations of various expensive calculations.
 
 # Profiling Tools
@@ -158,3 +160,4 @@ You should also avoid the common direct-form biquad filter model since it perfor
 [`portable-simd`]: https://github.com/rust-lang/portable-simd
 [`Cytomic Technical Papers`]: https://cytomic.com/technical-papers/
 [`SvfLinearTrapOptimised2`]: https://cytomic.com/files/dsp/SvfLinearTrapOptimised2.pdf
+[`Algorithms for Modern Hardware`]: https://en.algorithmica.org/hpc/
