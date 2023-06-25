@@ -12,6 +12,8 @@ While this is not *strictly* development related, knowing how plugins are actual
 - [`Nigel Good`] - This guy makes sounds that are *so* clean.
 - [`Frequent`] - Good sound design & arrangement tutorials.
 - [`Crow`] - Good tutorials on sound design and mixing.
+- [`AutoEq`] - Free and open source tool for applying EQ correction to a wide variety of headphones. Note that you shouldn't use the premade results since they target the Harman curve. Instead, use the online tool to generate a result that uses the "Flat" target (under "Show advanced" -> "Target").
+  - There are also paid alternatives like [`Sonarworks`](https://www.sonarworks.com/) or [`Toneboosters Morphit`](https://toneboosters.com/tb_morphit_v1.html).
 
 [`Mixing Secrets for the Small Studio`]: https://www.amazon.com/Mixing-Secrets-Small-Studio-Presents/dp/0240815807
 [`SeamlessR`]: https://www.youtube.com/playlist?list=PLGYoE903Nir5LfIWap-x8aEV6Q-YkE6c4
@@ -24,3 +26,4 @@ While this is not *strictly* development related, knowing how plugins are actual
 [`Nigel Good`]: https://www.youtube.com/channel/UCnqL5z-OAN-QHT4aRFtpvWA
 [`Frequent`]: https://www.youtube.com/channel/UCVMbWJCB-79KbDZ51eakZgQ
 [`Crow`]: https://www.youtube.com/c/CrowOfficial/videos
+[`AutoEq`]: https://github.com/jaakkopasanen/AutoEq
