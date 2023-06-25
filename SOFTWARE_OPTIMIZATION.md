@@ -11,6 +11,13 @@ Tips and tools for optimizing audio software.
 - [`How-to Optimize Rust Programs on Linux`] - How-to guide on profiling Rust code on Linux.
 - [`Fast-DSP-Approximations`] - My own list of public-domain fast approximations of various expensive calculations.
 
+# Profiling Tools
+
+- [`llvm-mca`](https://www.llvm.org/docs/CommandGuide/llvm-mca.html) - Powerful machine code analyzer. You can also use this inside [`Compiler Explorer`] by selecting it under "Add tool".
+- [`VTune`](https://www.intel.com/content/www/us/en/docs/vtune-profiler/get-started-guide/2023/overview.html) - Powerful profiler for Intel processors.
+- [`uProf`](https://www.amd.com/en/developer/uprof.html) - Powerful profiler for AMD processors.
+- [`Valgrind`](https://valgrind.org/docs/manual/quick-start.html) - A collection of static analysis and profiling tools.
+
 # Portable SIMD Libraries
 
 - [`highway`] (C++)
@@ -137,7 +144,7 @@ You should also avoid the common direct-form biquad filter model since it perfor
 
 [`Fast-DSP-Approximations`]: https://github.com/BillyDM/Fast-DSP-Approximations
 [`Intel Intrinsics Guide`]: https://software.intel.com/sites/landingpage/IntrinsicsGuide
-[`Compiler Explorer`]: https://rust.godbolt.org/
+[`Compiler Explorer`]: https://godbolt.org/
 [`Software Optimization Resources`]: https://www.agner.org/optimize/
 [`Agner Fog's Instruction Tables`]: https://www.agner.org/optimize/instruction_tables.pdf
 [`Real-time audio programming 101`]: http://www.rossbencina.com/code/real-time-audio-programming-101-time-waits-for-nothing
