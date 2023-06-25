@@ -113,7 +113,7 @@ You can also try having multiple loops, one for each case. But of course the dow
 
 Also note that sometimes compilers can optimize branching inside loops by automatically splitting it into multiple loops. But if you rely on this, use tools like [`Compiler Explorer`] to verify the assembly.
 
-Even then, modern CPUs tend to make heavy use of speculative execution to mitigate the overhead from branching. Always measure the performance to see if optimizing the branching logic actually makes a meaningful improvement.
+Even then, modern CPUs tend to make heavy use of speculative execution to mitigate the overhead from branching. Always measure the performance to see if optimizing the branching logic actually makes a meaningful improvement. You can also try using compiler hints to improve speculative execution with the `[[likely]]`/`[[unlikely]]` attributes in C++ or the `std::intrinsics::likely`/`std::intrinsics::unlikely` instrinsics in Rust (there is also the [`likely_stable`](https://crates.io/crates/likely_stable) crate for the stable Rust compliler).
 
 ## 8. Try caching expensive calculations into lookup tables
 
