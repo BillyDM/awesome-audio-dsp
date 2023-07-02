@@ -3,6 +3,9 @@ Tips and tools for optimizing audio software.
 
 - [`Real-time audio programming 101`] - Tips on writing real-time code.
 - [`Compiler Explorer`] - Very useful tool that lets you analyze the assembly output of many different languages including Rust, C, and C++.
+  - Note, you will generally want to enable compiler optimizations when using this tool. To do this, enter the following text into the "Compiler options..." field:
+    - C/C++ (gcc or clang): `-O3`
+    - Rust: `-C opt-level=3`
 - [`Intel Intrinsics Guide`] - x86 processor intrinsics
 - [`Software Optimization Resources`] - A popular resource on optimizing for x86 based architectures.
 - [`Agner Fog's Instruction Tables`] - A useful table that lists the latency and throughput performance of various x86 instructions.
