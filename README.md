@@ -10,7 +10,7 @@ My curated list of audio DSP (digital signal processing) and plugin development 
 - [`Machine Learning`] - Resources on using this powerful emerging technology for audio DSP.
 - [`Open Source Plugins & Software`] - A list of open source audio software that you can inspect and learn from.
 - [`DSP Cookbooks`] - A list of algorithms and equations you can use and reference for your own DSP designs.
-- [`DSP Libraries`] - A list of ready-made libraries for audio DSP.
+- [`Code Libraries`] - A list of useful libraries for audio software.
 - [`Sound Design & Music Production`] - While this is not *strictly* development related, knowing how plugins are actually used to make and edit sound can give valuable insight.
 - [`Software Optimization`] - Tips and tools for optimizing audio software.
 - [`System Tools`] - A list of system tools useful in developing audio plugins and software.
@@ -39,7 +39,7 @@ My curated list of audio DSP (digital signal processing) and plugin development 
 [`Machine Learning`]: MACHINE_LEARNING.md
 [`Open Source Plugins & Software`]: OPEN_SOURCE_PLUGINS_AND_SOFTWARE.md
 [`DSP Cookbooks`]: DSP_COOKBOOKS.md
-[`DSP Libraries`]: DSP_LIBRARIES.md
+[`Code Libraries`]: CODE_LIBRARIES.md
 [`Sound Design & Music Production`]: SOUND_DESIGN_AND_MUSIC_PRODUCTION.md
 [`Software Optimization`]: SOFTWARE_OPTIMIZATION.md
 [`System Tools`]: SYSTEM_TOOLS.md
