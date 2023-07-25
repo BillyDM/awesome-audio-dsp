@@ -23,7 +23,7 @@ My curated list of audio DSP (digital signal processing) and plugin development 
 <hr/>
 
 ### *"If I'm a total noob, where should I start?"*
-- [`project μ`]: An excellent and free online blog that neatly explains the basics of DSP.
+- [`projet μ`]: An excellent and free online blog that neatly explains the basics of DSP.
 - [`Designing Software Synthesizer Plug-Ins in C++`] and [`Designing Audio Effect Plugins in C++`] by Will Pirkle
     - These textbooks are a common recommendation for beginners.
     - The synthesizer one is better than the effect one imo, so go for that if you plan on only buying one.
@@ -48,7 +48,7 @@ My curated list of audio DSP (digital signal processing) and plugin development 
 [`Plugin Development Frameworks`]: PLUGIN_DEVELOPMENT_FRAMEWORKS.md
 [`Forums`]: FORUMS.md
 [`More Lists`]: MORE_LISTS.md
-[`project μ`]: https://mu.krj.st/
+[`projet μ`]: https://mu.krj.st/
 [`Think DSP`]: https://github.com/AllenDowney/ThinkDSP
 [`Designing Software Synthesizer Plug-Ins in C++`]:  https://www.amazon.com/Designing-Software-Synthesizer-Plug-Ins-Audio/dp/0367510480
 [`Designing Audio Effect Plugins in C++`]: https://www.amazon.com/Designing-Audio-Effect-Plugins-C/dp/1138591939

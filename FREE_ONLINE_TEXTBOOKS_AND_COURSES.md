@@ -1,7 +1,7 @@
 # Free Online Textbooks & Courses
 A list of free online textbooks and courses on audio DSP.
 
-- [`project μ`] by Yü Fang
+- [`projet μ`] by Yü Fang
   - An incredible online guide walking you through how audio DSP works with examples of common algorithms to get you started.
   - Shows very clearly how to apply these algorithms in actual code, and also has helpful and nice looking graphs.
   - Requires knowledge of complex numbers, integral calculus, and the C programming language. (It is also very unix-focused).
@@ -36,7 +36,7 @@ A list of free online textbooks and courses on audio DSP.
   - Teaches core concepts of many common audio effects and synthesizers.
   - Relatively heavy on mathematics.
 
-[`project μ`]: https://mu.krj.st/
+[`projet μ`]: https://mu.krj.st/
 [`The Scientist and Engineer's Guide to Digital Signal Processing`]: http://www.dspguide.com/pdfbook.htm
 [`Think DSP`]: https://github.com/AllenDowney/ThinkDSP
 [`Julius Orion Smith III Collection`]: https://ccrma.stanford.edu/~jos/
