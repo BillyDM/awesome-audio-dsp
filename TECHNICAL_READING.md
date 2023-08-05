@@ -6,6 +6,7 @@ A list of useful articles, blogs, and scientific papers on modern algorithms and
 - [`DAFx`] - An archive of scientific papers and presentations given during an annual DSP research conference.
 - [`ADC Videos`] - This YouTube channel hosts a bunch of talks and lectures given during the annual [`Audio Developer's Conference`].
   - This one on [`high quality wavetable oscillators`] by the creator of the Vital synth is particularly good one for those interested in wavetable synthesis.
+- [`AES`] - A large collection of high quality research and technical papers. Requires a paid membership to access.
 - [`deip.pdf`] - A collection of high quality and fast sub-sample interpolators.
 - [`Signalsmith Audio Blog`] - An amazing and very useful collection of articles by Signalsmith Audio. The [`Let's Write A Reverb`] article is particularly excellent.
 - [`Freeverb3 - DSP References`] - A huge list of technical DSP resources focused mainly on reverb design.
@@ -36,6 +37,7 @@ A list of useful articles, blogs, and scientific papers on modern algorithms and
 [`PaulStretch`]: http://hypermammut.sourceforge.net/paulstretch/
 [`ADC Videos`]: https://www.youtube.com/c/JUCElibrary/featured
 [`Audio Developer's Conference`]: https://audio.dev/
+[`AES`]: https://aes2.org/
 [`high quality wavetable oscillators`]: https://www.youtube.com/watch?v=qlinVx60778
 [`synfx-dsp`]: https://github.com/WeirdConstructor/synfx-dsp
 [`HexoSynth`]: https://github.com/WeirdConstructor/HexoSynth

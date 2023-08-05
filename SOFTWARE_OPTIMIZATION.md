@@ -15,6 +15,8 @@ Tips and tools for optimizing audio software.
 - [`Algorithms for Modern Hardware`] by Sergey Slotin - Free online book on high performance computing.
   - The [`Profiling`](https://en.algorithmica.org/hpc/profiling/) chapter is a good guide on how to do effective profiling and benchmarking.
 - [`Fast-DSP-Approximations`] - My own list of public-domain fast approximations of various expensive calculations.
+- [`projet μ - denormal`] - Important article on how to avoid denormals in your code.
+  - [`no_denormals`] - A Rust crate for temporarily turning off denormals in your DSP code.
 
 # Profiling Tools
 
@@ -31,15 +33,16 @@ Tips and tools for optimizing audio software.
 - [`libsimdcpp`] (C++)
 - [`portable-simd`] (Rust, currently requires the nightly compiler)
 
-# My 10 Audio Software Optimization Tips
+# My Audio Software Optimization Tips
 
 > TLDR version:
 > - Don't assume a change made your code faster. Profile it!
 > - Avoid mutexes, locks, try-locks, `malloc`, `free`, and printing to the terminal in the realtime thread.
+> - Beware of [`denormals`].
 > - CPU cache is king.
 > - Avoid excessive branching logic and calls to medium/large-sized functions.
 > - Try using optimizations such as lookup tables and/or SIMD intrinsics.
-> - Verify that the compiler is doing what you want it to by inspeciting the assembly output.
+> - Verify that the compiler is doing what you want it to by inspecting the assembly output.
 
 ## 1. Don't assume that a change made your code faster, measure it!
 
@@ -68,7 +71,15 @@ OS operations don't have a predictable amount of execution time, meaning the OS 
 - Printing to the terminal
   - While this is fine to do while developing and debugging a plugin, just make sure that you disable terminal printing operations in the realtime thread before shipping the plugin or when measuring its performance.
 
-## 3. Avoid excessive division and modulo operations
+## 3. Beware of denormals
+
+Denormals are a quirk of how floating point numbers work inside a CPU. It is not rare for DSP code to generate denormal numbers, and when it happens it can lead to substantial slowdowns on certain CPU architectures like x86 (Most ARM-based CPUs don't suffer from this problem, but you still might want to disable them to have parity with your x86 code).
+
+The article [`projet μ - denormal`] does a much better job at explaining this topic than I ever could. It also explains various techniques for avoiding denormals.
+
+If you are using Rust, there is a handy crate called [`no_denormals`] which simplifies the technique as described in the section "2.4.1 Flushing denormals" in that article.
+
+## 4. Avoid excessive division and modulo operations
 
 The division and modulo operations on both floating point and integer numbers are significantly more expensive than the addition, subtraction, and multiplication operations. If the same divisor is being used over and over again (it's especially common to divide by the sample rate), consider taking the reciprocal of the divisor once and then multiplying by the reciprocal.
 
@@ -76,11 +87,11 @@ Note this does not apply if the divisor is a constant. Compilers will automatica
 
 Even then, a lot of times compilers will automatically take the reciprocal of a divisor before a loop. But if you want to rely on this, you can use tools like [`Compiler Explorer`] to verify the assembly.
 
-## 4. Prefer to use block-based processing instead of per-sample processing
+## 5. Prefer to use block-based processing instead of per-sample processing
 
 In other words, prefer to use processing loops that process a chunk (aka block) of samples in each loop iteration instead of loops that process just a single sample in each loop iteration.
 
-The optimal block size will usually be somewhere around 8 to 1024 samples. The key is to find the right balance between reducing the overhead of function calling and branching logic, and avoiding cache misses (which I will explain in points 5, 6, and 7). Experiment to see what performs best for your code.
+The optimal block size will usually be somewhere around 8 to 1024 samples. The key is to find the right balance between reducing the overhead of function calling and branching logic, and avoiding cache misses (which I will explain in points 6, 7, and 8). Experiment to see what performs best for your code.
 
 There are a few different way to go about using block-based processing:
 
@@ -90,13 +101,13 @@ There are a few different way to go about using block-based processing:
 
 Also keep in mind that because block-based processing is considerably more complicated to set up than per-sample processing, it's okay to use per-sample processing while you are still in the stages of developing and experimenting with your actual DSP algorithms.
 
-## 5. Cache misses are expensive on modern CPUs
+## 6. Cache misses are expensive on modern CPUs
 
 Modern CPUs rely heavily on cached memory for their performance. If an operation causes the CPU to fetch data that is not readily available in its low-level cache, it has to wait around to pull that data from either high-level cache or from RAM.
 
 One way to avoid cache misses is to make sure your buffers aren't too large, so that the CPU can fit all of the working buffers into its low-level cache. The optimal buffer (block) size will usually be somewhere around 8 to 2048 samples depending on how many buffers you have. Experiment to see what performs best for your code.
 
-## 6. Avoid excessive calls to medium/large-sized functions
+## 7. Avoid excessive calls to medium/large-sized functions
 
 Calling a function has a small amount of overhead, and this overhead can add up if called thousands or millions of times a second. Large function calls also makes it harder for a CPU to optimally cache its working memory.
 
@@ -104,7 +115,7 @@ By using block-based processing, you can reduce the number of function calls by 
 
 And note that I said "medium/large-sized functions". Modern compilers are really good at inlining small functions. But if you're still unsure whether or not a function is being inlined properly by the compiler, you can use tools like [`Compiler Explorer`] to verify the assembly. If it's not being inlined properly, you can use the `__forceinline` or `inline __attribute__((always_inline))` keywords in C++ or the `#[inline(always)]` keyword in Rust to try to force the compiler to inline it. Even then, always measure the performance to see if inlining the function actually improves performance, because a lot of times it can actually make the performance worse (it also can make the size of the compiled binary much larger).
 
-## 7. Avoid excessive if and switch statements
+## 8. Avoid excessive if and switch statements
 
 Branching logic has a small amount of overhead, and this overhead can add up if called thousands or millions of times a second. Branching logic also makes it harder for a CPU to optimally cache its working memory.
 
@@ -116,15 +127,15 @@ You can also try having multiple loops, one for each case. But of course the dow
 
 Also note that sometimes compilers can optimize branching inside loops by automatically splitting it into multiple loops. But if you rely on this, use tools like [`Compiler Explorer`] to verify the assembly.
 
-Even then, modern CPUs tend to make heavy use of speculative execution to mitigate the overhead from branching. Always measure the performance to see if optimizing the branching logic actually makes a meaningful improvement. You can also try using compiler hints to improve speculative execution with the `[[likely]]`/`[[unlikely]]` attributes in C++ or the `std::intrinsics::likely`/`std::intrinsics::unlikely` instrinsics in Rust (there is also the [`likely_stable`](https://crates.io/crates/likely_stable) crate for the stable Rust compliler).
+Even then, modern CPUs tend to make heavy use of speculative execution to mitigate the overhead from branching. Always measure the performance to see if optimizing the branching logic actually makes a meaningful improvement. You can also try using compiler hints to improve speculative execution with the `[[likely]]`/`[[unlikely]]` attributes in C++ or the `std::intrinsics::likely`/`std::intrinsics::unlikely` intrinsics in Rust (there is also the [`likely_stable`](https://crates.io/crates/likely_stable) crate for the stable Rust compiler).
 
-## 8. Try caching expensive calculations into lookup tables
+## 9. Try caching expensive calculations into lookup tables
 
 A common way to speed up expensive calculations is to precompute the calculation for a large range of inputs, and then storing the results into a lookup table. This is especially common practice for filter coefficients.
 
 However, keep in mind that if the lookup table is too large, then it can cause cache misses in the CPU. Experiment to find the optimal lookup table size for your algorithm.
 
-## 9. Try using SIMD intrinsics
+## 10. Try using SIMD intrinsics
 
 SIMD intrinsics are special features built into CPUs that allow it to pack multiple numbers into a single "vector" object (not to be confused with `std::vector` in C++ or `std::Vec` in Rust) and then apply an operation to every number in that vector at the same time. It's kind of like multithreaded processing, but in a super fast single-threaded kind of way.
 
@@ -134,9 +145,9 @@ For a list of SIMD intrinsics in x86 processors, look at the [`Intel Intrinsics 
 
 Also note that modern compilers have a feature called "autovectorization" where they can automatically create SIMD code for the given target CPU. However, this process can be unreliable for all but the simplest algorithms. But if you want to rely on this, you can use [`Compiler Explorer`] to verify the assembly, and you can follow [`Auto-Vectorization in LLVM`] for some tips.
 
-Also keep in mind that because SIMD intrinsics are considerably more complicated, it's fine to not use them while you are still in the stages of developing and experimenting with your actual DSP algorithms. Keeping a scalar version of your code around is also a smart idea for readability and future-proofness, even if you end up commenting it out.
+Also keep in mind that because SIMD intrinsics are considerably more complicated, it's fine to not use them while you are still in the stages of developing and experimenting with your actual DSP algorithms. Keeping a scalar version of your code around is also a smart idea for readability and to keep your code more future-proof, even if you end up commenting it out.
 
-## 10. Prefer to use single-precision floats instead of double-precision floats
+## 11. Prefer to use single-precision floats instead of double-precision floats
 
 Using single-precision floats have two main performance advantages:
 
@@ -146,6 +157,8 @@ Using single-precision floats have two main performance advantages:
 While there is some debate on whether using double-precision actually makes a difference to sound quality (and there are specific algorithms that do require the extra precision), the general consensus is that the noise introduced from single-precision quantization errors is negligible, and other factors such as the quality of filter models and antialiasing algorithms have a far greater impact on sound quality. Still, if you find that using double-precision doesn't meaningfully impact performance in your algorithm, then there's no harm in using double-precision if you want to.
 
 You should also avoid the common direct-form biquad filter model since it performs quite poorly with single-precision floats. Prefer to use SVF filter models instead since they are better than biquad filters in practically every way (especially in terms of sound quality when using single-precision floats). The [`Cytomic Technical Papers`] explain them in detail, and specifically the [`SvfLinearTrapOptimised2`] document has drop-in replacements for biquad filters.
+
+> Single-precision floats are more susceptible to [`denormals`], so be aware of the various solutions to fix this problem.
 
 [`Fast-DSP-Approximations`]: https://github.com/BillyDM/Fast-DSP-Approximations
 [`Intel Intrinsics Guide`]: https://software.intel.com/sites/landingpage/IntrinsicsGuide
@@ -164,3 +177,6 @@ You should also avoid the common direct-form biquad filter model since it perfor
 [`Cytomic Technical Papers`]: https://cytomic.com/technical-papers/
 [`SvfLinearTrapOptimised2`]: https://cytomic.com/files/dsp/SvfLinearTrapOptimised2.pdf
 [`Algorithms for Modern Hardware`]: https://en.algorithmica.org/hpc/
+[`projet μ - denormal`]: https://mu.krj.st/denormal/
+[`denormals`]: https://mu.krj.st/denormal/
+[`no_denormals`]: https://crates.io/crates/no_denormals

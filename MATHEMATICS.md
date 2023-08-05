@@ -1,17 +1,23 @@
 # Mathematics
 Learning resources and tools for the mathematics of audio DSP.
 
-DSP (Digital Signal Processing) is the study of using a digital computer to process what is normally thought of as an analogue signal (such as sound). Unfortunately (or fortunately depending on who you are 😉), the reality is that DSP is quite a math heavy field. However, the math needed to get started is not *too* difficult in my opinion. Knowing high-school level math and some of the basics of college-level math will get you most of the way there.
+DSP (Digital Signal Processing) is the study of using a digital computer to process what is normally thought of as an analog signal (such as sound). Unfortunately (or fortunately depending on who you are 😉), the reality is that DSP is a math heavy field. However, the math needed to get started is not *too* difficult in my opinion. Knowing high-school level math and some of the basics of college-level math will get you most of the way there.
 
 ## Prerequisites
-I recommend knowing at least these fundamental concepts in order best get started with learning DSP:
+I recommend knowing at least these fundamental concepts in order to best get started with learning DSP:
+
 - Algebra dealing with polynomials, fractions, and exponents (exponents are especially important here)
 - Basic trigonometry like sine, cosine, tangent, arctangent, etc.
 - Logarithms (especially the natural logarithm and the number "e")
-- Complex (imaginary) numbers & complex algebra (using algebra with complex numbers). (Yes, imaginary numbers do actually have a real-world use and are a core pillar of DSP mathematics.)
-- Basic knowledge of linear algebra (the study of transforming data with matrices). (You *can* get by without this, but this is really helpful when it comes to actually implementing the mathematics into code.)
-- Basic knowledge of calculus such as derivatives and integrals. (You *can* get by without this, but it will really help you to understand why things are the way they are.)
-  - In the topic of calculus, basic knowledge of what differential equations are and why they are important will also help (although I'm not talking about how to actually *solve* differential equations, because they are "really freakin' hard to solve" to put it lightly)
+- Complex (imaginary) numbers and complex algebra (using algebra with complex numbers). Complex numbers are a core pillar of DSP mathematics.
+
+### Nice to haves
+
+These prerequisites aren't strictly necessary, but they can help you understand things better.
+
+- Basic knowledge of linear algebra (the study of transforming data with matrices).
+- Basic knowledge of calculus such as derivatives and integrals.
+- Basic knowledge of what differential equations are and why they are important (note I don't mean actually knowing how to *solve* differential equations, because they are "really freakin' hard to solve" to put it lightly)
 
 ## Learning Resources
 

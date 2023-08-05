@@ -1,13 +1,16 @@
 # Sound Design & Music Production
 While this is not *strictly* development related, knowing how plugins are actually used to make and edit sound can give valuable insight.
 
+> Most of the artists listed below are obviously geared more towards electronic music and my tastes, but they still might be helpful even if you aren't into that genre.
+
 - [`Mixing Secrets for the Small Studio`] - A great beginner resource on mixing fundamentals.
-- [`SeamlessR`] - This guy is a fantastic teacher and really knows his stuff.
+- [`SeamlessR`] - This guy is a great teacher and really knows his stuff.
+  - The [`Production Basics`](https://www.youtube.com/playlist?list=PLGYoE903Nir7qVmd-b333OT7Wj4EAltGT) and [`How to Synth`](https://www.youtube.com/watch?v=9waiQonCGp4&list=PLGYoE903Nir5LfIWap-x8aEV6Q-YkE6c4) playlists are good places to start.
 - [`How to Hear Compression`] - A brilliant video that teaches how to "hear" compressors from an artistic point of view, rather than a technical one.
 - [`Au5`] - A beast legend. Need I say more?
 - [`Virtual Riot`] - Another beast legend.
-- [`Zircon`] - An underrated artist, and I'm personally a huge fan of his more organic, jazzy breakbeat style. Great if you're tired of loud and obnoxious "dubstep" sound design and production.
-- [`Nosia`] - He and another cutting edge sound designer have a tutorial series on their Patreon.
+- [`Zircon`] - An underrated artist, and I'm personally a huge fan of his more organic, jazzy breakbeat style. Great if you're tired of loud and obnoxious "dubstep/dnb" sound design and production videos.
+- [`Nosia`] - He and another cutting edge sound designers have a tutorial series on their Patreon.
 - [`Mr. Bill`] - This guy has a lot of good tutorials on his channel.
 - [`Nigel Good`] - This guy makes sounds that are *so* clean.
 - [`Frequent`] - Good sound design & arrangement tutorials.
@@ -16,7 +19,7 @@ While this is not *strictly* development related, knowing how plugins are actual
   - There are also paid alternatives like [`Sonarworks`](https://www.sonarworks.com/) or [`Toneboosters Morphit`](https://toneboosters.com/tb_morphit_v1.html).
 
 [`Mixing Secrets for the Small Studio`]: https://www.amazon.com/Mixing-Secrets-Small-Studio-Presents/dp/0240815807
-[`SeamlessR`]: https://www.youtube.com/playlist?list=PLGYoE903Nir5LfIWap-x8aEV6Q-YkE6c4
+[`SeamlessR`]: https://www.youtube.com/@SeamlessR
 [`How to Hear Compression`]: https://youtu.be/K0XGXz6SHco
 [`Au5`]: https://www.youtube.com/playlist?list=PLCP_w7OAVom-d5SMebEPdwrkiNNGCv53N
 [`Virtual Riot`]: https://www.youtube.com/c/OfficialVirtualRiot/featured

@@ -11,14 +11,14 @@ Here I'll list the best languages to use for serious DSP and their pros and cons
 - Pros:
   - C++ is the most commonly used programming language in the audio industry, so it is the best bet if you wish to get hired into an audio software company.
   - It has the greatest official support for audio SDKs and APIs with the largest selection of available libraries.
-  - Most books and tutorials on audio plugin development teach using C++.
+  - More books and tutorials on audio plugin development teach using C++.
 - Cons:
   - Hard to learn and harder to properly master and use safely.
-  - It is not "memory safe", meaning it is easy to accidentally create crashes, undefined behavior, and security vulnerabilities with C++. You can and should use the modern C++ features and coding standards to help reduce this risk. And the risks can be further mitigated by using an IDE with modern static-analyzing linters and debuggers, and also fuzzing tools like [`AFL`] and [`Honggfuzz`], but that of course means added development time.
-  - C++ is bloated with features that have been added over time. You should however learn to use the safer modern features over the old features, even if they are more verbose.
+  - It is not "memory safe", meaning it is easy to accidentally create crashes, undefined behavior, and security vulnerabilities with C++. You can and should use the modern C++ features and coding standards to help reduce this risk. And the risks can be further mitigated by using an IDE with modern static-analyzing linters and debuggers, and also fuzzing tools like [`AFL`] and [`Honggfuzz`].
+  - C++ is bloated with features that have been added over time. Though you should use the safer modern features over the old features, even if they are more verbose.
   - Error messages can be hard to decipher. While this has gotten *much* better over the past decade, it still isn't as good as other modern languages.
   - Dependency management can be a pain.
-  - Uses separate header and source files for the same piece of code. Not a problem for some, but it mildly annoys me. (Although C++20 does have a way around this now.)
+  - Uses separate header and source files. Not a problem for some, but it mildly annoys me. (Although C++23 is planning a solution for this.)
 - Resources:
   - [`Learn C++`] - A fantastic free online book that thoroughly teaches modern C++ and how to use it safely and effectively.
 
@@ -31,30 +31,30 @@ Here I'll list the best languages to use for serious DSP and their pros and cons
   - It is the closest thing you can get to writing pure assembly. It is a great way to learn more on how computers actually work.
 - Cons:
   - While it is simple to learn, it is hard to properly master and use safely.
-  - It is not "memory safe", meaning it is easy to accidentally create crashes, undefined behavior, and security vulnerabilities with C. This can be mitigated using an IDE with modern static-analyzing linters and debuggers, and also fuzzing tools like [`AFL`] and [`Honggfuzz`], but that of course means added development time.
+  - It is not "memory safe", meaning it is easy to accidentally create crashes, undefined behavior, and security vulnerabilities with C. This can be mitigated using an IDE with modern static-analyzing linters and debuggers, and also fuzzing tools like [`AFL`] and [`Honggfuzz`].
   - Some useful C++ features like inheritance and dynamic dispatch are much harder to do in C.
   - Dependency management can be a pain.
-  - The lack of namespaces makes it difficult to manage larger projects.
-  - Uses separate header and source files for the same piece of code. Not a problem for some, but it mildly annoys me.
+  - The lack of namespaces can make it more difficult to manage larger projects.
+  - Uses separate header and source files. Not a problem for some, but it mildly annoys me.
 
 ## [`Rust`]
 - Pros:
   - Rust is modern language that aims to avoid many of the pitfalls of C/C++ development.
   - It is "memory safe", meaning it can ensure that memory safety related crashes and security bugs cannot happen in the first place.
-    - Most high-level languages are also memory safe, but they come at the cost of considerably worse performance since they use things like runtime checks and garbage collection. Rust however uses a clever system of lifetime checks and borrow restrictions that ensures safety while still allowing compiled code to run just as fast as if it was written in C/C++ (a feature known as "zero-cost abstractions").
+    - Most high-level languages are also memory safe, but they come at the cost of considerably worse performance since they use things like runtime checks and garbage collection. Rust however uses a clever system of lifetime checks and borrow restrictions that ensures safety while still allowing compiled code to run just as fast as if it was written in C/C++.
   - Easier to master than C++ in my opinion.
   - The nature of using a memory safe language reduces the amount of time you need to spend debugging & testing.
   - It has a built-in dependency and build management system called Cargo that can automatically grab the needed dependencies from the web.
   - It has a built-in system for testing code.
-  - Does not use a separate header/source file.
+  - Does not use a separate header/source file (yay).
   - It has a welcoming and inclusive community.
-  - There is an active open-source modular audio plugin development framework called [`nih-plug`]. (Some features are still missing, but it's usable.)
+  - There is an active open-source modular audio plugin development framework called [`nih-plug`].
 - Cons:
   - It can be tricky to learn, especially if you are used to other low-level languages.
-  - The language is very restrictive on what you are able to do, and thus requires more time up-front figuring out how to structure your code to make the compiler happy (this is of course by design). You are able to use explicit "unsafe" blocks when you need more control, but that can be susceptible to the same pitfalls of C/C++ if you're not careful.
-  - You have to rely on the compiler to properly optimize your code. While this works the vast majority of the time, it can sometimes fail with complex algorithms in rare cases, requiring you to restructure your code or use unsafe blocks if you want better performance. Also some features such as SIMD intrinsics require unsafe blocks anyway (although a solution to this is in the works called [`portable-simd`]).
-  - Much slower compile times.
-  - The language is still relatively young, so library support such as GUIs and audio plugin development are not even close to the level of support C++ has. (There is however an active community of Rust developers working on some of these libraries. If you are interested in helping, check out the [`Rust Audio Discord Server`]!)
+  - The language is more restrictive on what you are allowed to do, and thus requires more time up-front figuring out how to structure your code to make the compiler happy (this is of course by design). You are able to use explicit "unsafe" blocks when you need more control, but that can be susceptible to the same pitfalls of C/C++ if you're not careful.
+  - You have to rely more on the compiler to properly optimize your code. While this works the vast majority of the time, it can sometimes fail with complex algorithms in rare cases, requiring you to restructure your code or use unsafe blocks to fix it. Also some features such as SIMD intrinsics require unsafe blocks anyway (although a solution to this is in the works called [`portable-simd`]).
+  - Slower compile times.
+  - The language is still relatively young, so library support such as GUIs and audio plugin development are not on the same level as C++. (There is however an active community of Rust developers working on some of these libraries. If you are interested in helping, check out the [`Rust Audio Discord Server`]!)
 - Resources:
   - [`Rust Book`] - The fantastic official online book on learning Rust.
   - [`How to learn modern Rust`] - An extensive list of resources for learning Rust.
@@ -77,6 +77,8 @@ Here I'll list the best languages to use for serious DSP and their pros and cons
   - It uses garbage collection by default (which is not "realtime safe"). It can (and should) be disabled for the DSP portion of your code, but that of course makes it less memory safe and thus requires more care and attention in those areas.
   - Library support is nowhere near the level of support that C/C++ has. (Although luckily [`DPlug`] is a great library for audio plugin development).
 
+> A new language to look out for is [`Carbon`], which aims to be compatible with existing C++ code and libraries while providing modern features, syntax, and safety. It has the potential to be a great language for audio development. Though it's still in the early experimental stages, and it could be a few years until it's ready for use.
+
 [`C++`]: https://en.wikipedia.org/wiki/C%2B%2B
 [`AFL`]: https://github.com/google/AFL
 [`Honggfuzz`]: https://github.com/google/honggfuzz
@@ -98,3 +100,4 @@ Here I'll list the best languages to use for serious DSP and their pros and cons
 [`D`]: https://dlang.org/
 [`Dplug`]: https://github.com/AuburnSounds/Dplug
 
+[`Carbon`]: https://github.com/carbon-language/carbon-lang

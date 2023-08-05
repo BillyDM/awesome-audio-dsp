@@ -54,7 +54,7 @@ A list of useful libraries for audio software.
 
 A list of ready-made libraries for DSP.
 
-Please note, while using ready-made libraries can definitely help you achieve faster results as a beginner, I don't actually recommend relying on them in the long term. Not just because it may be considered "cheaty" by some, but the generic nature of these libraries can make it harder to tweak and optimize. Writing your own DSP code allows you to experiment with and tweak algorithms to add your own special "character" to them. DSP that is purpose-built for a single purpose will generally both sound better and perform better than a generic library that tries to cover all bases.
+Please note, while using ready-made libraries can definitely help you achieve faster results as a beginner, I don't actually recommend depending on them in the long term. Not just because it may be considered "cheat-y" by some, but the generic nature of these libraries can make it harder to tweak and optimize. Writing your own DSP code allows you to more easily experiment with and tweak algorithms to add your own special "character" to them. DSP that is purpose-built for a single purpose will generally both sound better and perform better than a generic library that tries to cover all bases.
 
 Also beware that some of these libraries have licenses attached to them, so make sure you are legally allowed to use them in your products.
 
