@@ -13,6 +13,7 @@ My curated list of audio DSP (digital signal processing) and plugin development 
 - [`Code Libraries`] - A list of useful libraries for audio software.
 - [`Sound Design & Music Production`] - While this is not *strictly* development related, knowing how plugins are actually used to make and edit sound can give valuable insight.
 - [`Software Optimization`] - Tips and tools for optimizing audio software.
+    - [`Audio Software Optimization Tips`] - My own list of audio software optimization tips.
 - [`System Tools`] - A list of system tools useful in developing audio plugins and software.
 - [`Low-Level Programming Languages`] - A list of low-level programming languages used to make audio software, along with their pros and cons.
 - [`Plugin APIs`] - A list of audio plugin APIs/specs along with their pros and cons.
@@ -42,6 +43,7 @@ My curated list of audio DSP (digital signal processing) and plugin development 
 [`Code Libraries`]: CODE_LIBRARIES.md
 [`Sound Design & Music Production`]: SOUND_DESIGN_AND_MUSIC_PRODUCTION.md
 [`Software Optimization`]: SOFTWARE_OPTIMIZATION.md
+[`Audio Software Optimization Tips`]: AUDIO_SOFTWARE_OPTIMIZATION_TIPS.md
 [`System Tools`]: SYSTEM_TOOLS.md
 [`Low-Level Programming Languages`]: LOW_LEVEL_PROGRAMMING_LANGUAGES.md
 [`Plugin APIs`]: PLUGIN_APIS.md
