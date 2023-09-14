@@ -17,6 +17,7 @@ Tips and tools for optimizing audio software.
 - [`Fast-DSP-Approximations`] - My own list of public-domain fast approximations of various expensive calculations.
 - [`projet μ - denormal`] - Important article on how to avoid denormals in your code.
   - [`no_denormals`] - A Rust crate for temporarily turning off denormals in your DSP code.
+- [`Minimizing Rust Binary Size`] - Tips on how to reduce the size of Rust binaries. This is a very minor optimization, but it can sometimes be useful for shipping release versions of plugins.
 
 # Profiling Tools
 
@@ -180,3 +181,4 @@ You should also avoid the common direct-form biquad filter model since it perfor
 [`projet μ - denormal`]: https://mu.krj.st/denormal/
 [`denormals`]: https://mu.krj.st/denormal/
 [`no_denormals`]: https://crates.io/crates/no_denormals
+[`Minimizing Rust Binary Size`]: https://github.com/johnthagen/min-sized-rust

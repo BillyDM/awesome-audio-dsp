@@ -62,6 +62,7 @@ Here I'll list the best languages to use for serious DSP and their pros and cons
   - [`Learn Rust the Dangerous Way`] - Tips on writing low-level Rust code from a C background.
   - [`The Rust Performance Book`] - Tips on optimizing code in Rust.
   - [`How-to Optimize Rust Programs on Linux`] - How-to guide on profiling Rust code on Linux.
+  - [`Minimizing Rust Binary Size`] - Tips on how to reduce the size of Rust binaries. This is a very minor optimization, but it can sometimes be useful for shipping release versions of plugins.
 
 ## [`D`]
 - Pros:
@@ -96,6 +97,7 @@ Here I'll list the best languages to use for serious DSP and their pros and cons
 [`Learn Rust the Dangerous Way`]: http://cliffle.com/p/dangerust/
 [`The Rust Performance Book`]: https://nnethercote.github.io/perf-book/title-page.html
 [`How-to Optimize Rust Programs on Linux`]: http://www.codeofview.com/fix-rs/2017/01/24/how-to-optimize-rust-programs-on-linux/
+[`Minimizing Rust Binary Size`]: https://github.com/johnthagen/min-sized-rust
 
 [`D`]: https://dlang.org/
 [`Dplug`]: https://github.com/AuburnSounds/Dplug
