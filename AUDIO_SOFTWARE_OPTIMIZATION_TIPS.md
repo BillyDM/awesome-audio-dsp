@@ -3,7 +3,7 @@
 > TLDR version:
 > - Don't assume a change made your code faster. Profile it!
 > - Avoid mutexes, locks, try-locks, `malloc`, `free`, and printing to the terminal in the realtime thread.
-> - Beware of [`denormals`].
+> - Beware of [denormals].
 > - CPU cache is king.
 > - Avoid excessive branching logic and calls to medium/large-sized functions.
 > - Try using optimizations such as lookup tables and/or SIMD intrinsics.
@@ -27,7 +27,7 @@ If performance is a key feature of your product, treat it like one. Set up tests
 OS operations don't have a predictable amount of execution time, meaning the OS can delay the operation for as long as it wants, leading to latency problems and xruns. In other words, these operations are not "realtime safe". These operations include:
 
 - Mutexes, locks, and try-locks
-  - Instead, use lock-free methods for sharing data between threads such as atomics or by using realtime-safe ring buffers like [`SPSCQueue`](https://github.com/rigtorp/SPSCQueue) in C++ or [`rtrb`](https://github.com/mgeier/rtrb) in Rust.
+  - Instead, use lock-free methods for sharing data between threads such as atomics or by using realtime-safe ring buffers like [SPSCQueue](https://github.com/rigtorp/SPSCQueue) in C++ or [rtrb](https://github.com/mgeier/rtrb) in Rust.
 - Allocating and deallocating memory on the heap (i.e. `malloc` and `free` in C)
   - This also means avoid using data structures that use these operations under-the-hood such as `std::vector` in C++ and `std::Vec` in Rust. If you can, use constant-sized buffers that are allocated on the stack (i.e. arrays in C++ and Rust).
   - If you need these dynamically-sized data structures in the realtime thread, make sure they are pre-allocated with sufficient size during plugin initialization, and then freed when the plugin is dropped. While processing, don't use any methods on the vector that change its allocated capacity.
@@ -41,9 +41,9 @@ OS operations don't have a predictable amount of execution time, meaning the OS 
 
 Denormals are a quirk of how floating point numbers work inside a CPU. It is not rare for DSP code to generate denormal numbers, and when it happens it can lead to substantial slowdowns on certain CPU architectures like x86 (Most ARM-based CPUs don't suffer from this problem, but you still might want to disable them to have parity with your x86 code).
 
-The article [`projet μ - denormal`] does a much better job at explaining this topic than I ever could. It also explains various techniques for avoiding denormals.
+The article [projet μ - denormal] does a much better job at explaining this topic than I ever could. It also explains various techniques for avoiding denormals.
 
-If you are using Rust, there is a handy crate called [`no_denormals`] which simplifies the technique as described in the section "2.4.1 Flushing denormals" in that article.
+If you are using Rust, there is a handy crate called [no_denormals] which simplifies the technique as described in the section "2.4.1 Flushing denormals" in that article.
 
 ## 4. Avoid excessive division and modulo operations
 
@@ -51,7 +51,7 @@ The division and modulo operations on both floating point and integer numbers ar
 
 Note this does not apply if the divisor is a constant. Compilers will automatically convert those to multiplying by the reciprocal.
 
-Even then, a lot of times compilers will automatically take the reciprocal of a divisor before a loop. But if you want to rely on this, you can use tools like [`Compiler Explorer`] to verify the assembly.
+Even then, a lot of times compilers will automatically take the reciprocal of a divisor before a loop. But if you want to rely on this, you can use tools like [Compiler Explorer] to verify the assembly.
 
 ## 5. Prefer to use block-based processing instead of per-sample processing
 
@@ -79,7 +79,7 @@ Calling a function has a small amount of overhead, and this overhead can add up 
 
 By using block-based processing, you can reduce the number of function calls by only calling the function once per block of samples instead of calling them once per sample.
 
-And note that I said "medium/large-sized functions". Modern compilers are really good at inlining small functions. But if you're still unsure whether or not a function is being inlined properly by the compiler, you can use tools like [`Compiler Explorer`] to verify the assembly. If it's not being inlined properly, you can use the `__forceinline` or `inline __attribute__((always_inline))` keywords in C++ or the `#[inline(always)]` keyword in Rust to try to force the compiler to inline it. Even then, always measure the performance to see if inlining the function actually improves performance, because a lot of times it can actually make the performance worse (it also can make the size of the compiled binary much larger).
+And note that I said "medium/large-sized functions". Modern compilers are really good at inlining small functions. But if you're still unsure whether or not a function is being inlined properly by the compiler, you can use tools like [Compiler Explorer] to verify the assembly. If it's not being inlined properly, you can use the `__forceinline` or `inline __attribute__((always_inline))` keywords in C++ or the `#[inline(always)]` keyword in Rust to try to force the compiler to inline it. Even then, always measure the performance to see if inlining the function actually improves performance, because a lot of times it can actually make the performance worse (it also can make the size of the compiled binary much larger).
 
 ## 8. Avoid excessive if and switch statements
 
@@ -91,9 +91,9 @@ By using block-based processing, you can reduce the number of branches by only i
 
 You can also try having multiple loops, one for each case. But of course the downside to that approach is duplicated code.
 
-Also note that sometimes compilers can optimize branching inside loops by automatically splitting it into multiple loops. But if you rely on this, use tools like [`Compiler Explorer`] to verify the assembly.
+Also note that sometimes compilers can optimize branching inside loops by automatically splitting it into multiple loops. But if you rely on this, use tools like [Compiler Explorer] to verify the assembly.
 
-Even then, modern CPUs tend to make heavy use of speculative execution to mitigate the overhead from branching. Always measure the performance to see if optimizing the branching logic actually makes a meaningful improvement. You can also try using compiler hints to improve speculative execution with the `[[likely]]`/`[[unlikely]]` attributes in C++ or the `std::intrinsics::likely`/`std::intrinsics::unlikely` intrinsics in Rust (there is also the [`likely_stable`](https://crates.io/crates/likely_stable) crate for the stable Rust compiler).
+Even then, modern CPUs tend to make heavy use of speculative execution to mitigate the overhead from branching. Always measure the performance to see if optimizing the branching logic actually makes a meaningful improvement. You can also try using compiler hints to improve speculative execution with the `[[likely]]`/`[[unlikely]]` attributes in C++ or the `std::intrinsics::likely`/`std::intrinsics::unlikely` intrinsics in Rust (there is also the [likely_stable](https://crates.io/crates/likely_stable) crate for the stable Rust compiler).
 
 ## 9. Try caching expensive calculations into lookup tables
 
@@ -105,11 +105,11 @@ However, keep in mind that if the lookup table is too large, then it can cause c
 
 SIMD intrinsics are special features built into CPUs that allow it to pack multiple numbers into a single "vector" object (not to be confused with `std::vector` in C++ or `std::Vec` in Rust) and then apply an operation to every number in that vector at the same time. It's kind of like multithreaded processing, but in a super fast single-threaded kind of way.
 
-One big downside to using SIMD intrinsics is that these methods can differ between CPU architectures such as x86 and ARM, and they can even differ between different vendors and generations of CPUs. So this can create a lot of platform-specific code. If you don't want to mess with platform-specific code, there are some libraries that attempt to abstract over these intrinsics in a portable, cross-platform way including [`highway`], [`eve`], [`MIPP`], and [`libsimdcpp`] in C++ and [`portable-simd`] in Rust (currently requires nightly Rust).
+One big downside to using SIMD intrinsics is that these methods can differ between CPU architectures such as x86 and ARM, and they can even differ between different vendors and generations of CPUs. So this can create a lot of platform-specific code. If you don't want to mess with platform-specific code, there are some libraries that attempt to abstract over these intrinsics in a portable, cross-platform way including [highway], [eve], [MIPP], and [libsimdcpp] in C++ and [portable-simd] in Rust (currently requires nightly Rust).
 
-For a list of SIMD intrinsics in x86 processors, look at the [`Intel Intrinsics Guide`].
+For a list of SIMD intrinsics in x86 processors, look at the [Intel Intrinsics Guide].
 
-Also note that modern compilers have a feature called "autovectorization" where they can automatically create SIMD code for the given target CPU. However, this process can be unreliable for all but the simplest algorithms. But if you want to rely on this, you can use [`Compiler Explorer`] to verify the assembly, and you can follow [`Auto-Vectorization in LLVM`] for some tips.
+Also note that modern compilers have a feature called "autovectorization" where they can automatically create SIMD code for the given target CPU. However, this process can be unreliable for all but the simplest algorithms. But if you want to rely on this, you can use [Compiler Explorer] to verify the assembly, and you can follow [Auto-Vectorization in LLVM] for some tips.
 
 Also keep in mind that because SIMD intrinsics are considerably more complicated, it's fine to not use them while you are still in the stages of developing and experimenting with your actual DSP algorithms. Keeping a scalar version of your code around is also a smart idea for readability and to keep your code more future-proof, even if you end up commenting it out.
 
@@ -122,9 +122,9 @@ Using single-precision floats have two main performance advantages:
 
 While there is some debate on whether using double-precision actually makes a difference to sound quality (and there are specific algorithms that do require the extra precision), the general consensus is that the noise introduced from single-precision quantization errors is negligible, and other factors such as the quality of filter models and antialiasing algorithms have a far greater impact on sound quality. Still, if you find that using double-precision doesn't meaningfully impact performance in your algorithm, then there's no harm in using double-precision if you want to.
 
-You should also avoid the common direct-form biquad filter model since it performs quite poorly with single-precision floats. Prefer to use SVF filter models instead since they are better than biquad filters in practically every way (especially in terms of sound quality when using single-precision floats). The [`Cytomic Technical Papers`] explain them in detail, and specifically the [`SvfLinearTrapOptimised2`] document has drop-in replacements for biquad filters.
+You should also avoid the common direct-form biquad filter model since it performs quite poorly with single-precision floats. Prefer to use SVF filter models instead since they are better than biquad filters in practically every way (especially in terms of sound quality when using single-precision floats). The [Cytomic Technical Papers] explain them in detail, and specifically the [SvfLinearTrapOptimised2] document has drop-in replacements for biquad filters.
 
-> Single-precision floats are more susceptible to [`denormals`], so be aware of the various solutions to fix this problem.
+> Single-precision floats are more susceptible to [denormals], so be aware of the various solutions to fix this problem.
 
 ## 12. Compiler Flags
 
@@ -134,24 +134,24 @@ In addition to the obvious of using a "release" profile instead of a "debug" pro
 
 The most straightforward feature is link time optimizations (LTO). This tells the compiler to make additional optimizations while linking together different modules/dependencies. This also can help reduce the binary size by removing unneeded dead code. The drawback is that it can greatly increase the compile times, which is why it's usually not enabled by default. Some compilers also have a "thin" LTO option which can give similar performance gains while not adding as much compile time.
 
-Another thing to consider is enabling optimizations for specific CPU features like [`AVX2`](https://en.wikipedia.org/wiki/Advanced_Vector_Extensions#Advanced_Vector_Extensions_2) or [`Arm Neon`](https://www.arm.com/technologies/neon). The downside is that the resulting binary can only be run on systems that have a CPU with those features, which limits your userbase. 
+Another thing to consider is enabling optimizations for specific CPU features like [AVX2](https://en.wikipedia.org/wiki/Advanced_Vector_Extensions#Advanced_Vector_Extensions_2) or [Arm Neon](https://www.arm.com/technologies/neon). The downside is that the resulting binary can only be run on systems that have a CPU with those features, which limits your userbase. 
 
 There are however a couple ways around this:
 
 * The first is to supply multiple binaries and have the user install the one that matches their system (or better is to create an automated installer that does this).
 * The second is to detect these CPU features at runtime and then run different functions based on that (a process called "CPU dispatching" or "multiversioning").
-    * Here are a couple of useful articles on mutliversioning, [`one for C/C++`](https://johnnysswlab.com/cpu-dispatching-make-your-code-both-portable-and-fast/) and [`one for Rust`](https://alexheretic.github.io/posts/auto-avx2/).
+    * Here are a couple of useful articles on mutliversioning, [one for C/C++](https://johnnysswlab.com/cpu-dispatching-make-your-code-both-portable-and-fast/) and [one for Rust](https://alexheretic.github.io/posts/auto-avx2/).
 
-[`Intel Intrinsics Guide`]: https://software.intel.com/sites/landingpage/IntrinsicsGuide
-[`Compiler Explorer`]: https://godbolt.org/
-[`Auto-Vectorization in LLVM`]: https://llvm.org/docs/Vectorizers.html
-[`highway`]: https://github.com/google/highway
-[`eve`]: https://github.com/jfalcou/eve
-[`MIPP`]: https://github.com/aff3ct/MIPP
-[`libsimdcpp`]: https://github.com/p12tic/libsimdpp
-[`portable-simd`]: https://github.com/rust-lang/portable-simd
-[`Cytomic Technical Papers`]: https://cytomic.com/technical-papers/
-[`SvfLinearTrapOptimised2`]: https://cytomic.com/files/dsp/SvfLinearTrapOptimised2.pdf
-[`projet μ - denormal`]: https://mu.krj.st/denormal/
-[`denormals`]: https://mu.krj.st/denormal/
-[`no_denormals`]: https://crates.io/crates/no_denormals
+[Intel Intrinsics Guide]: https://software.intel.com/sites/landingpage/IntrinsicsGuide
+[Compiler Explorer]: https://godbolt.org/
+[Auto-Vectorization in LLVM]: https://llvm.org/docs/Vectorizers.html
+[highway]: https://github.com/google/highway
+[eve]: https://github.com/jfalcou/eve
+[MIPP]: https://github.com/aff3ct/MIPP
+[libsimdcpp]: https://github.com/p12tic/libsimdpp
+[portable-simd]: https://github.com/rust-lang/portable-simd
+[Cytomic Technical Papers]: https://cytomic.com/technical-papers/
+[SvfLinearTrapOptimised2]: https://cytomic.com/files/dsp/SvfLinearTrapOptimised2.pdf
+[projet μ - denormal]: https://mu.krj.st/denormal/
+[denormals]: https://mu.krj.st/denormal/
+[no_denormals]: https://crates.io/crates/no_denormals
