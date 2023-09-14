@@ -140,7 +140,7 @@ There are however a couple ways around this:
 
 * The first is to supply multiple binaries and have the user install the one that matches their system (or better is to create an automated installer that does this).
 * The second is to detect these CPU features at runtime and then run different functions based on that (a process called "CPU dispatching" or "multiversioning").
-    * Here are a couple of useful articles on mutliversioning, [one for C/C++](https://johnnysswlab.com/cpu-dispatching-make-your-code-both-portable-and-fast/) and [one for Rust](https://alexheretic.github.io/posts/auto-avx2/).
+    * Here are a couple of useful articles on multiversioning, [one for C/C++](https://johnnysswlab.com/cpu-dispatching-make-your-code-both-portable-and-fast/) and [one for Rust](https://alexheretic.github.io/posts/auto-avx2/).
 
 [Intel Intrinsics Guide]: https://software.intel.com/sites/landingpage/IntrinsicsGuide
 [Compiler Explorer]: https://godbolt.org/
