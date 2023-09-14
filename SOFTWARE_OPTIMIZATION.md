@@ -18,6 +18,7 @@ Tips and tools for optimizing audio software.
 - [`projet μ - denormal`] - Important article on how to avoid denormals in your code.
   - [`no_denormals`] - A Rust crate for temporarily turning off denormals in your DSP code.
 - [`Minimizing Rust Binary Size`] - Tips on how to reduce the size of Rust binaries. This is a very minor optimization, but it can sometimes be useful for shipping release versions of plugins.
+  - Note, don't set `opt-level` to "s" or "z" because that will likely make performance much worse (except for maybe when running on an embedded system with little memory).
 
 # Profiling Tools
 

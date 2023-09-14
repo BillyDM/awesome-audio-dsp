@@ -63,6 +63,7 @@ Here I'll list the best languages to use for serious DSP and their pros and cons
   - [`The Rust Performance Book`] - Tips on optimizing code in Rust.
   - [`How-to Optimize Rust Programs on Linux`] - How-to guide on profiling Rust code on Linux.
   - [`Minimizing Rust Binary Size`] - Tips on how to reduce the size of Rust binaries. This is a very minor optimization, but it can sometimes be useful for shipping release versions of plugins.
+    - Note, don't set `opt-level` to "s" or "z" because that will likely make performance much worse (except for maybe when running on an embedded system with little memory).
 
 ## [`D`]
 - Pros:
