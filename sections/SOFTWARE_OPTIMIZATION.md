@@ -7,6 +7,7 @@ Tips and tools for optimizing audio software.
   - Note, you will generally want to enable compiler optimizations when using this tool to get the actual assembly output in release mode. To do this, enter the following text into the "Compiler options..." field for your given language/compiler:
     - C/C++ (gcc or clang): `-O3`
     - Rust: `-C opt-level=3`
+- [Performance Ninja Class](https://github.com/dendibakh/perf-ninja) - A free and open source online course on how to find and fix low-level performance issues.
 - [Intel Intrinsics Guide](https://software.intel.com/sites/landingpage/IntrinsicsGuide) - x86 processor intrinsics
 - [Software Optimization Resources](https://www.agner.org/optimize/) - A popular resource on optimizing for x86 based architectures.
 - [Agner Fog's Instruction Tables](https://www.agner.org/optimize/instruction_tables.pdf) - A useful table that lists the latency and throughput performance of various x86 instructions.
