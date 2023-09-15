@@ -4,7 +4,7 @@ Tips and tools for optimizing audio software.
 - [Audio Software Optimization Tips](../content/AUDIO_SOFTWARE_OPTIMIZATION_TIPS.md) - My own list of audio software optimization tips.
 - [Real-time audio programming 101](http://www.rossbencina.com/code/real-time-audio-programming-101-time-waits-for-nothing) - Tips on writing real-time code.
 - [Compiler Explorer] - Very useful tool that lets you analyze the assembly output of many different languages including Rust, C, and C++.
-  - Note, you will generally want to enable compiler optimizations when using this tool. To do this, enter the following text into the "Compiler options..." field:
+  - Note, you will generally want to enable compiler optimizations when using this tool to get the actual assembly output in release mode. To do this, enter the following text into the "Compiler options..." field for your given language/compiler:
     - C/C++ (gcc or clang): `-O3`
     - Rust: `-C opt-level=3`
 - [Intel Intrinsics Guide](https://software.intel.com/sites/landingpage/IntrinsicsGuide) - x86 processor intrinsics
