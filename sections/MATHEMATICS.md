@@ -17,45 +17,25 @@ These prerequisites aren't strictly necessary, but they can help you understand 
 
 - Basic knowledge of linear algebra (the study of transforming data with matrices).
 - Basic knowledge of calculus such as derivatives and integrals.
-- Basic knowledge of what differential equations are and why they are important (note I don't mean actually knowing how to *solve* differential equations, because they are "really freakin' hard to solve" to put it lightly)
+- Basic knowledge of what differential equations are and why they are important. (Note I don't mean knowing how to actually *solve* differential equations, because they are "really freakin' hard to solve" to put it lightly.)
 
 ## Learning Resources
 
-- [3Blue1Brown] - An excellent YouTube channel on complex algebra, linear algebra, calculus, and differential equations.
-  - His videos on [Euler's Formula] and the [Fourier Transform] are particularly excellent.
-- [Paul's Online Math Notes] - Excellent resources written and used by a professor at Lamar University.
-- [Paul's Cheat Sheets] - Cheat sheets for many common identities and formulas in algebra, trig, calculus, and laplace transformations. Because who can remember all this stuff?
-- [katjaas] - Neat visual explanations of DSP mathematics and techniques.
-- This video on the [Laplace Transform] by Zach Star.
-- [Khan Academy] - Free college-level courses.
-- [Awesome Math] - A large list of math-related resources.
+- [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw) - An excellent YouTube channel on complex algebra, linear algebra, calculus, and differential equations.
+  - His videos on [Euler's Formula](https://www.youtube.com/watch?v=mvmuCPvRoWQ) and the [Fourier Transform](https://www.youtube.com/watch?v=spUNpyF58BY) are particularly excellent.
+- [Paul's Online Math Notes](https://tutorial.math.lamar.edu/) - Excellent resources written and used by a professor at Lamar University.
+- [Paul's Cheat Sheets](https://tutorial.math.lamar.edu/Extras/CheatSheets_Tables.aspx) - Cheat sheets for many common identities and formulas in algebra, trig, calculus, and laplace transformations. Because who can remember all this stuff?
+- [katjaas](http://www.katjaas.nl/home/home.html) - Neat visual explanations of DSP mathematics and techniques.
+- This video on the [Laplace Transform](https://www.youtube.com/watch?v=n2y7n6jw5d0) by Zach Star.
+- [Khan Academy](https://www.khanacademy.org/math) - Free college-level courses.
+- [Awesome Math](https://github.com/rossant/awesome-math) - A large list of math-related resources.
 
 ## Tools
-- [Desmos] - Free online graphing calculator.
-- [Wolfram Alpha] - A helpful math partner.
-- [Symbolab] - Another helpful math partner.
-- [GNU Octave] - An open-source alternative to MATLAB. There is also an [online version of GNU Octave] available.
-  - [Signal package] - Signal processing tools for [GNU Octave], including filtering, windowing and display functions.
-- [Curcuit JS] - A cool little circuit simulation tool.
-- [Awesome Electronics - Simulators]: This awesome list has a list of useful circuit simulation tools.
-- [Russell] - A collection of tools that assist in the development of scientific computations (and by extension audio DSP). It includes numerical methods and solvers for differential equations, tools for statistical analysis, and other linear algebra tools. It is written in the [Rust] programming language.
-
-[3Blue1Brown]: https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw
-[Euler's Formula]: https://www.youtube.com/watch?v=mvmuCPvRoWQ
-[Fourier Transform]: https://www.youtube.com/watch?v=spUNpyF58BY
-[Paul's Online Math Notes]: https://tutorial.math.lamar.edu/
-[Paul's Cheat Sheets]: https://tutorial.math.lamar.edu/Extras/CheatSheets_Tables.aspx
-[katjaas]: http://www.katjaas.nl/home/home.html
-[Laplace Transform]: https://www.youtube.com/watch?v=n2y7n6jw5d0
-[Khan Academy]: https://www.khanacademy.org/math
-[Awesome Math]: https://github.com/rossant/awesome-math
-[Desmos]: https://www.desmos.com/calculator
-[Wolfram Alpha]: https://www.wolframalpha.com/
-[Symbolab]: https://www.symbolab.com/
-[GNU Octave]: https://www.gnu.org/software/octave/index
-[online version of GNU Octave]: https://octave-online.net/
-[Signal package]: https://octave.sourceforge.io/signal/index.html
-[Curcuit JS]: https://www.falstad.com/circuit/circuitjs.html
-[Awesome Electronics - Simulators]: https://github.com/kitspace/awesome-electronics#analog-and-mixed-signal-circuit-simulators
-[Russell]: https://github.com/cpmech/russell
-[Rust]: https://www.rust-lang.org/
+- [Desmos](https://www.desmos.com/calculator) - Free online graphing calculator.
+- [Wolfram Alpha](https://www.wolframalpha.com/) - A helpful math partner.
+- [Symbolab](https://www.symbolab.com/) - Another helpful math partner.
+- [GNU Octave](https://www.gnu.org/software/octave/index) - An open-source alternative to MATLAB. There is also an [online version of GNU Octave](https://octave-online.net/) available.
+  - [Signal package](https://octave.sourceforge.io/signal/index.html) - Signal processing tools for GNU Octave, including filtering, windowing and display functions.
+- [Curcuit JS](https://www.falstad.com/circuit/circuitjs.html) - A cool little circuit simulation tool.
+- [Awesome Electronics - Simulators](https://github.com/kitspace/awesome-electronics#analog-and-mixed-signal-circuit-simulators) - This awesome list has a list of useful circuit simulation tools.
+- [Russell](https://github.com/cpmech/russell) - A collection of tools that assist in the development of scientific computations (and by extension audio DSP). It includes numerical methods and solvers for differential equations, tools for statistical analysis, and other linear algebra tools. It is written in the Rust programming language.

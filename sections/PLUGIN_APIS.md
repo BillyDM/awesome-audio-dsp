@@ -8,18 +8,18 @@ There are quite a few audio plugin API standards which allow your plugin be comp
   - Platforms: Linux, Mac, Windows, Android, iOS
   - Support: Currently only supported by a handful of DAWs such as Bitwig, MultitrackStudio, and QTractor, but more DAWs are currently in the works to adopt this standard.
   - Distribution - You can distribute open source and close sourced versions of your plugins (and host CLAP plugins) freely without restriction.
-  - SDK source: [CLAP SDK] (also includes links to examples)
+  - SDK source: [CLAP SDK](https://github.com/free-audio/clap) (also includes links to examples)
   - Website: [cleveraudio.org](https://cleveraudio.org/)
 
 ## VST3 (aka VST version 3)
   - Why?: This plugin standard is widely used and has excellent support in most modern commercial DAWs.
-  - Why Not?: Requires a signed license agreement with Steinberg in order to distribute commercial (closed source) VST3 plugins (or to host VST3 plugins in a closed source host). The standard is based on a complicated and [messy](https://github.com/juce-framework/JUCE/blob/master/modules/juce_audio_processors/format_types/juce_VST3Headers.h#L32) C++ codebase with some weird design choices. Steinberg has also not been on-board with people distributing SDK bindings to other languages (like [Rust]).
+  - Why Not?: Requires a signed license agreement with Steinberg in order to distribute commercial (closed source) VST3 plugins (or to host VST3 plugins in a closed source host). The standard is based on a complicated and [messy](https://github.com/juce-framework/JUCE/blob/master/modules/juce_audio_processors/format_types/juce_VST3Headers.h#L32) C++ codebase with some weird design choices. Steinberg has also not been on-board with people distributing SDK bindings to other languages (like Rust).
   - License: Proprietary / [GPLv3]
   - Platforms: Linux, Mac, Windows
   - Support: Supported by most modern commercial DAWs (with notable exception of Apple's DAW Logic) and a few open source DAWs.
-  - Distribution - If you are distributing your plugin with the [GPLv3] open source license (or host VST3 plugins with your own [GPLv3] host), then you do not need to have a signed license agreement with Steinberg. However, if you want to distribute your plugin closed source or create a closed-source host, then you need to get a signed [VST3 License Agreement].
+  - Distribution - If you are distributing your plugin with the [GPLv3] open source license (or host VST3 plugins with your own [GPLv3] host), then you do not need to have a signed license agreement with Steinberg. However, if you want to distribute your plugin closed source or create a closed-source host, then you need to get a signed [VST3 License Agreement](https://developer.steinberg.help/pages/viewpage.action?pageId=9797944).
     - Also note that Steinberg has a history of changing their license agreements for however they see fit (like they did when they stopped giving out VST2 licenses). If you want to ever distribute plugins commercially, I would advise you to get a license agreement as soon as possible before Steinberg changes their mind.
-  - SDK download: [VST3 SDK]
+  - SDK download: [VST3 SDK](https://github.com/steinbergmedia/vst3sdk)
 
 ## VST2 (aka VST, version 2)
   - Why?: It is the most well-known and mature format, supported by almost every DAW.
@@ -37,14 +37,14 @@ There are quite a few audio plugin API standards which allow your plugin be comp
   - Platforms: Same as VST2 above.
   - Support: Same as VST2 above.
   - Distribution: You can only distribute your plugins or host as open source under either the [GPLv2] or [GPLv3] license. Though again, this is a gray legal area so I would be weary.
-  - SDK source: [Vestige Header File]
+  - SDK source: [Vestige Header File](https://github.com/x42/lv2vst/blob/master/include/vestige.h)
 
 ## AUv2/AUv3 (aka AU or Audio Units, version 2 and 3)
   - License: [Apache 2.0]
   - Platforms: Mac, iOS
   - Support: Main support is for Apple's own Logic DAW, but a few other DAWs that run on Mac support it as well. AU is the only plugin standard supported by Logic.
   - Distribution - You can distribute open source and close sourced versions of your plugins (and host AU plugins) freely without restriction.
-  - SDK source: [AU SDK]
+  - SDK source: [AU SDK](https://github.com/apple/AudioUnitSDK)
 
 ## AAX
 This is a proprietary plugin standard for use exclusively with Avid's DAW Pro Tools.
@@ -64,8 +64,8 @@ This is a proprietary plugin standard for use exclusively with Avid's DAW Pro To
   - Platforms: Linux, Mac, Windows (Although support for Mac and Windows is rare.)
   - Support: Supported by most open-source DAWs, but hardly any commercial DAWs support it (maybe even none of them do).
   - Distribution - You can distribute open source and close sourced versions of your plugins (and host LV2 plugins) freely without restriction.
-  - SDK source: [LV2 SDK]
-  - [sjaehn's LV2 Tutorial] - A nice tutorial on developing LV2 plugins.
+  - SDK source: [LV2 SDK](https://gitlab.com/lv2/lv2)
+  - [sjaehn's LV2 Tutorial](https://github.com/sjaehn/lv2tutorial) - A nice tutorial on developing LV2 plugins.
 
 ## LADSPA
 LADSPA is the precursor to LV2.
@@ -75,7 +75,7 @@ LADSPA is the precursor to LV2.
   - Platforms: Same as LV2 above
   - Support: Same as LV2 above
   - Distribution: Same as LV2 above
-  - SDK source: [LADSPA Header File]
+  - SDK source: [LADSPA Header File](https://www.ladspa.org/ladspa_sdk/ladspa.h.txt)
 
 ## WAP (Web Audio Plugins)
 An open source audio plugin standard for use with web browsers using WebAudio.
@@ -85,38 +85,15 @@ An open source audio plugin standard for use with web browsers using WebAudio.
   - Platforms: Web
   - Support: Only web-browser based DAWs
   - Distribution: You can distribute open source and close sourced versions of your plugins (and host WAP plugins) freely without restriction.
-  - SDK source: [WAP SDK]
+  - SDK source: [WAP SDK](https://github.com/micbuffa/WebAudioPlugins)
 
 ## VCV Rack / Cardinal Plugin
-The audio plugin standard for use with the open source [VCV Rack] or [Cardinal] virtual synthesizers.
-  - Why?: If you want to create plugins for [VCV Rack] / [Cardinal].
+The audio plugin standard for use with the open source [VCV Rack](https://vcvrack.com/) or [Cardinal](https://github.com/DISTRHO/Cardinal) virtual synthesizers.
+  - Why?: If you want to create plugins for VCV Rack / Cardinal.
   - License: [GPLv3]
-  - Distribution: You can distribute freely if your plugin is [GPLv3] or a multitude of other accepted open source licenses. You are allowed to sell closed-source versions if you get special permission from the author via email. See [VCV Rack Licensing] for more details.
-  - SDK source: [VCV Rack Plugin SDK]
-  - [VCV Rack Plugin Tutorial] - The official tutorial on making VCV Rack plugins.
-
-[Vestige Header File]: https://github.com/x42/lv2vst/blob/master/include/vestige.h
-
-[VST3 License Agreement]: https://developer.steinberg.help/pages/viewpage.action?pageId=9797944
-[VST3 SDK]: https://github.com/steinbergmedia/vst3sdk
-[Rust]: https://www.rust-lang.org/
-
-[AU SDK]: https://github.com/apple/AudioUnitSDK
-
-[LV2 SDK]: https://gitlab.com/lv2/lv2
-[sjaehn's LV2 Tutorial]: https://github.com/sjaehn/lv2tutorial
-
-[LADSPA Header File]: https://www.ladspa.org/ladspa_sdk/ladspa.h.txt
-
-[CLAP SDK]: https://github.com/free-audio/clap
-
-[WAP SDK]: https://github.com/micbuffa/WebAudioPlugins
-
-[VCV Rack]: https://vcvrack.com/
-[Cardinal]: https://github.com/DISTRHO/Cardinal
-[VCV Rack Licensing]: https://vcvrack.com/manual/PluginLicensing
-[VCV Rack Plugin SDK]: https://vcvrack.com/downloads/
-[VCV Rack Plugin Tutorial]: https://vcvrack.com/manual/PluginDevelopmentTutorial
+  - Distribution: You can distribute freely if your plugin is [GPLv3] or a multitude of other accepted open source licenses. You are allowed to sell closed-source versions if you get special permission from the author via email. See [VCV Rack Licensing](https://vcvrack.com/manual/PluginLicensing) for more details.
+  - SDK source: [VCV Rack Plugin SDK](https://vcvrack.com/downloads/)
+  - [VCV Rack Plugin Tutorial](https://vcvrack.com/manual/PluginDevelopmentTutorial) - The official tutorial on making VCV Rack plugins.
 
 [GPLv2]: https://opensource.org/licenses/gpl-2.0.php
 [GPLv3]: https://choosealicense.com/licenses/gpl-3.0/
