@@ -13,7 +13,7 @@ A list of software stacks/frameworks used to make audio plugins, along with thei
   - [JIVE](https://github.com/ImJimmi/JIVE) - Framework that makes it easier to create GUIs in JUCE.
   - [Awesome JUCE](https://github.com/sudara/awesome-juce) - A large list of resources for JUCE.
 
-## [nih-plug]
+## [NIH-plug]
   - Full-stack and modular framework with GUI in [Rust].
   - Fully open-source using a permissive license.
   - Targets CLAP and VST3 plugin formats.
@@ -58,7 +58,7 @@ A list of software stacks/frameworks used to make audio plugins, along with thei
 [JUCE]: https://github.com/juce-framework/JUCE
 [Tracktion Engine]: https://github.com/Tracktion/tracktion_engine/
 [iPlug2]: https://github.com/iPlug2/iPlug2
-[nih-plug]: https://github.com/robbert-vdh/nih-plug
+[NIH-plug]: https://github.com/robbert-vdh/nih-plug
 [Vizia]: https://github.com/vizia/vizia
 [Iced]: https://github.com/iced-rs/iced
 [egui]: https://github.com/emilk/egui
