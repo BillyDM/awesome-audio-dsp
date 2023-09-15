@@ -37,7 +37,7 @@ Tips and tools for optimizing audio software.
 - [libsimdcpp] (C++)
 - [portable-simd] (Rust, currently requires the nightly compiler)
 
-[Audio Software Optimization Tips]: AUDIO_SOFTWARE_OPTIMIZATION_TIPS.md
+[Audio Software Optimization Tips]: ../content/AUDIO_SOFTWARE_OPTIMIZATION_TIPS.md
 [Fast-DSP-Approximations]: https://github.com/BillyDM/Fast-DSP-Approximations
 [Intel Intrinsics Guide]: https://software.intel.com/sites/landingpage/IntrinsicsGuide
 [Compiler Explorer]: https://godbolt.org/

@@ -31,25 +31,25 @@ My curated list of audio DSP (digital signal processing) and plugin development 
     - ISBN-10: 0367510480 and 1138591939, ISBN-13: 978-0367510480 and 978-1138591936
 - [Think DSP]: A great free online book that teaches many fundamental DSP concepts using Python.
 
-[Free Online Textbooks & Courses]: FREE_ONLINE_TEXTBOOKS_AND_COURSES.md
-[Paid Textbooks]: PAID_TEXTBOOKS.md
-[DSP Playgrounds]: DSP_PLAYGROUNDS.md
-[Mathematics]: MATHEMATICS.md
-[Technical Reading]: TECHNICAL_READING.md
-[Electronics & Embedded]: ELECTRONICS_AND_EMBEDDED.md
-[Machine Learning]: MACHINE_LEARNING.md
-[Open Source Plugins & Software]: OPEN_SOURCE_PLUGINS_AND_SOFTWARE.md
-[DSP Cookbooks]: DSP_COOKBOOKS.md
-[Code Libraries]: CODE_LIBRARIES.md
-[Sound Design & Music Production]: SOUND_DESIGN_AND_MUSIC_PRODUCTION.md
-[Software Optimization]: SOFTWARE_OPTIMIZATION.md
-[Audio Software Optimization Tips]: AUDIO_SOFTWARE_OPTIMIZATION_TIPS.md
-[System Tools]: SYSTEM_TOOLS.md
-[Low-Level Programming Languages]: LOW_LEVEL_PROGRAMMING_LANGUAGES.md
-[Plugin APIs]: PLUGIN_APIS.md
-[Plugin Development Frameworks]: PLUGIN_DEVELOPMENT_FRAMEWORKS.md
-[Forums]: FORUMS.md
-[More Lists]: MORE_LISTS.md
+[Free Online Textbooks & Courses]: sections/FREE_ONLINE_TEXTBOOKS_AND_COURSES.md
+[Paid Textbooks]: sections/PAID_TEXTBOOKS.md
+[DSP Playgrounds]: sections/DSP_PLAYGROUNDS.md
+[Mathematics]: sections/MATHEMATICS.md
+[Technical Reading]: sections/TECHNICAL_READING.md
+[Electronics & Embedded]: sections/ELECTRONICS_AND_EMBEDDED.md
+[Machine Learning]: sections/MACHINE_LEARNING.md
+[Open Source Plugins & Software]: sections/OPEN_SOURCE_PLUGINS_AND_SOFTWARE.md
+[DSP Cookbooks]: sections/DSP_COOKBOOKS.md
+[Code Libraries]: sections/CODE_LIBRARIES.md
+[Sound Design & Music Production]: sections/SOUND_DESIGN_AND_MUSIC_PRODUCTION.md
+[Software Optimization]: sections/SOFTWARE_OPTIMIZATION.md
+[Audio Software Optimization Tips]: content/AUDIO_SOFTWARE_OPTIMIZATION_TIPS.md
+[System Tools]: sections/SYSTEM_TOOLS.md
+[Low-Level Programming Languages]: sections/LOW_LEVEL_PROGRAMMING_LANGUAGES.md
+[Plugin APIs]: sections/PLUGIN_APIS.md
+[Plugin Development Frameworks]: sections/PLUGIN_DEVELOPMENT_FRAMEWORKS.md
+[Forums]: sections/FORUMS.md
+[More Lists]: sections/MORE_LISTS.md
 [projet μ]: https://mu.krj.st/
 [Think DSP]: https://github.com/AllenDowney/ThinkDSP
 [Designing Software Synthesizer Plug-Ins in C++]:  https://www.amazon.com/Designing-Software-Synthesizer-Plug-Ins-Audio/dp/0367510480
