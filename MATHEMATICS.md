@@ -28,6 +28,7 @@ These prerequisites aren't strictly necessary, but they can help you understand 
 - [katjaas] - Neat visual explanations of DSP mathematics and techniques.
 - This video on the [Laplace Transform] by Zach Star.
 - [Khan Academy] - Free college-level courses.
+- [Awesome Math] - A large list of math-related resources.
 
 ## Tools
 - [Desmos] - Free online graphing calculator.
@@ -47,6 +48,7 @@ These prerequisites aren't strictly necessary, but they can help you understand 
 [katjaas]: http://www.katjaas.nl/home/home.html
 [Laplace Transform]: https://www.youtube.com/watch?v=n2y7n6jw5d0
 [Khan Academy]: https://www.khanacademy.org/math
+[Awesome Math]: https://github.com/rossant/awesome-math
 [Desmos]: https://www.desmos.com/calculator
 [Wolfram Alpha]: https://www.wolframalpha.com/
 [Symbolab]: https://www.symbolab.com/
