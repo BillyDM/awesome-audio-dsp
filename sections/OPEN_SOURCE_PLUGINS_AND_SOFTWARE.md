@@ -52,6 +52,7 @@ A list of open source audio software that you can inspect and learn from.
 - [BYOD](https://github.com/Chowdhury-DSP/BYOD) - A plugin with many high quality guitar pedal, amp, and cabinet effects (as well as some other effects). It has a fancy node-based UI.
 - [CloudReverb](https://github.com/xunil-cloud/CloudReverb) - Beautiful shimmering reverb based on the `CloudSeed` plugin by Valdemar Erlingsson. I choose this over the original as that uses a Windows-only C# platform for its GUI.
   - There is also a port of this plugin with a GUI called [Aether](https://github.com/Dougal-s/Aether).
+- [Squeezer](https://github.com/mzuther/Squeezer) - A good, flexible general-purpose compressor.
 - [Luftikus] - Good quality analogue modeled equalizer.
 - [Fogpad](https://github.com/linuxmao-org/fogpad-port) - Reverb plugin where reflections can be frozen, filtered, pitch-shifted, and mangled.
 - [Misstortion](https://github.com/nimbletools/misstortion1) - Good quality hard/soft clipper.
