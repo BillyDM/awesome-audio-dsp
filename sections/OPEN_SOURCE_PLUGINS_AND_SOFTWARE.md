@@ -21,12 +21,15 @@ A list of open source audio software that you can inspect and learn from.
 - [JSFX](https://github.com/JoepVanlier/JSFX) - A collection of cool plugins and scripts for Reaper. Some of the GUIs are absolutely stunning.
 - [lkjb plugins](https://github.com/lkjbdsp/lkjb-plugins) - Additional plugins made by the creator of [Luftikus].
 - [SOUL-VA](https://github.com/thezhe/SOUL-VA) - A non-trivial virtual analog filter library written in [SOUL](https://github.com/soul-lang/SOUL). Plugin versions are also sold as commercial products.
+- [SocaLabs Plugins](https://github.com/FigBug/SocaLabs) - A collection of plugins made by SocaLabs.
 
 ## Synths
 - [Vital](https://github.com/mtytel/vital) - An incredibly powerful and high quality modern synthesizer. Rivals that of Xfer Serum and NI Massive.
   - There is also a fully GPLv3-licensed fork called [Vitalium](https://github.com/DISTRHO/DISTRHO-Ports/tree/master/ports-juce6/vitalium) that has all the non-GPL stuff removed.
 - [Helm](https://github.com/mtytel/helm) - High-quality modern monophonic synthesizer. The older sibling to Vital. The oscillators are not stereo though.
-- [Surge XT](https://github.com/surge-synthesizer/surge) - Feature-rich hybrid synthesizer that was once sold as a commercial product. (It has since evolved into its own thing with many new features added.)
+- [Surge XT](https://github.com/surge-synthesizer/surge) - Feature-rich hybrid synthesizer that was once sold as a proprietary product. (It has since evolved into its own thing with many new features added.)
+- [Vaporizer2](https://github.com/VASTDynamics/Vaporizer2) - Feature-rich wavetable synthesizer that was once a proprietary product.
+- [Wavetable](https://github.com/FigBug/Wavetable) - Sleek wavetable synthesizer with a great clean sound.
 - [OB-Xd](https://github.com/reales/OB-Xd) - A high quality subtractive analog synth modeled after the Oberheim OB-X.
 - [Monique Mono-Synth](https://github.com/surge-synthesizer/monique-monosynth) - High-quality subtractive monophonic synth. Now open source!
 - [Dexed](https://github.com/asb2m10/dexed) - Synthesizer closely modelled after the Yamaha DX7.
