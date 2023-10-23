@@ -25,7 +25,7 @@ A list of software stacks/frameworks used to make audio plugins, along with thei
 ## [DISTRHO Plugin Framework](https://github.com/DISTRHO/DPF)
   - Full-stack framework with GUI in C++.
   - Fully open-source using a permissive license.
-  - Targets LADSPA, DSSI, LV2, VST2, and Jack plugin formats.
+  - Targets LADSPA, DSSI, LV2, VST2, VST3, CLAP, and Jack plugin formats.
   - Targets Linux, Mac, and Windows platforms.
 
 ## [Dplug](https://github.com/AuburnSounds/Dplug)

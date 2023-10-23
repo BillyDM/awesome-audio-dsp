@@ -60,9 +60,9 @@ This is a proprietary plugin standard for use exclusively with Avid's DAW Pro To
  LV2 is a free and open source plugin standard created for use within the Linux ecosystem.
   - Why?: Even though support for it on Mac and Windows is rare, it is used by a lot of Linux software. There is also a growing community of music producers using Linux.
   - Why Not?: Lack of support in most major commercial DAWs, and the new CLAP spec pretty much makes this standard obsolete in my opinion.
-  - License: [MIT]
+  - License: [ISC]
   - Platforms: Linux, Mac, Windows (Although support for Mac and Windows is rare.)
-  - Support: Supported by most open-source DAWs, but hardly any commercial DAWs support it (maybe even none of them do).
+  - Support: Supported by most open-source DAWs, but hardly any commercial DAWs support it (namely REAPER, Ardour, Harisson Mixbus, and Zrythm).
   - Distribution - You can distribute open source and close sourced versions of your plugins (and host LV2 plugins) freely without restriction.
   - SDK source: [LV2 SDK](https://gitlab.com/lv2/lv2)
   - [sjaehn's LV2 Tutorial](https://github.com/sjaehn/lv2tutorial) - A nice tutorial on developing LV2 plugins.
@@ -98,6 +98,7 @@ The audio plugin standard for use with the open source [VCV Rack](https://vcvrac
 [GPLv2]: https://opensource.org/licenses/gpl-2.0.php
 [GPLv3]: https://choosealicense.com/licenses/gpl-3.0/
 [MIT]: https://choosealicense.com/licenses/mit/
+[ISC]: https://spdx.org/licenses/ISC.html
 [Apache 2.0]: https://choosealicense.com/licenses/apache-2.0/
 [LGPLv2.1]: https://opensource.org/licenses/lgpl-2.1.php
 [LGPLv3]: https://choosealicense.com/licenses/lgpl-3.0/
