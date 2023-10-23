@@ -62,7 +62,7 @@ This is a proprietary plugin standard for use exclusively with Avid's DAW Pro To
   - Why Not?: Lack of support in most major commercial DAWs, and the new CLAP spec pretty much makes this standard obsolete in my opinion.
   - License: [ISC]
   - Platforms: Linux, Mac, Windows (Although support for Mac and Windows is rare.)
-  - Support: Supported by most open-source DAWs, but hardly any commercial DAWs support it (namely REAPER, Ardour, Harisson Mixbus, and Zrythm).
+  - Support: Supported by most open-source DAWs, but hardly any commercial DAWs support it (namely REAPER, Ardour, Harisson Mixbus, MultitrackStudio, Zrythm, and Tracktion Waveform).
   - Distribution - You can distribute open source and close sourced versions of your plugins (and host LV2 plugins) freely without restriction.
   - SDK source: [LV2 SDK](https://gitlab.com/lv2/lv2)
   - [sjaehn's LV2 Tutorial](https://github.com/sjaehn/lv2tutorial) - A nice tutorial on developing LV2 plugins.
