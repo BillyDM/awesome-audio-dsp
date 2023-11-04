@@ -25,7 +25,7 @@ A list of software stacks/frameworks used to make audio plugins, along with thei
 ## [DISTRHO Plugin Framework](https://github.com/DISTRHO/DPF)
   - Full-stack framework with GUI in C++.
   - Fully open-source using a permissive license.
-  - Targets LADSPA, DSSI, LV2, VST2, and Jack plugin formats.
+  - Targets LADSPA, DSSI, LV2, VST2, VST3, CLAP, and Jack plugin formats.
   - Targets Linux, Mac, and Windows platforms.
 
 ## [Dplug](https://github.com/AuburnSounds/Dplug)
@@ -42,13 +42,4 @@ A list of software stacks/frameworks used to make audio plugins, along with thei
   - Targets VST2, VST3, AUv2, AUv3, AAX and the Web Audio Module (WAM) plugin formats (also support for [CLAP] is in the works).
   - Targets Mac, Windows, iOS, and Web. It does not currently target Linux.
 
-
-## [HVCC][https://github.com/Wasted-Audio/hvcc]
-  - Converts Pure Data DSP graphs to C/C++ code.
-  - Fully open-source using a permissive license (internal libary is MIT, converted output is user choice).
-  - Targets DPF (all supported formats), Unity, Wwise, JS/Webassembly, Daisy, and OWL.
-  - Used by several commercial plugins and games.
-  - Integrates with the [plugdata] editor for pure data patches.
-
 [CLAP]: https://github.com/free-audio/clap
-[plugdata]: https://plugdata.org/
