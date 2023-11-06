@@ -4,7 +4,7 @@ A list of software stacks/frameworks used to make audio plugins, along with thei
 ## [JUCE](https://github.com/juce-framework/JUCE)
   - Full-stack framework with GUI in C++.
   - Open source with mixed licensing. It's free if you distribute your plugins open-source under the GPLv3 license, but you have to pay for a hefty license if you want to distribute your plugins closed-source.
-  - Targets VST2, VST3, AUv2, AUv3, RTAS, and AAX plugin formats. Unofficial support for the [CLAP] standard is also in the works [here](https://github.com/free-audio/clap-juce-extensions).
+  - Targets VST2, VST3, AUv2, AUv3, RTAS, AAX, and LV2 plugin formats. Unofficial support for the [CLAP] standard is also in the works [here](https://github.com/free-audio/clap-juce-extensions).
   - Targets Linux, Mac, Windows, iOS, Android, and Raspberry Pi platforms.
   - Well known in the industry, and many commercial plugins are built with it.
 
