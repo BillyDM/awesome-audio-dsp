@@ -68,6 +68,7 @@ A list of open source audio software that you can inspect and learn from.
 - [Molot Lite](https://github.com/magnetophon/molot-lite) - A cut-down version of the Molot compressor by Tokyo Dawn Records. It has a lot of color and character.
 - [AIDA-X](https://github.com/AidaDSP/AIDA-X) - An amp model player that can load AI-trained models of music gear.
 - [Valentine](https://github.com/tote-bag-labs/valentine) - A nice compressor/saturator that is meant to "pump and breath".
+- [Squeezer](https://github.com/mzuther/Squeezer) - Flexible general-purpose audio compressor with a "touch of citrus".
 
 ## MIDI FX
 - [Helio Workstation](https://github.com/helio-fm/helio-workstation) - A very modern and feature-rich sequencer.
