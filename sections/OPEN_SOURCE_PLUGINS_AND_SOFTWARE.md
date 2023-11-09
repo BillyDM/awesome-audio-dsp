@@ -22,6 +22,7 @@ A list of open source audio software that you can inspect and learn from.
 - [lkjb plugins](https://github.com/lkjbdsp/lkjb-plugins) - Additional plugins made by the creator of [Luftikus].
 - [SOUL-VA](https://github.com/thezhe/SOUL-VA) - A non-trivial virtual analog filter library written in [SOUL](https://github.com/soul-lang/SOUL). Plugin versions are also sold as commercial products.
 - [SocaLabs Plugins](https://github.com/FigBug/SocaLabs) - A collection of plugins made by SocaLabs.
+- [Calf Studio gear](https://github.com/calf-studio-gear/calf) - A large collection of plugins aimed at a professional audience.
 
 ## Synths
 - [Vital](https://github.com/mtytel/vital) - An incredibly powerful and high quality modern synthesizer. Rivals that of Xfer Serum and NI Massive.
