@@ -2,23 +2,23 @@
 A list of open source audio software that you can inspect and learn from.
 
 ## Collections
-- [Airwindows Plugins](https://github.com/airwindows/airwindows/tree/master/plugins) - Many, many good quality effects and experiments developed over many years.
-  There are a *ton* of plugins here, so here is a list of community favorites:
+- [Airwindows Plugins](https://github.com/airwindows/airwindows/tree/master/plugins) - Lots of good quality effects and experiments developed over many years.
+  There are a *ton* of plugins here, so here is a list of some community favorites:
   - [density](https://github.com/airwindows/airwindows/tree/master/plugins/LinuxVST/src/Density)
   - [pressure4](https://github.com/airwindows/airwindows/tree/master/plugins/LinuxVST/src/Pressure4)
   - [totape5](https://github.com/airwindows/airwindows/tree/master/plugins/LinuxVST/src/ToTape5)
   - [ironoxide](https://github.com/airwindows/airwindows/tree/master/plugins/LinuxVST/src/IronOxide5)
-- [zam-plugins](https://github.com/zamaudio/zam-plugins) - A suite of good quality mixing/mastering plugins. The limiter, tube amp, and multiband compressor are particularly good.
-- [LSP Plugins](https://github.com/sadko4u/lsp-plugins) - Another collection of good quality mixing/mastering effects.
+- [zam-plugins](https://github.com/zamaudio/zam-plugins) - A suite of good quality mixing/mastering plugins.
+- [LSP Plugins](https://github.com/sadko4u/lsp-plugins) - A collection of good quality mixing/mastering effects for Linux.
 - [Chowdhury DSP](https://github.com/Chowdhury-DSP) - A collection of high quality effect plugins (as well as a kick drum synthesizer). A lot of these plugins make use of use of cutting-edge neural network inferencing.
 - [sjaehn](https://github.com/sjaehn?tab=repositories) - Several cool MIDI based slicing/glitching effects and synthesizers.
-- [x42-plugins](https://github.com/x42/x42-plugins) - A collection of good quality effects and visualizers. Some plugins are also sold as a commercial product. The compressor is particularly good.
+- [x42-plugins](https://github.com/x42/x42-plugins) - A collection of good quality effects and visualizers. Some plugins are also sold as a commercial product.
 - [EQ10Q](http://eq10q.sourceforge.net/) - A suite of plugins containing a 10-band parametric equalizer, gate, compressor, bass enhancer, and mid-side encoders.
 - [Shiru Plugins](https://github.com/linuxmao-org/shiru-plugins) - A suite of old video-game sound chips synths and effects.
 - [Mrugalla Plugins](https://github.com/Mrugalla) - A collection of modern and unique plugins by Florian Mrugalla.
 - [DISTRHO-Ports](https://github.com/DISTRHO/DISTRHO-Ports) - A whole bunch of plugins ported to work on Linux/LV2.
 - [DISTRHO Plugin Framework](https://github.com/DISTRHO/DPF) - Has a list of plugins that were made using this framework.
-- [JSFX](https://github.com/JoepVanlier/JSFX) - A collection of cool plugins and scripts for Reaper. Some of the GUIs are absolutely stunning.
+- [JSFX](https://github.com/JoepVanlier/JSFX) - A collection of cool plugins and scripts for Reaper. Some of the GUIs are really stunning.
 - [lkjb plugins](https://github.com/lkjbdsp/lkjb-plugins) - Additional plugins made by the creator of [Luftikus].
 - [SOUL-VA](https://github.com/thezhe/SOUL-VA) - A non-trivial virtual analog filter library written in [SOUL](https://github.com/soul-lang/SOUL). Plugin versions are also sold as commercial products.
 - [SocaLabs Plugins](https://github.com/FigBug/SocaLabs) - A collection of plugins made by SocaLabs.
@@ -26,7 +26,7 @@ A list of open source audio software that you can inspect and learn from.
 - [VCV Library database](https://github.com/VCVRack/library) - An official database of [VCV Rack] plugins, containing both commercial and open source plugins.
 
 ## Synths
-- [Vital](https://github.com/mtytel/vital) - An incredibly powerful and high quality modern synthesizer. Rivals that of Xfer Serum and NI Massive.
+- [Vital](https://github.com/mtytel/vital) - An incredibly powerful and high quality modern synthesizer. Rivals the likes of Xfer Serum and NI Massive.
   - There is also a fully GPLv3-licensed fork called [Vitalium](https://github.com/DISTRHO/DISTRHO-Ports/tree/master/ports-juce6/vitalium) that has all the non-GPL stuff removed.
 - [Helm](https://github.com/mtytel/helm) - High-quality modern monophonic synthesizer. The older sibling to Vital. The oscillators are not stereo though.
 - [Surge XT](https://github.com/surge-synthesizer/surge) - Feature-rich hybrid synthesizer that was once sold as a proprietary product. (It has since evolved into its own thing with many new features added.)
