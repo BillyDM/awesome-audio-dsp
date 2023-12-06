@@ -69,6 +69,7 @@ A list of open source audio software that you can inspect and learn from.
 - [AIDA-X](https://github.com/AidaDSP/AIDA-X) - An amp model player that can load AI-trained models of music gear.
 - [Valentine](https://github.com/tote-bag-labs/valentine) - A nice compressor/saturator that is meant to "pump and breath".
 - [Squeezer](https://github.com/mzuther/Squeezer) - Flexible general-purpose audio compressor with a "touch of citrus".
+- [MAIM](https://github.com/ArdenButterfield/Maim) - A unique distortion effect which "circuit bends an MP3 encoder in real time".
 
 ## MIDI FX
 - [Helio Workstation](https://github.com/helio-fm/helio-workstation) - A very modern and feature-rich sequencer.
