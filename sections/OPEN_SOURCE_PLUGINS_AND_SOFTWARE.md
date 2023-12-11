@@ -102,6 +102,10 @@ A list of open source audio software that you can inspect and learn from.
 ## Other
 - [Ultimate Vocal Remover](https://github.com/Anjok07/ultimatevocalremovergui) - A state-of-the-art program that uses machine learning to separate vocals from a mix.
 
+## More Lists
+
+- [OpenAudio](https://github.com/webprofusion/OpenAudio) - A large list of open source audio plugins, apps, and other projects.
+
 [Luftikus]: https://github.com/lkjbdsp/lkjb-plugins/tree/master/Luftikus
 [Bespoke Synth]: https://github.com/BespokeSynth/BespokeSynth
 [Cardinal]: https://github.com/DISTRHO/Cardinal
