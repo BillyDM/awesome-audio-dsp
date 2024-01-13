@@ -75,6 +75,8 @@ A list of open source audio software that you can inspect and learn from.
 - [Helio Workstation](https://github.com/helio-fm/helio-workstation) - A very modern and feature-rich sequencer.
 - [QMidiArp](https://github.com/emuse/qmidiarp) - Advanced arpeggiator, sequencer, and MIDI LFO.
 - [Stochas](https://github.com/surge-synthesizer/stochas) - An advanced probabilistic polyrythmic sequencer. Made by the same team behind the [Surge XT] synthesizer.
+- [Ripchord](https://github.com/trackbout/ripchord) - A MIDI plugin that can create, perform and remix chord progressions.
+  - There is also a [fork](https://github.com/prg318/ripchord) that adds support for Linux.
 
 ## Meters & Visualizers
 - [Spectacle](https://github.com/jpcima/spectacle) - Modern real-time spectrum analyzer plugin.
