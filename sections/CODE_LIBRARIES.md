@@ -72,6 +72,7 @@ That being said, it can still be a great resource for learning about various DSP
 - [KFR](https://kfrlib.com/) - A collection of very fast DSP algorithms. Commercial use requires a paid license.
 - [Maximilian](https://github.com/micknoise/Maximilian) - A comprehensive collection of DSP algorithms in C++. Also contains Javascript bindings.
 - [Q](https://github.com/cycfi/q) - A DSP library that leverages features of modern C++.
+- [DaisySP](https://github.com/electro-smith/DaisySP) - A C++ DSP library that provides a comprehensive collection of modular components.
 - [SOUL-VA](https://github.com/thezhe/SOUL-VA) - A collection of virtual analog audio effects for the [SOUL](https://github.com/soul-lang/SOUL) programming language.
 - [DSP Filters by vinniefalco](https://github.com/vinniefalco/DSPFilters) - A collection of C++ classes for DSP.
 - [Bad Circuit Modeling](https://github.com/jatinchowdhury18/Bad-Circuit-Modelling) - Contains analogue models of non-ideal circuits.
