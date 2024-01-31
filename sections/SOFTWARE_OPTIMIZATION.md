@@ -4,9 +4,44 @@ Tips and tools for optimizing audio software.
 - [Audio Software Optimization Tips](../content/AUDIO_SOFTWARE_OPTIMIZATION_TIPS.md) - My own list of audio software optimization tips.
 - [Real-time audio programming 101](http://www.rossbencina.com/code/real-time-audio-programming-101-time-waits-for-nothing) - Tips on writing real-time code.
 - [Compiler Explorer] - Very useful tool that lets you analyze the assembly output of many different languages including Rust, C, and C++.
-  - Note, you will generally want to enable compiler optimizations when using this tool to get the actual assembly output in release mode. To do this, enter the following text into the "Compiler options..." field for your given language/compiler:
+  - Note, you will generally want to enable compiler optimizations when using this tool to get the assembly output for release mode. To do this, enter the following text into the "Compiler options..." field for your given language/compiler:
     - C/C++ (gcc or clang): `-O3`
+    - C/C++ (msvc): `/O2`
     - Rust: `-C opt-level=3`
+  - Sometimes the compiler optimizes so much that it removes the function you want to analyze entirely (i.e. dead code elimination). To fix this, use the following function attributes for your given language/compiler:
+    - C/C++ (gcc): `__attribute__((optimize("O0")))`
+        - *Place this on a function that calls the function you want to analyze, not the function itself. For example:*
+        - ```c
+          int __attribute__((optimize("O0"))) main() {
+            foo_my_function_to_analyze();
+            return 0;
+          }
+          ```
+    - C/C++ (clang): `__attribute__ ((optnone))`
+        - *Place this on a function that calls the function you want to analyze, not the function itself. For example:*
+        - ```c
+          int __attribute__ ((optnone)) main() {
+            foo_my_function_to_analyze();
+            return 0;
+          }
+          ```
+    - C/C++ (msvc): `#pragma optimize( "", off )` / `#pragma optimize( "", on )`
+      - *Place these around a function that calls the function you want to analyze, not the function itself. For example:*
+      - ```c
+        #pragma optimize( "", off )
+        int main() {
+          foo_my_function_to_analyze();
+          return 0;
+        }
+        #pragma optimize( "", on )
+        ```
+    - Rust: `#[no_mangle]` or `#[inline(never)]`
+      - ```rust
+        #[no_mangle]
+        pub fn foo_my_function_to_analyze() {
+          // ...
+        }
+        ```
 - [Performance Ninja Class](https://github.com/dendibakh/perf-ninja) - A free and open source online course on how to find and fix low-level performance issues.
 - [Intel Intrinsics Guide](https://software.intel.com/sites/landingpage/IntrinsicsGuide) - x86 processor intrinsics
 - [Software Optimization Resources](https://www.agner.org/optimize/) - A popular resource on optimizing for x86 based architectures.
