@@ -49,6 +49,7 @@ A list of open source audio software that you can inspect and learn from.
 - [ChowKick](https://github.com/Chowdhury-DSP/ChowKick) - A high quality old school kick drum synthesizer.
 - [DigiDrie](https://github.com/magnetophon/DigiDrie) - A "monster" monophonic synth.
 - [gRainbow](https://github.com/StrangeLoopsAudio/gRainbow) - A synthesizer that uses pitch detection to choose candidates for granular synthesis or sampling.
+- [Spiro](https://github.com/p-o-l-e/spiro.git) - A semi-modular synthesizer with a beautiful interface.
 
 ## Audio FX
 - [Wolf Shaper](https://github.com/pdesaulniers/wolf-shaper) - Good quality waveshaper with support for unlimited nodes.
