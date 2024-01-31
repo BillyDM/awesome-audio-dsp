@@ -11,3 +11,4 @@ Here I'll link curated lists of resources that others have made.
 - [Freeverb3 - DSP References](https://freeverb3vst.osdn.jp/ref.shtml) - A list of technical DSP resources focused mainly on reverb design.
 - [Awesome JUCE](https://github.com/sudara/awesome-juce) - An awesome list for the JUCE framework.
 - [OpenAudio](https://github.com/webprofusion/OpenAudio) - A list of open source audio plugins, apps, and other projects.
+- [Awesome Music Production](https://github.com/ad-si/awesome-music-production) - A curated list of software and resources for music production.
