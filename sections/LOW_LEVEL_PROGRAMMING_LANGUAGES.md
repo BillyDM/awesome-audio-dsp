@@ -84,6 +84,8 @@ Here I'll list the best languages to use for serious DSP and their pros and cons
 
 > A new language to look out for is [Carbon](https://github.com/carbon-language/carbon-lang), which aims to be compatible with existing C++ code and libraries while providing modern features, syntax, and safety. It has the potential to be a great language for audio development. Though it's still in the early experimental stages, and it could be a few years until it's ready for use.
 
+> Another language to look out for is [Zig](https://ziglang.org/). It's still a relatively young language with a small ecosystem, but it looks very promising for writing DSP code and/or audio plugins. Later I might add a section going into more detail on it.
+
 [AFL]: https://github.com/google/AFL
 [Honggfuzz]: https://github.com/google/honggfuzz
 [NIH-plug]: https://github.com/robbert-vdh/nih-plug
