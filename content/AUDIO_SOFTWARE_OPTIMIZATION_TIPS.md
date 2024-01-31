@@ -143,9 +143,7 @@ There are however a couple ways around this:
 
 ---
 
-> \* Note, when using [Compiler Explorer], you will generally want to enable compiler optimizations to get the actual assembly output in release mode. To do this, enter the following text into the "Compiler options..." field for your given language/compiler:
-> * C/C++ (gcc or clang): `-O3`
-> * Rust: `-C opt-level=3`
+> \* To get the most out of [Compiler Explorer], see the [Software Optimization](https://github.com/BillyDM/awesome-audio-dsp/blob/main/sections/SOFTWARE_OPTIMIZATION.md) section for tips on how to use it.
 
 [Compiler Explorer]: https://godbolt.org/
 [denormals]: https://mu.krj.st/denormal/
