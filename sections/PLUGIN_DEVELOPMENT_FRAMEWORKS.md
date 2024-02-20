@@ -25,7 +25,7 @@ A list of software stacks/frameworks used to make audio plugins with/without GUI
   - Fully open-source using a permissive license.
   - Targets [CLAP] and VST3 plugin formats.
   - Targets Linux, Mac, and Windows platforms.
-  - Has several different options for GUI such as [Vizia](https://github.com/vizia/vizia), [Iced](https://github.com/iced-rs/iced), and [egui](https://github.com/emilk/egui).
+  - Has several different options for GUI such as [Vizia](https://github.com/vizia/vizia), [Iced](https://github.com/iced-rs/iced), [egui](https://github.com/emilk/egui), and [Slint](https://slint.dev/). (Slint requires a paid license if you want to distribute your plugin closed-source.)
   - It's still somewhat experimental and is missing some more specialized features, but it's usable.
   - There is now a [cookiecutter template](https://github.com/robbert-vdh/nih-plug-template) to help get you started faster.
 
