@@ -9,7 +9,8 @@ A list of software stacks/frameworks used to make audio plugins, along with thei
   - Well known in the industry, and many commercial plugins are built with it.
 
 ### JUCE Resources
-  - [pamplejuce](https://github.com/sudara/pamplejuce) - Handy code template to help with the development process.
+  - [Pamplejuce](https://github.com/sudara/pamplejuce) - Handy code template to help get you started.
+  - [Cookiejuce](https://github.com/madskjeldgaard/Cookiejuce) - Another good template generator. It's a hard fork of Pamplejuce with a lot of opinionated stuff added/changed.
   - [JIVE](https://github.com/ImJimmi/JIVE) - Framework that makes it easier to create GUIs in JUCE.
   - [Awesome JUCE](https://github.com/sudara/awesome-juce) - A large list of resources for JUCE.
 
