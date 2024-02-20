@@ -1,12 +1,6 @@
 # Plugin Development Frameworks
 A list of software stacks/frameworks used to make audio plugins with/without GUIs, along with their pros and cons.
 
-> #### A common question that gets asked is "How can I use *X* GUI library to make my plugin GUI?
->
-> Unfortunately, a big blocker that prevents most of the popular GUI libraries from working in a plugin context is that most are designed with the assumption that they own the event loop. But in a plugin context, it's the host that owns the event loop, not the plugin. So unless the GUI library was designed from the get-go to handle this use case, it's difficult to add it after the fact.
->
-> Only the [CLAP] plugin format went out of its way to allow plugins to own their own event loop. Even then, it's still discouraged since it prevents the host from seamlessly integrating with the plugin window (i.e. FL Studio drawing a window border around the plugin window with extra useful controls at the top of the window). Also, you have to be careful about dynamically linking to a GUI library (as described [here](https://github.com/free-audio/clap-plugins)).
-
 ## [JUCE](https://github.com/juce-framework/JUCE)
   - Full-stack framework with GUI in C++.
   - Open source with mixed licensing. It's free if you distribute your plugins open-source under the GPLv3 license, but you have to pay for a hefty license if you want to distribute your plugins closed-source.
@@ -25,7 +19,8 @@ A list of software stacks/frameworks used to make audio plugins with/without GUI
   - Fully open-source using a permissive license.
   - Targets [CLAP] and VST3 plugin formats.
   - Targets Linux, Mac, and Windows platforms.
-  - Has several different options for GUI such as [Vizia](https://github.com/vizia/vizia), [Iced](https://github.com/iced-rs/iced), [egui](https://github.com/emilk/egui), and [Slint](https://slint.dev/). (Slint requires a paid license if you want to distribute your plugin closed-source.)
+  - Has several different options for GUI such as [Vizia], [Iced], [egui], and [Slint]. (Slint requires a paid license if you want to distribute your plugin closed-source.)
+    - If you use Iced, there are also audio-specific widgets in the [iced_audio] extension.
   - It's still somewhat experimental and is missing some more specialized features, but it's usable.
   - There is now a [cookiecutter template](https://github.com/robbert-vdh/nih-plug-template) to help get you started faster.
 
@@ -49,4 +44,57 @@ A list of software stacks/frameworks used to make audio plugins with/without GUI
   - Targets VST2, VST3, AUv2, AUv3, AAX and the Web Audio Module (WAM) plugin formats (also support for [CLAP] is in the works).
   - Targets Mac, Windows, iOS, and Web. It does not currently target Linux.
 
+# The DIY Route
+
+Are you hardcore and have a lot of time on your hands? Well then do I have the solution for you!
+
+Jokes aside, this is a legitimate route you can take. You can actually get quite far by using one of the GUI libraries listed below. (Though I advise against creating your own GUI library unless you do actually have a lot of time on your hands.)
+
+There can also be legitimate reasons for rolling your own stack. It can be a fun experience learning how to use the plugin APIs directly and adding your tech stack on top of it. And maybe you need a special API-specific/platform-specific feature, or you want to use a single language for your whole tech stack and your language of choice doesn't have a ready-made cross platform plugin development framework (i.e. C or [Zig](https://ziglang.org/)). Or maybe you just want to ;).
+
+Here are some resources that can make your life easier:
+
+## Bring Your Own OpenGL Context
+
+> #### A common question that gets asked is "How can I use *X* GUI library to make my plugin GUI?
+>
+> Unfortunately, a big blocker that prevents many of the popular GUI libraries from working in a plugin context is that most are designed with the assumption that they own the event loop. But in a plugin context, it's the host that owns the event loop, not the plugin. So unless the GUI library was designed from the get-go to handle this use case, it's difficult to add it after the fact.
+>
+> Only the [CLAP] plugin format went out of its way to allow plugins to own their own event loop. Even then, it's still discouraged since it prevents the host from seamlessly integrating with the plugin window (i.e. FL Studio drawing a window border around the plugin window with extra useful controls at the top of the window). Also, you have to be careful about dynamically linking to a GUI library (as described [here](https://github.com/free-audio/clap-plugins)).
+
+Here is a list of compatible GUI libraries you can use for your audio plugins with relatively little effort.
+
+* [Dear ImGui](https://github.com/ocornut/imgui) - A very popular immediate mode GUI library with an active community. There are bindings to many other languages available.
+  * [clap-imgui](https://github.com/schwaaa/clap-imgui) - A minimal example of a CLAP plugin with ImGui.
+* [Nuklear](https://github.com/Immediate-Mode-UI/Nuklear) - Another popular immediate mode GUI library. Written in pure C, and bindings to many other languages are available.
+* [raygui](https://github.com/raysan5/raygui) - Another lightweight immediate mode GUI library written in pure C.
+* [egui] - An ImGui-inspired immediate mode GUI library for Rust.
+    - [egui_baseview](https://github.com/BillyDM/egui-baseview) - A shim to run egui on top of [baseview].
+* [Vizia] - A declarative GUI library for Rust. Comes with a [baseview] backend built-in.
+* [Iced] - A cross-platform GUI library for Rust focused on simplicity and type-safety.
+    - [iced_baseview](https://github.com/BillyDM/iced_baseview) - A shim to run Iced on top of [baseview].
+    - [iced_audio] - Iced widgets for audio applications.
+* [Slint] - Robust and feature-packed declarative GUI library with bindings for Rust and C++. It's free to use for open source projects, but it requires a paid license to use for closed-source projects.
+
+## "I am hardcore and want to make my own GUI solution"
+
+There are plenty of options that allow you to just draw shapes and text to the screen.
+
+* [NanoVG](https://github.com/inniyah/nanovg) - Vector graphics rendering library for OpenGL.
+* [femtovg](https://github.com/femtovg/femtovg) - An OpenGL vector graphics rendering library written in Rust, based on NanoVG.
+* [vg-renderer](https://github.com/jdryg/vg-renderer) - A vector graphics renderer for [bgfx].
+* [Skia](https://skia.org/) - Hardware-accelerated 2D vector graphics library. Built by Google to power Chrome and Flutter. It has a relatively large binary size though.
+* [Cairo](https://www.cairographics.org/) - An old but widely used vector graphics library. It is not hardware-accelerated though, so it is quite slow. But on the flip side not being hardware-accelerated removes the headaches involved with graphics drivers.
+* [bgfx](https://github.com/bkaradzic/bgfx) - Low-level cross platform graphics library that abstracts over different graphics APIs. Has a sizeable community.
+* [wgpu](https://wgpu.rs/) - Low-level cross platform graphics library for Rust that abstracts over different graphics APIs. Inspired by WebGPU.
+    * [glyphon](https://github.com/grovesNL/glyphon) - An easy way to layout and render text in wgpu using [Cosmic Text](https://github.com/pop-os/cosmic-text/).
+* [Lyon](https://github.com/nical/lyon) - A tessellation library written in Rust. It simply outputs a list of triangles for the GPU to render.
+
 [CLAP]: https://github.com/free-audio/clap
+[Vizia]: https://github.com/vizia/vizia
+[Iced]: https://github.com/iced-rs/iced
+[iced_audio]: https://github.com/iced-rs/iced_audio
+[egui]: https://github.com/emilk/egui
+[Slint]: https://slint.dev/
+[baseview]: https://github.com/RustAudio/baseview
+[bgfx]: https://github.com/bkaradzic/bgfx
