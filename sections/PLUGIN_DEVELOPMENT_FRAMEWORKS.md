@@ -1,5 +1,11 @@
 # Plugin Development Frameworks
-A list of software stacks/frameworks used to make audio plugins, along with their pros and cons.
+A list of software stacks/frameworks used to make audio plugins with/without GUIs, along with their pros and cons.
+
+> #### A common question that gets asked is "How can I use *X* GUI library to make my plugin GUI?
+>
+> Unfortunately, a big blocker that prevents most of the popular GUI libraries from working in a plugin context is that most are designed with the assumption that they own the event loop. But in a plugin context, it's the host that owns the event loop, not the plugin. So unless the GUI library was designed from the get-go to handle this use case, it's difficult to add it after the fact.
+>
+> Only the [CLAP] plugin format went out of its way to allow plugins to own their own event loop. Even then, it's still discouraged since it prevents the host from seamlessly integrating with the plugin window (i.e. FL Studio drawing a window border around the plugin window with extra useful controls at the top of the window). Also, you have to be careful about dynamically linking to a GUI library (as described [here](https://github.com/free-audio/clap-plugins)).
 
 ## [JUCE](https://github.com/juce-framework/JUCE)
   - Full-stack framework with GUI in C++.
