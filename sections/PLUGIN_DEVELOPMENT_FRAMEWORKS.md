@@ -50,7 +50,7 @@ A list of software stacks/frameworks used to make audio plugins with/without GUI
   - Only provides the plumbing and doesn't provide a GUI out of the box. You can add your own GUI layer of choice on top. (See the `Bring Your Own OpenGL Context` section below.)
   - Fully open-source using a permissive license (including a public domain license).
   - Very new and experimental. It is missing a few features at the time of this writing.
-  - Targtes Mac and Windows. It does not currently target Linux, but it is (maybe) on the roadmap.
+  - Targets Mac and Windows. It does not currently target Linux, but it is (maybe) on the roadmap.
 
 # The DIY Route
 
