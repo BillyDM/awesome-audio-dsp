@@ -44,6 +44,14 @@ A list of software stacks/frameworks used to make audio plugins with/without GUI
   - Targets VST2, VST3, AUv2, AUv3, AAX and the Web Audio Module (WAM) plugin formats (also support for [CLAP] is in the works).
   - Targets Mac, Windows, iOS, and Web. It does not currently target Linux.
 
+## [CPLUG](https://github.com/Tremus/CPLUG)
+  - A simple wrapper for the VST3, Audio Unit v2 & [CLAP] plugin formats.
+  - Uses a simple C API that makes it easy to provide bindings to other languages.
+  - Only provides the plumbing and doesn't provide a GUI out of the box. You can add your own GUI layer of choice on top. (See the `Bring Your Own OpenGL Context` section below.)
+  - Fully open-source using a permissive license (including a public domain license).
+  - Very new and experimental. It is missing a few features at the time of this writing.
+  - Targtes Mac and Windows. It does not currently target Linux, but it is (maybe) on the roadmap.
+
 # The DIY Route
 
 Are you hardcore and have a lot of time on your hands? Well then do I have the solution for you!
