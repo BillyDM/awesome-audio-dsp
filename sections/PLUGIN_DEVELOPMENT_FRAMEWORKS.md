@@ -48,9 +48,7 @@ A list of software stacks/frameworks used to make audio plugins with/without GUI
 
 Are you hardcore and have a lot of time on your hands? Well then do I have the solution for you!
 
-Jokes aside, this is a legitimate route you can take. You can actually get quite far by using one of the GUI libraries listed below. (Though I advise against creating your own GUI library unless you do actually have a lot of time on your hands.)
-
-There can also be legitimate reasons for rolling your own stack. It can be a fun experience learning how to use the plugin APIs directly and adding your tech stack on top of it. And maybe you need a special API-specific/platform-specific feature, or you want to use a single language for your whole tech stack and your language of choice doesn't have a ready-made cross platform plugin development framework (i.e. C or [Zig](https://ziglang.org/)). Or maybe you just want to ;).
+Jokes aside, this is a legitimate route you can take. Just be prepared for the extra boilerplate work involved, especially if you want to have cross-platform and/or cross-API support. You can get quite far by using one of the GUI libraries listed below. (Though I advise against creating your own GUI library unless you do actually have a lot of time on your hands.) It can also be a fun and valuable experience learning how plugin APIs actually work under the hood.
 
 Here are some resources that can make your life easier:
 
@@ -60,12 +58,13 @@ Here are some resources that can make your life easier:
 >
 > Unfortunately, a big blocker that prevents many of the popular GUI libraries from working in a plugin context is that most are designed with the assumption that they own the event loop. But in a plugin context, it's the host that owns the event loop, not the plugin. So unless the GUI library was designed from the get-go to handle this use case, it's difficult to add it after the fact.
 >
-> Only the [CLAP] plugin format went out of its way to allow plugins to own their own event loop. Even then, it's still discouraged since it prevents the host from seamlessly integrating with the plugin window (i.e. FL Studio drawing a window border around the plugin window with extra useful controls at the top of the window). Also, you have to be careful about dynamically linking to a GUI library (as described [here](https://github.com/free-audio/clap-plugins)).
+> Only the [CLAP] plugin format went out of its way to allow plugins to own their own event loop. Even then, it's still discouraged since it prevents the host from seamlessly integrating with the plugin window (i.e. FL Studio drawing a window border around the plugin window with extra useful controls at the top of the window).
 
-Here is a list of compatible GUI libraries you can use for your audio plugins with relatively little effort.
+Here is a list of compatible GUI libraries you can use for your audio plugins.
 
 * [Dear ImGui](https://github.com/ocornut/imgui) - A very popular immediate mode GUI library with an active community. There are bindings to many other languages available.
   * [clap-imgui](https://github.com/schwaaa/clap-imgui) - A minimal example of a CLAP plugin with ImGui.
+* [Pugl](https://github.com/lv2/pugl) - Minimal GUI layer made specifically for plugins.
 * [Nuklear](https://github.com/Immediate-Mode-UI/Nuklear) - Another popular immediate mode GUI library. Written in pure C, and bindings to many other languages are available.
 * [raygui](https://github.com/raysan5/raygui) - Another lightweight immediate mode GUI library written in pure C.
 * [egui] - An ImGui-inspired immediate mode GUI library for Rust.
@@ -75,6 +74,8 @@ Here is a list of compatible GUI libraries you can use for your audio plugins wi
     - [iced_baseview](https://github.com/BillyDM/iced_baseview) - A shim to run Iced on top of [baseview].
     - [iced_audio] - Iced widgets for audio applications.
 * [Slint] - Robust and feature-packed declarative GUI library with bindings for Rust and C++. It's free to use for open source projects, but it requires a paid license to use for closed-source projects.
+* [Qt](https://www.qt.io/) - It's possible to use Qt for CLAP plugins (though I'm not sure about other plugin formats).
+  * [Example Clap Plugins](https://github.com/free-audio/clap-plugins/tree/main) - The offical example CLAP plugins use Qt for their GUI.
 
 ## "I am hardcore and want to make my own GUI solution"
 
