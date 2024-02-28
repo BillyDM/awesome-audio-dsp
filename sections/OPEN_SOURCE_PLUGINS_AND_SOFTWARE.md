@@ -104,6 +104,7 @@ A list of open source audio software that you can inspect and learn from.
 - [composing.studio](https://github.com/ekzhang/composing.studio) - An experimental open-source web app that allows you to collaborate on editing sheet music.
 
 ## Other
+- [Sæmpl](https://github.com/jonasblome/Saempl) - A sample manager that can automatically sort samples by properties like loudness, pitch, and tempo.
 - [Ultimate Vocal Remover](https://github.com/Anjok07/ultimatevocalremovergui) - A state-of-the-art program that uses machine learning to separate vocals from a mix.
 
 ## More Lists
