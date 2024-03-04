@@ -97,7 +97,7 @@ A list of open source audio software that you can inspect and learn from.
 - [Carla](https://kx.studio/Applications:Carla) - Cross platform plugin host with support for many plugin formats.
 - [Bespoke Synth] - A very modular synthesizer with support for complex routing, modulation, and sequencing. It can even host VST plugins, blurring the lines between synth and DAW.
 - [Cardinal] - An open source modular synthesizer plugin that can host [VCV Rack] plugins.
-- [termdaw](https://github.com/ocdy1001/termdaw) - A neat little DAW experiment that uses a terminal as its interface instead of a GUI.
+- [pxtone collab](https://github.com/yuxshao/ptcollab) - A music editor with collaborative editing features.
 
 ## Musical Notation
 - [MuseScore](https://musescore.org) - A popular and mature open-source sheet music editor.
