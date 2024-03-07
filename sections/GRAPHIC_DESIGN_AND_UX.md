@@ -2,6 +2,8 @@
 
 A list of resources to aid in the design of plugin GUIs.
 
+> Note, I highly recommend not worrying at all about GUI when learning DSP or when experimenting with a new plugin idea. It's better to just focus purely on the DSP with GUI-less plugins until it is ready. The last thing you want is to spend a lot of time on the GUI and then find out that the parameters need to be changed or that the DSP doesn't even work out altogether.
+
 # Graphic Design Software
 - [Figma](https://www.figma.com/) - Powerful tool to design UI/UX.
 - [Penpot](https://penpot.app/) - An open source alternative to Figma.
