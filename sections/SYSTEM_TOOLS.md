@@ -8,7 +8,6 @@ A list of system tools useful in developing audio plugins and software.
 - [PipeWire](https://docs.pipewire.org/index.html) - A modern alternative to Jack with more features (Linux only).
 - [Cadence](https://kx.studio/Applications:Cadence) - A suite of tools for configuring, monitoring, and controlling system-wide audio in Linux (includes [Carla]).
 - [Ardour](https://ardour.org/) - Open-source DAW with useful plugin analysis tools.
-- [MrsWatson](http://teragonaudio.com/MrsWatson.html) - Command-line audio plugin host with support for printing to the terminal from your DSP code.
 - [DSP Testbench](https://github.com/AndrewJJ/DSP-Testbench) - A tool to help developers using the JUCE framework to analyze their DSP.
 - [pluginval](https://github.com/Tracktion/pluginval) - Cross-platform open-source plugin validation tool made by the company Tracktion.
 - [clap-validator](https://github.com/free-audio/clap-validator) - An open-source CLAP plugin validation tool.
