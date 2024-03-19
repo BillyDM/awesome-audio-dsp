@@ -4,6 +4,7 @@
 > - Don't assume a change made your code faster. Profile it!
 > - Avoid mutexes, locks, try-locks, `malloc`, `free`, and printing to the terminal in the realtime thread.
 > - Beware of [denormals].
+> - Avoid excessive division and modulo operations. Try multiplying by the reciprocal instead of dividing.
 > - CPU cache is king.
 > - Avoid excessive branching logic and calls to medium/large-sized functions.
 > - Try using optimizations such as lookup tables and/or SIMD intrinsics.
@@ -49,9 +50,7 @@ If you are using Rust, there is a handy crate called [no_denormals](https://crat
 
 The division and modulo operations on both floating point and integer numbers are significantly more expensive than the addition, subtraction, and multiplication operations. If the same divisor is being used over and over again (it's especially common to divide by the sample rate), consider taking the reciprocal of the divisor once and then multiplying by the reciprocal.
 
-Note this does not apply if the divisor is a constant. Compilers will automatically convert those to multiplying by the reciprocal.
-
-Even then, a lot of times compilers will automatically take the reciprocal of a divisor before a loop. But if you want to rely on this, you can use tools like [Compiler Explorer]* to verify the assembly.
+Sometimes compilers automatically apply the "multiplication by the reciprocal" optimization, but sometimes they don't. If you want to rely on this, use tools like [Compiler Explorer]* to verify the assembly.
 
 ## 5. Prefer to use block-based processing instead of per-sample processing
 
@@ -144,9 +143,7 @@ There are however a couple ways around this:
 
 ---
 
-> \* Note, when using [Compiler Explorer], you will generally want to enable compiler optimizations to get the actual assembly output in release mode. To do this, enter the following text into the "Compiler options..." field for your given language/compiler:
-> * C/C++ (gcc or clang): `-O3`
-> * Rust: `-C opt-level=3`
+> \* To get the most out of [Compiler Explorer], see the [Software Optimization](https://github.com/BillyDM/awesome-audio-dsp/blob/main/sections/SOFTWARE_OPTIMIZATION.md) section for tips on how to use it.
 
 [Compiler Explorer]: https://godbolt.org/
 [denormals]: https://mu.krj.st/denormal/

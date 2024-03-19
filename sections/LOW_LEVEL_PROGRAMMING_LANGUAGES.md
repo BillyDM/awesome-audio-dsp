@@ -80,7 +80,6 @@ Here I'll list the best languages to use for serious DSP and their pros and cons
   - It uses garbage collection by default (which is not "realtime safe"). It can (and should) be disabled for the DSP portion of your code, but that of course makes it less memory safe and thus requires more care and attention in those areas.
   - Library support is nowhere near the level of support that C/C++ has. (Although luckily [DPlug] is a great library for audio plugin development).
 
-
 ## [HVCC][https://github.com/Wasted-Audio/hvcc]
 - Pros:
   - Converts Pure Data DSP graphs to C/C++ code.
@@ -95,6 +94,8 @@ Here I'll list the best languages to use for serious DSP and their pros and cons
 ---
 
 > A new language to look out for is [Carbon](https://github.com/carbon-language/carbon-lang), which aims to be compatible with existing C++ code and libraries while providing modern features, syntax, and safety. It has the potential to be a great language for audio development. Though it's still in the early experimental stages, and it could be a few years until it's ready for use.
+
+> Another language to look out for is [Zig](https://ziglang.org/). It's still a relatively young language with a small ecosystem, but it looks very promising for writing DSP code and/or audio plugins. Later I might add a section going into more detail on it.
 
 [AFL]: https://github.com/google/AFL
 [Honggfuzz]: https://github.com/google/honggfuzz
