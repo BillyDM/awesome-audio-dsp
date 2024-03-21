@@ -49,3 +49,13 @@ A list of software tools that are useful for quickly and easily prototyping DSP.
   - Javascript can be great for those who are just learning to code, and it can be ran inside a web browser.
   - Free and open source.
   
+## Visual Code
+- [Max](https://cycling74.com/products/max/)
+  - Visual programming language for music and multimedia.
+  - Originally developed in the 1980s at IRCAM by Miller Puckette.
+  - Proprietary.
+- [Pure Data](http://puredata.info/)
+  - Similar to Max as a dataflow programming language.
+  - Also developed by Miller Puckette in the 1990s as an open-source project.
+  - Early on some parts were ported to Max which became Max/MSP.
+  - Free and open source under BSD-3-Clause.
