@@ -80,13 +80,13 @@ Here I'll list the best languages to use for serious DSP and their pros and cons
   - It uses garbage collection by default (which is not "realtime safe"). It can (and should) be disabled for the DSP portion of your code, but that of course makes it less memory safe and thus requires more care and attention in those areas.
   - Library support is nowhere near the level of support that C/C++ has. (Although luckily [DPlug] is a great library for audio plugin development).
 
-## [HVCC][https://github.com/Wasted-Audio/hvcc]
+## [HVCC](https://github.com/Wasted-Audio/hvcc)
 - Pros:
   - Converts Pure Data DSP graphs to C/C++ code.
   - Fully open-source using a permissive license (internal libary is BSD, converted output is user choice).
   - Targets bare C/C++, DPF (all supported formats), Unity, Wwise, JS/Webassembly, Daisy, and OWL.
   - Used by several commercial plugins and games.
-  - Integrates with the [plugdata] editor for pure data patches.
+  - Integrates with the [plugdata](https://plugdata.org/) editor for pure data patches.
 - Cons:
   - Does not fully support the entirety of Pure Data and its syntax.
   - Less low-level control since the library implements everything. Hard to extend with custom code.
@@ -102,4 +102,3 @@ Here I'll list the best languages to use for serious DSP and their pros and cons
 [NIH-plug]: https://github.com/robbert-vdh/nih-plug
 [Rust Audio Discord Server]: https://discord.gg/Qs2Zwtf9Gf
 [Dplug]: https://github.com/AuburnSounds/Dplug
-[plugdata]: https://plugdata.org/
