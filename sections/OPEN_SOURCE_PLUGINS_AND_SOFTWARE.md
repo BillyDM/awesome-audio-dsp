@@ -13,6 +13,7 @@ A list of open source audio software that you can inspect and learn from.
 - [Chowdhury DSP](https://github.com/Chowdhury-DSP) - A collection of high quality effect plugins (as well as a kick drum synthesizer). A lot of these plugins make use of use of cutting-edge neural network inferencing.
 - [sjaehn](https://github.com/sjaehn?tab=repositories) - Several cool MIDI based slicing/glitching effects and synthesizers.
 - [x42-plugins](https://github.com/x42/x42-plugins) - A collection of good quality effects and visualizers. Some plugins are also sold as a commercial product.
+- [ZL-Audio Plugins](https://github.com/ZL-Audio) - A collection of good quality plugins including a fancy parametric equalizer, saturator, and compressor.
 - [EQ10Q](http://eq10q.sourceforge.net/) - A suite of plugins containing a 10-band parametric equalizer, gate, compressor, bass enhancer, and mid-side encoders.
 - [Shiru Plugins](https://github.com/linuxmao-org/shiru-plugins) - A suite of old video-game sound chips synths and effects.
 - [Mrugalla Plugins](https://github.com/Mrugalla) - A collection of modern and unique plugins by Florian Mrugalla.
