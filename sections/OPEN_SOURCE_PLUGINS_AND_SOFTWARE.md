@@ -42,6 +42,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [Cool Panda Plugins](https://www.coolxpandaxplugins.com/) | (C++, [JUCE]) | - A collection of creative effects.
 - [Dexed](https://github.com/asb2m10/dexed) | (C++, [JUCE]) | - Synthesizer closely modelled after the Yamaha DX7.
 - [DigiDrie](https://github.com/magnetophon/DigiDrie) | ([Faust], C++, [DPF]) | - A "monster" monophonic synth.
+- [Fabla 2](https://github.com/openAVproductions/openAV-Fabla2) | (C++, custom GUI framework) | - A multi-sampler plugin with a drum pad layout.
 - [Firefly Synth](https://github.com/sjoerdvankreel/firefly-synth) | (C++, [JUCE]) | - A feature-rich semi-modular software synthesizer and fx plugin.
   - It is the bigger brother to the discontinued [InfernalSynth](https://github.com/sjoerdvankreel/infernal-synth) plugin.
 - [Geonkick](https://github.com/Geonkick-Synthesizer/geonkick) | (C++, C, custom GUI framework) | - Advanced drum synthesizer.
