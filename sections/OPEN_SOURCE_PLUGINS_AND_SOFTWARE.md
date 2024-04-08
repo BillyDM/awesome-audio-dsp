@@ -68,6 +68,7 @@ A list of open source audio software that you can inspect and learn from, along 
 
 - [Aether](https://github.com/Dougal-s/Aether) | (C++, [Pugl]) | - Beautiful shimmering reverb based on the `CloudSeed` plugin by Valdemar Erlingsson. I choose this over the original as that uses a Windows-only C# platform for its GUI.
 - [AIDA-X](https://github.com/AidaDSP/AIDA-X) | (C++, [DPF]) | - An amp model player that can load AI-trained models of music gear.
+- [BinAural](https://github.com/twoz/binaural-vst) | (C++, [JUCE]) | - A mono-to-stereo plugin that positions sound in a 3D space using Head-Related Transfer Functions. 
 - [CloudReverb](https://github.com/xunil-cloud/CloudReverb) | (C++, [DPF]) | - Another reverb plugin based on the `CloudSeed` plugin by Valdemar Erlingsson. I choose this over the original as that uses a Windows-only C# platform for its GUI.
 - [Cocoa Delay](https://github.com/tesselode/cocoa-delay) | (C++, [WDL-OL]) | - A nice delay plugin with ducking, saturation, filtering, and pitching features.
 - [DelayArchitect](https://github.com/jpcima/DelayArchitect) | (C++, [JUCE]) | - A feature-rich delay designer plugin.
@@ -100,6 +101,7 @@ A list of open source audio software that you can inspect and learn from, along 
 ## Meters & Visualizers
 
 - [EasySSP](https://github.com/automatl/audio-dsp-multi-visualize/) | (C++, [JUCE]) | - Real-time spectrum analyzer and stereo analyzer plugin.
+- [K-Meter](https://github.com/mzuther/K-Meter) | (C++, [JUCE]) | - A feature-rich loudness meter.
 - [LUFS Meter](https://github.com/klangfreund/LUFSMeter) | (C++, [JUCE]) | - Real-time loudness meter with support for several international loudness standards.
 - [Spectacle](https://github.com/jpcima/spectacle) | (C++, [DPF]) | - Modern real-time spectrum analyzer plugin.
 - [Wolf Spectrum](https://github.com/pdesaulniers/wolf-spectrum) | (C++, [DPF]) | - Real-time heat-map spectrum analyzer plugin.
