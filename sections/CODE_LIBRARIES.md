@@ -84,6 +84,7 @@ That being said, it can still be a great resource for learning about various DSP
 - [SOUL-VA](https://github.com/thezhe/SOUL-VA) - A collection of virtual analog audio effects for the [SOUL](https://github.com/soul-lang/SOUL) programming language.
 - [SST Filters](https://github.com/surge-synthesizer/sst-filters), [SST Waveshapers](https://github.com/surge-synthesizer/sst-waveshapers), [SST Oscillators](https://github.com/surge-synthesizer/sst-oscillators-mit), [SST Effects](https://github.com/surge-synthesizer/sst-effects), [SST Basic Blocks](https://github.com/surge-synthesizer/sst-basic-blocks) - Various DSP algorithms used by the [Surge Synthesizer Team](https://surge-synth-team.org/)
 - [synfx-dsp](https://github.com/WeirdConstructor/synfx-dsp) - A comprehensive DSP library in Rust, used by the [HexoSynth] synthesizer plugin.
+- [valib](https://github.com/SolarLiner/valib) - A Rust library of reusable blocks for musical DSP.
 
 [JUCE]: https://juce.com/
 [Hexosynth]: https://github.com/WeirdConstructor/HexoSynth
