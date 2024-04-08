@@ -50,6 +50,10 @@ A list of useful libraries for audio software.
 - [Symphonia](https://github.com/pdeljanov/Symphonia)
 - [Xiph repositories](https://github.com/xiph) - Contains various open source media codecs and containers such as Opus, FLAC, Vorbis, and OGG
 
+# Miscellaneous
+
+- [aubio](https://github.com/aubio/aubio) - A library that can detect events in an audio signal.
+
 # DSP Libraries
 
 A list of ready-made libraries for DSP.
