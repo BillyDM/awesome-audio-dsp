@@ -50,6 +50,7 @@ A list of useful libraries for audio software.
 - [minimidi](https://github.com/lzqlzzq/minimidi)
 - [minimp3](https://github.com/lieff/minimp3)
 - [Symphonia](https://github.com/pdeljanov/Symphonia)
+- [symusic](https://github.com/Yikai-Liao/symusic)
 - [Xiph repositories](https://github.com/xiph) - Contains various open source media codecs and containers such as Opus, FLAC, Vorbis, and OGG
 
 # Miscellaneous
