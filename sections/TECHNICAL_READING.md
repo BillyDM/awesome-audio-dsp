@@ -9,6 +9,7 @@ A list of useful articles, blogs, and scientific papers on modern algorithms and
   - Specifically the document [SvfLinearTrapOptimised2](https://cytomic.com/files/dsp/SvfLinearTrapOptimised2.pdf) contains filters and equations that are a better alternative to the ones in the [RBJ Cookbook](https://webaudio.github.io/Audio-EQ-Cookbook/audio-eq-cookbook.html).
 - [DAFx](http://www.dafx.de/) - An archive of scientific papers and presentations given during an annual DSP research conference.
 - [deip.pdf](../content/deip.pdf) - A collection of high quality and fast sub-sample interpolators.
+- [DSP Jargon](https://github.com/sudara/dspjargon) - A dictionary of DSP-related jargon.
 - [Freeverb3 - DSP References](https://freeverb3vst.osdn.jp/ref.shtml) - A huge list of technical DSP resources focused mainly on reverb design.
 - [Freeverb](https://ccrma.stanford.edu/~jos/pasp/Freeverb.html) - An open-source reverb algorithm.
 - [Jatin Chowdhury](https://jatinchowdhury18.medium.com/) - An active blog that explores cutting-edge DSP techniques.
