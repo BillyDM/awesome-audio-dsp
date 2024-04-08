@@ -86,6 +86,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [TimeStretch](https://github.com/spluta/TimeStretch) | ([Rust], [SuperCollider], Python, gui-less) | - A refinement of the famous [PaulStretch](http://hypermammut.sourceforge.net/paulstretch) time stretching effect. Includes a PDF explaining the DSP.
 - [Valentine](https://github.com/tote-bag-labs/valentine) | (C++, [JUCE]) | - A nice compressor/saturator that is meant to "pump and breath".
 - [Wolf Shaper](https://github.com/pdesaulniers/wolf-shaper) | (C++, [DPF]) | - Good quality waveshaper with support for unlimited nodes.
+- [ZLEqualizer](https://github.com/ZL-Audio/ZLEqualizer) | (C++, [JUCE]) | - A good quality dynamic equalizer plugin with a nice UI.
 
 ## MIDI FX
 
