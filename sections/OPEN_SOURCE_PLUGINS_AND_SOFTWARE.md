@@ -56,6 +56,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [Spiro](https://github.com/p-o-l-e/spiro.git) | (C++, [JUCE]) | - A semi-modular synthesizer with a beautiful interface.
 - [Surge XT](https://github.com/surge-synthesizer/surge) | (C++, [JUCE]) | - Feature-rich hybrid synthesizer that was once sold as a proprietary product. (It has since evolved into its own thing with many new features added.)
 - [Synth2](https://github.com/klknn/kdr) | (D, [Dplug]) | - A recreation of the classic Synth1 virtual synth. (Still a work in progress).
+- [Tunefish](https://github.com/paynebc/tunefish?tab=readme-ov-file) | (C++, [JUCE]) | - A neat little additive synthesizer.
 - [Vaporizer2](https://github.com/VASTDynamics/Vaporizer2) | (C++, [JUCE]) | - Feature-rich wavetable synthesizer that was once a proprietary product.
 - [Vital](https://github.com/mtytel/vital) | (C++, [JUCE]) | - An incredibly powerful and high quality modern synthesizer. Rivals the likes of Xfer Serum and NI Massive.
   - There is also a fully GPLv3-licensed fork called [Vitalium](https://github.com/DISTRHO/DISTRHO-Ports/tree/master/ports-juce6/vitalium) that has all the non-GPL stuff removed.
