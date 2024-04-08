@@ -15,8 +15,8 @@ Some open source projects that make use of machine learning for audio.
 - [AIDA-X](https://github.com/AidaDSP/AIDA-X) - An amp model player that can load AI-trained models of music gear.
 - [Chowdhury DSP] - A suite of open source audio plugins. Many of them make use of machine learning.
 - [DeepFilterNet](https://github.com/Rikorose/DeepFilterNet) - A low complexity speech enhancement/noise suppression framework.
+- [GuitarML](https://github.com/GuitarML) | (C++, [JUCE]) | - A collection of electric guitar effects that use neural network models to emulate real-world hardware.
 - [NeuralNote](https://github.com/DamRsn/NeuralNote) - A state-of-the-art plugin that uses machine learning to convert audio to MIDI.
-- [SmartGuitarAmp](https://github.com/GuitarML/SmartGuitarAmp) - A guitar amp plugin that uses neural network models to emulate real-world hardware.
 - [Ultimate Vocal Remover](https://github.com/Anjok07/ultimatevocalremovergui) - A state-of-the-art program that uses machine learning to separate vocals from a mix.
 
 [Chowdhury DSP]: https://github.com/Chowdhury-DSP

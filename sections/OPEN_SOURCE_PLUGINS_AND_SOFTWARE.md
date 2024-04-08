@@ -20,6 +20,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [DISTRHO-Ports](https://github.com/DISTRHO/DISTRHO-Ports) | (C++, [JUCE]) | - A whole bunch of plugins ported to work on Linux/LV2.
 - [Dplug] | (D, [Dplug]) | - Contains some example plugins using the framework.
 - [EQ10Q](http://eq10q.sourceforge.net/) | (C++, custom [GTK] framework) | - A suite of plugins containing a 10-band parametric equalizer, gate, compressor, bass enhancer, and mid-side encoders.
+- [GuitarML](https://github.com/GuitarML) | (C++, [JUCE]) | - A collection of electric guitar effects that use neural network models to emulate real-world hardware.
 - [JoepVanlier's JSFX plugins](https://github.com/JoepVanlier/JSFX) | ([JSFX], [Lua]) | - A collection of cool plugins and scripts for Reaper. Some of the GUIs are really stunning.
 - [lkjb plugins](https://github.com/lkjbdsp/lkjb-plugins) | (C++, [JUCE]) | - Additional plugins made by the creator of [Luftikus].
 - [LSP Plugins](https://github.com/lsp-plugins) | (C++, custom GUI framework) | - A collection of good quality mixing/mastering effects for Linux.
@@ -88,7 +89,6 @@ A list of open source audio software that you can inspect and learn from, along 
 - [PeakEater](https://github.com/vvvar/PeakEater) | (C++, [JUCE]) | - A nice waveshaping plugin with a sleek UI.
 - [Reach](https://github.com/Sinuslabs/Reach) | (C++, [Faust], [JUCE]) | - Extraterrestrial reverb with a unique sound. It is also sold as a commercial product.
 - [Room Reverb](https://github.com/cvde/RoomReverb) | (C++, [JUCE]) | - Nice sounding algorithmic reverb based on [Freeverb].
-- [SmartGuitarAmp](https://github.com/GuitarML/SmartGuitarAmp) | (C++, [JUCE]) | - A guitar amp plugin that uses neural network models to emulate real-world hardware.
 - [Squeezer](https://github.com/mzuther/Squeezer) | (C++, [JUCE]) | - Flexible general-purpose audio compressor with a "touch of citrus".
 - [TimeStretch](https://github.com/spluta/TimeStretch) | ([Rust], [SuperCollider], Python, gui-less) | - A refinement of the famous [PaulStretch](http://hypermammut.sourceforge.net/paulstretch) time stretching effect. Includes a PDF explaining the DSP.
 - [Valentine](https://github.com/tote-bag-labs/valentine) | (C++, [JUCE]) | - A nice compressor/saturator that is meant to "pump and breath".
