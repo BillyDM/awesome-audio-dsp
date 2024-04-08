@@ -23,6 +23,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [JoepVanlier's JSFX plugins](https://github.com/JoepVanlier/JSFX) | ([JSFX], [Lua]) | - A collection of cool plugins and scripts for Reaper. Some of the GUIs are really stunning.
 - [lkjb plugins](https://github.com/lkjbdsp/lkjb-plugins) | (C++, [JUCE]) | - Additional plugins made by the creator of [Luftikus].
 - [LSP Plugins](https://github.com/lsp-plugins) | (C++, custom GUI framework) | - A collection of good quality mixing/mastering effects for Linux.
+- [Maeror's VST3 plugins](https://github.com/Maerorr/maerors-vst3-plugins) | ([Rust], [nih-plug], [Vizia]) | - A collection of simple effects written in Rust, nih-plug, and Vizia.
 - [Mrugalla Plugins](https://github.com/Mrugalla) | (C++, [JUCE]) | - A collection of modern and unique plugins by Florian Mrugalla.
 - [nih-plug](https://github.com/robbert-vdh/nih-plug) | ([Rust], [nih-plug], [egui], [Iced], [Vizia]) | - Contains a collection of plugins written in Rust, including the amazing [Spectral Compressor](https://github.com/robbert-vdh/nih-plug/tree/master/plugins/spectral_compressor) plugin.
 - [Shiru Plugins](https://github.com/linuxmao-org/shiru-plugins) | (C++, [DPF]) | - A suite of old video-game sound chips synths and effects.
