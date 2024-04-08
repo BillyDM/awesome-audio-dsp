@@ -52,6 +52,12 @@ A list of software tools that are useful for quickly and easily prototyping DSP.
   - A powerful functional programming language.
   - Can be transpiled into many different languages such as C++, C, Rust, and WebAssembly.
   - Free and open-source.
+- [SuperCollider]
+  - A platform for audio synthesis and algorithmic composition.
+  - Free and open-source.
+- [Tidal Cycles](https://tidalcycles.org/)
+  - A platform for audio synthesis and algorithmic composition, built on top of [SuperCollider].
+  - Free and open-source.
 
 ## Visual Code
 - [Max](https://cycling74.com/products/max/)
@@ -65,3 +71,5 @@ A list of software tools that are useful for quickly and easily prototyping DSP.
   - Free and open source under BSD-3-Clause.
   - [plugdata](https://github.com/plugdata-team/plugdata) - A wrapper plugin with a much nicer looking GUI.
   - [HVCC](https://github.com/Wasted-Audio/hvcc) - A tool to convert Pure Data graphs to C/C++ code.
+
+[SuperCollider]: https://supercollider.github.io/
