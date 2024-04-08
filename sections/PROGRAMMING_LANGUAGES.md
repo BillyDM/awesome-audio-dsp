@@ -9,6 +9,21 @@ When you want to get serious with audio DSP & audio plugin development, nothing 
  - Complex plugins can have hundreds or thousands of CPU operations applied per-sample, and there are usually many plugin instances loaded at the same time in a single project.
  - Using an easier higher-level programming language with runtime-safety checks and automatic garbage collection are not [realtime safe](http://www.rossbencina.com/code/real-time-audio-programming-101-time-waits-for-nothing) because allocating/deallocating memory can take an undetermined amount of time.
 
+## [C](https://en.wikipedia.org/wiki/C_(programming_language))
+- Pros:
+  - Relatively easy to learn.
+  - It has a simple feature set that has pretty much stayed constant for the past several decades.
+  - C compilers can be found for almost any processor in existence.
+  - Fast compile times.
+  - It is the closest thing you can get to writing pure assembly. It is a great way to learn more on how computers actually work.
+- Cons:
+  - While it is simple to learn, it is hard to properly master and use safely.
+  - It is not "memory safe", meaning it is easy to accidentally create crashes, undefined behavior, and security vulnerabilities with C. This can be mitigated using an IDE with modern static-analyzing linters and debuggers, and also fuzzing tools like [AFL] and [Honggfuzz].
+  - Some useful C++ features like inheritance and dynamic dispatch are much harder to do in C.
+  - Dependency management can be a pain.
+  - The lack of namespaces can make it more difficult to manage larger projects.
+  - Uses separate header and source files. Not a problem for some, but it mildly annoys me.
+
 ## [C++](https://en.wikipedia.org/wiki/C%2B%2B)
 - Pros:
   - C++ is the most commonly used programming language in the audio industry, so it is the best bet if you wish to get hired into an audio software company.
@@ -24,20 +39,19 @@ When you want to get serious with audio DSP & audio plugin development, nothing 
 - Resources:
   - [Learn C++](https://www.learncpp.com/) - A fantastic free online book that thoroughly teaches modern C++ and how to use it safely and effectively.
 
-## [C](https://en.wikipedia.org/wiki/C_(programming_language))
+## [D](https://dlang.org/)
 - Pros:
-  - Relatively easy to learn.
-  - It has a simple feature set that has pretty much stayed constant for the past several decades.
-  - C compilers can be found for almost any processor in existence.
+  - D is a language inspired by C/C++, but with a more streamlined and focused feature set. It also aims to be harder to "mess something up" than C/C++.
+  - Has a great open-source audio plugin development library called [DPlug].
+  - Relatively easier to learn and master than C++ in my opinion.
+  - It has an official dependency and build management system called "dub" that can automatically grab the needed dependencies from the web.
+  - It has a built-in system for testing code.
+  - Does not require a separate header/source file.
   - Fast compile times.
-  - It is the closest thing you can get to writing pure assembly. It is a great way to learn more on how computers actually work.
 - Cons:
-  - While it is simple to learn, it is hard to properly master and use safely.
-  - It is not "memory safe", meaning it is easy to accidentally create crashes, undefined behavior, and security vulnerabilities with C. This can be mitigated using an IDE with modern static-analyzing linters and debuggers, and also fuzzing tools like [AFL] and [Honggfuzz].
-  - Some useful C++ features like inheritance and dynamic dispatch are much harder to do in C.
-  - Dependency management can be a pain.
-  - The lack of namespaces can make it more difficult to manage larger projects.
-  - Uses separate header and source files. Not a problem for some, but it mildly annoys me.
+  - While it does aim to be harder to "mess something up" than C/C++, it is still susceptible to the same pitfalls if you're not careful.
+  - It uses garbage collection by default (which is not "realtime safe"). It can (and should) be disabled for the DSP portion of your code, but that of course makes it less memory safe and thus requires more care and attention in those areas.
+  - Library support is nowhere near the level of support that C/C++ has. (Although luckily [DPlug] is a great library for audio plugin development).
 
 ## [Rust](https://www.rust-lang.org/)
 - Pros:
@@ -58,29 +72,15 @@ When you want to get serious with audio DSP & audio plugin development, nothing 
   - Slower compile times.
   - The language is still comparatively young, so library support such as GUIs and audio plugin development are not on the same level as C++. (There is however an active community of Rust developers working on some of these libraries. If you are interested in helping, check out the [Rust Audio Discord Server]!)
 - Resources:
-  - [Rust Book](https://doc.rust-lang.org/stable/book/) - The fantastic official online book on learning Rust.
-  - [Learn Rust the Dangerous Way](http://cliffle.com/p/dangerust/) - An article exploring the benefits of Rust for readers with a C background. I really love this article.
   - [How to learn modern Rust](https://github.com/joaocarvalhoopen/How_to_learn_modern_Rust) - An extensive list of resources for learning Rust.
-  - [Rust By Practice](https://practice.rs/why-exercise.html) - A great unofficial online book that helps you learn Rust through exercises.
-  - [The Rust Performance Book](https://nnethercote.github.io/perf-book/title-page.html) - Tips on optimizing code in Rust.
   - [How-to Optimize Rust Programs on Linux](http://www.codeofview.com/fix-rs/2017/01/24/how-to-optimize-rust-programs-on-linux/) - How-to guide on profiling Rust code on Linux.
+  - [Learn Rust the Dangerous Way](http://cliffle.com/p/dangerust/) - An article exploring the benefits of Rust for readers with a C background. I really love this article.
   - [Minimizing Rust Binary Size](https://github.com/johnthagen/min-sized-rust) - Tips on how to reduce the size of Rust binaries. This is a very minor optimization, but it can sometimes be useful for shipping release versions of plugins.
     - Note, don't set `opt-level` to "s" or "z" because that will likely make performance much worse (except for maybe when running on an embedded system with little memory).
   - [Rust Audio Discord Server] - A Discord server for Rust audio programmers.
-
-## [D](https://dlang.org/)
-- Pros:
-  - D is a language inspired by C/C++, but with a more streamlined and focused feature set. It also aims to be harder to "mess something up" than C/C++.
-  - Has a great open-source audio plugin development library called [DPlug].
-  - Relatively easier to learn and master than C++ in my opinion.
-  - It has an official dependency and build management system called "dub" that can automatically grab the needed dependencies from the web.
-  - It has a built-in system for testing code.
-  - Does not require a separate header/source file.
-  - Fast compile times.
-- Cons:
-  - While it does aim to be harder to "mess something up" than C/C++, it is still susceptible to the same pitfalls if you're not careful.
-  - It uses garbage collection by default (which is not "realtime safe"). It can (and should) be disabled for the DSP portion of your code, but that of course makes it less memory safe and thus requires more care and attention in those areas.
-  - Library support is nowhere near the level of support that C/C++ has. (Although luckily [DPlug] is a great library for audio plugin development).
+  - [Rust Book](https://doc.rust-lang.org/stable/book/) - The fantastic official online book on learning Rust.
+  - [Rust By Practice](https://practice.rs/why-exercise.html) - A great unofficial online book that helps you learn Rust through exercises.
+  - [The Rust Performance Book](https://nnethercote.github.io/perf-book/title-page.html) - Tips on optimizing code in Rust.
 
 ---
 
@@ -92,32 +92,32 @@ When you want to get serious with audio DSP & audio plugin development, nothing 
 
 These languages are specifically designed to write DSP code. These can be a great alternative if you're not into writing low-level code.
 
-- [Faust](https://faust.grame.fr/)
-  - A powerful functional programming language.
-  - Can be transpiled into many different languages such as C++, C, Rust, and WebAssembly.
+- [Cmajor](https://github.com/SoundStacks/cmajor)
+  - A JIT (just in time) compiled language which aims to have similar performance to C/C++.
+  - Easier to learn than C/C++. However it is very similar to C, so it can be a bit harder for those who are beginners to coding.
+  - Relatively new and experimental project.
   - Free and open-source.
 - [CSound](https://csound.com/)
   - Easy to learn and use.
   - Well-known and long standing in the industry.
   - Free and open-source.
-- [Cmajor](https://github.com/SoundStacks/cmajor)
-  - A JIT (just in time) compiled language which aims to have similar performance to C/C++.
-  - Easier to learn than C/C++. However it is very similar to C, so it can be a bit harder for those who are beginners to coding.
-  - Relatively new and experimental project.
+- [Faust](https://faust.grame.fr/)
+  - A powerful functional programming language.
+  - Can be transpiled into many different languages such as C++, C, Rust, and WebAssembly.
   - Free and open-source.
 - [FunDSP](https://github.com/SamiPerttu/fundsp)
   - Not exactly it's own programming language, but more of a Rust library with a special (and fun) syntax.
   - While it's built on top of Rust, the library itself does not require advance Rust knowledge to use.
   - Relatively new and experimental project.
   - Free and open-source.
+- [Max](https://cycling74.com/products/max/)
+  - Another popular visual programming environment.
+  - Proprietary.
 - [Pure Data](http://puredata.info/)
   - A popular visual programming environment.
   - Free and open source.
   - [plugdata](https://github.com/plugdata-team/plugdata) - A wrapper plugin with a much nicer looking GUI.
   - [HVCC](https://github.com/Wasted-Audio/hvcc) - A tool to convert Pure Data graphs to C/C++ code.
-- [Max](https://cycling74.com/products/max/)
-  - Another popular visual programming environment.
-  - Proprietary.
 
 [AFL]: https://github.com/google/AFL
 [Honggfuzz]: https://github.com/google/honggfuzz

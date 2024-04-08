@@ -1,4 +1,5 @@
 # Open Source Plugins & Software
+
 A list of open source audio software that you can inspect and learn from, along with the language and framework used to make them.
 
 # Open Source Plugins
@@ -82,6 +83,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [Wolf Shaper](https://github.com/pdesaulniers/wolf-shaper) | (C++, [DPF]) | - Good quality waveshaper with support for unlimited nodes.
 
 ## MIDI FX
+
 - [Helio Workstation](https://github.com/helio-fm/helio-workstation) | (C++, [JUCE]) | - A very modern and feature-rich sequencer.
 - [QMidiArp](https://github.com/emuse/qmidiarp) | (C++, [robtk], [Pugl]) | - Advanced arpeggiator, sequencer, and MIDI LFO.
 - [Ripchord](https://github.com/trackbout/ripchord) | (C++, [JUCE]) | - A MIDI plugin that can create, perform and remix chord progressions.
@@ -89,6 +91,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [Stochas](https://github.com/surge-synthesizer/stochas) | (C++, [JUCE]) | - An advanced probabilistic polyrythmic sequencer. Made by the same team behind the [Surge XT] synthesizer.
 
 ## Meters & Visualizers
+
 - [EasySSP](https://github.com/automatl/audio-dsp-multi-visualize/) | (C++, [JUCE]) | - Real-time spectrum analyzer and stereo analyzer plugin.
 - [LUFS Meter](https://github.com/klangfreund/LUFSMeter) | (C++, [JUCE]) | - Real-time loudness meter with support for several international loudness standards.
 - [Spectacle](https://github.com/jpcima/spectacle) | (C++, [DPF]) | - Modern real-time spectrum analyzer plugin.
@@ -97,6 +100,7 @@ A list of open source audio software that you can inspect and learn from, along 
 # Open Source Software
 
 ## DAWs & Hosts
+
 - [Ardour](https://ardour.org/) - Feature-rich DAW. Focuses more on recorded music production over electronic music production.
 - [Audacity](https://github.com/audacity/audacity) - Popular multi-track audio editor. There is also a fully-libre open source fork called [Tenacity](https://github.com/tenacityteam/tenacity).
 - [Bass Studio](https://github.com/nidefawl/bass-studio) - A feature-rich DAW that was recently made open source.
@@ -109,10 +113,12 @@ A list of open source audio software that you can inspect and learn from, along 
 - [Stargate](https://github.com/stargatedaw/stargate) - A new and lightweight DAW with a powerful routing matrix and a suite of built-in plugins. It also aims to run well on low-spec hardware such as Raspberry Pi's.
 
 ## Musical Notation
+
 - [composing.studio](https://github.com/ekzhang/composing.studio) - An experimental open-source web app that allows you to collaborate on editing sheet music.
 - [MuseScore](https://musescore.org) - A popular and mature open-source sheet music editor.
 
 ## Other
+
 - [Sæmpl](https://github.com/jonasblome/Saempl) - A sample manager that can automatically sort samples by properties like loudness, pitch, and tempo.
 - [Ultimate Vocal Remover](https://github.com/Anjok07/ultimatevocalremovergui) - A state-of-the-art program that uses machine learning to separate vocals from a mix.
 
