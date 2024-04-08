@@ -53,6 +53,8 @@ A list of software stacks/frameworks used to make audio plugins with/without GUI
   - It's still somewhat experimental and is missing some more specialized features, but it's usable.
   - There is now a [cookiecutter template](https://github.com/robbert-vdh/nih-plug-template) to help get you started faster.
 
+> If you're interested in Rust, [Coupler](https://github.com/coupler-rs/coupler) is an interesting new framework to look out for.
+
 # The DIY Route
 
 Are you hardcore and have a lot of time on your hands? Well then do I have the solution for you!
