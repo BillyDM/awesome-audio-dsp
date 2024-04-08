@@ -48,14 +48,20 @@ A list of software tools that are useful for quickly and easily prototyping DSP.
   - Javascript bindings to the Maximilian DSP library.
   - Javascript can be great for those who are just learning to code, and it can be ran inside a web browser.
   - Free and open source.
-  
+- [Faust](https://faust.grame.fr/)
+  - A powerful functional programming language.
+  - Can be transpiled into many different languages such as C++, C, Rust, and WebAssembly.
+  - Free and open-source.
+
 ## Visual Code
 - [Max](https://cycling74.com/products/max/)
-  - Visual programming language for music and multimedia.
+  - Another popular visual programming language.
   - Originally developed in the 1980s at IRCAM by Miller Puckette.
   - Proprietary.
 - [Pure Data](http://puredata.info/)
-  - Similar to Max as a dataflow programming language.
+  - Another popular visual programming language.
   - Also developed by Miller Puckette in the 1990s as an open-source project.
-  - Early on some parts were ported to Max which became Max/MSP.
+  - Early on, some parts were ported to Max which became Max/MSP.
   - Free and open source under BSD-3-Clause.
+  - [plugdata](https://github.com/plugdata-team/plugdata) - A wrapper plugin with a much nicer looking GUI.
+  - [HVCC](https://github.com/Wasted-Audio/hvcc) - A tool to convert Pure Data graphs to C/C++ code.

@@ -1,12 +1,14 @@
-# Low-level Programming Languages
-A list of low-level programming languages used to make audio software, along with their pros and cons.
+# Programming Languages
+
+A list of programming languages used to make audio software, along with their pros and cons.
+
+# Low-level Languages
 
 When you want to get serious with audio DSP & audio plugin development, nothing beats writing code in a low-level programming language with manual memory management.
  - Multiplying even just a single gain to a stereo signal will require around 96,000 multiply operations per second on the CPU (2 channels * 48,000 samples per second).
- - Compound that with the fact that complex plugins can have hundreds or thousands of CPU operations applied per-sample, and there are usually many plugin instances loaded at the same time in a single project.
- - On top of that, using an easier higher-level programming language with runtime-safety checks and automatic garbage collection will create problems with latency because allocating/deallocating memory can take an undetermined amount of time (i.e. they are not "realtime safe" languages).
+ - Complex plugins can have hundreds or thousands of CPU operations applied per-sample, and there are usually many plugin instances loaded at the same time in a single project.
+ - Using an easier higher-level programming language with runtime-safety checks and automatic garbage collection are not [realtime safe](http://www.rossbencina.com/code/real-time-audio-programming-101-time-waits-for-nothing) because allocating/deallocating memory can take an undetermined amount of time.
 
-Here I'll list the best languages to use for serious DSP and their pros and cons:
 ## [C++](https://en.wikipedia.org/wiki/C%2B%2B)
 - Pros:
   - C++ is the most commonly used programming language in the audio industry, so it is the best bet if you wish to get hired into an audio software company.
@@ -80,22 +82,42 @@ Here I'll list the best languages to use for serious DSP and their pros and cons
   - It uses garbage collection by default (which is not "realtime safe"). It can (and should) be disabled for the DSP portion of your code, but that of course makes it less memory safe and thus requires more care and attention in those areas.
   - Library support is nowhere near the level of support that C/C++ has. (Although luckily [DPlug] is a great library for audio plugin development).
 
-## [HVCC](https://github.com/Wasted-Audio/hvcc)
-- Pros:
-  - Converts Pure Data DSP graphs to C/C++ code.
-  - Fully open-source using a permissive license (internal libary is BSD, converted output is user choice).
-  - Targets bare C/C++, DPF (all supported formats), Unity, Wwise, JS/Webassembly, Daisy, and OWL.
-  - Used by several commercial plugins and games.
-  - Integrates with the [plugdata](https://plugdata.org/) editor for pure data patches.
-- Cons:
-  - Does not fully support the entirety of Pure Data and its syntax.
-  - Less low-level control since the library implements everything. Hard to extend with custom code.
-
 ---
 
 > A new language to look out for is [Carbon](https://github.com/carbon-language/carbon-lang), which aims to be compatible with existing C++ code and libraries while providing modern features, syntax, and safety. It has the potential to be a great language for audio development. Though it's still in the early experimental stages, and it could be a few years until it's ready for use.
 
 > Another language to look out for is [Zig](https://ziglang.org/). It's still a relatively young language with a small ecosystem, but it looks very promising for writing DSP code and/or audio plugins. Later I might add a section going into more detail on it.
+
+# Domain Specific Languages
+
+These languages are specifically designed to write DSP code. These can be a great alternative if you're not into writing low-level code.
+
+- [Faust](https://faust.grame.fr/)
+  - A powerful functional programming language.
+  - Can be transpiled into many different languages such as C++, C, Rust, and WebAssembly.
+  - Free and open-source.
+- [CSound](https://csound.com/)
+  - Easy to learn and use.
+  - Well-known and long standing in the industry.
+  - Free and open-source.
+- [Cmajor](https://github.com/SoundStacks/cmajor)
+  - A JIT (just in time) compiled language which aims to have similar performance to C/C++.
+  - Easier to learn than C/C++. However it is very similar to C, so it can be a bit harder for those who are beginners to coding.
+  - Relatively new and experimental project.
+  - Free and open-source.
+- [FunDSP](https://github.com/SamiPerttu/fundsp)
+  - Not exactly it's own programming language, but more of a Rust library with a special (and fun) syntax.
+  - While it's built on top of Rust, the library itself does not require advance Rust knowledge to use.
+  - Relatively new and experimental project.
+  - Free and open-source.
+- [Pure Data](http://puredata.info/)
+  - A popular visual programming environment.
+  - Free and open source.
+  - [plugdata](https://github.com/plugdata-team/plugdata) - A wrapper plugin with a much nicer looking GUI.
+  - [HVCC](https://github.com/Wasted-Audio/hvcc) - A tool to convert Pure Data graphs to C/C++ code.
+- [Max](https://cycling74.com/products/max/)
+  - Another popular visual programming environment.
+  - Proprietary.
 
 [AFL]: https://github.com/google/AFL
 [Honggfuzz]: https://github.com/google/honggfuzz

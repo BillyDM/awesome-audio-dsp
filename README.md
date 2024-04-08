@@ -15,7 +15,7 @@ My curated list of audio DSP (digital signal processing) and plugin development 
 - [Software Optimization](sections/SOFTWARE_OPTIMIZATION.md) - Tips and tools for optimizing audio software.
     - [Audio Software Optimization Tips](content/AUDIO_SOFTWARE_OPTIMIZATION_TIPS.md) - My own list of audio software optimization tips.
 - [System Tools](sections/SYSTEM_TOOLS.md) - A list of system tools useful in developing audio plugins and software.
-- [Low-Level Programming Languages](sections/LOW_LEVEL_PROGRAMMING_LANGUAGES.md) - A list of low-level programming languages used to make audio software, along with their pros and cons.
+- [Programming Languages](sections/PROGRAMMING_LANGUAGES.md) - A list of programming languages used to make audio software, along with their pros and cons.
 - [Plugin APIs](sections/PLUGIN_APIS.md) - A list of audio plugin APIs/specs along with their pros and cons.
 - [Plugin Development Frameworks](sections/PLUGIN_DEVELOPMENT_FRAMEWORKS.md) - A list of software stacks/frameworks used to make audio plugins with/without GUIs, along with their pros and cons.
 - [Graphic Design and UX](sections/GRAPHIC_DESIGN_AND_UX.md) - A list of resources to aid in the design of plugin GUIs.
