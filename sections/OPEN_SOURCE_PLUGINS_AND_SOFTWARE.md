@@ -48,6 +48,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [Geonkick](https://github.com/Geonkick-Synthesizer/geonkick) | (C++, C, custom GUI framework) | - Advanced drum synthesizer.
 - [gRainbow](https://github.com/StrangeLoopsAudio/gRainbow) | (C++, [JUCE]) | - A synthesizer that uses pitch detection to choose candidates for granular synthesis or sampling.
 - [Helm](https://github.com/mtytel/helm) | (C++, [JUCE]) | - High-quality modern monophonic synthesizer. The older sibling to Vital. The oscillators are not stereo though.
+- [jc303](https://github.com/midilab/jc303) | (C++, [JUCE]) | - A nice Roland TB-303 clone.
 - [Mika Micro](https://github.com/tesselode/mika-micro) | (C++, [WDL-OL]) | - A nice and simple synthesizer with a clean design.
 - [Monique Mono-Synth](https://github.com/surge-synthesizer/monique-monosynth) | (C++, [JUCE]) | - High-quality subtractive monophonic synth. Now open source!
 - [Ninjas 2](https://github.com/clearly-broken-software/ninjas2) | (C++, [DPF]) | - Sample slicer and player.
