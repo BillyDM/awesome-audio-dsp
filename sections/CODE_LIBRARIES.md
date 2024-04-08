@@ -41,11 +41,13 @@ A list of useful libraries for audio software.
 - [PortMidi](https://github.com/PortMidi/PortMidi)
 - [RtMidi](https://github.com/thestk/rtmidi)
 
-# Audio File Decoding/Encoding
+# File Decoding/Encoding
 
 - [dr_libs](https://github.com/mackron/dr_libs)
 - [FFmpeg](https://ffmpeg.org/) (Rust bindings via [ac-ffmpeg](https://crates.io/crates/ac-ffmpeg))
+- [midly](https://crates.io/crates/midly) (Rust only)
 - [miniaudio](https://github.com/mackron/miniaudio) (Rust bindings via [om-fork-miniaudio](https://crates.io/crates/om-fork-miniaudio))
+- [minimidi](https://github.com/lzqlzzq/minimidi)
 - [minimp3](https://github.com/lieff/minimp3)
 - [Symphonia](https://github.com/pdeljanov/Symphonia)
 - [Xiph repositories](https://github.com/xiph) - Contains various open source media codecs and containers such as Opus, FLAC, Vorbis, and OGG
