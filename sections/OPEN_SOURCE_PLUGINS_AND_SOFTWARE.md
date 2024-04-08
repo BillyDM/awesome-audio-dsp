@@ -103,6 +103,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [EasySSP](https://github.com/automatl/audio-dsp-multi-visualize/) | (C++, [JUCE]) | - Real-time spectrum analyzer and stereo analyzer plugin.
 - [K-Meter](https://github.com/mzuther/K-Meter) | (C++, [JUCE]) | - A feature-rich loudness meter.
 - [LUFS Meter](https://github.com/klangfreund/LUFSMeter) | (C++, [JUCE]) | - Real-time loudness meter with support for several international loudness standards.
+- [MultiMeter](https://github.com/RealAlexZ/MultiMeter) | (C++, [JUCE]) | - A swiss-army-knife metering plugin with a sleek UI.
 - [Spectacle](https://github.com/jpcima/spectacle) | (C++, [DPF]) | - Modern real-time spectrum analyzer plugin.
 - [Wolf Spectrum](https://github.com/pdesaulniers/wolf-spectrum) | (C++, [DPF]) | - Real-time heat-map spectrum analyzer plugin.
 
