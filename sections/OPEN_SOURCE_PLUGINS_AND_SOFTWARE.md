@@ -39,6 +39,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [ADLplug](https://github.com/jpcima/ADLplug) | (C++, [JUCE]) | - Emulation of FM-synthesizers found in some classic game consoles.
 - [Bespoke Synth] | (C++, [JUCE]) | - A very modular synthesizer with support for complex routing, modulation, and sequencing. It can even host VST plugins, blurring the lines between synth and DAW.
 - [Cardinal] | (C++, [DPF]) | - An open source modular synthesizer plugin that can host [VCV Rack] plugins.
+- [Cool Panda Plugins](https://www.coolxpandaxplugins.com/) | (C++, [JUCE]) | - A collection of creative effects.
 - [Dexed](https://github.com/asb2m10/dexed) | (C++, [JUCE]) | - Synthesizer closely modelled after the Yamaha DX7.
 - [DigiDrie](https://github.com/magnetophon/DigiDrie) | ([Faust], C++, [DPF]) | - A "monster" monophonic synth.
 - [Firefly Synth](https://github.com/sjoerdvankreel/firefly-synth) | (C++, [JUCE]) | - A feature-rich semi-modular software synthesizer and fx plugin.
