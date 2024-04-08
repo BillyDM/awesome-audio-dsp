@@ -41,6 +41,8 @@ A list of open source audio software that you can inspect and learn from, along 
 - [Cardinal] | (C++, [DPF]) | - An open source modular synthesizer plugin that can host [VCV Rack] plugins.
 - [Dexed](https://github.com/asb2m10/dexed) | (C++, [JUCE]) | - Synthesizer closely modelled after the Yamaha DX7.
 - [DigiDrie](https://github.com/magnetophon/DigiDrie) | ([Faust], C++, [DPF]) | - A "monster" monophonic synth.
+- [Firefly Synth](https://github.com/sjoerdvankreel/firefly-synth) | (C++, [JUCE]) | - A feature-rich semi-modular software synthesizer and fx plugin.
+  - It is the bigger brother to the discontinued [InfernalSynth](https://github.com/sjoerdvankreel/infernal-synth) plugin.
 - [Geonkick](https://github.com/Geonkick-Synthesizer/geonkick) | (C++, C, custom GUI framework) | - Advanced drum synthesizer.
 - [gRainbow](https://github.com/StrangeLoopsAudio/gRainbow) | (C++, [JUCE]) | - A synthesizer that uses pitch detection to choose candidates for granular synthesis or sampling.
 - [Helm](https://github.com/mtytel/helm) | (C++, [JUCE]) | - High-quality modern monophonic synthesizer. The older sibling to Vital. The oscillators are not stereo though.
