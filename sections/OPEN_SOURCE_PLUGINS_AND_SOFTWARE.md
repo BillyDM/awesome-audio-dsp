@@ -25,6 +25,7 @@ A list of open source audio software that you can inspect and learn from.
 - [SocaLabs Plugins](https://github.com/FigBug/SocaLabs) - A collection of plugins made by SocaLabs.
 - [Calf Studio gear](https://github.com/calf-studio-gear/calf) - A large collection of plugins aimed at a professional audience.
 - [VCV Library database](https://github.com/VCVRack/library) - An official database of [VCV Rack] plugins, containing both commercial and open source plugins.
+- [nih-plug](https://github.com/robbert-vdh/nih-plug) - Contains a collection of plugins written in Rust, including the amazing [Spectral Compressor](https://github.com/robbert-vdh/nih-plug/tree/master/plugins/spectral_compressor) plugin.
 
 ## Synths
 - [Vital](https://github.com/mtytel/vital) - An incredibly powerful and high quality modern synthesizer. Rivals the likes of Xfer Serum and NI Massive.
