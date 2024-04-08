@@ -79,6 +79,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [DelayArchitect](https://github.com/jpcima/DelayArchitect) | (C++, [JUCE]) | - A feature-rich delay designer plugin.
 - [Dragonfly Reverb](https://github.com/michaelwillis/dragonfly-reverb) | (C++, [DPF]) | - Algorithmic reverb based on [Freeverb].
 - [Flutterbird](https://github.com/tesselode/flutterbird) | (C++, [WDL-OL]) | - Simple multi-lfo than modulates pitch and volume, creating a "fluttering" effect.
+- [Frequalizer](https://github.com/ffAudio/Frequalizer) | (C++, [JUCE]) | - An equalizer plugin using JUCE's new dsp module.
 - [Fogpad](https://github.com/linuxmao-org/fogpad-port) | (C++, [DPF]) | - Reverb plugin where reflections can be frozen, filtered, pitch-shifted, and mangled.
 - [lamb](https://github.com/magnetophon/lamb-rs) | ([Faust], [Rust], [nih-plug], [Vizia]) | - A clean lookahead compressor/limiter.
 - [Luftikus] | (C++, [JUCE]) | - Analogue modeled equalizer.
