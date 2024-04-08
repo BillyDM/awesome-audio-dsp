@@ -41,6 +41,7 @@ A list of software tools that are useful for quickly and easily prototyping DSP.
   - A powerful functional programming language.
   - Can be transpiled into many different languages such as C++, C, Rust, and WebAssembly.
   - Free and open-source.
+  - [nih-faust-jit](https://github.com/YPares/nih-faust-jit) - A plugin that hot-reloads Faust dsp files and JIT-compiles them.
 - [FunDSP](https://github.com/SamiPerttu/fundsp)
   - A neat project for learning and prototyping DSP.
   - Uses the Rust programming language, so it is not for those who are beginners to coding. However, the library itself does not require advance Rust skills.
