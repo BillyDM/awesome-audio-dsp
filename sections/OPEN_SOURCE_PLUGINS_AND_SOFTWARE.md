@@ -79,7 +79,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [Misstortion](https://github.com/nimbletools/misstortion1) | (C++, [JUCE]) | - Good quality hard/soft clipper.
 - [Molot Lite](https://github.com/magnetophon/molot-lite) | (C++, [iPlug2]) | - A cut-down version of the Molot compressor by Tokyo Dawn Records. It has a lot of color and character.
 - [Mverb](https://github.com/DISTRHO/MVerb) | (C++, [DPF]) | - Nice-sounding plate reverb.
-- [Reach](https://github.com/Sinuslabs/Reach) | (C++, [Faust], [JUCE]) | - Extraterrestrial reverb with a unique sound.
+- [Reach](https://github.com/Sinuslabs/Reach) | (C++, [Faust], [JUCE]) | - Extraterrestrial reverb with a unique sound. It is also sold as a commercial product.
 - [Room Reverb](https://github.com/cvde/RoomReverb) | (C++, [JUCE]) | - Nice sounding algorithmic reverb based on [Freeverb].
 - [Squeezer](https://github.com/mzuther/Squeezer) | (C++, [JUCE]) | - Flexible general-purpose audio compressor with a "touch of citrus".
 - [TimeStretch](https://github.com/spluta/TimeStretch) | ([Rust], [SuperCollider], Python, gui-less) | - A refinement of the famous [PaulStretch](http://hypermammut.sourceforge.net/paulstretch) time stretching effect. Includes a PDF explaining the DSP.
