@@ -15,6 +15,7 @@ A list of software stacks/frameworks used to make audio plugins with/without GUI
   - Fully open-source using a permissive license.
   - Targets LADSPA, DSSI, LV2, VST2, VST3, CLAP, and Jack plugin formats.
   - Targets Linux, Mac, and Windows platforms.
+  - [DISTRHO Dear Plugins](https://github.com/DISTRHO/dear-plugins) - A collection of plugins demonstrating how to use the Dear ImGui library with the DPF framework. Still a work in progress.
 
 ## [Dplug](https://github.com/AuburnSounds/Dplug)
   - Full-stack framework with GUI in the D programming language.

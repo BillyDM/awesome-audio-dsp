@@ -16,6 +16,7 @@ A list of open source audio software that you can inspect and learn from, along 
   - [totape5](https://github.com/airwindows/airwindows/tree/master/plugins/LinuxVST/src/ToTape5)
 - [Calf Studio gear](https://github.com/calf-studio-gear/calf) | (C++, custom [GTK] framework) | - A large collection of plugins aimed at a professional audience.
 - [Chowdhury DSP](https://github.com/Chowdhury-DSP) | (C++, [JUCE]) | - A collection of high quality effect plugins (as well as a kick drum synthesizer). A lot of these plugins make use of use of cutting-edge neural network inferencing.
+- [DISTRHO Dear Plugins](https://github.com/DISTRHO/dear-plugins) | (C++, [DPF], [Dear ImGui]) | - A collection of plugins demonstrating how to use the Dear ImGui library with the DPF framework. Still a work in progress.
 - [DISTRHO Plugin Framework](https://github.com/DISTRHO/DPF) | (C++, [DPF]) | - Has a list of plugins that were made using this framework.
 - [DISTRHO-Ports](https://github.com/DISTRHO/DISTRHO-Ports) | (C++, [JUCE]) | - A whole bunch of plugins ported to work on Linux/LV2.
 - [Dplug] | (D, [Dplug]) | - Contains some example plugins using the framework.
@@ -162,6 +163,7 @@ A list of open source audio software that you can inspect and learn from, along 
 [iPlug2]: https://github.com/iPlug2/iPlug2
 [SuperCollider]: https://supercollider.github.io/
 [robtk]: https://github.com/x42/robtk
+[Dear ImGui]: https://github.com/ocornut/imgui
 [Luftikus]: https://github.com/lkjbdsp/lkjb-plugins/tree/master/Luftikus
 [Bespoke Synth]: https://github.com/BespokeSynth/BespokeSynth
 [Cardinal]: https://github.com/DISTRHO/Cardinal
