@@ -66,7 +66,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [Tunefish](https://github.com/paynebc/tunefish?tab=readme-ov-file) | (C++, [JUCE]) | - A neat little additive synthesizer.
 - [Vaporizer2](https://github.com/VASTDynamics/Vaporizer2) | (C++, [JUCE]) | - Feature-rich wavetable synthesizer that was once a proprietary product.
 - [Vital](https://github.com/mtytel/vital) | (C++, [JUCE]) | - An incredibly powerful and high quality modern synthesizer. Rivals the likes of Xfer Serum and NI Massive.
-  - There is also a fully GPLv3-licensed fork called [Vitalium](https://github.com/DISTRHO/DISTRHO-Ports/tree/master/ports-juce6/vitalium) that has all the non-GPL stuff removed.
+  - There is also a fully GPLv3-licensed fork called [Vitalium](https://github.com/DISTRHO/DISTRHO-Ports/tree/master/ports-juce6.0/vitalium) that has all the non-GPL stuff removed.
 - [Wavetable](https://github.com/FigBug/Wavetable) | (C++, [JUCE]) | - Sleek wavetable synthesizer with a great clean sound.
 - [ZynAddSubFX](https://github.com/zynaddsubfx/zynaddsubfx) | (C++, [DPF]) | - Feature-rich additive synthesizer with a great clean sound. Also sold as a commercial product.
 
