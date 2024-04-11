@@ -145,7 +145,7 @@ A list of open source audio software that you can inspect and learn from, along 
 
 - [OpenAudio](https://github.com/webprofusion/OpenAudio) - A large list of open source audio plugins, apps, and other projects.
 - [SpotlightKid's list](https://github.com/stars/SpotlightKid/lists/audio-midi-applications) - A large, actively updated list of open source audio plugins and apps.
-- [StudioRack](https://studiorack.github.io/studiorack-site/) - An app for browsing and downloading open source plugins. Contains a large catalogue of plugins.
+- [StudioRack](https://studiorack.github.io/studiorack-site/) - An app for browsing and downloading from a large catalogue of open source plugins and multisample instruments.
 
 [JUCE]: https://juce.com/
 [DPF]: https://github.com/DISTRHO/DPF
