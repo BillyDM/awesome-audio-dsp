@@ -144,6 +144,7 @@ A list of open source audio software that you can inspect and learn from, along 
 # More Lists
 
 - [OpenAudio](https://github.com/webprofusion/OpenAudio) - A large list of open source audio plugins, apps, and other projects.
+- [SpotlightKid's list](https://github.com/stars/SpotlightKid/lists/audio-midi-applications) - A large, actively updated list of open source audio plugins and apps.
 
 [JUCE]: https://juce.com/
 [DPF]: https://github.com/DISTRHO/DPF

@@ -11,5 +11,6 @@ Here I'll link curated lists of resources that others have made.
 - [Freeverb3 - DSP References](https://freeverb3vst.osdn.jp/ref.shtml) - A list of technical DSP resources focused mainly on reverb design.
 - [More Awesome Music DSP](https://github.com/olilarkin/awesome-musicdsp) - Another big list of audio DSP and plugin development resources.
 - [OpenAudio](https://github.com/webprofusion/OpenAudio) - A list of open source audio plugins, apps, and other projects.
+- [SpotlightKid's list](https://github.com/stars/SpotlightKid/lists/audio-midi-applications) - A large, actively updated list of open source audio plugins and apps.
 - [Useful Links for DSP and Audio Programming](https://rust.audio/articles/useful-resources/) from rust.audio
 - [Valhalla Blog](https://valhalladsp.com/blog/) - Valhalla DSP has an excellent blog linking many resources that helped them create their industry-leading reverbs.
