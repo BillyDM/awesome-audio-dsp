@@ -105,7 +105,8 @@ These languages are specifically designed to write DSP code. These can be a grea
   - A powerful functional programming language.
   - Can be transpiled into many different languages such as C++, C, Rust, and WebAssembly.
   - Free and open-source.
-  - [nih-faust-jit](https://github.com/YPares/nih-faust-jit) - A plugin that hot-reloads Faust dsp files and JIT-compiles them.
+  - [nih-faust-jit](https://github.com/YPares/nih-faust-jit) - A plugin that hot-reloads Faust DSP files and JIT-compiles them.
+  - [rust-faust](https://github.com/Frando/rust-faust) - A library that provides easy integration between Faust and Rust. (Still a work in progress at the time of this writing.)
 - [FunDSP](https://github.com/SamiPerttu/fundsp)
   - Not exactly it's own programming language, but more of a Rust library with a special (and fun) syntax.
   - While it's built on top of Rust, the library itself does not require advance Rust knowledge to use.
