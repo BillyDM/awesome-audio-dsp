@@ -47,4 +47,5 @@ My tip: Probably the biggest challenge when it comes to good UX for audio plugin
 - [Colormind](http://colormind.io/) - Free AI-powered color palette generator.
 - [ColorSpace](https://mycolor.space/) - Another great free color palette generator.
 - [Data Color Picker](https://www.learnui.design/tools/data-color-picker.html) - A tool for generating visually equidistant colors for data visualization.
+- [Leonardo](https://leonardocolor.io/) - A free and open source tool developed by Adobe that aids in generating color palettes which meet the [WCAG minimum contrast standards](https://www.w3.org/TR/WCAG21/#contrast-minimum).
 - [Reasonable Colors](https://reasonable.work/colors/) - A free collection of hand-tuned color palettes that are optimized for UI.
