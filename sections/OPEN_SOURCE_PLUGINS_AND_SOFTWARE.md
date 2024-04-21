@@ -18,6 +18,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [brummer10's plugins](https://github.com/brummer10?tab=repositories) | (C++, [libxputty], raw plugin APIs, [JUCE]) | - A large collection of mostly guitar-focused effects. [guitarix](https://github.com/brummer10/guitarix) is one of the more popular ones.
 - [Calf Studio gear](https://github.com/calf-studio-gear/calf) | (C++, custom [GTK] framework) | - A large collection of plugins aimed at a professional audience.
 - [Chowdhury DSP](https://github.com/Chowdhury-DSP) | (C++, [JUCE]) | - A collection of high quality effect plugins (as well as a kick drum synthesizer). A lot of these plugins make use of use of cutting-edge neural network inferencing.
+- [Cool Panda Plugins](https://www.coolxpandaxplugins.com/) | (C++, [JUCE]) | - A collection of creative effects.
 - [DISTRHO Dear Plugins](https://github.com/DISTRHO/dear-plugins) | (C++, [DPF], [Dear ImGui]) | - A collection of plugins demonstrating how to use the Dear ImGui library with the DPF framework. Still a work in progress.
 - [DISTRHO Plugin Framework](https://github.com/DISTRHO/DPF) | (C++, [DPF]) | - Has a list of plugins that were made using this framework.
 - [DISTRHO-Ports](https://github.com/DISTRHO/DISTRHO-Ports) | (C++, [JUCE]) | - A whole bunch of plugins ported to work on Linux/LV2.
@@ -45,7 +46,6 @@ A list of open source audio software that you can inspect and learn from, along 
 - [ADLplug](https://github.com/jpcima/ADLplug) | (C++, [JUCE]) | - Emulation of FM-synthesizers found in some classic game consoles.
 - [Bespoke Synth] | (C++, [JUCE]) | - A very modular synthesizer with support for complex routing, modulation, and sequencing. It can even host VST plugins, blurring the lines between synth and DAW.
 - [Cardinal] | (C++, [DPF]) | - An open source modular synthesizer plugin that can host [VCV Rack] plugins.
-- [Cool Panda Plugins](https://www.coolxpandaxplugins.com/) | (C++, [JUCE]) | - A collection of creative effects.
 - [Dexed](https://github.com/asb2m10/dexed) | (C++, [JUCE]) | - Synthesizer closely modelled after the Yamaha DX7.
 - [DigiDrie](https://github.com/magnetophon/DigiDrie) | ([Faust], C++, [DPF]) | - A "monster" monophonic synth.
 - [Fabla 2](https://github.com/openAVproductions/openAV-Fabla2) | (C++, custom GUI framework) | - A multi-sampler plugin with a drum pad layout.
