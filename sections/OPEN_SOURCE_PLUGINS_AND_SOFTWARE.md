@@ -6,7 +6,7 @@ A list of open source audio software that you can inspect and learn from, along 
 
 ## Collections
 
-(Note, individual plugins are not listed in the `Synths`/`Audio FX`/`MIDI FX`/`Meters & Visualizers` sections if they appear in one of these collections.)
+(Note, I'm avoiding listing individual plugins in the `Synths`/`Audio FX`/`MIDI FX`/`Meters & Visualizers` sections if they appear in one of these collections. A few exceptions are made for plugins that are particuarly notable.)
 
 - [Airwindows Plugins](https://github.com/airwindows/airwindows/tree/master/plugins) | (C++, gui-less, raw plugin APIs) | - Lots of good quality effects and experiments developed over many years.
   There are a *ton* of plugins here, so here is a list of some community favorites:
@@ -14,7 +14,8 @@ A list of open source audio software that you can inspect and learn from, along 
   - [ironoxide](https://github.com/airwindows/airwindows/tree/master/plugins/LinuxVST/src/IronOxide5)
   - [pressure4](https://github.com/airwindows/airwindows/tree/master/plugins/LinuxVST/src/Pressure4)
   - [totape5](https://github.com/airwindows/airwindows/tree/master/plugins/LinuxVST/src/ToTape5)
-- [ardura's Plugins](https://github.com/ardura) | ([Rust], [nih-plug], [egui]) | - A collection of neat synths and effects with nice-looking GUIs. Written in Rust, nih-plug, and egui.
+- [ardura's plugins](https://github.com/ardura) | ([Rust], [nih-plug], [egui]) | - A collection of neat synths and effects with nice-looking GUIs. Written in Rust, nih-plug, and egui.
+- [brummer10's plugins](https://github.com/brummer10?tab=repositories) | (C++, [libxputty], raw plugin APIs, [JUCE]) | - A large collection of mostly guitar-focused effects. [guitarix](https://github.com/brummer10/guitarix) is one of the more popular ones.
 - [Calf Studio gear](https://github.com/calf-studio-gear/calf) | (C++, custom [GTK] framework) | - A large collection of plugins aimed at a professional audience.
 - [Chowdhury DSP](https://github.com/Chowdhury-DSP) | (C++, [JUCE]) | - A collection of high quality effect plugins (as well as a kick drum synthesizer). A lot of these plugins make use of use of cutting-edge neural network inferencing.
 - [DISTRHO Dear Plugins](https://github.com/DISTRHO/dear-plugins) | (C++, [DPF], [Dear ImGui]) | - A collection of plugins demonstrating how to use the Dear ImGui library with the DPF framework. Still a work in progress.
@@ -169,6 +170,7 @@ A list of open source audio software that you can inspect and learn from, along 
 [SuperCollider]: https://supercollider.github.io/
 [robtk]: https://github.com/x42/robtk
 [Dear ImGui]: https://github.com/ocornut/imgui
+[libxputty]: https://github.com/brummer10/libxputty
 [Luftikus]: https://github.com/lkjbdsp/lkjb-plugins/tree/master/Luftikus
 [Bespoke Synth]: https://github.com/BespokeSynth/BespokeSynth
 [Cardinal]: https://github.com/DISTRHO/Cardinal
