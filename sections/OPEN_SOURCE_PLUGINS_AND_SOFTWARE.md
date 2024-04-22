@@ -108,6 +108,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [QMidiArp](https://github.com/emuse/qmidiarp) | (C++, [robtk], [Pugl]) | - Advanced arpeggiator, sequencer, and MIDI LFO.
 - [Ripchord](https://github.com/trackbout/ripchord) | (C++, [JUCE]) | - A MIDI plugin that can create, perform and remix chord progressions.
   - There is also a [fork](https://github.com/prg318/ripchord) that adds support for Linux.
+- [ShowMIDI](https://github.com/gbevin/ShowMIDI) | (C++, [JUCE]) | - A tool to effortlessly visualize MIDI activity.
 - [Stochas](https://github.com/surge-synthesizer/stochas) | (C++, [JUCE]) | - An advanced probabilistic polyrythmic sequencer. Made by the same team behind the [Surge XT] synthesizer.
 
 ## Meters & Visualizers
