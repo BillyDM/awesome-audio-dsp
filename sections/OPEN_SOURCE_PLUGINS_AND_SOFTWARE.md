@@ -19,6 +19,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [Calf Studio gear](https://github.com/calf-studio-gear/calf) | (C++, custom [GTK] framework) | - A large collection of plugins aimed at a professional audience.
 - [Chowdhury DSP](https://github.com/Chowdhury-DSP) | (C++, [JUCE]) | - A collection of high quality effect plugins (as well as a kick drum synthesizer). A lot of these plugins make use of use of cutting-edge neural network inferencing.
 - [Cool Panda Plugins](https://www.coolxpandaxplugins.com/) | (C++, [JUCE]) | - A collection of creative effects.
+- [Destroy FX](https://github.com/sophiapoirier/destroyfx) | (C++, custom GUI framework based on [VSTGUI], raw plugin APIs) | - A collection of effects that "destroy your sound".
 - [DISTRHO Dear Plugins](https://github.com/DISTRHO/dear-plugins) | (C++, [DPF], [Dear ImGui]) | - A collection of plugins demonstrating how to use the Dear ImGui library with the DPF framework. Still a work in progress.
 - [DISTRHO Plugin Framework](https://github.com/DISTRHO/DPF) | (C++, [DPF]) | - Has a list of plugins that were made using this framework.
 - [DISTRHO-Ports](https://github.com/DISTRHO/DISTRHO-Ports) | (C++, [JUCE]) | - A whole bunch of plugins ported to work on Linux/LV2.
