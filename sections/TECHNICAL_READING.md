@@ -5,6 +5,7 @@ A list of useful articles, blogs, and scientific papers on modern algorithms and
 - [ADC Videos](https://www.youtube.com/c/JUCElibrary/featured) - This YouTube channel hosts a bunch of talks and lectures given during the annual [Audio Developer's Conference](https://audio.dev/).
   - This one on [high quality wavetable oscillators](https://www.youtube.com/watch?v=qlinVx60778) by the creator of the Vital synth is particularly good one for those interested in wavetable synthesis.
 - [AES](https://aes2.org/) - A large collection of high quality research and technical papers. Requires a paid membership to access.
+- [CCRMA Publications](https://ccrma.stanford.edu/) - A large collection of published research hosted by Standford University.
 - [Cytomic Technical Papers](https://cytomic.com/technical-papers/) - Excellent filter designs, equations, and explanations by Cytomic. Use these as a better alternative to biquad filters that both sound better and perform better when being modulated.
   - Specifically the document [SvfLinearTrapOptimised2](https://cytomic.com/files/dsp/SvfLinearTrapOptimised2.pdf) contains filters and equations that are a better alternative to the ones in the [RBJ Cookbook](https://webaudio.github.io/Audio-EQ-Cookbook/audio-eq-cookbook.html).
 - [DAFx](http://www.dafx.de/) - An archive of scientific papers and presentations given during an annual DSP research conference.
