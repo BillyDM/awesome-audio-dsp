@@ -69,8 +69,8 @@ A list of open source audio software that you can inspect and learn from, along 
 - [Synth2](https://github.com/klknn/kdr) | (D, [Dplug]) | - A recreation of the classic Synth1 virtual synth. (Still a work in progress).
 - [Tunefish](https://github.com/paynebc/tunefish?tab=readme-ov-file) | (C++, [JUCE]) | - A neat little additive synthesizer.
 - [Vaporizer2](https://github.com/VASTDynamics/Vaporizer2) | (C++, [JUCE]) | - Feature-rich wavetable synthesizer that was once a proprietary product.
-- [Vital](https://github.com/mtytel/vital) | (C++, [JUCE]) | - An incredibly powerful and high quality modern synthesizer. Rivals the likes of Xfer Serum and NI Massive.
-  - There is also a fully GPLv3-licensed fork called [Vitalium](https://github.com/DISTRHO/DISTRHO-Ports/tree/master/ports-juce6.0/vitalium) that has all the non-GPL stuff removed.
+- [Vital] | (C++, [JUCE]) | - An incredibly powerful and high quality modern synthesizer. Rivals the likes of Xfer Serum and NI Massive.
+  - There is also a fully GPLv3-licensed fork called [Vitalium] that has all the non-GPL stuff removed.
 - [Wavetable](https://github.com/FigBug/Wavetable) | (C++, [JUCE]) | - Sleek wavetable synthesizer with a great clean sound.
 - [ZynAddSubFX](https://github.com/zynaddsubfx/zynaddsubfx) | (C++, [DPF]) | - Feature-rich additive synthesizer with a great clean sound. Also sold as a commercial product.
 
@@ -100,6 +100,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [Squeezer](https://github.com/mzuther/Squeezer) | (C++, [JUCE]) | - Flexible general-purpose audio compressor with a "touch of citrus".
 - [TimeStretch](https://github.com/spluta/TimeStretch) | ([Rust], [SuperCollider], Python, gui-less) | - A refinement of the famous [PaulStretch](http://hypermammut.sourceforge.net/paulstretch) time stretching effect. Includes a PDF explaining the DSP.
 - [Valentine](https://github.com/tote-bag-labs/valentine) | (C++, [JUCE]) | - A nice compressor/saturator that is meant to "pump and breath".
+- [VitaliumVerb](https://github.com/BillyDM/vitalium-verb) | [Rust], [nih-plug], gui-less | - A Rust port of the reverb module from the [Vital]/[Vitalium] synthesizer, with some added improvements and optimizations.
 - [Wolf Shaper](https://github.com/pdesaulniers/wolf-shaper) | (C++, [DPF]) | - Good quality waveshaper with support for unlimited nodes.
 
 ## MIDI FX
@@ -179,3 +180,5 @@ A list of open source audio software that you can inspect and learn from, along 
 [VCV Rack]: https://vcvrack.com/
 [Freeverb]: https://ccrma.stanford.edu/~jos/pasp/Freeverb.html
 [Eurorack]: https://en.wikipedia.org/wiki/Eurorack
+[Vital]: https://github.com/mtytel/vital
+[Vitalium]: https://github.com/DISTRHO/DISTRHO-Ports/tree/master/ports-juce6.0/vitalium
