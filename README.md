@@ -31,5 +31,8 @@ My curated list of audio DSP (digital signal processing) and plugin development 
     - These textbooks are a common recommendation for beginners.
     - The synthesizer one is better than the effect one imo, so go for that if you plan on only buying one.
     - ISBN-10: 0367510480 and 1138591939, ISBN-13: 978-0367510480 and 978-1138591936
-- [projet μ](https://mu.krj.st/) - An excellent and free online blog that neatly explains the basics of DSP.
+- [projet μ](https://mu.krj.st/) by Yü Fang
+  - A great free online course that teaches the basics of DSP from scratch using the C programming language.
+  - Does a great job of explaining concepts in code, along with helpful graphics.
+  - Requires some knowledge of complex numbers and basic integral calculus. (There's really no any way around this if you're learning DSP). It is also very Linux-focused, but the course can still be done using Windows or MacOS.
 - [Think DSP](https://github.com/AllenDowney/ThinkDSP) - A great free online book that teaches many fundamental DSP concepts using Python.
