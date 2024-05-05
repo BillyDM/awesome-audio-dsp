@@ -13,7 +13,7 @@ A list of free online textbooks and courses on audio DSP.
 - [projet μ](https://mu.krj.st/) by Yü Fang
   - A great free online course that teaches the basics of DSP from scratch using the C programming language. It's my personal go-to recommendation to beginners.
   - Does a great job of explaining concepts in code, along with helpful graphics.
-  - Requires some knowledge of complex numbers and basic integral calculus. (There's really no any way around this if you're learning DSP). It is also very Linux-focused, but the course can still be done using Windows or MacOS.
+  - Requires some knowledge of complex numbers and basic integral calculus. (There's really no way around this if you're learning DSP). It is also very Linux-focused, but the course can still be done using Windows or MacOS.
 - [The Art of VA Filter Design](https://www.native-instruments.com/fileadmin/ni_media/downloads/pdf/VAFilterDesign_2.1.2.pdf) by Vadim Zavalishin
   - Teaches good techniques for adapting analogue designs into the digital realm.
   - Relatively heavy on mathematics.
