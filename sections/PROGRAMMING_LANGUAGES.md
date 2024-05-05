@@ -82,6 +82,8 @@ When you want to get serious with audio DSP & audio plugin development, nothing 
   - [Rust By Practice](https://practice.rs/why-exercise.html) - A great unofficial online book that helps you learn Rust through exercises.
   - [The Rust Performance Book](https://nnethercote.github.io/perf-book/title-page.html) - Tips on optimizing code in Rust.
 
+> I often get asked about beginner-friendly DSP learning resources which focus on the [Rust](https://www.rust-lang.org/) programming language. Unfortunately there isn't really anything out there. I would suggest learning DSP in another language first and then translating that knowledge to Rust later. The choice of language doesn't really matter that much for learning DSP, the main difference comes when it's time to create full applications/plugins *around* your DSP code.
+
 ---
 
 > A new language to look out for is [Carbon](https://github.com/carbon-language/carbon-lang), which aims to be compatible with existing C++ code and libraries while providing modern features, syntax, and safety. It has the potential to be a great language for audio development. Though it's still in the early experimental stages, and it could be a few years until it's ready for use.
