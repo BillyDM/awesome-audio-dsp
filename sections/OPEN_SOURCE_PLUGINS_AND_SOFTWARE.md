@@ -9,11 +9,12 @@ A list of open source audio software that you can inspect and learn from, along 
 (Note, I'm avoiding listing individual plugins in the `Synths`/`Audio FX`/`MIDI FX`/`Meters & Visualizers` sections if they appear in one of these collections. A few exceptions are made for plugins that are particuarly notable.)
 
 - [Airwindows Plugins](https://github.com/airwindows/airwindows/tree/master/plugins) | (C++, gui-less, raw plugin APIs) | - Lots of good quality effects and experiments developed over many years.
-  There are a *ton* of plugins here, so here is a list of some community favorites:
-  - [density](https://github.com/airwindows/airwindows/tree/master/plugins/LinuxVST/src/Density)
-  - [ironoxide](https://github.com/airwindows/airwindows/tree/master/plugins/LinuxVST/src/IronOxide5)
-  - [pressure4](https://github.com/airwindows/airwindows/tree/master/plugins/LinuxVST/src/Pressure4)
-  - [totape5](https://github.com/airwindows/airwindows/tree/master/plugins/LinuxVST/src/ToTape5)
+  - There are a *ton* of plugins here, so here is a list of some community favorites:
+    - [density](https://github.com/airwindows/airwindows/tree/master/plugins/LinuxVST/src/Density)
+    - [ironoxide](https://github.com/airwindows/airwindows/tree/master/plugins/LinuxVST/src/IronOxide5)
+    - [pressure4](https://github.com/airwindows/airwindows/tree/master/plugins/LinuxVST/src/Pressure4)
+    - [totape5](https://github.com/airwindows/airwindows/tree/master/plugins/LinuxVST/src/ToTape5)
+  - [airwin2rack](https://github.com/baconpaul/airwin2rack) | (C++, [JUCE], [VCV Rack]) | - All of the Airwindows plugins consolidated into a single plugin with GUI. Can also be used as a static libray for inclusion into other projects.
 - [ardura's plugins](https://github.com/ardura) | ([Rust], [nih-plug], [egui]) | - A collection of neat synths and effects with nice-looking GUIs. Written in Rust, nih-plug, and egui.
 - [brummer10's plugins](https://github.com/brummer10?tab=repositories) | (C++, [libxputty], raw plugin APIs, [JUCE]) | - A large collection of mostly guitar-focused effects. [guitarix](https://github.com/brummer10/guitarix) is one of the more popular ones.
 - [Calf Studio gear](https://github.com/calf-studio-gear/calf) | (C++, custom [GTK] framework) | - A large collection of plugins aimed at a professional audience.
