@@ -2,6 +2,8 @@
 
 A list of free online textbooks and courses on audio DSP.
 
+- [Discrete Time Signal Processing](https://www.youtube.com/playlist?list=PLm_MSClsnwm9SyEkHLnkWnZrC9ZhYwchJ) by Ekeeda
+  - A large collection of free DSP video lectures.
 - [Julius Orion Smith III Collection](https://ccrma.stanford.edu/~jos/)
   - A great collection of books and resources by Julius Orion Smith III.
   - Very comprehensive, and covers many topics on the mathematics and applications of audio DSP. Good for getting a solid foundation.
