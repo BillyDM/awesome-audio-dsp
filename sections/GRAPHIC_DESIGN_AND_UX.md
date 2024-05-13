@@ -14,6 +14,7 @@ A list of resources to aid in the design of plugin GUIs.
 - [Glyphr Studio](https://www.glyphrstudio.com/) - Another open source tool that can be used to pack vector icons into a font file.
 - [Inkscape](https://inkscape.org/) - Popular open source vector graphics editor.
     - [Logos By Nick](https://www.youtube.com/@LogosByNick) - A YouTube channel with great tutorials on how to use Inkscape and GIMP.
+- [Moving Pencils](https://movingpencils.com/) - A fast, sophisticated vector graphics editor. Completely free.
 - [Krita](https://krita.org/en/) - Open source painting program and image editor. I personally prefer this as my general purpose image editor over [GIMP](https://www.gimp.org/), although GIMP is still a good choice if you take the time to learn it and install extensions.
 - [Penpot](https://penpot.app/) - An open source alternative to Figma.
 
