@@ -94,12 +94,13 @@ Here is a list of compatible GUI libraries you can use for your audio plugins.
 
 There are plenty of options that allow you to just draw shapes and text to the screen.
  
-* [bgfx](https://github.com/bkaradzic/bgfx) - Low-level cross platform graphics library that abstracts over different graphics APIs. Has a sizeable community.
+* [bgfx](https://github.com/bkaradzic/bgfx) - Low-level cross platform graphics library that abstracts over different graphics APIs. Has a sizeable community, and contains bindings to various programming languages.
 * [Cairo](https://www.cairographics.org/) - An old but widely used vector graphics library. It is not hardware-accelerated though, so it is quite slow. But on the flip side not being hardware-accelerated removes the headaches involved with graphics drivers.
 * [femtovg](https://github.com/femtovg/femtovg) - An OpenGL vector graphics rendering library written in Rust, based on NanoVG.
 * [Lyon](https://github.com/nical/lyon) - A tessellation library written in Rust. It simply outputs a list of triangles for the GPU to render.
 * [NanoVG](https://github.com/inniyah/nanovg) - Vector graphics rendering library for OpenGL.
 * [Skia](https://skia.org/) - Hardware-accelerated 2D vector graphics library. Built by Google to power Chrome and Flutter. It has a relatively large binary size though.
+* [Sokol](https://github.com/floooh/sokol) - Low-level cross platform graphics library that abstracts over different graphics APIs. Contains bindings to various programming languages.
 * [vg-renderer](https://github.com/jdryg/vg-renderer) - A vector graphics renderer for [bgfx].
 * [wgpu](https://wgpu.rs/) - Low-level cross platform graphics library for Rust that abstracts over different graphics APIs. Inspired by WebGPU.
   * [glyphon](https://github.com/grovesNL/glyphon) - An easy way to layout and render text in wgpu using [Cosmic Text](https://github.com/pop-os/cosmic-text/).
