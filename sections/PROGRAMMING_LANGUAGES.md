@@ -84,12 +84,6 @@ When you want to get serious with audio DSP & audio plugin development, nothing 
 
 > I often get asked about beginner-friendly DSP learning resources which focus on the [Rust](https://www.rust-lang.org/) programming language. Unfortunately there isn't really anything out there. I would suggest learning DSP in another language first and then translating that knowledge to Rust later. The choice of language doesn't really matter that much for learning DSP, the main difference comes when it's time to create full applications/plugins *around* your DSP code.
 
----
-
-> A new language to look out for is [Carbon](https://github.com/carbon-language/carbon-lang), which aims to be compatible with existing C++ code and libraries while providing modern features, syntax, and safety. It has the potential to be a great language for audio development. Though it's still in the early experimental stages, and it could be a few years until it's ready for use.
-
-> Another language to look out for is [Zig](https://ziglang.org/). It's still a relatively young language with a small ecosystem, but it looks very promising for writing DSP code and/or audio plugins. Later I might add a section going into more detail on it.
-
 # Domain Specific Languages
 
 These languages are specifically designed to write DSP code. These can be a great alternative if you're not into writing low-level code.
@@ -123,6 +117,22 @@ These languages are specifically designed to write DSP code. These can be a grea
   - Free and open source.
   - [plugdata](https://github.com/plugdata-team/plugdata) - A wrapper plugin with a much nicer looking GUI.
   - [HVCC](https://github.com/Wasted-Audio/hvcc) - A tool to convert Pure Data graphs to C/C++ code.
+
+# Languages To Look Out For
+
+The following are newer programming languages that have the potential to be great for audio development. Keep in mind that these languages are still quite young and have a very small ecosystem compared to more well-established languages. They may not be ready yet for production.
+
+- [Carbon](https://github.com/carbon-language/carbon-lang)
+  - Aims to be compatible with existing C++ code and libraries while providing modern features, syntax, and safety.
+  - Still in the early experimental stages, and it could be a few years until it's ready for use.
+- [Nim](https://nim-lang.org/)
+  - A modern language that combines successful concepts from mature languages like Python, Ada and Modula.
+  - Compiles to native assembly and has customizable memory management.
+- [Zig](https://ziglang.org/)
+  - A simple but powerful language that aims to be a modern successor to C.
+  - Has no hidden control flows or allocations, and even has a built-in cross-platform SIMD library. This makes it a great fit for writing low-level realtime DSP code IMO.
+  - Unlike most new programming languages, Zig is not a memory-safe language, so extra precautions are needed when using it with safety checks disabled.
+  - There is an audio plugin framework in the works called [arbor](https://github.com/ArborealAudio/arbor).
 
 [AFL]: https://github.com/google/AFL
 [Honggfuzz]: https://github.com/google/honggfuzz
