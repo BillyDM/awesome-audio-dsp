@@ -128,10 +128,13 @@ The following are newer programming languages that have the potential to be grea
 - [Nim](https://nim-lang.org/)
   - A modern language that combines successful concepts from mature languages like Python, Ada and Modula.
   - Compiles to native assembly and has customizable memory management.
+- [Odin](https://odin-lang.org/)
+  - Aims to be a modern alternative to C.
+  - Not a memory-safe language, so extra precautions are needed when using it with safety checks disabled.
 - [Zig](https://ziglang.org/)
   - A simple but powerful language that aims to be a modern successor to C.
   - Has no hidden control flows or allocations, and even has a built-in cross-platform SIMD library. This makes it a great fit for writing low-level realtime DSP code IMO.
-  - Unlike most new programming languages, Zig is not a memory-safe language, so extra precautions are needed when using it with safety checks disabled.
+  - Not a memory-safe language, so extra precautions are needed when using it with safety checks disabled.
   - There is an audio plugin framework in the works called [arbor](https://github.com/ArborealAudio/arbor).
 
 [AFL]: https://github.com/google/AFL
