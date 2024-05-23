@@ -85,6 +85,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [CTAG Dynamic Range Compressor](https://github.com/p-hlp/CTAGDRC) | (C++, [JUCE]) | - A simple general-purpose compressor plugin.
 - [DelayArchitect](https://github.com/jpcima/DelayArchitect) | (C++, [JUCE]) | - A feature-rich delay designer plugin.
 - [Dragonfly Reverb](https://github.com/michaelwillis/dragonfly-reverb) | (C++, [DPF]) | - Algorithmic reverb based on [Freeverb].
+- [Fire](https://github.com/jerryuhoo/Fire) | (C++, [JUCE]) | - A multiband waveshaper with a great looking UI.
 - [Flutterbird](https://github.com/tesselode/flutterbird) | (C++, [WDL-OL]) | - Simple multi-lfo than modulates pitch and volume, creating a "fluttering" effect.
 - [Free Clip](https://gitlab.com/JHVenn/Free-Clip) | (C++, [JUCE]) | - A nice sounding waveshaper plugin.
 - [Frequalizer](https://github.com/ffAudio/Frequalizer) | (C++, [JUCE]) | - An equalizer plugin using JUCE's new dsp module.
