@@ -4,6 +4,7 @@ Machine learning has been gaining traction in the audio industry lately. I don't
 
 - [3Blue1Brown - Neural Networks](https://youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) - An excellent short series of YouTube videos explaining the basics of how machine learning actually works.
 - [audioFlux](https://github.com/libAudioFlux/audioFlux) -  A deep learning tool library for audio and music analysis.
+- [Deep Learning for Audio](https://github.com/markovka17/dla) - A course that teaches how to use deep learning for audio processing.
 - [nnAudio](https://github.com/KinWaiCheuk/nnAudio) - An audio processing toolbox using the PyTorch convolutional neural network backend.
 - [RTNeural](https://github.com/jatinchowdhury18/RTNeural) - A fast neural inferencing library in C++ made specifically for audio plugins. Used by the [Chowdhury DSP] suite of plugins.
 - [SmartCore](https://smartcorelib.org/) - An advanced and comprehensive machine learning library written in the Rust programming language.
