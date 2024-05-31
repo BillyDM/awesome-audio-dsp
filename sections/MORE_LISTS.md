@@ -15,3 +15,4 @@ Here I'll link curated lists of resources that others have made.
 - [SpotlightKid's Audio Software Development list](https://github.com/stars/SpotlightKid/lists/audio-software-development) - An actively updated list of tools and libraries for audio development.
 - [Useful Links for DSP and Audio Programming](https://rust.audio/articles/useful-resources/) from rust.audio
 - [Valhalla Blog](https://valhalladsp.com/blog/) - Valhalla DSP has an excellent blog linking many resources that helped them create their industry-leading reverbs.
+- [WolfSound Resources](https://thewolfsound.com/resources/) - Resources recommended by WolfSound for learning audio programming.
