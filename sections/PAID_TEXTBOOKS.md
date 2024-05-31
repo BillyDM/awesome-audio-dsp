@@ -6,6 +6,9 @@ A list of non-free textbooks on audio DSP.
   - Great introduction to the mathematics of DSP.
   - Focuses more on mathematics and does not have many example effects.
   - ISBN-10: 0486845834, ISBN-13: 978-0486845838
+- [Audio Effects: Theory, Implementation and Application](https://www.amazon.com/Audio-Effects-Theory-Implementation-Application/dp/1466560282) by Joshua D. Reiss and Andrew McPherson
+  - A comprehensive book describing how to make common audio effects.
+  - ISBN-10: 1466560282, ISBN-13: 978-1466560284
 - [Code Your Own Synth Plug-Ins With C++ and JUCE](https://www.theaudioprogrammer.com/synth-plugin-book) by Matthijs Hollemans
   - Step-by-step guide that teaches how to build a synthesizer plug-in.
   - This book is aimed at beginners and is light on the mathematics, with in-depth explanations of the algorithms used.
