@@ -30,5 +30,9 @@ A list of non-free textbooks on audio DSP.
   - Focuses more on general DSP rather than audio DSP.
   - Uses MATLAB for its code examples, but [GNU Octave] could probably be used as well.
   - ISBN-10: 0333963563, ISBN-13: 978-0333963562
+- [Discrete-Time Signal Processing](https://www.amazon.com/Discrete-Time-Signal-Processing-3rd-Prentice-Hall/dp/0131988425) by Alan Oppenheim and Ronald Schafer
+  - A comprehensive book covering all the essentials of DSP.
+  - Focuses more on general DSP rather than audio DSP.
+  - ISBN-10: 0131988425, ISBN-13: 978-0131988422 
 
 [GNU Octave]: https://www.gnu.org/software/octave/index
