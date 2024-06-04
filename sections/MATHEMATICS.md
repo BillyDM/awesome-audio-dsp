@@ -39,6 +39,7 @@ These prerequisites aren't strictly necessary, but they can help you understand 
 - [Desmos](https://www.desmos.com/calculator) - Free online graphing calculator.
 - [GNU Octave](https://www.gnu.org/software/octave/index) - An open-source alternative to MATLAB. There is also an [online version of GNU Octave](https://octave-online.net/) available.
   - [Signal package](https://octave.sourceforge.io/signal/index.html) - Signal processing tools for GNU Octave, including filtering, windowing and display functions.
+- [Jupyter](https://jupyter.org/) - A popular web-based environment for interactive scientific computing and data analysis, with support for a large number of programming languages.
 - [Russell](https://github.com/cpmech/russell) - A collection of tools that assist in the development of scientific computations (and by extension audio DSP). It includes numerical methods and solvers for differential equations, tools for statistical analysis, and other linear algebra tools. It is written in the Rust programming language.
 - [Symbolab](https://www.symbolab.com/) - Another helpful math partner.
 - [Wolfram Alpha](https://www.wolframalpha.com/) - A helpful math partner.
