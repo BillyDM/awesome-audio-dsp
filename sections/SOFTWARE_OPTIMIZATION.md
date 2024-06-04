@@ -58,6 +58,8 @@ Tips and tools for optimizing audio software.
 - [Real-time audio programming 101](http://www.rossbencina.com/code/real-time-audio-programming-101-time-waits-for-nothing) - Tips on writing real-time code.
 - [Software Optimization Resources](https://www.agner.org/optimize/) - A popular resource on optimizing for x86 based architectures.
 - [The Rust Performance Book](https://nnethercote.github.io/perf-book/title-page.html) - Tips on optimizing code in Rust.
+- [What every programmer should know about memory](https://lwn.net/Articles/250967/) - A great free online book describing how computer memory works and how to best optimize for it.
+  - A PDF version can be found [here](https://people.freebsd.org/~lstewart/articles/cpumemory.pdf).
 
 # Profiling Tools
 
