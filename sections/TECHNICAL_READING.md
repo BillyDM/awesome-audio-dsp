@@ -17,6 +17,7 @@ A list of useful articles, blogs, and scientific papers on modern algorithms and
 - [Jatin Chowdhury](https://jatinchowdhury18.medium.com/) - An active blog that explores cutting-edge DSP techniques.
 - [katjaas](http://www.katjaas.nl/home/home.html) - Neat visual explanations of DSP mathematics and techniques.
 - [Musicdsp.org](https://www.musicdsp.org/en/latest/index.html) - A collection of open source DSP algorithms by the community.
+- [Noise reduction in python using spectral gating](https://github.com/timsainb/noisereduce) - A [Jupyter Notebook](https://jupyter.org/) describing a high quality noise reduction algorithm.
 - [Reaktor 6 DSP Articles](https://www.native-instruments.com/en/products/komplete/synths/reaktor-6/dsp-articles/) - A collection of DSP articles by Native Instruments. It also includes examples of how to implement them in Reaktor 6.
 - [Reproducible Audio Research](https://github.com/faroit/reproducible-audio-research/)
 - [Signalsmith Audio Blog](https://signalsmith-audio.co.uk/writing/) - An amazing and very useful collection of articles by Signalsmith Audio. The [Let's Write A Reverb](https://signalsmith-audio.co.uk/writing/2021/lets-write-a-reverb/) article is particularly excellent.
