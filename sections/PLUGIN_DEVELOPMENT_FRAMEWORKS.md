@@ -86,6 +86,7 @@ Here is a list of compatible GUI libraries you can use for your audio plugins.
 * [Qt](https://www.qt.io/) - It's possible to use Qt for CLAP plugins (though I'm not sure about other plugin formats).
   * [Example Clap Plugins](https://github.com/free-audio/clap-plugins/tree/main) - The offical example CLAP plugins use Qt for their GUI.
 * [raygui](https://github.com/raysan5/raygui) - Another lightweight immediate mode GUI library written in pure C.
+* [rutabaga](https://github.com/wrl/rutabaga) - An experimental OpenGL widget toolkit written in C.
 * [robtk](https://github.com/x42/robtk) - A minimal layer for creating GUIs for LV2 plugins.
 * [Slint] - Robust and feature-packed declarative GUI library with bindings for Rust and C++. It's free to use for open source projects, but it requires a paid license to use for closed-source projects.
 * [Vizia] - A declarative GUI library for Rust. Comes with a [baseview] backend built-in.
