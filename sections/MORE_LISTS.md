@@ -9,6 +9,7 @@ Here I'll link curated lists of resources that others have made.
 - [Awesome Rust Audio](https://github.com/kfrncs/awesome-rust-audio) by kfrncs
 - [dsp-learning](https://github.com/crsaracco/dsp-learning) by crsaracco
 - [Freeverb3 - DSP References](https://freeverb3vst.osdn.jp/ref.shtml) - A list of technical DSP resources focused mainly on reverb design.
+- [HyMPS](https://github.com/forart/HyMPS) - A large list of open source software and libraries for audio/video content production.
 - [More Awesome Music DSP](https://github.com/olilarkin/awesome-musicdsp) - Another big list of audio DSP and plugin development resources.
 - [OpenAudio](https://github.com/webprofusion/OpenAudio) - A list of open source audio plugins, apps, and other projects.
 - [SpotlightKid's Audio & MIDI Applications list](https://github.com/stars/SpotlightKid/lists/audio-midi-applications) - A large, actively updated list of open source audio plugins and apps.
