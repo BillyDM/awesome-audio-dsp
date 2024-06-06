@@ -152,7 +152,7 @@ A list of open source audio software that you can inspect and learn from, along 
 # More Lists
 
 - [Awesome Linux Clap List](https://github.com/RustoMCSpit/awesome-linux-clap-list) - A list of FOSS clap plugins that work for Linux
-- [HyMPS](https://github.com/forart/HyMPS) - A large list of open source software and libraries for audio/video content production.
+- [HyMPS](https://www.forart.it/HyMPS) - A large list of open source software and libraries for audio/video content production.
 - [OpenAudio](https://github.com/webprofusion/OpenAudio) - A large list of open source audio plugins, apps, and other projects.
 - [SpotlightKid's list](https://github.com/stars/SpotlightKid/lists/audio-midi-applications) - A large, actively updated list of open source audio plugins and apps.
 - [StudioRack](https://studiorack.github.io/studiorack-site/) - An app for browsing and downloading from a large catalogue of open source plugins and multisample instruments.
