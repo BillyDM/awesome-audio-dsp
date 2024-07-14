@@ -26,6 +26,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [DISTRHO-Ports](https://github.com/DISTRHO/DISTRHO-Ports) | (C++, [JUCE]) | - A whole bunch of plugins ported to work on Linux/LV2.
 - [Dplug] | (D, [Dplug]) | - Contains some example plugins using the framework.
 - [EQ10Q](http://eq10q.sourceforge.net/) | (C++, custom [GTK] framework) | - A suite of plugins containing a 10-band parametric equalizer, gate, compressor, bass enhancer, and mid-side encoders.
+- [FX-Mechanics Plugins](https://github.com/odoare?tab=repositories) | (C, C++, [JUCE]) | - A neat collection of plugins including a waveguide synthesizer and a binaural convolutional reverb.
 - [GuitarML](https://github.com/GuitarML) | (C++, [JUCE]) | - A collection of electric guitar effects that use neural network models to emulate real-world hardware.
 - [JoepVanlier's JSFX plugins](https://github.com/JoepVanlier/JSFX) | ([JSFX], [Lua]) | - A collection of cool plugins and scripts for Reaper. Some of the GUIs are really stunning.
 - [lkjb plugins](https://github.com/lkjbdsp/lkjb-plugins) | (C++, [JUCE]) | - Additional plugins made by the creator of [Luftikus].
