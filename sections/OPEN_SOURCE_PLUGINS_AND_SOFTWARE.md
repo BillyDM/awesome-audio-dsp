@@ -99,6 +99,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [Mverb](https://github.com/DISTRHO/MVerb) | (C++, [DPF]) | - Nice-sounding plate reverb.
 - [PeakEater](https://github.com/vvvar/PeakEater) | (C++, [JUCE]) | - A nice waveshaping plugin with a sleek UI.
 - [Reach](https://github.com/Sinuslabs/Reach) | (C++, [Faust], [JUCE]) | - Extraterrestrial reverb with a unique sound. It is also sold as a commercial product.
+- [Reverse Camel](https://github.com/soerenbnoergaard/reverse-camel) | (C++, [DPF]) | - A black-box reverse engineered version of the famous Camel Crusher plugin. It also contains a Jupyter notebook explaining how it works.
 - [Room Reverb](https://github.com/cvde/RoomReverb) | (C++, [JUCE]) | - Nice sounding algorithmic reverb based on [Freeverb].
 - [Squeezer](https://github.com/mzuther/Squeezer) | (C++, [JUCE]) | - Flexible general-purpose audio compressor with a "touch of citrus".
 - [TimeStretch](https://github.com/spluta/TimeStretch) | ([Rust], [SuperCollider], Python, gui-less) | - A refinement of the famous [PaulStretch](http://hypermammut.sourceforge.net/paulstretch) time stretching effect. Includes a PDF explaining the DSP.
