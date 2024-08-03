@@ -64,7 +64,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [OB-Xd](https://github.com/reales/OB-Xd) | (C++, [JUCE]) | - A high quality subtractive analog synth modeled after the Oberheim OB-X.
 - [OctaSine](https://github.com/greatest-ape/OctaSine) | ([Rust], [Iced], raw plugins APIs) | - A versatile FM synth written in full-stack Rust.
 - [Odin 2](https://github.com/TheWaveWarden/odin2) | (C++, [JUCE]) | - Modern analogue-modeled hybrid synthesizer.
-- [OpenB3](https://github.com/michele-perrone/OpenB3) | (C++, [JUCE] | - A nice sounding tonewheel organ and rotary speaker emulator.
+- [OpenB3](https://github.com/michele-perrone/OpenB3) | (C++, [JUCE]) | - A nice sounding tonewheel organ and rotary speaker emulator. The younger sibling to [setBfree](https://github.com/pantherb/setBfree).
 - [OS-251](https://github.com/utokusa/OS-251) | (C++, [JUCE]) | - A nice sounding lo-fi synthesizer.
 - [sfizz](https://github.com/sfztools/sfizz-ui) | (C++, [Faust], [VSTGUI]) | - A sampler that plays [SFZ](https://sfzformat.com/) files. (SFZ is like SoundFonts but with more features).
 - [Spiro](https://github.com/p-o-l-e/spiro.git) | (C++, [JUCE]) | - A semi-modular synthesizer with a beautiful interface.
