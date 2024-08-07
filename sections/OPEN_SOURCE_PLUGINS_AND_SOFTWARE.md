@@ -120,6 +120,7 @@ A list of open source audio software that you can inspect and learn from, along 
 
 ## Meters & Visualizers
 
+- [cqt-analyzer](https://github.com/jmerkt/cqt-analyzer) | (C++, [JUCE]) | - A spectral analyzer that offers logarithmic equally spaced resolution across all octaves.
 - [EasySSP](https://github.com/automatl/audio-dsp-multi-visualize/) | (C++, [JUCE]) | - Real-time spectrum analyzer and stereo analyzer plugin.
 - [K-Meter](https://github.com/mzuther/K-Meter) | (C++, [JUCE]) | - A feature-rich loudness meter.
 - [LUFS Meter](https://github.com/klangfreund/LUFSMeter) | (C++, [JUCE]) | - Real-time loudness meter with support for several international loudness standards.
