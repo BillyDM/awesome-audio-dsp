@@ -139,6 +139,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [Cardinal] - An open source modular synthesizer plugin that can host [VCV Rack] plugins.
 - [Carla](https://kx.studio/Applications:Carla) - Cross platform plugin host with support for many plugin formats.
 - [Hydrogen](https://github.com/hydrogen-music/hydrogen) - An advanced drum sequencer for Linux, MacOS, and Windows.
+- [Jackdaw](https://github.com/chvolow24/jackdaw) - A stripped-down, keyboard-focused digital audio workstation.
 - [LMMS](https://github.com/LMMS/lmms) - Feature-rich DAW focused on electronic music production. Contains many built-in synths and effects.
 - [Mixxx](https://github.com/mixxxdj/mixxx) - Popular cross-platform application for performing live DJ mixes.
 - [pxtone collab](https://github.com/yuxshao/ptcollab) - A music editor with collaborative editing features.
