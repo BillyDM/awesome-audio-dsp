@@ -8,6 +8,7 @@ A list of open source audio software that you can inspect and learn from, along 
 
 (Note, I'm avoiding listing individual plugins in the `Synths`/`Audio FX`/`MIDI FX`/`Meters & Visualizers` sections if they appear in one of these collections. A few exceptions are made for plugins that are particuarly notable.)
 
+- [AnClark's Plugin Ports](https://github.com/AnClark) | (C++, [DPF]) | - A collection of various synths and plugins ported to [DPF].
 - [Airwindows Plugins](https://github.com/airwindows/airwindows/tree/master/plugins) | (C++, gui-less, raw plugin APIs) | - Lots of good quality effects and experiments developed over many years.
   - There are a *ton* of plugins here, so here is a list of some community favorites:
     - [density](https://github.com/airwindows/airwindows/tree/master/plugins/LinuxVST/src/Density)
@@ -47,6 +48,7 @@ A list of open source audio software that you can inspect and learn from, along 
 ## Synths
 
 - [ADLplug](https://github.com/jpcima/ADLplug) | (C++, [JUCE]) | - Emulation of FM-synthesizers found in some classic game consoles.
+- [Audible Planets](https://github.com/gregrecco67/AudiblePlanets) - | (C++, [JUCE]) | - An expressive, quasi-Ptolemaic semi-modular synthesizer.
 - [Bespoke Synth] | (C++, [JUCE]) | - A very modular synthesizer with support for complex routing, modulation, and sequencing. It can even host VST plugins, blurring the lines between synth and DAW.
 - [Cardinal] | (C++, [DPF]) | - An open source modular synthesizer plugin that can host [VCV Rack] plugins.
 - [Dexed](https://github.com/asb2m10/dexed) | (C++, [JUCE]) | - Synthesizer closely modelled after the Yamaha DX7.
@@ -93,6 +95,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [Free Clip](https://gitlab.com/JHVenn/Free-Clip) | (C++, [JUCE]) | - A nice sounding waveshaper plugin.
 - [Frequalizer](https://github.com/ffAudio/Frequalizer) | (C++, [JUCE]) | - An equalizer plugin using JUCE's new dsp module.
 - [Fogpad](https://github.com/linuxmao-org/fogpad-port) | (C++, [DPF]) | - Reverb plugin where reflections can be frozen, filtered, pitch-shifted, and mangled.
+- [Glorious](https://github.com/TitanChariotsBB/Glorious) | (C++, [JUCE]) | - A chorus plugin modeled after the famous chorus circuit from the Roland Juno series of synths.
 - [lamb](https://github.com/magnetophon/lamb-rs) | ([Faust], [Rust], [nih-plug], [Vizia]) | - A clean lookahead compressor/limiter.
 - [Luftikus] | (C++, [JUCE]) | - Analogue modeled equalizer.
 - [MAIM](https://github.com/ArdenButterfield/Maim) | (C++, [JUCE]) | - A unique distortion effect which "circuit bends an MP3 encoder in real time".
@@ -103,8 +106,10 @@ A list of open source audio software that you can inspect and learn from, along 
 - [Reach](https://github.com/Sinuslabs/Reach) | (C++, [Faust], [JUCE]) | - Extraterrestrial reverb with a unique sound. It is also sold as a commercial product.
 - [Reverse Camel](https://github.com/soerenbnoergaard/reverse-camel) | (C++, [DPF]) | - A black-box reverse engineered version of the famous Camel Crusher plugin. It also contains a Jupyter notebook explaining how it works.
 - [Room Reverb](https://github.com/cvde/RoomReverb) | (C++, [JUCE]) | - Nice sounding algorithmic reverb based on [Freeverb].
+- [sand_stretch](https://github.com/s4n7r0/sand_stretch) | (C++, [JUCE]) | - A remake of the dblue Stretch plugin.
 - [Squeezer](https://github.com/mzuther/Squeezer) | (C++, [JUCE]) | - Flexible general-purpose audio compressor with a "touch of citrus".
 - [TimeStretch](https://github.com/spluta/TimeStretch) | ([Rust], [SuperCollider], Python, gui-less) | - A refinement of the famous [PaulStretch](http://hypermammut.sourceforge.net/paulstretch) time stretching effect. Includes a PDF explaining the DSP.
+- [Utility Clone](https://github.com/m1m0zzz/utility-clone) | (C++, [JUCE]) | - A remake of the Utility plugin in Ableton.
 - [utilities](https://github.com/butchwarns/utilities) | (C++, [JUCE]) | - A plugin that contains a bunch of simple but useful utilities.
 - [Valentine](https://github.com/tote-bag-labs/valentine) | (C++, [JUCE]) | - A nice compressor/saturator that is meant to "pump and breath".
 - [VitaliumVerb](https://github.com/BillyDM/vitalium-verb) | [Rust], [nih-plug], gui-less | - A Rust port of the reverb module from the [Vital]/[Vitalium] synthesizer, with some added improvements and optimizations.
