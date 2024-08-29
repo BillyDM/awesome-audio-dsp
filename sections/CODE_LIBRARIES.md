@@ -27,6 +27,7 @@ A list of ready-made libraries for DSP. These can be a great resource for learni
 - [Q](https://github.com/cycfi/q) - A DSP library that leverages features of modern C++.
 - [signalo](https://github.com/signalo/signalo) - A Rust DSP toolbox with focus on embedded environments.
 - [SOUL-VA](https://github.com/thezhe/SOUL-VA) - A collection of virtual analog audio effects for the [SOUL](https://github.com/soul-lang/SOUL) programming language.
+- [Soundpipe](https://github.com/shybyte/soundpipe) - A lightweight music DSP library written in C.
 - [SST Filters](https://github.com/surge-synthesizer/sst-filters), [SST Waveshapers](https://github.com/surge-synthesizer/sst-waveshapers), [SST Oscillators](https://github.com/surge-synthesizer/sst-oscillators-mit), [SST Effects](https://github.com/surge-synthesizer/sst-effects), [SST Basic Blocks](https://github.com/surge-synthesizer/sst-basic-blocks) - Various DSP algorithms used by the [Surge Synthesizer Team](https://surge-synth-team.org/)
 - [synfx-dsp](https://github.com/WeirdConstructor/synfx-dsp) - A comprehensive DSP library in Rust, used by the [HexoSynth] synthesizer plugin.
 - [valib](https://github.com/SolarLiner/valib) - A Rust library of reusable blocks for musical DSP.
