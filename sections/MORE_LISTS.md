@@ -2,6 +2,7 @@
 
 Here I'll link curated lists of resources that others have made.
 
+- [Audio Effects Research](https://github.com/mcomunita/AFX-Research) - A collection of scientific literature about audio effects.
 - [Awesome Electronics](https://github.com/kitspace/awesome-electronics) - An excellent and detailed list of resources for electronics engineering, focused on low-power DC circuits.
 - [Awesome JUCE](https://github.com/sudara/awesome-juce) - An awesome list for the JUCE framework.
 - [Awesome Music Production](https://github.com/ad-si/awesome-music-production) - A curated list of software and resources for music production.
