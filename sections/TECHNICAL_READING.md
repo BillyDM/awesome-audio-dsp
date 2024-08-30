@@ -5,6 +5,7 @@ A list of useful articles, blogs, and scientific papers on modern algorithms and
 - [ADC Videos](https://www.youtube.com/c/JUCElibrary/featured) - This YouTube channel hosts a bunch of talks and lectures given during the annual [Audio Developer's Conference](https://audio.dev/).
   - This one on [high quality wavetable oscillators](https://www.youtube.com/watch?v=qlinVx60778) by the creator of the Vital synth is particularly good one for those interested in wavetable synthesis.
 - [AES](https://aes2.org/) - A large collection of high quality research and technical papers. Requires a paid membership to access.
+- [Audio Effects Research](https://github.com/mcomunita/AFX-Research) - A collection of scientific literature about audio effects.
 - [CCRMA Publications](https://ccrma.stanford.edu/papers) - A large collection of published research, hosted by Standford University.
   - The Effect Design papers by Jon Dattorro are particuarly good. [Part 1](https://ccrma.stanford.edu/~dattorro/EffectDesignPart1.pdf), [Part 2](https://ccrma.stanford.edu/~dattorro/EffectDesignPart2.pdf), [Part 3](https://ccrma.stanford.edu/~dattorro/EffectDesignPart3.pdf)
 - [Cytomic Technical Papers](https://cytomic.com/technical-papers/) - Excellent filter designs, equations, and explanations by Cytomic. Use these as a better alternative to biquad filters that both sound better and perform better when being modulated.
