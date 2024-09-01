@@ -25,6 +25,7 @@ A list of ready-made libraries for DSP. These can be a great resource for learni
 - [mi-plaits-dsp](https://github.com/sourcebox/mi-plaits-dsp-rs.git) - Native Rust port of the DSP code used by the [Mutable Instruments Plaits](https://pichenettes.github.io/mutable-instruments-documentation/modules/plaits/) Eurorack module.
 - [Moog Ladder Filters](https://github.com/ddiakopoulos/MoogLadders) - Contains different digital implementations of the classic 4-pole, 24 dB/octave analog filter.
 - [Q](https://github.com/cycfi/q) - A DSP library that leverages features of modern C++.
+- [Signalsmith's IIR Hilbert](https://github.com/Signalsmith-Audio/hilbert-iir)- A high quality, public domain filter in a single-header C++ file.
 - [signalo](https://github.com/signalo/signalo) - A Rust DSP toolbox with focus on embedded environments.
 - [SOUL-VA](https://github.com/thezhe/SOUL-VA) - A collection of virtual analog audio effects for the [SOUL](https://github.com/soul-lang/SOUL) programming language.
 - [Soundpipe](https://github.com/shybyte/soundpipe) - A lightweight music DSP library written in C.
