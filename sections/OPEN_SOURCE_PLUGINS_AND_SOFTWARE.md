@@ -29,6 +29,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [EQ10Q](http://eq10q.sourceforge.net/) | (C++, custom [GTK] framework) | - A suite of plugins containing a 10-band parametric equalizer, gate, compressor, bass enhancer, and mid-side encoders.
 - [FX-Mechanics Plugins](https://github.com/odoare?tab=repositories) | (C, C++, [JUCE]) | - A neat collection of plugins including a waveguide synthesizer and a binaural convolutional reverb.
 - [GuitarML](https://github.com/GuitarML) | (C++, [JUCE]) | - A collection of electric guitar effects that use neural network models to emulate real-world hardware.
+- [Igorski's Plugins](https://github.com/igorski?tab=repositories) | (C++, [JUCE]) | - Contains some neat synths and effects.
 - [JoepVanlier's JSFX plugins](https://github.com/JoepVanlier/JSFX) | ([JSFX], [Lua]) | - A collection of cool plugins and scripts for Reaper. Some of the GUIs are really stunning.
 - [lkjb plugins](https://github.com/lkjbdsp/lkjb-plugins) | (C++, [JUCE]) | - Additional plugins made by the creator of [Luftikus].
 - [LSP Plugins](https://github.com/lsp-plugins) | (C++, custom GUI framework) | - A collection of good quality mixing/mastering effects for Linux.
@@ -58,6 +59,7 @@ A list of open source audio software that you can inspect and learn from, along 
   - It is the bigger brother to the discontinued [InfernalSynth](https://github.com/sjoerdvankreel/infernal-synth) plugin.
 - [Geonkick](https://github.com/Geonkick-Synthesizer/geonkick) | (C++, C, custom GUI framework) | - Advanced drum synthesizer.
 - [gRainbow](https://github.com/StrangeLoopsAudio/gRainbow) | (C++, [JUCE]) | - A synthesizer that uses pitch detection to choose candidates for granular synthesis or sampling.
+- [Havregryn](https://github.com/vsandstrom/Havregryn) | (Rust, [nih-plug], [Vizia]) | - A granular delay and texture synthesizer.
 - [Helm](https://github.com/mtytel/helm) | (C++, [JUCE]) | - High-quality modern monophonic synthesizer. The older sibling to Vital. The oscillators are not stereo though.
 - [jc303](https://github.com/midilab/jc303) | (C++, [JUCE]) | - A nice Roland TB-303 clone.
 - [Mika Micro](https://github.com/tesselode/mika-micro) | (C++, [WDL-OL]) | - A nice and simple synthesizer with a clean design.
