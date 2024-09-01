@@ -2,14 +2,6 @@
 
 A list of software stacks/frameworks used to make audio plugins with/without GUIs, along with their pros and cons.
 
-## [CPLUG](https://github.com/Tremus/CPLUG)
-  - A simple wrapper for the VST3, Audio Unit v2 & [CLAP] plugin formats.
-  - Uses a simple C API that makes it easy to provide bindings to other languages.
-  - Only provides the plumbing and doesn't provide a GUI out of the box. You can add your own GUI layer of choice on top. (See the `Bring Your Own OpenGL Context` section below.)
-  - Fully open-source using a permissive license (including a public domain license).
-  - Very new and experimental. It is missing a few features at the time of this writing.
-  - Targets Mac and Windows. It does not currently target Linux, but it is (maybe) on the roadmap.
-
 ## [DISTRHO Plugin Framework](https://github.com/DISTRHO/DPF)
   - Full-stack framework with GUI in C++.
   - Fully open-source using a permissive license.
@@ -54,7 +46,36 @@ A list of software stacks/frameworks used to make audio plugins with/without GUI
   - It's still somewhat experimental and is missing some more specialized features, but it's usable.
   - There is now a [cookiecutter template](https://github.com/robbert-vdh/nih-plug-template) to help get you started faster.
 
-> If you're interested in Rust, [Coupler](https://github.com/coupler-rs/coupler) is an interesting new framework to look out for.
+# New Experimental Frameworks
+
+There have been a few shiny new plugin development frameworks popping up over the past few years. While these are still experimental and may not have the same level of features and support of the established ones, give them a try if you're interested in shiny new things!
+
+## [Arbor](https://github.com/ArborealAudio/arbor)
+  - A "dead-simple" plugin development framework written in the [Zig](https://ziglang.org/) programming language. It also provides a simple C API that makes it easy to provide bindings to other languages.
+  - Fully open-source using a permissive license.
+  - Currently a work in progress.
+
+## [Coupler](https://github.com/coupler-rs/coupler)
+  - An opinionated framework for writing audio plugins in Rust.
+  - Fully open-source using a permissive license.
+  - Targets [CLAP] and VST3. Audio Unit and AAX support are on the roadmap.
+  - Targets Mac, Windows, and Linux.
+  - Still early in development and not production-ready yet.
+
+## [CPLUG](https://github.com/Tremus/CPLUG)
+  - A simple wrapper for the VST3, Audio Unit v2 & [CLAP] plugin formats.
+  - Uses a simple C API that makes it easy to provide bindings to other languages.
+  - Only provides the plumbing and doesn't provide a GUI out of the box. You can add your own GUI layer of choice on top. (See the `Bring Your Own OpenGL Context` section below.)
+  - Fully open-source using a permissive license (including a public domain license).
+  - Very new and experimental. It is missing a few features at the time of this writing.
+  - Targets Mac and Windows. It does not currently target Linux, but it is (maybe) on the roadmap.
+
+## [Mostly Harmless](https://github.com/SLM-Audio/mostly-harmless)
+  - A minimal audio plugin framework for C++20.
+  - Fully open-source using a permissive license.
+  - Allows the user to choose their own GUI framework, and includes official support for using [choc](https://github.com/Tracktion/choc)'s WebView to create GUIs.
+  - Targets [CLAP], VST3, Audio Unit, and standalone.
+  - Targets Mac and Windows. It does not currently support Linux, but it is on the roadmap.
 
 # The DIY Route
 
