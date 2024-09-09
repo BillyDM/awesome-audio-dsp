@@ -75,6 +75,7 @@ When you want to get serious with audio DSP & audio plugin development, nothing 
   - [How to learn modern Rust](https://github.com/joaocarvalhoopen/How_to_learn_modern_Rust) - An extensive list of resources for learning Rust.
   - [How-to Optimize Rust Programs on Linux](http://www.codeofview.com/fix-rs/2017/01/24/how-to-optimize-rust-programs-on-linux/) - How-to guide on profiling Rust code on Linux.
   - [Learn Rust the Dangerous Way](http://cliffle.com/p/dangerust/) - An article exploring the benefits of Rust for readers with a C background. I really love this article.
+  - [Lib.rs](https://lib.rs/) - An unofficial, lightweight, opinionated, and curated alternative to crates.io.
   - [Minimizing Rust Binary Size](https://github.com/johnthagen/min-sized-rust) - Tips on how to reduce the size of Rust binaries. This is a very minor optimization, but it can sometimes be useful for shipping release versions of plugins.
     - Note, don't set `opt-level` to "s" or "z" because that will likely make performance much worse (except for maybe when running on an embedded system with little memory).
   - [Rust Audio Discord Server] - A Discord server for Rust audio programmers.
