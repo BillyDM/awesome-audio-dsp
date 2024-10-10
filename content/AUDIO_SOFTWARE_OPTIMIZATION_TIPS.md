@@ -28,11 +28,14 @@ If performance is a key feature of your product, treat it like one. Set up tests
 OS operations don't have a predictable amount of execution time, meaning the OS can delay the operation for as long as it wants, leading to latency problems and xruns. In other words, these operations are not "realtime safe". These operations include:
 
 - Mutexes, locks, and try-locks
-  - Instead, use lock-free methods for sharing data between threads such as atomics or by using realtime-safe ring buffers like [SPSCQueue](https://github.com/rigtorp/SPSCQueue) in C++ or [rtrb](https://github.com/mgeier/rtrb) in Rust.
+  - Instead, use lock-free methods for sharing data between threads. There are three commonly used methods:
+    - Atomics - A single float/integer parameter value can be stored inside of an atomic value. For more information, see these articles: [(C++)](https://www.geeksforgeeks.org/cpp-11-atomic-header/), [(Rust)](https://doc.rust-lang.org/std/sync/atomic/).
+    - A lock-free single-producer single-consumer (spsc) ring buffer - Some recommendations are [SPSCQueue](https://github.com/rigtorp/SPSCQueue) in C++, and [rtrb](https://github.com/mgeier/rtrb) or [ringbuf](https://crates.io/crates/ringbuf) in Rust. In Rust there is also the [atomic_float](https://crates.io/crates/atomic_float) crate which adds floating-point atomic types.
+    - A lock-free triple buffer - This is useful if you want to stream audio data between threads in a way that is tolerant to lag spikes and underruns. Some recommendations are [trio](https://github.com/brilliantsugar/trio) in C++ and [triple_buffer](https://crates.io/crates/triple_buffer) in Rust.
 - Allocating and deallocating memory on the heap (i.e. `malloc` and `free` in C)
-  - This also means avoid using data structures that use these operations under-the-hood such as `std::vector` in C++ and `std::Vec` in Rust. If you can, use constant-sized buffers that are allocated on the stack (i.e. arrays in C++ and Rust).
-  - If you need these dynamically-sized data structures in the realtime thread, make sure they are pre-allocated with sufficient size during plugin initialization, and then freed when the plugin is dropped. While processing, don't use any methods on the vector that change its allocated capacity.
-  - You can also allocate buffers on the GUI/main thread and then send a pointer to that buffer to the realtime thread via a realtime-safe message channel. Just make sure that the buffer is also freed on the GUI/main thread and not on the realtime thread.
+  - This also means avoid using data structures that use these operations under-the-hood such as `std::vector` in C++ and `std::Vec` in Rust. If you can, prefer to use constant-sized buffers that are allocated on the stack (i.e. arrays in C++ and Rust).
+  - It is also common practice to pre-allocate all heap-allocated data at plugin initialization with a sufficient enough capacity to where it won't cause any allocations during processing. Most plugin APIs send a "maximum block frames" argument to the plugin's intiliazer to let it know the maximum number of frames it should allocate for.
+  - You can also allocate buffers on the GUI/main thread and then send a pointer to that buffer to the realtime thread (i.e. buffers containing audio samples for a sampler plugin). Just make sure that when the audio thread is done using the buffer that it sends it back to the GUI/main thread to be deallocated.
 - Reading/writing a file
   - If you need to stream data (for example a plugin that records to a file), then run that stream in a separate thread and pass data to/from the realtime thread via a realtime-safe ring buffer.
 - Printing to the terminal
