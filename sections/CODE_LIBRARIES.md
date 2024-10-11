@@ -33,6 +33,18 @@ A list of ready-made libraries for DSP. These can be a great resource for learni
 - [synfx-dsp](https://github.com/WeirdConstructor/synfx-dsp) - A comprehensive DSP library in Rust, used by the [HexoSynth] synthesizer plugin.
 - [valib](https://github.com/SolarLiner/valib) - A Rust library of reusable blocks for musical DSP.
 
+# Realtime-safe Thread Synchronization
+
+- [atomic_float](https://crates.io/crates/atomic_float) (Rust) - A crate that adds floating-point atomic types.
+- [ConcurrentQueue](https://github.com/cameron314/concurrentqueue) (C++) - A lock-free MPMC queue.
+- [crossbeam-queue::ArrayQueue](https://crates.io/crates/crossbeam-queue) (Rust) - A lock-free MPMC queue.
+- [ReaderWriterQueue](https://github.com/cameron314/readerwriterqueue) (C++) - A lock-free SPSC queue.
+- [ringbuf](https://crates.io/crates/ringbuf) (Rust) - A lock-free SPSC queue.
+- [rtrb](https://crates.io/crates/rtrb) (Rust) - A lock-free SPSC queue.
+- [SPSCQueue](https://github.com/rigtorp/SPSCQueue) (C++) - A lock-free SPSC queue.
+
+> SPSC queues are faster than MPMC queues, so prefer to use them if your algorithm doesn't need multiple producers or consumers.
+
 # Cross-platform System Audio I/O
 
 - [CPAL](https://crates.io/crates/cpal)
