@@ -17,6 +17,7 @@ A list of open source audio software that you can inspect and learn from, along 
     - [totape5](https://github.com/airwindows/airwindows/tree/master/plugins/LinuxVST/src/ToTape5)
   - [airwin2rack](https://github.com/baconpaul/airwin2rack) | (C++, [JUCE], [VCV Rack]) | - All of the Airwindows plugins consolidated into a single plugin with GUI. Can also be used as a static libray for inclusion into other projects.
 - [ardura's plugins](https://github.com/ardura) | ([Rust], [nih-plug], [egui]) | - A collection of neat synths and effects with nice-looking GUIs. Written in Rust, nih-plug, and egui.
+- [Black Box Audio plugins](https://github.com/blackboxaudio) | (C++, [Rust], [JUCE]) | - Contains some neat plugins from this new audio company including a phase distortion synthesizer and a fancy ring modulation effect.
 - [brummer10's plugins](https://github.com/brummer10?tab=repositories) | (C++, [libxputty], raw plugin APIs, [JUCE]) | - A large collection of mostly guitar-focused effects. [guitarix](https://github.com/brummer10/guitarix) is one of the more popular ones.
 - [Calf Studio gear](https://github.com/calf-studio-gear/calf) | (C++, custom [GTK] framework) | - A large collection of plugins aimed at a professional audience.
 - [Chowdhury DSP](https://github.com/Chowdhury-DSP) | (C++, [JUCE]) | - A collection of high quality effect plugins (as well as a kick drum synthesizer). A lot of these plugins make use of use of cutting-edge neural network inferencing.
