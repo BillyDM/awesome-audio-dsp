@@ -42,6 +42,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [sjaehn](https://github.com/sjaehn?tab=repositories) | (C++, [Pugl]) | - Several cool MIDI based slicing/glitching effects and synthesizers.
 - [SocaLabs Plugins](https://github.com/FigBug/SocaLabs) | (C++, [JUCE]) | - A collection of plugins made by SocaLabs.
 - [SOUL-VA](https://github.com/thezhe/SOUL-VA) | ([SOUL]) | - A non-trivial virtual analog filter library written in [SOUL](https://github.com/soul-lang/SOUL). Plugin versions are also sold as commercial products.
+- [SpotlightKid's plugins](https://github.com/SpotlightKid) | (C++, [Faust], [DPF]) | - Contains some great plugins like reverbs and a high quality chorus effect.
 - [VCV Library database](https://github.com/VCVRack/library) - An official database of [VCV Rack] plugins, containing both commercial and open source plugins.
 - [x42-plugins](https://github.com/x42/x42-plugins) | (C, [robtk], [Pugl]) | - A collection of good quality effects and visualizers. Some plugins are also sold as a commercial product.
 - [zam-plugins](https://github.com/zamaudio/zam-plugins) | (C++, [DPF]) | - A suite of good quality mixing/mastering plugins.
