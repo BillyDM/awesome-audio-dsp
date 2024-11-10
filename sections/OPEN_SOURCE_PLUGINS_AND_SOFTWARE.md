@@ -29,11 +29,13 @@ A list of open source audio software that you can inspect and learn from, along 
 - [Dplug] | (D, [Dplug]) | - Contains some example plugins using the framework.
 - [EQ10Q](http://eq10q.sourceforge.net/) | (C++, custom [GTK] framework) | - A suite of plugins containing a 10-band parametric equalizer, gate, compressor, bass enhancer, and mid-side encoders.
 - [FX-Mechanics Plugins](https://github.com/odoare?tab=repositories) | (C, C++, [JUCE]) | - A neat collection of plugins including a waveguide synthesizer and a binaural convolutional reverb.
+- [Glafo's plugins](https://github.com/glafiro) | (C++, [JUCE]) | - A collection of good quality plugins with fancy UIs.
 - [GuitarML](https://github.com/GuitarML) | (C++, [JUCE]) | - A collection of electric guitar effects that use neural network models to emulate real-world hardware.
 - [Igorski's Plugins](https://github.com/igorski?tab=repositories) | (C++, [JUCE]) | - Contains some neat synths and effects.
 - [JoepVanlier's JSFX plugins](https://github.com/JoepVanlier/JSFX) | ([JSFX], [Lua]) | - A collection of cool plugins and scripts for Reaper. Some of the GUIs are really stunning.
 - [lkjb plugins](https://github.com/lkjbdsp/lkjb-plugins) | (C++, [JUCE]) | - Additional plugins made by the creator of [Luftikus].
 - [LSP Plugins](https://github.com/lsp-plugins) | (C++, custom GUI framework) | - A collection of good quality mixing/mastering effects for Linux.
+- [Madadog's plugins](https://github.com/Madadog) | ([Rust], [nih-plug], [Iced]) | - Contains some synthesizer plugins written in [Rust].
 - [Maeror's VST3 plugins](https://github.com/Maerorr/maerors-vst3-plugins) | ([Rust], [nih-plug], [Vizia]) | - A collection of simple effects written in Rust, nih-plug, and Vizia.
 - [Mrugalla Plugins](https://github.com/Mrugalla) | (C++, [JUCE]) | - A collection of modern and unique plugins by Florian Mrugalla.
 - [Mutable Instruments' Eurorack Modules](https://github.com/pichenettes/eurorack/tree/master) | (C++, custom embedded framework) | - The source code for a large collection of popular, high quality [Eurorack] modules.
@@ -89,11 +91,13 @@ A list of open source audio software that you can inspect and learn from, along 
 - [AIDA-X](https://github.com/AidaDSP/AIDA-X) | (C++, [DPF]) | - An amp model player that can load AI-trained models of music gear.
 - [BinAural](https://github.com/twoz/binaural-vst) | (C++, [JUCE]) | - A mono-to-stereo plugin that positions sound in a 3D space using Head-Related Transfer Functions.
 - [Caverb](https://github.com/toasty-ghost/ASE_KM_Caverb) | (C++, [VSTGUI]) | - An algorithmic room reverb plugin with a sleek GUI. It also contains technical information on how the DSP works.
+- [CHOMP](https://github.com/yaboypax/PaxMBClip) | (C++, [JUCE]) | - A high quality multiband clipper plugin.
 - [CloudReverb](https://github.com/xunil-cloud/CloudReverb) | (C++, [DPF]) | - Another reverb plugin based on the `CloudSeed` plugin by Valdemar Erlingsson. I choose this over the original as that uses a Windows-only C# platform for its GUI.
 - [Cocoa Delay](https://github.com/tesselode/cocoa-delay) | (C++, [WDL-OL]) | - A nice delay plugin with ducking, saturation, filtering, and pitching features.
 - [CTAG Dynamic Range Compressor](https://github.com/p-hlp/CTAGDRC) | (C++, [JUCE]) | - A simple general-purpose compressor plugin.
 - [DelayArchitect](https://github.com/jpcima/DelayArchitect) | (C++, [JUCE]) | - A feature-rich delay designer plugin.
 - [Dragonfly Reverb](https://github.com/michaelwillis/dragonfly-reverb) | (C++, [DPF]) | - Algorithmic reverb based on [Freeverb].
+- [Dust Saturator](https://github.com/Everither/dust-saturator) | ([Rust], [nih-plug], [Vizia]) | - A distortion plugin with a unique distortion algorithm.
 - [Fire](https://github.com/jerryuhoo/Fire) | (C++, [JUCE]) | - A multiband waveshaper with a great looking UI.
 - [Flutterbird](https://github.com/tesselode/flutterbird) | (C++, [WDL-OL]) | - Simple multi-lfo than modulates pitch and volume, creating a "fluttering" effect.
 - [Free Clip](https://gitlab.com/JHVenn/Free-Clip) | (C++, [JUCE]) | - A nice sounding waveshaper plugin.
@@ -101,6 +105,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [Fogpad](https://github.com/linuxmao-org/fogpad-port) | (C++, [DPF]) | - Reverb plugin where reflections can be frozen, filtered, pitch-shifted, and mangled.
 - [Glorious](https://github.com/TitanChariotsBB/Glorious) | (C++, [JUCE]) | - A chorus plugin modeled after the famous chorus circuit from the Roland Juno series of synths.
 - [lamb](https://github.com/magnetophon/lamb-rs) | ([Faust], [Rust], [nih-plug], [Vizia]) | - A clean lookahead compressor/limiter.
+- [Audio Sampler](https://github.com/arunas-cesonis/live-sampler) | ([Rust], [nih-plug], [Vizia]) | - A live audio sampler plugin written in [Rust].
 - [Luftikus] | (C++, [JUCE]) | - Analogue modeled equalizer.
 - [MAIM](https://github.com/ArdenButterfield/Maim) | (C++, [JUCE]) | - A unique distortion effect which "circuit bends an MP3 encoder in real time".
 - [Misstortion](https://github.com/nimbletools/misstortion1) | (C++, [JUCE]) | - Good quality hard/soft clipper.
@@ -114,6 +119,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [Space Chili](https://github.com/glafiro/space-chili) | (C++, [JUCE]) | - A delay and chorus plugin with a sleek interface.
 - [Squeezer](https://github.com/mzuther/Squeezer) | (C++, [JUCE]) | - Flexible general-purpose audio compressor with a "touch of citrus".
 - [TimeStretch](https://github.com/spluta/TimeStretch) | ([Rust], [SuperCollider], Python, gui-less) | - A refinement of the famous [PaulStretch](http://hypermammut.sourceforge.net/paulstretch) time stretching effect. Includes a PDF explaining the DSP.
+- [Transfer](https://github.com/MeijisIrlnd/Transfer) | (C++, [JUCE]) | - A waveshaper plugin which JIT-compiles any nonlinear function inputted by the user.
 - [Utility Clone](https://github.com/m1m0zzz/utility-clone) | (C++, [JUCE]) | - A remake of the Utility plugin in Ableton.
 - [utilities](https://github.com/butchwarns/utilities) | (C++, [JUCE]) | - A plugin that contains a bunch of simple but useful utilities.
 - [Valentine](https://github.com/tote-bag-labs/valentine) | (C++, [JUCE]) | - A nice compressor/saturator that is meant to "pump and breath".
@@ -152,6 +158,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [Furnace](https://github.com/tildearrow/furnace) - A modern, feature-rich chiptune tracker. 
 - [Hydrogen](https://github.com/hydrogen-music/hydrogen) - An advanced drum sequencer for Linux, MacOS, and Windows.
 - [Jackdaw](https://github.com/chvolow24/jackdaw) - A stripped-down, keyboard-focused digital audio workstation.
+- [LGML](https://github.com/OrganicOrchestra/LGML) - A flexible & nodal audio host for live performances.
 - [LMMS](https://github.com/LMMS/lmms) - Feature-rich DAW focused on electronic music production. Contains many built-in synths and effects.
 - [Mixxx](https://github.com/mixxxdj/mixxx) - Popular cross-platform application for performing live DJ mixes.
 - [pxtone collab](https://github.com/yuxshao/ptcollab) - A music editor with collaborative editing features.

@@ -9,4 +9,5 @@ Resources for developing audio stuff with analog hardware and embedded microcont
 - [MiniDexed](https://github.com/probonopd/MiniDexed) - A port of the [Dexed](https://github.com/asb2m10/dexed) synthesizer that can run on a bare-metal Raspberry Pi.
 - [signalo](https://github.com/signalo/signalo) - A Rust DSP toolbox with focus on embedded environments.
 - [sourcebox's repositories](https://github.com/sourcebox?tab=repositories) - Various repositories of tools and libraries for embedded audio applications, written in Rust.
+- [Stompbox](https://github.com/mikeoliphant/stompbox) - A guitar amplification and effects library for both desktop and embedded devices.
 - [The Embedded Rust Book](https://docs.rust-embedded.org/book/) - A free online book on using Rust on embedded hardware.
