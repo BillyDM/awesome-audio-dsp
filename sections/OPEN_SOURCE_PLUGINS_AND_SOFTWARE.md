@@ -123,7 +123,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [Utility Clone](https://github.com/m1m0zzz/utility-clone) | (C++, [JUCE]) | - A remake of the Utility plugin in Ableton.
 - [utilities](https://github.com/butchwarns/utilities) | (C++, [JUCE]) | - A plugin that contains a bunch of simple but useful utilities.
 - [Valentine](https://github.com/tote-bag-labs/valentine) | (C++, [JUCE]) | - A nice compressor/saturator that is meant to "pump and breath".
-- [VitaliumVerb](https://github.com/BillyDM/vitalium-verb) | [Rust], [nih-plug], gui-less | - A Rust port of the reverb module from the [Vital]/[Vitalium] synthesizer, with some added improvements and optimizations.
+- [VitaliumVerb](https://github.com/BillyDM/vitalium-verb) | ([Rust], [nih-plug], [Vizia]) | - A Rust port of the reverb module from the [Vital]/[Vitalium] synthesizer, with some added improvements and optimizations.
 - [Wolf Shaper](https://github.com/pdesaulniers/wolf-shaper) | (C++, [DPF]) | - Good quality waveshaper with support for unlimited nodes.
 
 ## MIDI FX
