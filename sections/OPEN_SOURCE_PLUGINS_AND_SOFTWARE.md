@@ -90,6 +90,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [Aether](https://github.com/Dougal-s/Aether) | (C++, [Pugl]) | - Beautiful shimmering reverb based on the `CloudSeed` plugin by Valdemar Erlingsson. I choose this over the original as that uses a Windows-only C# platform for its GUI.
 - [AIDA-X](https://github.com/AidaDSP/AIDA-X) | (C++, [DPF]) | - An amp model player that can load AI-trained models of music gear.
 - [BinAural](https://github.com/twoz/binaural-vst) | (C++, [JUCE]) | - A mono-to-stereo plugin that positions sound in a 3D space using Head-Related Transfer Functions.
+- [Castello Reverb](https://github.com/lucianoiam/castello) | (C++, [DPF], [dpfwebui]) | - A small reverb plugin with a webview-based UI.
 - [Caverb](https://github.com/toasty-ghost/ASE_KM_Caverb) | (C++, [VSTGUI]) | - An algorithmic room reverb plugin with a sleek GUI. It also contains technical information on how the DSP works.
 - [CHOMP](https://github.com/yaboypax/PaxMBClip) | (C++, [JUCE]) | - A high quality multiband clipper plugin.
 - [CloudReverb](https://github.com/xunil-cloud/CloudReverb) | (C++, [DPF]) | - Another reverb plugin based on the `CloudSeed` plugin by Valdemar Erlingsson. I choose this over the original as that uses a Windows-only C# platform for its GUI.
@@ -210,4 +211,5 @@ A list of open source audio software that you can inspect and learn from, along 
 [Freeverb]: https://ccrma.stanford.edu/~jos/pasp/Freeverb.html
 [Eurorack]: https://en.wikipedia.org/wiki/Eurorack
 [Vital]: https://github.com/mtytel/vital
+[dpfwebui]: https://github.com/lucianoiam/dpfwebui
 [Vitalium]: https://github.com/DISTRHO/DISTRHO-Ports/tree/master/ports-juce6.0/vitalium
