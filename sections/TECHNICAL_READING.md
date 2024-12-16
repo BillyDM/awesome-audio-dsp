@@ -15,6 +15,7 @@ A list of useful articles, blogs, and scientific papers on modern algorithms and
 - [DSP Jargon](https://github.com/sudara/dspjargon) - A dictionary of DSP-related jargon.
 - [Freeverb3 - DSP References](https://freeverb3vst.osdn.jp/ref.shtml) - A huge list of technical DSP resources focused mainly on reverb design.
 - [Freeverb](https://ccrma.stanford.edu/~jos/pasp/Freeverb.html) - An open-source reverb algorithm.
+- [Introduction to Oversampling for Alias Reduction](https://www.nickwritesablog.com/introduction-to-oversampling-for-alias-reduction/) - An awesome quick guide on how oversampling works.
 - [Jatin Chowdhury](https://jatinchowdhury18.medium.com/) - An active blog that explores cutting-edge DSP techniques.
 - [katjaas](http://www.katjaas.nl/home/home.html) - Neat visual explanations of DSP mathematics and techniques.
 - [Musicdsp.org](https://www.musicdsp.org/en/latest/index.html) - A collection of open source DSP algorithms by the community.
