@@ -74,10 +74,12 @@ A list of open source audio software that you can inspect and learn from, along 
 - [Odin 2](https://github.com/TheWaveWarden/odin2) | (C++, [JUCE]) | - Modern analogue-modeled hybrid synthesizer.
 - [OpenB3](https://github.com/michele-perrone/OpenB3) | (C++, [JUCE]) | - A nice sounding tonewheel organ and rotary speaker emulator. The younger sibling to [setBfree](https://github.com/pantherb/setBfree).
 - [OS-251](https://github.com/utokusa/OS-251) | (C++, [JUCE]) | - A nice sounding lo-fi synthesizer.
+- [Resonarium](https://github.com/gabrielsoule/resonarium) | (C++, [JUCE]) | - An MPE-compatible expressive physical modeling synthesizer. (Still in development at the time of this writing).
 - [sfizz](https://github.com/sfztools/sfizz-ui) | (C++, [Faust], [VSTGUI]) | - A sampler that plays [SFZ](https://sfzformat.com/) files. (SFZ is like SoundFonts but with more features).
 - [Spiro](https://github.com/p-o-l-e/spiro.git) | (C++, [JUCE]) | - A semi-modular synthesizer with a beautiful interface.
 - [Surge XT](https://github.com/surge-synthesizer/surge) | (C++, [JUCE]) | - Feature-rich hybrid synthesizer that was once sold as a proprietary product. (It has since evolved into its own thing with many new features added.)
 - [Synth2](https://github.com/klknn/kdr) | (D, [Dplug]) | - A recreation of the classic Synth1 virtual synth. (Still a work in progress).
+- [Terrain](https://github.com/aaronaanderson/Terrain) | (C++, [JUCE]) | - A unique wave terrain synthesizer plugin.
 - [Tunefish](https://github.com/paynebc/tunefish?tab=readme-ov-file) | (C++, [JUCE]) | - A neat little additive synthesizer.
 - [Vaporizer2](https://github.com/VASTDynamics/Vaporizer2) | (C++, [JUCE]) | - Feature-rich wavetable synthesizer that was once a proprietary product.
 - [Vital] | (C++, [JUCE]) | - An incredibly powerful and high quality modern synthesizer. Rivals the likes of Xfer Serum and NI Massive.
