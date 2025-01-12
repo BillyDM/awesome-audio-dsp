@@ -5,7 +5,8 @@ While this is not *strictly* development related, knowing how plugins are actual
 > Most of the artists listed below are obviously geared more towards electronic music and my tastes, but they still might be helpful even if you aren't into that genre.
 
 - [Au5](https://www.youtube.com/playlist?list=PLCP_w7OAVom-d5SMebEPdwrkiNNGCv53N) - A beast legend. Need I say more?
-- [AutoEq](https://github.com/jaakkopasanen/AutoEq) - Free and open source tool for applying EQ correction to a wide variety of headphones. Note that you shouldn't use the premade results since they target the Harman curve. Instead, use the online tool to generate a result that uses the "Flat" target (under "Show advanced" -> "Target").
+- [AutoEq](https://github.com/jaakkopasanen/AutoEq) - Free and open source tool for applying EQ correction to a wide variety of headphones. Note that you shouldn't use the premade results since they target the "Harman Curve". Instead, use the online tool to generate a result that uses the "Flat" target (under "Show advanced" -> "Target").
+  - I also found that the  [IEF Neutral](https://github.com/iwalton3/AutoEq) target sounds really good if the flat target sounds too lackluster for you.
   - There are also paid alternatives like [Sonarworks](https://www.sonarworks.com/) or [Toneboosters Morphit](https://toneboosters.com/tb_morphit_v1.html).
 - [Crow](https://www.youtube.com/c/CrowOfficial/videos) - Good tutorials on sound design and mixing.
 - [Frequent](https://www.youtube.com/channel/UCVMbWJCB-79KbDZ51eakZgQ) - Good sound design & arrangement tutorials.
