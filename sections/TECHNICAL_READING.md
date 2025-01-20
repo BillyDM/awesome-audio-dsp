@@ -13,6 +13,7 @@ A list of useful articles, blogs, and scientific papers on modern algorithms and
 - [DAFx](http://www.dafx.de/) - An archive of scientific papers and presentations given during an annual DSP research conference.
 - [deip.pdf](../content/deip.pdf) - A collection of high quality and fast sub-sample interpolators.
 - [DSP Jargon](https://github.com/sudara/dspjargon) - A dictionary of DSP-related jargon.
+- [EarLevel Engineering](https://www.earlevel.com/main/) - A collection of blogs and discussions on audio DSP, with an emphasis on useful and practical information.
 - [Freeverb3 - DSP References](https://freeverb3vst.osdn.jp/ref.shtml) - A huge list of technical DSP resources focused mainly on reverb design.
 - [Freeverb](https://ccrma.stanford.edu/~jos/pasp/Freeverb.html) - An open-source reverb algorithm.
 - [Introduction to Oversampling for Alias Reduction](https://www.nickwritesablog.com/introduction-to-oversampling-for-alias-reduction/) - An awesome quick guide on how oversampling works.
