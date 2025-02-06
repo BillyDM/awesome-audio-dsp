@@ -174,6 +174,7 @@ A list of open source audio software that you can inspect and learn from, along 
 
 ## Other
 
+- [MasVisGtk](https://github.com/itprojects/MasVisGtk) - An audio loudness analysis tool that can be used to detect mastering defects.
 - [Sæmpl](https://github.com/jonasblome/Saempl) - A sample manager that can automatically sort samples by properties like loudness, pitch, and tempo.
 - [Ultimate Vocal Remover](https://github.com/Anjok07/ultimatevocalremovergui) - A state-of-the-art program that uses machine learning to separate vocals from a mix.
 
