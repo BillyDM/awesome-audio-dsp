@@ -40,6 +40,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [Mrugalla Plugins](https://github.com/Mrugalla) | (C++, [JUCE]) | - A collection of modern and unique plugins by Florian Mrugalla.
 - [Mutable Instruments' Eurorack Modules](https://github.com/pichenettes/eurorack/tree/master) | (C++, custom embedded framework) | - The source code for a large collection of popular, high quality [Eurorack] modules.
 - [nih-plug](https://github.com/robbert-vdh/nih-plug) | ([Rust], [nih-plug], [egui], [Iced], [Vizia]) | - Contains a collection of plugins written in Rust, including the amazing [Spectral Compressor](https://github.com/robbert-vdh/nih-plug/tree/master/plugins/spectral_compressor) plugin.
+- [PodcastPlugins](https://github.com/trummerschlunk/PodcastPlugins) | (C++, [DPF]) | - A collection of easy-to-use plugins for speach enhancement. Currently under development at the time of this writing.
 - [Shiru Plugins](https://github.com/linuxmao-org/shiru-plugins) | (C++, [DPF]) | - A suite of old video-game sound chips synths and effects.
 - [sjaehn](https://github.com/sjaehn?tab=repositories) | (C++, [Pugl]) | - Several cool MIDI based slicing/glitching effects and synthesizers.
 - [SocaLabs Plugins](https://github.com/FigBug/SocaLabs) | (C++, [JUCE]) | - A collection of plugins made by SocaLabs.
