@@ -38,6 +38,7 @@ A list of ready-made libraries for DSP. These can be a great resource for learni
 - [atomic_float](https://crates.io/crates/atomic_float) (Rust) - A crate that adds floating-point atomic types.
 - [ConcurrentQueue](https://github.com/cameron314/concurrentqueue) (C++) - A lock-free MPMC queue.
 - [crossbeam-queue::ArrayQueue](https://crates.io/crates/crossbeam-queue) (Rust) - A lock-free MPMC queue.
+- [fixed-resample](https://github.com/MeadowlarkDAW/fixed-resample) (Rust) - My own crate for sharing samples between audio streams. It also handles resampling.
 - [ReaderWriterQueue](https://github.com/cameron314/readerwriterqueue) (C++) - A lock-free SPSC queue.
 - [ringbuf](https://crates.io/crates/ringbuf) (Rust) - A lock-free SPSC queue.
 - [rtrb](https://crates.io/crates/rtrb) (Rust) - A lock-free SPSC queue.
