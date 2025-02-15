@@ -93,6 +93,7 @@ A list of ready-made libraries for DSP. These can be a great resource for learni
 - [minimidi](https://github.com/lzqlzzq/minimidi)
 - [minimp3](https://github.com/lieff/minimp3)
 - [Symphonia](https://github.com/pdeljanov/Symphonia)
+- [Symphonium](https://github.com/MeadowlarkDAW/symphonium) - My own easy-to-use wrapper around Symphonia. It also handles resampling.
 - [symusic](https://github.com/Yikai-Liao/symusic)
 - [Xiph repositories](https://github.com/xiph) - Contains various open source media codecs and containers such as Opus, FLAC, Vorbis, and OGG
 
