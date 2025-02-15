@@ -101,6 +101,7 @@ A list of ready-made libraries for DSP. These can be a great resource for learni
 # Miscellaneous
 
 - [aubio](https://github.com/aubio/aubio) - A library that can detect events in an audio signal.
+- [Firewheel](https://github.com/BillyDM/Firewheel) - My own audio graph engine / audio middleware solution for games and other applications.
 
 [JUCE]: https://juce.com/
 [Hexosynth]: https://github.com/WeirdConstructor/HexoSynth
