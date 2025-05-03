@@ -78,6 +78,13 @@ There have been a few shiny new plugin development frameworks popping up over th
   - Targets [CLAP], VST3, Audio Unit, and standalone.
   - Targets Mac and Windows. It does not currently support Linux, but it is on the roadmap.
 
+## [Visage]
+  - A GPU-accelerated, cross-platform C++ library for native UI and 2D graphics. It merges the structure of a UI framework with the features of a creative graphics libraries. It is made by the developer of the [Vital] synthesizer.
+  - Fully open-source using a permissive license.
+  - While it is more of a GUI library than a plugin development framework, it natively supports both the [CLAP] plugin API and the [clap-wrapper] library to automatically generate CLAP, VST3, AU, and standalone versions of your plugin for you. For a great example of this setup in action, see the [Spectrum](https://github.com/tadmn/spectrum) plugin.
+  - Targets [CLAP], VST3, Audio Unit, and standalone.
+  - Targets Linux, Mac, and Windows platforms.
+
 # The DIY Route
 
 Are you hardcore and have a lot of time on your hands? Well then do I have the solution for you!
@@ -85,6 +92,10 @@ Are you hardcore and have a lot of time on your hands? Well then do I have the s
 Jokes aside, this is a legitimate route you can take. Just be prepared for the extra boilerplate work involved, especially if you want to have cross-platform and/or cross-API support. You can get quite far by using one of the GUI libraries listed below. (Though I advise against creating your own GUI library unless you do actually have a lot of time on your hands.) It can also be a fun and valuable experience learning how plugin APIs actually work under the hood.
 
 Here are some resources that can make your life easier:
+
+## The CLAP wrapper
+
+A new trend in the audio plugin development world is to just write your plugin against the raw [CLAP] plugin API with whatever GUI library, and then let the [clap-wrapper] library automatically generate VST3, AU, and standalone versions of your plugin for you. For a great example of this setup in action, see the [Spectrum](https://github.com/tadmn/spectrum) plugin.
 
 ## Bring Your Own OpenGL Context
 
@@ -111,6 +122,7 @@ Here is a list of compatible GUI libraries you can use for your audio plugins.
 * [rutabaga](https://github.com/wrl/rutabaga) - An experimental OpenGL widget toolkit written in C.
 * [robtk](https://github.com/x42/robtk) - A minimal layer for creating GUIs for LV2 plugins.
 * [Slint] - Robust and feature-packed declarative GUI library with bindings for Rust and C++. It's free to use for open source projects, but it requires a paid license to use for closed-source projects.
+* [Visage] - A a GPU-accelerated, cross-platform C++ library for native UI and 2D graphics. It merges the structure of a UI framework with the features of a creative graphics libraries. Made by the developer of the [Vital]() synthesizer.
 * [Vizia] - A declarative GUI library for Rust. Comes with a [baseview] backend built-in.
 
 ## "I am hardcore and want to make my own GUI solution"
@@ -129,6 +141,7 @@ There are plenty of options that allow you to just draw shapes and text to the s
   * [glyphon](https://github.com/grovesNL/glyphon) - An easy way to layout and render text in wgpu using [Cosmic Text](https://github.com/pop-os/cosmic-text/).
 
 [CLAP]: https://github.com/free-audio/clap
+[clap-wrapper]: https://github.com/free-audio/clap-wrapper
 [Vizia]: https://github.com/vizia/vizia
 [Iced]: https://github.com/iced-rs/iced
 [iced_audio]: https://github.com/iced-rs/iced_audio
@@ -136,4 +149,6 @@ There are plenty of options that allow you to just draw shapes and text to the s
 [Slint]: https://slint.dev/
 [baseview]: https://github.com/RustAudio/baseview
 [bgfx]: https://github.com/bkaradzic/bgfx
+[Visage]: https://github.com/VitalAudio/visage
+[Vital]: https://github.com/mtytel/vital
 [cookiecutter]: https://github.com/audreyr/cookiecutter
