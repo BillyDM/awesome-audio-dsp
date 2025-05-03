@@ -38,6 +38,7 @@ When you want to get serious with audio DSP & audio plugin development, nothing 
   - Uses separate header and source files. Not a problem for some, but it mildly annoys me. (Although C++23 is planning a solution for this.)
 - Resources:
   - [Learn C++](https://www.learncpp.com/) - A fantastic free online book that thoroughly teaches modern C++ and how to use it safely and effectively.
+  - [CHOC](https://github.com/Tracktion/choc) - A random grab-bag of header-only, dependency-free, liberally-licensed C++ classes.
 
 ## [D](https://dlang.org/)
 - Pros:

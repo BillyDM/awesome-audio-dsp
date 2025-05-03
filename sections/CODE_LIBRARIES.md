@@ -101,6 +101,7 @@ A list of ready-made libraries for DSP. These can be a great resource for learni
 # Miscellaneous
 
 - [aubio](https://github.com/aubio/aubio) - A library that can detect events in an audio signal.
+- [CHOC](https://github.com/Tracktion/choc) - A random grab-bag of header-only, dependency-free, liberally-licensed C++ classes.
 - [Firewheel](https://github.com/BillyDM/Firewheel) - My own audio graph engine / audio middleware solution for games and other applications.
 
 [JUCE]: https://juce.com/

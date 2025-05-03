@@ -93,17 +93,16 @@ Jokes aside, this is a legitimate route you can take. Just be prepared for the e
 
 Here are some resources that can make your life easier:
 
+## Windowing
+
+* [CHOC] (C++) - A random grab-bag of header-only, dependency-free, liberally-licensed C++ classes. It is very handy if you want to use or create a custom GUI library in C++, and it even includes support for [WebView](https://github.com/Tracktion/choc/blob/main/gui/choc_WebView.h).
+* [baseview] (Rust) - A low-level windowing system geared towards making audio plugin UIs.
+
 ## The CLAP wrapper
 
-A new trend in the audio plugin development world is to just write your plugin against the raw [CLAP] plugin API with whatever GUI library, and then let the [clap-wrapper] library automatically generate VST3, AU, and standalone versions of your plugin for you. For a great example of this setup in action, see the [Spectrum](https://github.com/tadmn/spectrum) plugin.
+A new trend in the audio plugin development world is to just write your plugin against the raw [CLAP] plugin API with whatever GUI library (perhaps using [CHOC] or [baseview] for cross-platform windowing), and then let the [clap-wrapper] library automatically generate VST3, AU, and standalone versions of your plugin for you. For a great example of this setup in action, see the [Spectrum](https://github.com/tadmn/spectrum) plugin.
 
-## Bring Your Own OpenGL Context
-
-> #### A common question that gets asked is "How can I use *X* GUI library to make my plugin GUI?
->
-> Unfortunately, a big blocker that prevents many of the popular GUI libraries from working in a plugin context is that most are designed with the assumption that they own the event loop. But in a plugin context, it's the host that owns the event loop, not the plugin. So unless the GUI library was designed from the get-go to handle this use case, it's difficult to add it after the fact.
->
-> Only the [CLAP] plugin format went out of its way to allow plugins to own their own event loop. Even then, it's still discouraged since it prevents the host from seamlessly integrating with the plugin window (i.e. FL Studio drawing a window border around the plugin window with extra useful controls at the top of the window).
+## Plugin-Compatible GUI Libraries
 
 Here is a list of compatible GUI libraries you can use for your audio plugins.
 
@@ -124,6 +123,12 @@ Here is a list of compatible GUI libraries you can use for your audio plugins.
 * [Slint] - Robust and feature-packed declarative GUI library with bindings for Rust and C++. It's free to use for open source projects, but it requires a paid license to use for closed-source projects.
 * [Visage] - A a GPU-accelerated, cross-platform C++ library for native UI and 2D graphics. It merges the structure of a UI framework with the features of a creative graphics libraries. Made by the developer of the [Vital]() synthesizer.
 * [Vizia] - A declarative GUI library for Rust. Comes with a [baseview] backend built-in.
+
+> #### A common question that gets asked is "How can I use *X* GUI library to make my plugin GUI?
+>
+> Unfortunately, a big blocker that prevents many of the popular GUI libraries from working in a plugin context is that most are designed with the assumption that they own the event loop. But in a plugin context, it's the host that owns the event loop, not the plugin. So unless the GUI library was designed from the get-go to handle this use case, it's difficult to add it after the fact.
+>
+> Only the [CLAP] plugin format went out of its way to allow plugins to own their own event loop. Even then, it's still discouraged since it prevents the host from seamlessly integrating with the plugin window (i.e. FL Studio drawing a window border around the plugin window with extra useful controls at the top of the window).
 
 ## "I am hardcore and want to make my own GUI solution"
 
@@ -152,3 +157,5 @@ There are plenty of options that allow you to just draw shapes and text to the s
 [Visage]: https://github.com/VitalAudio/visage
 [Vital]: https://github.com/mtytel/vital
 [cookiecutter]: https://github.com/audreyr/cookiecutter
+[CHOC]: https://github.com/Tracktion/choc
+[baseview]: https://github.com/RustAudio/baseview
