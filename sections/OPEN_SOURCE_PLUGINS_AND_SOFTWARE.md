@@ -148,6 +148,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [LUFS Meter](https://github.com/klangfreund/LUFSMeter) | (C++, [JUCE]) | - Real-time loudness meter with support for several international loudness standards.
 - [MultiMeter](https://github.com/RealAlexZ/MultiMeter) | (C++, [JUCE]) | - A swiss-army-knife metering plugin with a sleek UI.
 - [Spectacle](https://github.com/jpcima/spectacle) | (C++, [DPF]) | - Modern real-time spectrum analyzer plugin.
+- [Spectrum](https://github.com/tadmn/spectrum) | (C++, [Visage]) | - A high quality and high performance spectrum analyzer plugin.
 - [Wolf Spectrum](https://github.com/pdesaulniers/wolf-spectrum) | (C++, [DPF]) | - Real-time heat-map spectrum analyzer plugin.
 
 # Open Source Software
@@ -216,6 +217,7 @@ A list of open source audio software that you can inspect and learn from, along 
 [VCV Rack]: https://vcvrack.com/
 [Freeverb]: https://ccrma.stanford.edu/~jos/pasp/Freeverb.html
 [Eurorack]: https://en.wikipedia.org/wiki/Eurorack
+[Visage]: https://github.com/VitalAudio/visage
 [Vital]: https://github.com/mtytel/vital
 [dpfwebui]: https://github.com/lucianoiam/dpfwebui
 [Vitalium]: https://github.com/DISTRHO/DISTRHO-Ports/tree/master/ports-juce6.0/vitalium
