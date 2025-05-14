@@ -101,6 +101,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [Cocoa Delay](https://github.com/tesselode/cocoa-delay) | (C++, [WDL-OL]) | - A nice delay plugin with ducking, saturation, filtering, and pitching features.
 - [CTAG Dynamic Range Compressor](https://github.com/p-hlp/CTAGDRC) | (C++, [JUCE]) | - A simple general-purpose compressor plugin.
 - [DelayArchitect](https://github.com/jpcima/DelayArchitect) | (C++, [JUCE]) | - A feature-rich delay designer plugin.
+- [Delay Intervals](https://github.com/Matth-ewe-f/audio-plugin-delay-intervals) | (C++, [JUCE]) | - An audio plugin that can create fully customizable delay patterns.
 - [Dragonfly Reverb](https://github.com/michaelwillis/dragonfly-reverb) | (C++, [DPF]) | - Algorithmic reverb based on [Freeverb].
 - [Dust Saturator](https://github.com/Everither/dust-saturator) | ([Rust], [nih-plug], [Vizia]) | - A distortion plugin with a unique distortion algorithm.
 - [Fire](https://github.com/jerryuhoo/Fire) | (C++, [JUCE]) | - A multiband waveshaper with a great looking UI.
