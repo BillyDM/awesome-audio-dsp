@@ -33,6 +33,7 @@ A list of software stacks/frameworks used to make audio plugins with/without GUI
 
 ### JUCE Resources
   - [Awesome JUCE](https://github.com/sudara/awesome-juce) - A large list of resources for JUCE.
+  - [Chowdhury's JUCE template](https://github.com/Chowdhury-DSP/JUCEPluginTemplate) - A good template with some extra useful utilities.
   - [Cookiejuce](https://github.com/madskjeldgaard/Cookiejuce) - Another good template generator. It's a hard fork of Pamplejuce with a lot of opinionated stuff added/changed.
   - [JIVE](https://github.com/ImJimmi/JIVE) - Framework that makes it easier to create GUIs in JUCE.
   - [Pamplejuce](https://github.com/sudara/pamplejuce) - Handy code template to help get you started.
