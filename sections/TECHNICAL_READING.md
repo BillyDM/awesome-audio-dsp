@@ -11,6 +11,8 @@ A list of useful articles, blogs, and scientific papers on modern algorithms and
 - [Cytomic Technical Papers](https://cytomic.com/technical-papers/) - Excellent filter designs, equations, and explanations by Cytomic. Use these as a better alternative to biquad filters that both sound better and perform better when being modulated.
   - Specifically the document [SvfLinearTrapOptimised2](https://cytomic.com/files/dsp/SvfLinearTrapOptimised2.pdf) contains filters and equations that are a better alternative to the ones in the [RBJ Cookbook](https://webaudio.github.io/Audio-EQ-Cookbook/audio-eq-cookbook.html).
 - [DAFx](http://www.dafx.de/) - An archive of scientific papers and presentations given during an annual DSP research conference.
+- [dspGuru](https://dspguru.com/) - A collection of useful tutorials and resources on DSP.
+  - I've found the [tutorial on resampling](https://dspguru.com/dsp/faqs/multirate/resampling/) particuarly helpful.
 - [deip.pdf](../content/deip.pdf) - A collection of high quality and fast sub-sample interpolators.
 - [DSP Jargon](https://github.com/sudara/dspjargon) - A dictionary of DSP-related jargon.
 - [EarLevel Engineering](https://www.earlevel.com/main/) - A collection of blogs and discussions on audio DSP, with an emphasis on useful and practical information.
