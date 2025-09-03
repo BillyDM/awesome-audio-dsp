@@ -126,6 +126,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [Squeezer](https://github.com/mzuther/Squeezer) | (C++, [JUCE]) | - Flexible general-purpose audio compressor with a "touch of citrus".
 - [TimeStretch](https://github.com/spluta/TimeStretch) | ([Rust], [SuperCollider], Python, gui-less) | - A refinement of the famous [PaulStretch](http://hypermammut.sourceforge.net/paulstretch) time stretching effect. Includes a PDF explaining the DSP.
 - [Transfer](https://github.com/MeijisIrlnd/Transfer) | (C++, [JUCE]) | - A waveshaper plugin which JIT-compiles any nonlinear function inputted by the user.
+- [Turbo Paco](https://codeberg.org/RafaGago/artv-audio/src/branch/master/src/turbopaco) | (C++, [JUCE]) | - A really good sounding reverb plugin with a variety of algorithms.
 - [Utility Clone](https://github.com/m1m0zzz/utility-clone) | (C++, [JUCE]) | - A remake of the Utility plugin in Ableton.
 - [utilities](https://github.com/butchwarns/utilities) | (C++, [JUCE]) | - A plugin that contains a bunch of simple but useful utilities.
 - [Valentine](https://github.com/tote-bag-labs/valentine) | (C++, [JUCE]) | - A nice compressor/saturator that is meant to "pump and breath".
