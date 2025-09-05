@@ -99,7 +99,8 @@ A list of open source audio software that you can inspect and learn from, along 
 - [CHOMP](https://github.com/yaboypax/PaxMBClip) | (C++, [JUCE]) | - A high quality multiband clipper plugin.
 - [CloudReverb](https://github.com/xunil-cloud/CloudReverb) | (C++, [DPF]) | - Another reverb plugin based on the `CloudSeed` plugin by Valdemar Erlingsson. I choose this over the original as that uses a Windows-only C# platform for its GUI.
 - [Cocoa Delay](https://github.com/tesselode/cocoa-delay) | (C++, [WDL-OL]) | - A nice delay plugin with ducking, saturation, filtering, and pitching features.
-- [CTAG Dynamic Range Compressor](https://github.com/p-hlp/CTAGDRC) | (C++, [JUCE]) | - A simple general-purpose compressor plugin.
+- [CTAG Dynamic Range Compressor](https://github.com/p-hlp/CTAGDRC) | (C++, [JUCE]) | - A great sounding general-purpose compressor plugin.
+  - I also made [my own fork](https://github.com/BillyDM/CTAGDRC) which adds a modern CMake build system and a prebuilt binaries.
 - [DelayArchitect](https://github.com/jpcima/DelayArchitect) | (C++, [JUCE]) | - A feature-rich delay designer plugin.
 - [Delay Intervals](https://github.com/Matth-ewe-f/audio-plugin-delay-intervals) | (C++, [JUCE]) | - An audio plugin that can create fully customizable delay patterns.
 - [Dragonfly Reverb](https://github.com/michaelwillis/dragonfly-reverb) | (C++, [DPF]) | - Algorithmic reverb based on [Freeverb].
