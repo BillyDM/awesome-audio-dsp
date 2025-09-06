@@ -111,6 +111,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [Frequalizer](https://github.com/ffAudio/Frequalizer) | (C++, [JUCE]) | - An equalizer plugin using JUCE's new dsp module.
 - [Fogpad](https://github.com/linuxmao-org/fogpad-port) | (C++, [DPF]) | - Reverb plugin where reflections can be frozen, filtered, pitch-shifted, and mangled.
 - [Glorious](https://github.com/TitanChariotsBB/Glorious) | (C++, [JUCE]) | - A chorus plugin modeled after the famous chorus circuit from the Roland Juno series of synths.
+- [Hamburger](https://github.com/Davit-G/Hamburger) | (C++, [JUCE]) | - A fantastic distortion plugin with a lot of different distortion algorithms.
 - [lamb](https://github.com/magnetophon/lamb-rs) | ([Faust], [Rust], [nih-plug], [Vizia]) | - A clean lookahead compressor/limiter.
 - [Audio Sampler](https://github.com/arunas-cesonis/live-sampler) | ([Rust], [nih-plug], [Vizia]) | - A live audio sampler plugin written in [Rust].
 - [Luftikus] | (C++, [JUCE]) | - Analogue modeled equalizer.
