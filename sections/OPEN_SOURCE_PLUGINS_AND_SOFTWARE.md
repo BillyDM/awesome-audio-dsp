@@ -125,6 +125,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [Room Reverb](https://github.com/cvde/RoomReverb) | (C++, [JUCE]) | - Nice sounding algorithmic reverb based on [Freeverb].
 - [sand_stretch](https://github.com/s4n7r0/sand_stretch) | (C++, [JUCE]) | - A remake of the dblue Stretch plugin.
 - [Space Chili](https://github.com/glafiro/space-chili) | (C++, [JUCE]) | - A delay and chorus plugin with a sleek interface.
+- [Spice FX - Open Source Edition](https://github.com/DatanoiseTV/spice-oss) | (C++, [JUCE]) | - A high-quality analog saturation plugin with multiple distortion models. Open sourced in October 2025.
 - [Squeezer](https://github.com/mzuther/Squeezer) | (C++, [JUCE]) | - Flexible general-purpose audio compressor with a "touch of citrus".
 - [TimeStretch](https://github.com/spluta/TimeStretch) | ([Rust], [SuperCollider], Python, gui-less) | - A refinement of the famous [PaulStretch](http://hypermammut.sourceforge.net/paulstretch) time stretching effect. Includes a PDF explaining the DSP.
 - [Transfer](https://github.com/MeijisIrlnd/Transfer) | (C++, [JUCE]) | - A waveshaper plugin which JIT-compiles any nonlinear function inputted by the user.
