@@ -33,16 +33,24 @@ A list of ready-made libraries for DSP. These can be a great resource for learni
 - [synfx-dsp](https://github.com/WeirdConstructor/synfx-dsp) - A comprehensive DSP library in Rust, used by the [HexoSynth] synthesizer plugin.
 - [valib](https://github.com/SolarLiner/valib) - A Rust library of reusable blocks for musical DSP.
 
-# Realtime-safe Thread Synchronization
+# Realtime-safe Synchronization and Memory Management
 
-- [atomic_float](https://crates.io/crates/atomic_float) (Rust) - A crate that adds floating-point atomic types.
-- [ConcurrentQueue](https://github.com/cameron314/concurrentqueue) (C++) - A lock-free MPMC queue.
-- [crossbeam-queue::ArrayQueue](https://crates.io/crates/crossbeam-queue) (Rust) - A lock-free MPMC queue.
-- [fixed-resample](https://github.com/MeadowlarkDAW/fixed-resample) (Rust) - My own crate for sharing samples between audio streams. It also handles resampling.
-- [ReaderWriterQueue](https://github.com/cameron314/readerwriterqueue) (C++) - A lock-free SPSC queue.
-- [ringbuf](https://crates.io/crates/ringbuf) (Rust) - A lock-free SPSC queue.
-- [rtrb](https://crates.io/crates/rtrb) (Rust) - A lock-free SPSC queue.
-- [SPSCQueue](https://github.com/rigtorp/SPSCQueue) (C++) - A lock-free SPSC queue.
+### Rust
+- [atomic_float](https://crates.io/crates/atomic_float) - A crate that adds floating-point atomic types.
+- [basedrop](https://crates.io/crates/basedrop) - A set of memory management tools for real-time audio and other latency-critical scenarios. It contains a garbage collector which collects resources dropped on a realtime thread and safely deallocates them on another thread, as well as some state synchronization primitives.
+- [crossbeam-queue::ArrayQueue](https://crates.io/crates/crossbeam-queue) - A lock-free MPMC queue.
+- [fixed-resample](https://github.com/MeadowlarkDAW/fixed-resample) - My own crate for sharing samples between audio streams. It also handles resampling.
+- [ringbuf](https://crates.io/crates/ringbuf) - A lock-free SPSC queue.
+- [rtgc](https://crates.io/crates/rtgc) - My own simple garbage collector which collects resources dropped on a realtime thread and safely deallocates them on another thread. It also contains optional triple buffer types for syncing data without the need for a message channel. It's not as performant as some of the other options, but it is implemented using as little `unsafe` code as possible.
+- [rtrb](https://crates.io/crates/rtrb) - Another lock-free SPSC queue.
+- [rt-write-lock](https://crates.io/crates/rt-write-lock) - Used to sync data from a realtime thread to a non-realtime one. It works in a similar fasion to to a triple buffer, except that it is more performant and uses less memory.
+- [simple-left-right](https://crates.io/crates/simple-left-right) - Used to sync data from a non-realtime thread to a realtime one. It works in a similar fasion to to a triple buffer, except that it is more performant and uses less memory.
+- [triple_buffer](https://crates.io/crates/triple_buffer) - A good triple buffer crate.
+
+### C++
+- [ConcurrentQueue](https://github.com/cameron314/concurrentqueue) - A lock-free MPMC queue.
+- [ReaderWriterQueue](https://github.com/cameron314/readerwriterqueue) - A lock-free SPSC queue.
+- [SPSCQueue](https://github.com/rigtorp/SPSCQueue) - A lock-free SPSC queue.
 
 > SPSC queues are faster than MPMC queues, so prefer to use them if your algorithm doesn't need multiple producers or consumers.
 
