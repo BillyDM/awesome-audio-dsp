@@ -2,6 +2,8 @@
 
 Machine learning has been gaining traction in the audio industry lately. I don't know much about the topic myself, but I'll link some potentially useful resources here if you're interested.
 
+> By "machine learning" I am referring to using neural networks for audio processing, not LLMs or other harmful generative AI technology. I will not post or accept anything related to LLMs or generative AI here.
+
 - [3Blue1Brown - Neural Networks](https://youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) - An excellent short series of YouTube videos explaining the basics of how machine learning actually works.
 - [audioFlux](https://github.com/libAudioFlux/audioFlux) -  A deep learning tool library for audio and music analysis.
 - [Deep Learning for Audio](https://github.com/markovka17/dla) - A course that teaches how to use deep learning for audio processing.
