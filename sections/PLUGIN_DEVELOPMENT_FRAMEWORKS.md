@@ -141,6 +141,7 @@ There are plenty of options that allow you to just draw shapes and text to the s
 * [femtovg](https://github.com/femtovg/femtovg) - An OpenGL vector graphics rendering library written in Rust, based on NanoVG.
 * [Lyon](https://github.com/nical/lyon) - A tessellation library written in Rust. It simply outputs a list of triangles for the GPU to render.
 * [NanoVG](https://github.com/inniyah/nanovg) - Vector graphics rendering library for OpenGL.
+* [Olive.c](https://github.com/tsoding/olive.c) - A small, zero-dependency C library for drawing graphics on the CPU.
 * [Skia](https://skia.org/) - Hardware-accelerated 2D vector graphics library. Built by Google to power Chrome and Flutter. It has a relatively large binary size though.
 * [Sokol](https://github.com/floooh/sokol) - Low-level cross platform graphics library that abstracts over different graphics APIs. Contains bindings to various programming languages.
 * [vg-renderer](https://github.com/jdryg/vg-renderer) - A vector graphics renderer for [bgfx].
