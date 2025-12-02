@@ -42,6 +42,7 @@ My curated list of audio DSP (digital signal processing) and plugin development 
 
 Feel free to open a PR if you wish! All linked resources must satisfy the following conditions:
 * The resource must be genuinely useful to learn from. (Toy/hobby projects are allowed in `Open Source Plugins & Software` as long as the software is functional.)
+* Lists must be sorted in alphabetical order.
 * If you are self-promoting your own materials (and especially if you have a financial incentive to do so), provide evidence that the materials have been useful to others and that others recommend your materials.
 * Anything related to LLMs or other generative AI technologies will not be accepted. (The `Machine Learning` category is for non-generative neural network technology like noise removal, circuit simulations, and guitar amp simulations.)
 * Code repositories that have been "vibe coded" or which have used generative AI substantially will not be accepted.
