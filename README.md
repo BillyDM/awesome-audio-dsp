@@ -1,6 +1,6 @@
 # Awesome Audio DSP
 
-My curated list of audio DSP (digital signal processing) and plugin development resources. New resources may be added in the future. Feel free to open a PR if you wish!
+My curated list of audio DSP (digital signal processing) and plugin development resources. New resources may be added in the future.
 
 - [Code Libraries](sections/CODE_LIBRARIES.md) - A list of useful libraries for audio software.
 - [DSP Cookbooks](sections/DSP_COOKBOOKS.md) - A list of algorithms and equations you can use and reference for your own DSP designs.
@@ -23,9 +23,8 @@ My curated list of audio DSP (digital signal processing) and plugin development 
 - [System Tools](sections/SYSTEM_TOOLS.md) - A list of system tools useful in developing audio plugins and software.
 - [Technical Reading](sections/TECHNICAL_READING.md) - A list of useful articles, blogs, and scientific papers on algorithms and techniques for audio DSP.
 
-<hr/>
 
-### *"If I'm a total noob, where should I start?"*
+## *"If I'm a total noob, where should I start?"*
 
 - [Designing Software Synthesizer Plug-Ins in C++](https://www.amazon.com/Designing-Software-Synthesizer-Plug-Ins-Audio/dp/0367510480) and [Designing Audio Effect Plugins in C++](https://www.amazon.com/Designing-Audio-Effect-Plugins-C/dp/1138591939) by Will Pirkle
     - These textbooks are a common recommendation for beginners.
@@ -38,3 +37,11 @@ My curated list of audio DSP (digital signal processing) and plugin development 
 - [Think DSP](https://github.com/AllenDowney/ThinkDSP) - A great free online book that teaches many fundamental DSP concepts using Python.
 
 > I often get asked about beginner-friendly DSP learning resources which focus on the [Rust](https://www.rust-lang.org/) programming language. Unfortunately there isn't really anything out there. I would suggest learning DSP in another language first and then translating that knowledge to Rust later. The choice of language doesn't really matter that much for learning DSP, the main difference comes when it's time to create full applications/plugins *around* your DSP code.
+
+## Contribute
+
+Feel free to open a PR if you wish! All linked resources must satisfy the following conditions:
+* The resource must be genuinely useful to learn from. (Toy/hobby projects are allowed in `Open Source Plugins & Software` as long as the software is functional.)
+* If you are self-promoting your own materials (and especially if you have a financial incentive to do so), provide evidence that the materials have been useful to others and that others recommend your materials.
+* Anything related to LLMs or other generative AI technologies will not be accepted. (The `Machine Learning` category is for non-generative neural network technology like noise removal, circuit simulations, and guitar amp simulations.)
+* Code repositories that have been "vibe coded" or which have used generative AI substantially will not be accepted.
