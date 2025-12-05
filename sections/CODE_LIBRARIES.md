@@ -16,6 +16,7 @@ A list of ready-made libraries for DSP. These can be a great resource for learni
 - [DaisySP](https://github.com/electro-smith/DaisySP) - A C++ DSP library that provides a comprehensive collection of modular components.
 - [DSP Filters by vinniefalco](https://github.com/vinniefalco/DSPFilters) - A collection of C++ classes for DSP.
 - [DSP filters in C++ by dimtass](https://github.com/dimtass/DSP-Cpp-filters) - A collection of DSP biquad filters.
+- [Firewheel DSP](https://github.com/BillyDM/Firewheel/tree/main/crates/firewheel-core/src/dsp) - A small collection of DSP I use in my Firewheel library.
 - [FunDSP](https://github.com/SamiPerttu/fundsp) - A Rust DSP crate with a unique and fun syntax.
 - [HexoDSP](https://github.com/WeirdConstructor/HexoDSP) - A comprehensive modular DSP and audio graph library also used by the [HexoSynth] synthesizer plugin.
 - [juce_dsp](https://docs.juce.com/master/group__juce__dsp.html) - A set of DSP classes that are included with the JUCE library. There is also an introductory [tutorial](https://docs.juce.com/master/tutorial_dsp_introduction.html) on using these libraries (as well as JUCE in general).
