@@ -92,6 +92,7 @@ A list of open source audio software that you can inspect and learn from, along 
 ## Audio FX
 
 - [Aether](https://github.com/Dougal-s/Aether) | (C++, [Pugl]) | - Beautiful shimmering reverb based on the `CloudSeed` plugin by Valdemar Erlingsson. I choose this over the original as that uses a Windows-only C# platform for its GUI.
+- [ÆTHER](https://github.com/smiarx/aether) | (C++, [JUCE]) | - A nice delay and reverb plugin. The delay is based on tape-delay mechanisms, while the reverb is inspired by (but not limited to) spring reverbs.
 - [AIDA-X](https://github.com/AidaDSP/AIDA-X) | (C++, [DPF]) | - An amp model player that can load AI-trained models of music gear.
 - [BinAural](https://github.com/twoz/binaural-vst) | (C++, [JUCE]) | - A mono-to-stereo plugin that positions sound in a 3D space using Head-Related Transfer Functions.
 - [Castello Reverb](https://github.com/lucianoiam/castello) | (C++, [DPF], [dpfwebui]) | - A small reverb plugin with a webview-based UI.
