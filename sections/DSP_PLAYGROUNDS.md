@@ -52,6 +52,9 @@ A list of software tools that are useful for quickly and easily prototyping DSP.
   - Javascript bindings to the Maximilian DSP library.
   - Javascript can be great for those who are just learning to code, and it can be ran inside a web browser.
   - Free and open source.
+- [NtPlugin](https://github.com/NielsPT/NtPlugin)
+  - A framework for fast and easy audio plugin DSP development. Write plugins in plain C++ without needing to know JUCE or needing to muck around with styling your GUI.
+  - Free and open source.
 - [py-modular](http://py-modular.readthedocs.io/)
   - A modular and experimental programming environment with basic DSP routines.
   - Uses the very popular Python programming language, which is a great those who are learning to code.

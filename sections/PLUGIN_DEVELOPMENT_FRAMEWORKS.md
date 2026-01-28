@@ -80,6 +80,10 @@ There have been a few shiny new plugin development frameworks popping up over th
   - Targets [CLAP], VST3, Audio Unit, and standalone.
   - Targets Mac and Windows. It does not currently support Linux, but it is on the roadmap.
 
+## [NtPlugin](https://github.com/NielsPT/NtPlugin)
+  - An easy-to-use wrapper around [JUCE](https://github.com/juce-framework/JUCE) that allows for fast and easy audio plugin development. Write plugins in plain C++ without needing to know JUCE or needing to muck around with styling your GUI.
+  - It is based on JUCE, so it has the same plugin format support, platform support, and licensing as JUCE.
+
 ## [Visage]
   - A GPU-accelerated, cross-platform C++ library for native UI and 2D graphics. It merges the structure of a UI framework with the features of a creative graphics libraries. It is made by the developer of the [Vital] synthesizer.
   - Fully open-source using a permissive license.
