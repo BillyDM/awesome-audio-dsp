@@ -45,7 +45,9 @@ A list of software stacks/frameworks used to make audio plugins with/without GUI
   - Targets Linux, Mac, and Windows platforms.
   - Has several different options for GUI such as [Vizia], [Iced], [egui], and [Slint]. (Slint requires a paid license if you want to distribute your plugin closed-source.)
     - If you use Iced, there are also audio-specific widgets in the [iced_audio] extension.
-    - The `egui` adapter in the nih-plug repository is outdated. Use [this 3rd party egui adapter](https://codeberg.org/BillyDM/egui-baseview) instead.
+    - The `iced` and `egui` adapter in the nih-plug repository are outdated. Use these 3rd party adapters instead:
+      - [egui-baseview](https://codeberg.org/BillyDM/egui-baseview)
+      - [iced_baseview](https://codeberg.org/BillyDM/iced_baseview)
   - It's still somewhat experimental and is missing some more specialized features, but it's usable.
   - There is now a [cookiecutter template](https://github.com/robbert-vdh/nih-plug-template) to help get you started faster.
 
