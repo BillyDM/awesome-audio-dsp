@@ -56,6 +56,8 @@ Tips and tools for optimizing audio software.
 - [projet μ - denormal](https://mu.krj.st/denormal/) - Important article on how to avoid denormals in your code.
   - [no_denormals](https://crates.io/crates/no_denormals) - A Rust crate for temporarily turning off denormals in your DSP code.
 - [Real-time audio programming 101](http://www.rossbencina.com/code/real-time-audio-programming-101-time-waits-for-nothing) - Tips on writing real-time code.
+- [RealtimeSanitizer](https://github.com/realtime-sanitizer/rtsan) - A realtime safety testing tool for C and C++.
+  - [rtsan-standalone-rs](rtsan-standalone-rs) - A Rust wrapper RealtimeSanitizer.
 - [Software Optimization Resources](https://www.agner.org/optimize/) - A popular resource on optimizing for x86 based architectures.
 - [The Rust Performance Book](https://nnethercote.github.io/perf-book/title-page.html) - Tips on optimizing code in Rust.
 - [What every programmer should know about memory](https://lwn.net/Articles/250967/) - A great free online book describing how computer memory works and how to best optimize for it.
@@ -70,10 +72,17 @@ Tips and tools for optimizing audio software.
 
 # Portable SIMD Libraries
 
-- [eve](https://github.com/jfalcou/eve) (C++)
-- [highway](https://github.com/google/highway) (C++)
-- [libsimdcpp](https://github.com/p12tic/libsimdpp) (C++)
-- [MIPP](https://github.com/aff3ct/MIPP) (C++)
-- [portable-simd](https://github.com/rust-lang/portable-simd) (Rust, currently requires the nightly compiler)
+### Rust
+- [Fearless SIMD](https://crates.io/crates/fearless_simd)
+- [portable-simd](https://github.com/rust-lang/portable-simd) - (currently requires the nightly compiler)
+- [pulp](https://crates.io/crates/pulp)
+- [Simba](https://crates.io/crates/simba)
+- [SIMDeez](https://crates.io/crates/simdeez) - includes runtime multiversioning features
+
+### C++
+- [eve](https://github.com/jfalcou/eve)
+- [highway](https://github.com/google/highway)
+- [libsimdcpp](https://github.com/p12tic/libsimdpp)
+- [MIPP](https://github.com/aff3ct/MIPP)
 
 [Compiler Explorer]: https://godbolt.org/

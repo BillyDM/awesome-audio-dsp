@@ -34,6 +34,21 @@ A list of ready-made libraries for DSP. These can be a great resource for learni
 - [synfx-dsp](https://github.com/WeirdConstructor/synfx-dsp) - A comprehensive DSP library in Rust, used by the [HexoSynth] synthesizer plugin.
 - [valib](https://github.com/SolarLiner/valib) - A Rust library of reusable blocks for musical DSP.
 
+# Development Aides
+
+### Rust
+- [assert_no_alloc](https://crates.io/crates/assert_no_alloc) - A custom allocator used to detect unwanted allocations/deallocations in a realtime audio thread.
+- [multiversion](https://crates.io/crates/multiversion) - An easy to use function multiversioning attribute macros for Rust
+- [no_denormals](https://crates.io/crates/no_denormals) - A Rust crate for temporarily turning off denormals in your DSP code.
+- [rtsan-standalone-rs](rtsan-standalone-rs) - A Rust wrapper for [RealtimeSanitizer](https://github.com/realtime-sanitizer/rtsan), a realtime safety testing tool.
+
+### C++
+- [Catch2](https://github.com/catchorg/Catch2) - A modern unit testing and benchmarking framework for C++
+- [RealtimeSanitizer](https://github.com/realtime-sanitizer/rtsan) - A realtime safety testing tool.
+- [ResEmbed](https://github.com/eyalamirmusic/ResEmbed) - A handy CMake/C++20 library for embedding binary files directly into your executables and libraries at compile time.
+- [sst-ccputiles](https://github.com/surge-synthesizer/sst-cpputils) - C++ utilities used by the Surge XT synthesizer team.
+- [sst-basic-blocks](https://github.com/surge-synthesizer/sst-basic-blocks) - (GPL-3.0 license) - Base level utility classes for things like parameters, block operations, sse helpers, base level dsp, and more. Made by the Surge XT synthesizer team.
+
 # Realtime-safe Synchronization and Memory Management
 
 ### Rust
@@ -52,8 +67,24 @@ A list of ready-made libraries for DSP. These can be a great resource for learni
 - [ConcurrentQueue](https://github.com/cameron314/concurrentqueue) - A lock-free MPMC queue.
 - [ReaderWriterQueue](https://github.com/cameron314/readerwriterqueue) - A lock-free SPSC queue.
 - [SPSCQueue](https://github.com/rigtorp/SPSCQueue) - A lock-free SPSC queue.
+- [sst-ccputiles](https://github.com/surge-synthesizer/sst-cpputils) - C++ utility library containing a lock-free SPSC queue.
 
 > SPSC queues are faster than MPMC queues, so prefer to use them if your algorithm doesn't need multiple producers or consumers.
+
+# Portable SIMD Libraries
+
+### Rust
+- [Fearless SIMD](https://crates.io/crates/fearless_simd)
+- [portable-simd](https://github.com/rust-lang/portable-simd) - (currently requires the nightly compiler)
+- [pulp](https://crates.io/crates/pulp)
+- [Simba](https://crates.io/crates/simba)
+- [SIMDeez](https://crates.io/crates/simdeez) - includes runtime multiversioning features
+
+### C++
+- [eve](https://github.com/jfalcou/eve)
+- [highway](https://github.com/google/highway)
+- [libsimdcpp](https://github.com/p12tic/libsimdpp)
+- [MIPP](https://github.com/aff3ct/MIPP)
 
 # Cross-platform System Audio I/O
 
@@ -112,6 +143,11 @@ A list of ready-made libraries for DSP. These can be a great resource for learni
 - [aubio](https://github.com/aubio/aubio) - A library that can detect events in an audio signal.
 - [CHOC](https://github.com/Tracktion/choc) - A random grab-bag of header-only, dependency-free, liberally-licensed C++ classes.
 - [Firewheel](https://github.com/BillyDM/Firewheel) - My own audio graph engine / audio middleware solution for games and other applications.
+
+---
+
+*TODO - Sort DSP libraries by programming language*
+*TODO - List all of the licenses for each of the listed libraries*
 
 [JUCE]: https://juce.com/
 [Hexosynth]: https://github.com/WeirdConstructor/HexoSynth
