@@ -99,6 +99,12 @@ A list of ready-made libraries for DSP. These can be a great resource for learni
     - Graceful error handling *
     - Linux, Mac, Windows, iOS, and Android
     - GPLv3 license if your application is GPLv3, otherwise requires a paid license
+- [Interflow](https://github.com/SolarLiner/interflow)
+    - Rust only
+    - Native duplex audio support
+    - Linux, Mac, and Windows
+    - Some backends and features are still a work in progress
+    - MIT license
 - [libsoundio](https://github.com/andrewrk/libsoundio)
     - C, C++, and Rust (unsafe bindings via [soundio-sys](https://crates.io/crates/soundio-sys))
     - Graceful error handling *
