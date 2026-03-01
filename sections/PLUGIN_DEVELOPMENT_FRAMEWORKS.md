@@ -48,6 +48,7 @@ A list of software stacks/frameworks used to make audio plugins with/without GUI
     - The `iced` and `egui` adapter in the nih-plug repository are outdated. Use these 3rd party adapters instead:
       - [egui-baseview](https://codeberg.org/BillyDM/egui-baseview)
       - [iced_baseview](https://codeberg.org/BillyDM/iced_baseview)
+      - [nih-plug-slint](https://github.com/aidan729/nih-plug-slint)
   - It's still somewhat experimental and is missing some more specialized features, but it's usable.
   - There is now a [cookiecutter template](https://github.com/robbert-vdh/nih-plug-template) to help get you started faster.
 
