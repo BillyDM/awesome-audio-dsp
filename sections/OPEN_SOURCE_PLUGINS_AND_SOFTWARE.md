@@ -8,6 +8,7 @@ A list of open source audio software that you can inspect and learn from, along 
 
 (Note, I'm avoiding listing individual plugins in the `Synths`/`Audio FX`/`MIDI FX`/`Meters & Visualizers` sections if they appear in one of these collections. A few exceptions are made for plugins that are particuarly notable.)
 
+- [Amplitron](https://github.com/sudip-mondal-2002/Amplitron) | (C++17, PortAudio, Dear ImGui, SDL2) | - A free, open-source cross-platform guitar amp simulator with 9 DSP effects and ~1.3ms latency.
 - [AnClark's Plugin Ports](https://github.com/AnClark) | (C++, [DPF]) | - A collection of various synths and plugins ported to [DPF].
 - [Airwindows Plugins](https://github.com/airwindows/airwindows/tree/master/plugins) | (C++, gui-less, raw plugin APIs) | - Lots of good quality effects and experiments developed over many years.
   - There are a *ton* of plugins here, so here is a list of some community favorites:
