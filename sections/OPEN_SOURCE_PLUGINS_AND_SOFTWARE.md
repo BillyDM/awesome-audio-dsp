@@ -16,7 +16,7 @@ A list of open source audio software that you can inspect and learn from, along 
     - [pressure4](https://github.com/airwindows/airwindows/tree/master/plugins/LinuxVST/src/Pressure4)
     - [totape5](https://github.com/airwindows/airwindows/tree/master/plugins/LinuxVST/src/ToTape5)
   - [airwin2rack](https://github.com/baconpaul/airwin2rack) | (C++, [JUCE], [VCV Rack]) | - All of the Airwindows plugins consolidated into a single plugin with GUI. Can also be used as a static libray for inclusion into other projects.
-- [ardura's plugins](https://github.com/ardura) | ([Rust], [nih-plug], [egui]) | - A collection of neat synths and effects with nice-looking GUIs. Written in Rust, nih-plug, and egui.
+- [ardura's plugins](https://github.com/ardura) | ([Rust], [NIH-plug], [egui]) | - A collection of neat synths and effects with nice-looking GUIs. Written in Rust, NIH-plug, and egui.
 - [Black Box Audio plugins](https://github.com/blackboxaudio) | (C++, [Rust], [JUCE]) | - Contains some neat plugins from this new audio company including a phase distortion synthesizer and a fancy ring modulation effect.
 - [brummer10's plugins](https://github.com/brummer10?tab=repositories) | (C++, [libxputty], raw plugin APIs, [JUCE]) | - A large collection of mostly guitar-focused effects. [guitarix](https://github.com/brummer10/guitarix) is one of the more popular ones.
 - [Calf Studio gear](https://github.com/calf-studio-gear/calf) | (C++, custom [GTK] framework) | - A large collection of plugins aimed at a professional audience.
@@ -35,11 +35,12 @@ A list of open source audio software that you can inspect and learn from, along 
 - [JoepVanlier's JSFX plugins](https://github.com/JoepVanlier/JSFX) | ([JSFX], [Lua]) | - A collection of cool plugins and scripts for Reaper. Some of the GUIs are really stunning.
 - [lkjb plugins](https://github.com/lkjbdsp/lkjb-plugins) | (C++, [JUCE]) | - Additional plugins made by the creator of [Luftikus].
 - [LSP Plugins](https://github.com/lsp-plugins) | (C++, custom GUI framework) | - A collection of good quality mixing/mastering effects for Linux.
-- [Madadog's plugins](https://github.com/Madadog) | ([Rust], [nih-plug], [Iced]) | - Contains some synthesizer plugins written in [Rust].
-- [Maeror's VST3 plugins](https://github.com/Maerorr/maerors-vst3-plugins) | ([Rust], [nih-plug], [Vizia]) | - A collection of simple effects written in Rust, nih-plug, and Vizia.
+- [Madadog's plugins](https://github.com/Madadog) | ([Rust], [NIH-plug], [Iced]) | - Contains some synthesizer plugins written in [Rust].
+- [Maeror's VST3 plugins](https://github.com/Maerorr/maerors-vst3-plugins) | ([Rust], [NIH-plug], [Vizia]) | - A collection of simple effects written in Rust, NIH-plug, and Vizia.
 - [Mrugalla Plugins](https://github.com/Mrugalla) | (C++, [JUCE]) | - A collection of modern and unique plugins by Florian Mrugalla.
 - [Mutable Instruments' Eurorack Modules](https://github.com/pichenettes/eurorack/tree/master) | (C++, custom embedded framework) | - The source code for a large collection of popular, high quality [Eurorack] modules.
-- [nih-plug](https://github.com/robbert-vdh/nih-plug) | ([Rust], [nih-plug], [egui], [Iced], [Vizia]) | - Contains a collection of plugins written in Rust, including the amazing [Spectral Compressor](https://github.com/robbert-vdh/nih-plug/tree/master/plugins/spectral_compressor) plugin.
+- [NIH-plug](https://github.com/robbert-vdh/NIH-plug) | ([Rust], [NIH-plug], [egui], [Iced], [Vizia]) | - Contains a collection of plugins written in Rust, including the amazing [Spectral Compressor](https://github.com/robbert-vdh/NIH-plug/tree/master/plugins/spectral_compressor) plugin.
+  - Note, the original NIH-plug repository is no longer maintained. Use this [fork](https://github.com/BillyDM/nih-plug) instead. 
 - [PodcastPlugins](https://github.com/trummerschlunk/PodcastPlugins) | (C++, [DPF]) | - A collection of easy-to-use plugins for speach enhancement. Currently under development at the time of this writing.
 - [Shiru Plugins](https://github.com/linuxmao-org/shiru-plugins) | (C++, [DPF]) | - A suite of old video-game sound chips synths and effects.
 - [sjaehn](https://github.com/sjaehn?tab=repositories) | (C++, [Pugl]) | - Several cool MIDI based slicing/glitching effects and synthesizers.
@@ -65,7 +66,7 @@ A list of open source audio software that you can inspect and learn from, along 
   - It is the bigger brother to the discontinued [InfernalSynth](https://github.com/sjoerdvankreel/infernal-synth) plugin.
 - [Geonkick](https://github.com/Geonkick-Synthesizer/geonkick) | (C++, C, custom GUI framework) | - Advanced drum synthesizer.
 - [gRainbow](https://github.com/StrangeLoopsAudio/gRainbow) | (C++, [JUCE]) | - A synthesizer that uses pitch detection to choose candidates for granular synthesis or sampling.
-- [Havregryn](https://github.com/vsandstrom/Havregryn) | (Rust, [nih-plug], [Vizia]) | - A granular delay and texture synthesizer.
+- [Havregryn](https://github.com/vsandstrom/Havregryn) | (Rust, [NIH-plug], [Vizia]) | - A granular delay and texture synthesizer.
 - [Helm](https://github.com/mtytel/helm) | (C++, [JUCE]) | - High-quality modern monophonic synthesizer. The older sibling to Vital. The oscillators are not stereo though.
 - [jc303](https://github.com/midilab/jc303) | (C++, [JUCE]) | - A nice Roland TB-303 clone.
 - [Mika Micro](https://github.com/tesselode/mika-micro) | (C++, [WDL-OL]) | - A nice and simple synthesizer with a clean design.
@@ -105,7 +106,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [DelayArchitect](https://github.com/jpcima/DelayArchitect) | (C++, [JUCE]) | - A feature-rich delay designer plugin.
 - [Delay Intervals](https://github.com/Matth-ewe-f/audio-plugin-delay-intervals) | (C++, [JUCE]) | - An audio plugin that can create fully customizable delay patterns.
 - [Dragonfly Reverb](https://github.com/michaelwillis/dragonfly-reverb) | (C++, [DPF]) | - Algorithmic reverb based on [Freeverb].
-- [Dust Saturator](https://github.com/Everither/dust-saturator) | ([Rust], [nih-plug], [Vizia]) | - A distortion plugin with a unique distortion algorithm.
+- [Dust Saturator](https://github.com/Everither/dust-saturator) | ([Rust], [NIH-plug], [Vizia]) | - A distortion plugin with a unique distortion algorithm.
 - [Fire](https://github.com/jerryuhoo/Fire) | (C++, [JUCE]) | - A multiband waveshaper with a great looking UI.
 - [Flutterbird](https://github.com/tesselode/flutterbird) | (C++, [WDL-OL]) | - Simple multi-lfo than modulates pitch and volume, creating a "fluttering" effect.
 - [Free Clip](https://gitlab.com/JHVenn/Free-Clip) | (C++, [JUCE]) | - A nice sounding waveshaper plugin.
@@ -113,8 +114,8 @@ A list of open source audio software that you can inspect and learn from, along 
 - [Fogpad](https://github.com/linuxmao-org/fogpad-port) | (C++, [DPF]) | - Reverb plugin where reflections can be frozen, filtered, pitch-shifted, and mangled.
 - [Glorious](https://github.com/TitanChariotsBB/Glorious) | (C++, [JUCE]) | - A chorus plugin modeled after the famous chorus circuit from the Roland Juno series of synths.
 - [Hamburger](https://github.com/Davit-G/Hamburger) | (C++, [JUCE]) | - A fantastic distortion plugin with a lot of different distortion algorithms.
-- [lamb](https://github.com/magnetophon/lamb-rs) | ([Faust], [Rust], [nih-plug], [Vizia]) | - A clean lookahead compressor/limiter.
-- [Audio Sampler](https://github.com/arunas-cesonis/live-sampler) | ([Rust], [nih-plug], [Vizia]) | - A live audio sampler plugin written in [Rust].
+- [lamb](https://github.com/magnetophon/lamb-rs) | ([Faust], [Rust], [NIH-plug], [Vizia]) | - A clean lookahead compressor/limiter.
+- [Audio Sampler](https://github.com/arunas-cesonis/live-sampler) | ([Rust], [NIH-plug], [Vizia]) | - A live audio sampler plugin written in [Rust].
 - [Luftikus] | (C++, [JUCE]) | - Analogue modeled equalizer.
 - [MAIM](https://github.com/ArdenButterfield/Maim) | (C++, [JUCE]) | - A unique distortion effect which "circuit bends an MP3 encoder in real time".
 - [Misstortion](https://github.com/nimbletools/misstortion1) | (C++, [JUCE]) | - Good quality hard/soft clipper.
@@ -134,7 +135,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [Utility Clone](https://github.com/m1m0zzz/utility-clone) | (C++, [JUCE]) | - A remake of the Utility plugin in Ableton.
 - [utilities](https://github.com/butchwarns/utilities) | (C++, [JUCE]) | - A plugin that contains a bunch of simple but useful utilities.
 - [Valentine](https://github.com/tote-bag-labs/valentine) | (C++, [JUCE]) | - A nice compressor/saturator that is meant to "pump and breath".
-- [VitaliumVerb](https://github.com/BillyDM/vitalium-verb) | ([Rust], [nih-plug], [Vizia]) | - A Rust port of the reverb module from the [Vital]/[Vitalium] synthesizer, with some added improvements and optimizations.
+- [VitaliumVerb](https://github.com/BillyDM/vitalium-verb) | ([Rust], [NIH-plug], [Vizia]) | - A Rust port of the reverb module from the [Vital]/[Vitalium] synthesizer, with some added improvements and optimizations.
 - [Wolf Shaper](https://github.com/pdesaulniers/wolf-shaper) | (C++, [DPF]) | - Good quality waveshaper with support for unlimited nodes.
 
 ## MIDI FX
@@ -202,7 +203,7 @@ A list of open source audio software that you can inspect and learn from, along 
 [Dplug]: https://github.com/AuburnSounds/Dplug
 [JSFX]: https://www.reaper.fm/sdk/js/js.php
 [Lua]: https://www.lua.org/
-[nih-plug]: https://github.com/robbert-vdh/nih-plug
+[NIH-plug]: https://github.com/BillyDM/nih-plug
 [Rust]: https://www.rust-lang.org/
 [egui]: https://github.com/emilk/egui
 [Iced]: https://github.com/iced-rs/iced
