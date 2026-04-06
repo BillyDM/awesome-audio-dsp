@@ -22,6 +22,7 @@ My curated list of audio DSP (digital signal processing) and plugin development 
 - [Sound Design & Music Production](sections/SOUND_DESIGN_AND_MUSIC_PRODUCTION.md) - While this is not *strictly* development related, knowing how plugins are actually used to make and edit sound can give valuable insight.
 - [System Tools](sections/SYSTEM_TOOLS.md) - A list of system tools useful in developing audio plugins and software.
 - [Technical Reading](sections/TECHNICAL_READING.md) - A list of useful articles, blogs, and scientific papers on algorithms and techniques for audio DSP.
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for audio DSP workflow orchestration, automated signal processing pipeline management, and multi-agent coordination. MIT licensed.
 
 
 ## *"If I'm a total noob, where should I start?"*
