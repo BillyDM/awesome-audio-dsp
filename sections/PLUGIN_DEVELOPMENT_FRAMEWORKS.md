@@ -38,7 +38,7 @@ A list of software stacks/frameworks used to make audio plugins with/without GUI
   - [JIVE](https://github.com/ImJimmi/JIVE) - Framework that makes it easier to create GUIs in JUCE.
   - [Pamplejuce](https://github.com/sudara/pamplejuce) - Handy code template to help get you started.
 
-## [NIH-plug](https://github.com/BillyDM/nih-plug)
+## [NIH-plug]
   - Full-stack and modular framework with GUI in Rust.
   - Fully open-source using a permissive license.
   - Targets [CLAP] and VST3 plugin formats.
@@ -51,7 +51,7 @@ A list of software stacks/frameworks used to make audio plugins with/without GUI
   - There is an (outdated at the time of this writing) [cookiecutter template](https://github.com/robbert-vdh/nih-plug-template) to help get you started faster.
   - Visit the [Rust Audio Discord Server](https://discord.gg/Qs2Zwtf9Gf) for help.
 
-> Note, the original repository at https://github.com/robbert-vdh/nih-plug is no longer maintained. Use the new fork at https://github.com/BillyDM/nih-plug.
+> Note, the original repository at https://github.com/robbert-vdh/nih-plug is no longer maintained. Use the new fork at https://codeberg.org/BillyDM/nih-plug.
 
 # New Experimental Frameworks
 
@@ -119,10 +119,10 @@ Here is a list of compatible GUI libraries you can use for your audio plugins.
 * [Dear ImGui](https://github.com/ocornut/imgui) - A very popular immediate mode GUI library with an active community. There are bindings to many other languages available.
   * [clap-imgui](https://github.com/schwaaa/clap-imgui) - A minimal example of a CLAP plugin with ImGui.
 * [egui] - An ImGui-inspired immediate mode GUI library for Rust.
-    - [egui_baseview](https://github.com/BillyDM/egui-baseview) - A shim to run egui on top of [baseview].
+    - [NIH-plug] - Contains a shim to run egui on top of [baseview] (using it does not require using the rest of the NIH-plug library).
 * [Iced] - A cross-platform GUI library for Rust focused on simplicity and type-safety.
     - [iced_audio] - Iced widgets for audio applications.
-    - [iced_baseview](https://github.com/BillyDM/iced_baseview) - A shim to run Iced on top of [baseview].
+    - [NIH-plug] - A shim to run Iced on top of [baseview] (using it does not require using the rest of the NIH-plug library).
 * [Nuklear](https://github.com/Immediate-Mode-UI/Nuklear) - Another popular immediate mode GUI library. Written in pure C, and bindings to many other languages are available.
 * [Pugl](https://github.com/lv2/pugl) - Minimal GUI layer made specifically for plugins.
 * [Qt](https://www.qt.io/) - It's possible to use Qt for CLAP plugins (though I'm not sure about other plugin formats).
@@ -132,7 +132,8 @@ Here is a list of compatible GUI libraries you can use for your audio plugins.
 * [robtk](https://github.com/x42/robtk) - A minimal layer for creating GUIs for LV2 plugins.
 * [Slint] - Robust and feature-packed declarative GUI library with bindings for Rust and C++. It's free to use for open source projects, but it requires a paid license to use for closed-source projects.
 * [Visage] - A a GPU-accelerated, cross-platform C++ library for native UI and 2D graphics. It merges the structure of a UI framework with the features of a creative graphics libraries. Made by the developer of the [Vital]() synthesizer.
-* [Vizia] - A declarative GUI library for Rust. Comes with a [baseview] backend built-in.
+* [Vizia] - A declarative GUI library for Rust.
+  - [Vizia Plug](https://github.com/vizia/vizia-plug) - A replacement for `nih-plug-vizia` which updates it to the latest version of Vizia. (Currently uses the old unmaintained nih-plug repository at the time of this writing.)
 
 > #### A common question that gets asked is "How can I use *X* GUI library to make my plugin GUI?
 >
@@ -170,3 +171,4 @@ There are plenty of options that allow you to just draw shapes and text to the s
 [cookiecutter]: https://github.com/audreyr/cookiecutter
 [CHOC]: https://github.com/Tracktion/choc
 [baseview]: https://github.com/RustAudio/baseview
+[NIH-plug]: https://codeberg.org/BillyDM/nih-plug

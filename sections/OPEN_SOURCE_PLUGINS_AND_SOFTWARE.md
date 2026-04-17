@@ -40,7 +40,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [Mrugalla Plugins](https://github.com/Mrugalla) | (C++, [JUCE]) | - A collection of modern and unique plugins by Florian Mrugalla.
 - [Mutable Instruments' Eurorack Modules](https://github.com/pichenettes/eurorack/tree/master) | (C++, custom embedded framework) | - The source code for a large collection of popular, high quality [Eurorack] modules.
 - [NIH-plug](https://github.com/robbert-vdh/NIH-plug) | ([Rust], [NIH-plug], [egui], [Iced], [Vizia]) | - Contains a collection of plugins written in Rust, including the amazing [Spectral Compressor](https://github.com/robbert-vdh/NIH-plug/tree/master/plugins/spectral_compressor) plugin.
-  - Note, the original NIH-plug repository is no longer maintained. Use this [fork](https://github.com/BillyDM/nih-plug) instead. 
+  - Note, the original NIH-plug repository is no longer maintained. Use this [fork](https://codeberg.org/BillyDM/nih-plug) instead. 
 - [PodcastPlugins](https://github.com/trummerschlunk/PodcastPlugins) | (C++, [DPF]) | - A collection of easy-to-use plugins for speach enhancement. Currently under development at the time of this writing.
 - [Shiru Plugins](https://github.com/linuxmao-org/shiru-plugins) | (C++, [DPF]) | - A suite of old video-game sound chips synths and effects.
 - [sjaehn](https://github.com/sjaehn?tab=repositories) | (C++, [Pugl]) | - Several cool MIDI based slicing/glitching effects and synthesizers.
@@ -203,7 +203,7 @@ A list of open source audio software that you can inspect and learn from, along 
 [Dplug]: https://github.com/AuburnSounds/Dplug
 [JSFX]: https://www.reaper.fm/sdk/js/js.php
 [Lua]: https://www.lua.org/
-[NIH-plug]: https://github.com/BillyDM/nih-plug
+[NIH-plug]: https://codeberg.org/BillyDM/nih-plug
 [Rust]: https://www.rust-lang.org/
 [egui]: https://github.com/emilk/egui
 [Iced]: https://github.com/iced-rs/iced
