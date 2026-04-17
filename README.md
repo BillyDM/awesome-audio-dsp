@@ -1,5 +1,7 @@
 # Awesome Audio DSP
 
+> This project has moved to Codeberg https://codeberg.org/BillyDM/awesome-audio-dsp. Please only post issues and pull requests there. A read-only mirror remains at https://github.com/BillyDM/awesome-audio-dsp for users who prefer that.
+
 My curated list of audio DSP (digital signal processing) and plugin development resources. New resources may be added in the future.
 
 - [Code Libraries](sections/CODE_LIBRARIES.md) - A list of useful libraries for audio software.
