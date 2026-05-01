@@ -176,6 +176,7 @@ A list of open source audio software that you can inspect and learn from, along 
 - [Mixxx](https://github.com/mixxxdj/mixxx) - Popular cross-platform application for performing live DJ mixes.
 - [pxtone collab](https://github.com/yuxshao/ptcollab) - A music editor with collaborative editing features.
 - [Stargate](https://github.com/stargatedaw/stargate) - A new and lightweight DAW with a powerful routing matrix and a suite of built-in plugins. It also aims to run well on low-spec hardware such as Raspberry Pi's.
+- [Volt DAW](https://github.com/TheRedXD/Volt) - A modern open source DAW being written in [Rust]. It is still in the very early stages of development at the time of this writing.
 
 ## Musical Notation
 
