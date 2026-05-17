@@ -65,7 +65,7 @@ When you want to get serious with audio DSP & audio plugin development, nothing 
   - It has a built-in system for testing code.
   - Does not use a separate header/source file (yay).
   - It has a welcoming and inclusive community.
-  - There is an active open-source modular audio plugin development framework called [NIH-plug].
+  - There is an active open-source modular audio plugin development framework called [nice-plug].
 - Cons:
   - It can be tricky to learn, especially if you are used to other low-level languages.
   - The language is more restrictive on what you are allowed to do, and thus requires more time up-front figuring out how to structure your code to make the compiler happy (this is of course by design). You are able to use explicit "unsafe" blocks when you need more control, but that can be susceptible to the same pitfalls of C/C++ if you're not careful.
@@ -141,6 +141,6 @@ The following are newer programming languages that have the potential to be grea
 
 [AFL]: https://github.com/google/AFL
 [Honggfuzz]: https://github.com/google/honggfuzz
-[NIH-plug]: https://codeberg.org/BillyDM/nih-plug
+[nice-plug]: https://codeberg.org/BillyDM/nice-plug
 [Rust Audio Discord Server]: https://discord.gg/Qs2Zwtf9Gf
 [Dplug]: https://github.com/AuburnSounds/Dplug

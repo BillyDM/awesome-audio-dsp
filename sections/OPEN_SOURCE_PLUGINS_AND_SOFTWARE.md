@@ -2,6 +2,9 @@
 
 A list of open source audio software that you can inspect and learn from, along with the language and framework used to make them.
 
+> ### *Note on NIH-plug:*
+> The [NIH-plug] framework is no longer maintained. Please use the new community fork called [nice-plug](https://codeberg.org/BillyDM/nice-plug).
+
 # Open Source Plugins
 
 ## Collections
@@ -204,7 +207,7 @@ A list of open source audio software that you can inspect and learn from, along 
 [Dplug]: https://github.com/AuburnSounds/Dplug
 [JSFX]: https://www.reaper.fm/sdk/js/js.php
 [Lua]: https://www.lua.org/
-[NIH-plug]: https://codeberg.org/BillyDM/nih-plug
+[NIH-plug]: https://github.com/robbert-vdh/nih-plug
 [Rust]: https://www.rust-lang.org/
 [egui]: https://github.com/emilk/egui
 [Iced]: https://github.com/iced-rs/iced

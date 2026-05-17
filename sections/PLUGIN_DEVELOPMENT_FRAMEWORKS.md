@@ -38,20 +38,17 @@ A list of software stacks/frameworks used to make audio plugins with/without GUI
   - [JIVE](https://github.com/ImJimmi/JIVE) - Framework that makes it easier to create GUIs in JUCE.
   - [Pamplejuce](https://github.com/sudara/pamplejuce) - Handy code template to help get you started.
 
-## [NIH-plug]
+## [nice-plug]
   - Full-stack and modular framework with GUI in Rust.
   - Fully open-source using a permissive license.
   - Targets [CLAP] and VST3 plugin formats.
   - Targets Linux, Mac, and Windows platforms.
   - Has several different options for GUI such as [Iced], [egui], [Vizia], and [Slint]. (Slint requires a paid license if you want to distribute your plugin closed-source.)
     - If you use Iced, there are also audio-specific widgets in the [iced_audio] extension.
-    - [nih-plug-slint](https://github.com/aidan729/nih-plug-slint) - A 3rd party adapter for the [Slint] GUI framework. (Currently uses the old unmaintained nih-plug repository at the time of this writing.)
-    - [vizia-plug](https://github.com/vizia/vizia-plug) - A 3rd party adapter for the [Vizia] GUI framework. (Currently uses the old unmaintained nih-plug repository at the time of this writing.)
-  - It's still somewhat experimental and is missing some more specialized features, but it's usable.
-  - There is an (outdated at the time of this writing) [cookiecutter template](https://github.com/robbert-vdh/nih-plug-template) to help get you started faster.
+    - [vizia-plug](https://github.com/vizia/vizia-plug) - A 3rd party adapter for the [Vizia] GUI framework.
   - Visit the [Rust Audio Discord Server](https://discord.gg/Qs2Zwtf9Gf) for help.
 
-> Note, the original repository at https://github.com/robbert-vdh/nih-plug is no longer maintained. Use the new fork at https://codeberg.org/BillyDM/nih-plug.
+> Note, the original NIH-plug framework at https://github.com/robbert-vdh/nih-plug is no longer maintained.
 
 # New Experimental Frameworks
 
