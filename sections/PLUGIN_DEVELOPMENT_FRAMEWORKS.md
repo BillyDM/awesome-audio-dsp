@@ -44,7 +44,6 @@ A list of software stacks/frameworks used to make audio plugins with/without GUI
   - Targets [CLAP] and VST3 plugin formats.
   - Targets Linux, Mac, and Windows platforms.
   - Has several different options for GUI such as [Iced], [egui], [Vizia], and [Slint]. (Slint requires a paid license if you want to distribute your plugin closed-source.)
-    - If you use Iced, there are also audio-specific widgets in the [iced_audio] extension.
     - [vizia-plug](https://github.com/vizia/vizia-plug) - A 3rd party adapter for the [Vizia] GUI framework.
   - Visit the [Rust Audio Discord Server](https://discord.gg/Qs2Zwtf9Gf) for help.
 
