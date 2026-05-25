@@ -3,7 +3,7 @@
 A list of open source audio software that you can inspect and learn from, along with the language and framework used to make them.
 
 > ### *Note on NIH-plug:*
-> The [NIH-plug] framework is no longer maintained. Please use the new community fork called [nice-plug](https://codeberg.org/BillyDM/nice-plug).
+> The [NIH-plug] framework is no longer maintained. Please use the new community fork called [nice-plug](https://codeberg.org/RustAudio/nice-plug).
 
 # Open Source Plugins
 

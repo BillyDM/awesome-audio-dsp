@@ -116,10 +116,10 @@ Here is a list of compatible GUI libraries you can use for your audio plugins.
 * [Dear ImGui](https://github.com/ocornut/imgui) - A very popular immediate mode GUI library with an active community. There are bindings to many other languages available.
   * [clap-imgui](https://github.com/schwaaa/clap-imgui) - A minimal example of a CLAP plugin with ImGui.
 * [egui] - An ImGui-inspired immediate mode GUI library for Rust.
-    - [NIH-plug] - Contains a shim to run egui on top of [baseview] (using it does not require using the rest of the NIH-plug library).
+    - [egui-baseview](https://codeberg.org/RustAudio/nice-plug/src/branch/main/baseview-adapters/egui-baseview) - A shim to run egui on top of [baseview] (using it does not require using the rest of the nice-plug library).
 * [Iced] - A cross-platform GUI library for Rust focused on simplicity and type-safety.
-    - [iced_audio] - Iced widgets for audio applications.
-    - [NIH-plug] - A shim to run Iced on top of [baseview] (using it does not require using the rest of the NIH-plug library).
+    - [iced_audio] - Iced widgets for audio applications. (Currently uses an outdated version of Iced.)
+    - [iced_baseview](https://codeberg.org/RustAudio/nice-plug/src/branch/main/baseview-adapters/iced_baseview) - A shim to run Iced on top of [baseview] (using it does not require using the rest of the nice-plug library).
 * [Nuklear](https://github.com/Immediate-Mode-UI/Nuklear) - Another popular immediate mode GUI library. Written in pure C, and bindings to many other languages are available.
 * [Pugl](https://github.com/lv2/pugl) - Minimal GUI layer made specifically for plugins.
 * [Qt](https://www.qt.io/) - It's possible to use Qt for CLAP plugins (though I'm not sure about other plugin formats).
@@ -130,7 +130,7 @@ Here is a list of compatible GUI libraries you can use for your audio plugins.
 * [Slint] - Robust and feature-packed declarative GUI library with bindings for Rust and C++. It's free to use for open source projects, but it requires a paid license to use for closed-source projects.
 * [Visage] - A a GPU-accelerated, cross-platform C++ library for native UI and 2D graphics. It merges the structure of a UI framework with the features of a creative graphics libraries. Made by the developer of the [Vital]() synthesizer.
 * [Vizia] - A declarative GUI library for Rust.
-  - [Vizia Plug](https://github.com/vizia/vizia-plug) - A replacement for `nih-plug-vizia` which updates it to the latest version of Vizia. (Currently uses the old unmaintained nih-plug repository at the time of this writing.)
+  - [Vizia Plug](https://github.com/vizia/vizia-plug) - An audio plugin example using Vizia and [nice-plug].
 
 > #### A common question that gets asked is "How can I use *X* GUI library to make my plugin GUI?
 >
@@ -141,7 +141,7 @@ Here is a list of compatible GUI libraries you can use for your audio plugins.
 ## "I am hardcore and want to make my own GUI solution"
 
 There are plenty of options that allow you to just draw shapes and text to the screen.
- 
+
 * [bgfx](https://github.com/bkaradzic/bgfx) - Low-level cross platform graphics library that abstracts over different graphics APIs. Has a sizeable community, and contains bindings to various programming languages.
 * [Cairo](https://www.cairographics.org/) - An old but widely used vector graphics library. It is not hardware-accelerated though, so it is quite slow. But on the flip side not being hardware-accelerated removes the headaches involved with graphics drivers.
 * [femtovg](https://github.com/femtovg/femtovg) - An OpenGL vector graphics rendering library written in Rust, based on NanoVG.
@@ -168,4 +168,4 @@ There are plenty of options that allow you to just draw shapes and text to the s
 [cookiecutter]: https://github.com/audreyr/cookiecutter
 [CHOC]: https://github.com/Tracktion/choc
 [baseview]: https://github.com/RustAudio/baseview
-[NIH-plug]: https://codeberg.org/BillyDM/nih-plug
+[nice-plug]: https://codeberg.org/RustAudio/nice-plug

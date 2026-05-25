@@ -141,6 +141,6 @@ The following are newer programming languages that have the potential to be grea
 
 [AFL]: https://github.com/google/AFL
 [Honggfuzz]: https://github.com/google/honggfuzz
-[nice-plug]: https://codeberg.org/BillyDM/nice-plug
+[nice-plug]: https://codeberg.org/RustAudio/nice-plug
 [Rust Audio Discord Server]: https://discord.gg/Qs2Zwtf9Gf
 [Dplug]: https://github.com/AuburnSounds/Dplug
