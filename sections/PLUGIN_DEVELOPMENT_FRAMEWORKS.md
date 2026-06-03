@@ -45,6 +45,7 @@ A list of software stacks/frameworks used to make audio plugins with/without GUI
   - Targets Linux, Mac, and Windows platforms.
   - Has several different options for GUI such as [Iced], [egui], [Vizia], and [Slint]. (Slint requires a paid license if you want to distribute your plugin closed-source.)
     - [vizia-plug](https://github.com/vizia/vizia-plug) - A 3rd party adapter for the [Vizia] GUI framework.
+    - [nice-plug-slint](https://github.com/aidan729/nice-plug-slint) - A 3rd party adapter for the [Slint] GUI framework.
   - Visit the [Rust Audio Discord Server](https://discord.gg/Qs2Zwtf9Gf) for help.
 
 > Note, the original NIH-plug framework at https://github.com/robbert-vdh/nih-plug is no longer maintained.
