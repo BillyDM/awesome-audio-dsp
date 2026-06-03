@@ -45,7 +45,7 @@ A list of software stacks/frameworks used to make audio plugins with/without GUI
   - Targets Linux, Mac, and Windows platforms.
   - Has built in support for the [Iced] and [egui] GUI frameworks (and also supports adding your own GUI framework on top of OpenGL, [wgpu], or [softbuffer]). Other GUI frameworks are also available via 3rd party crates:
     - [vizia-plug](https://github.com/vizia/vizia-plug) - A 3rd party adapter for the [Vizia] GUI framework.
-    - [nice-plug-slint](https://github.com/aidan729/nice-plug-slint) - A 3rd party adapter for the [Slint] GUI framework. (Note Slint requires a paid license if you want to distribute your plugin closed-source.)
+    - [nice-plug-slint](https://github.com/aidan729/nice-plug-slint) - A 3rd party adapter for the [Slint] GUI framework. (Note Slint requires either a custom royalty-free license or a paid license to use in closed-source projects.)
   - Visit the [Rust Audio Discord Server](https://discord.gg/Qs2Zwtf9Gf) for help.
 
 > Note, the original NIH-plug framework at https://github.com/robbert-vdh/nih-plug is no longer maintained.
@@ -127,7 +127,7 @@ Here is a list of compatible GUI libraries you can use for your audio plugins.
 * [raygui](https://github.com/raysan5/raygui) - Another lightweight immediate mode GUI library written in pure C.
 * [rutabaga](https://github.com/wrl/rutabaga) - An experimental OpenGL widget toolkit written in C.
 * [robtk](https://github.com/x42/robtk) - A minimal layer for creating GUIs for LV2 plugins.
-* [Slint] - Robust and feature-packed declarative GUI library with bindings for Rust and C++. It's free to use for open source projects, but it requires a paid license to use for closed-source projects.
+* [Slint] - Robust and feature-packed declarative GUI library with bindings for Rust and C++. It's free to use for open source projects, but requires either a custom royalty-free license or a paid license to use for closed-source projects.
 * [Visage] - A a GPU-accelerated, cross-platform C++ library for native UI and 2D graphics. It merges the structure of a UI framework with the features of a creative graphics libraries. Made by the developer of the [Vital]() synthesizer.
 * [Vizia] - A declarative GUI library for Rust.
   - [Vizia Plug](https://github.com/vizia/vizia-plug) - An audio plugin example using Vizia and [nice-plug].
