@@ -43,9 +43,9 @@ A list of software stacks/frameworks used to make audio plugins with/without GUI
   - Fully open-source using a permissive license.
   - Targets [CLAP] and VST3 plugin formats.
   - Targets Linux, Mac, and Windows platforms.
-  - Has several different options for GUI such as [Iced], [egui], [Vizia], and [Slint]. (Slint requires a paid license if you want to distribute your plugin closed-source.)
+  - Has built in support for the [Iced] and [egui] GUI frameworks (and also supports adding your own GUI framework on top of OpenGL, [wgpu], or [softbuffer]). Other GUI frameworks are also available via 3rd party crates:
     - [vizia-plug](https://github.com/vizia/vizia-plug) - A 3rd party adapter for the [Vizia] GUI framework.
-    - [nice-plug-slint](https://github.com/aidan729/nice-plug-slint) - A 3rd party adapter for the [Slint] GUI framework.
+    - [nice-plug-slint](https://github.com/aidan729/nice-plug-slint) - A 3rd party adapter for the [Slint] GUI framework. (Note Slint requires a paid license if you want to distribute your plugin closed-source.)
   - Visit the [Rust Audio Discord Server](https://discord.gg/Qs2Zwtf9Gf) for help.
 
 > Note, the original NIH-plug framework at https://github.com/robbert-vdh/nih-plug is no longer maintained.
@@ -151,8 +151,9 @@ There are plenty of options that allow you to just draw shapes and text to the s
 * [Skia](https://skia.org/) - Hardware-accelerated 2D vector graphics library. Built by Google to power Chrome and Flutter. It has a relatively large binary size though.
 * [Sokol](https://github.com/floooh/sokol) - Low-level cross platform graphics library that abstracts over different graphics APIs. Contains bindings to various programming languages.
 * [vg-renderer](https://github.com/jdryg/vg-renderer) - A vector graphics renderer for [bgfx].
-* [wgpu](https://wgpu.rs/) - Low-level cross platform graphics library for Rust that abstracts over different graphics APIs. Inspired by WebGPU.
+* [wgpu] - Low-level cross platform graphics library for Rust that abstracts over different graphics APIs. Inspired by WebGPU.
   * [glyphon](https://github.com/grovesNL/glyphon) - An easy way to layout and render text in wgpu using [Cosmic Text](https://github.com/pop-os/cosmic-text/).
+* [softbuffer] - A Rust crate that allows you to easily draw pixels to the screen using the CPU.
 
 [CLAP]: https://github.com/free-audio/clap
 [clap-wrapper]: https://github.com/free-audio/clap-wrapper
@@ -169,3 +170,5 @@ There are plenty of options that allow you to just draw shapes and text to the s
 [CHOC]: https://github.com/Tracktion/choc
 [baseview]: https://github.com/RustAudio/baseview
 [nice-plug]: https://codeberg.org/RustAudio/nice-plug
+[wgpu]: https://wgpu.rs
+[softbuffer]: https://github.com/rust-windowing/softbuffer
