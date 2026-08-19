@@ -36,7 +36,7 @@ LV2 is a free and open source plugin standard created for use within the Linux e
 
 ## VST3 (aka VST version 3)
   - Why?: This plugin standard is widely used and has excellent support in most modern commercial DAWs.
-  - Why Not?: The standard is based on a complicated and [messy](https://github.com/juce-framework/JUCE/blob/master/modules/juce_audio_processors/format_types/juce_VST3Headers.h#L32) C++ codebase with some weird design choices and ambiguous specifications. Steinberg has also had a long history of restrictive licensing practices (they only just recently switched to the MIT license as of October 2025).
+  - Why Not?: The standard is based on a complicated and [messy](https://github.com/juce-framework/JUCE/blob/51c4a484ee15d43bd7fc45d11cc462380f953a0c/modules/juce_audio_processors_headless/format_types/juce_VST3Headers.h#L46) C++ codebase with some weird design choices and ambiguous specifications. Steinberg has also had a long history of restrictive licensing practices (they only just recently switched to the MIT license as of October 2025).
   - License: [MIT]
   - Platforms: Linux, Mac, Windows
   - Support: Supported by most modern commercial DAWs (with notable exception of Apple's DAW Logic) and a few open source DAWs.
