@@ -1,8 +1,8 @@
-# Machine Learning
+# Non-Generative Machine Learning
 
-Machine learning has been gaining traction in the audio industry lately. I don't know much about the topic myself, but I'll link some potentially useful resources here if you're interested.
+Using machine learning for audio processing has been gaining traction in the audio industry lately. I don't know that much about the topic myself, but I'll link some potentially useful resources here if you're interested.
 
-> By "machine learning" I am referring to using neural networks for audio processing, not LLMs or other harmful generative AI technology. I will not post or accept anything related to LLMs or generative AI here.
+> By "machine learning" I am referring specifically to non-generative algorithms. Examples include noise removal, circuit simulations, and guitar amp simulations. Using LLMs or other harmful generative AI technology to generate audio and/or transform audio to sound like another artist is unethical. I will not post or accept anything related to LLMs or generative AI here. (Though text-to-speech algorithms meant for accessibility purposes are acceptable as long as it can't be used to impersonate someone and the entire training data has been ethically sourced).
 
 - [3Blue1Brown - Neural Networks](https://youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) - An excellent short series of YouTube videos explaining the basics of how machine learning actually works.
 - [audioFlux](https://github.com/libAudioFlux/audioFlux) -  A deep learning tool library for audio and music analysis.

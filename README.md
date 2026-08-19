@@ -11,7 +11,7 @@ My curated list of audio DSP (digital signal processing) and plugin development 
 - [Forums](sections/FORUMS.md) - A list of audio-development-related forums you can join.
 - [Free Online Textbooks & Courses](sections/FREE_ONLINE_TEXTBOOKS_AND_COURSES.md) - A list of free online textbooks and courses on audio DSP.
 - [Graphic Design and UX](sections/GRAPHIC_DESIGN_AND_UX.md) - A list of resources to aid in the design of plugin GUIs.
-- [Machine Learning](sections/MACHINE_LEARNING.md) - Resources on using this powerful emerging technology for audio DSP.
+- [Non-Generative Machine Learning](sections/NON_GENERATIVE_MACHINE_LEARNING.md) - Resources on using non-generative machine learning algorithms for audio processing (noise removal, circuit simulations, guitar amp simulations, etc.)
 - [Mathematics](sections/MATHEMATICS.md) - Learning resources and tools for the mathematics of audio DSP.
 - [More Lists](sections/MORE_LISTS.md) - Here I'll link curated lists of resources that others have made.
 - [Open Source Plugins & Software](sections/OPEN_SOURCE_PLUGINS_AND_SOFTWARE.md) - A list of open source audio software that you can inspect and learn from.
@@ -24,7 +24,6 @@ My curated list of audio DSP (digital signal processing) and plugin development 
 - [Sound Design & Music Production](sections/SOUND_DESIGN_AND_MUSIC_PRODUCTION.md) - While this is not *strictly* development related, knowing how plugins are actually used to make and edit sound can give valuable insight.
 - [System Tools](sections/SYSTEM_TOOLS.md) - A list of system tools useful in developing audio plugins and software.
 - [Technical Reading](sections/TECHNICAL_READING.md) - A list of useful articles, blogs, and scientific papers on algorithms and techniques for audio DSP.
-
 
 ## *"If I'm a total noob, where should I start?"*
 
@@ -46,10 +45,9 @@ Feel free to open a PR if you wish! But please follow the rules:
 
 ### PRs will NOT be accepted if:
 * The linked resources have been "vibe coded" or have used generative AI substantially.
-* The linked resources are related to LLMs or some other form of generative AI technologies. (The `Machine Learning` category is for non-generative neural network technology like noise removal, circuit simulations, and guitar amp simulations.)
+* The linked resources are related to LLMs or some other form of generative AI technologies. (The `Non-Generative Machine Learning` category is for non-generative neural network technology like noise removal, circuit simulations, and guitar amp simulations.) Using LLMs or other generative AI technology to generate audio and/or transform audio to sound like another artist is unethical. (Though text-to-speech algorithms meant for accessibility purposes are acceptable as long as it can't be used to impersonate someone and the entire training data has been ethically sourced).
 * You are self-promoting your own materials, especially if you have a financial incentive to do so. These can still be accepted if you provide evidence that the materials have been useful to others and that others recommend your materials.
 
 ### PRs must satisfy the following conditions:
 * The linked resources must be genuinely useful to learn from. (Toy/hobby projects are allowed in `Open Source Plugins & Software` as long as the software is functional.)
 * Lists must be sorted in alphabetical order.
-
