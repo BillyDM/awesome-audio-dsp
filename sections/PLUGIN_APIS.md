@@ -40,6 +40,7 @@ LV2 is a free and open source plugin standard created for use within the Linux e
   - License: [MIT]
   - Platforms: Linux, Mac, Windows
   - Support: Supported by most modern commercial DAWs (with notable exception of Apple's DAW Logic) and a few open source DAWs.
+  - Distribution - As of October 2025, you can distribute open source and close sourced versions of your plugins (and host VST3 plugins) freely without restriction.
   - SDK download: [VST3 SDK](https://github.com/steinbergmedia/vst3sdk)
 
 # Other APIs
