@@ -50,6 +50,8 @@ A list of software stacks/frameworks used to make audio plugins with/without GUI
 
 > Note, the original NIH-plug framework at https://github.com/robbert-vdh/nih-plug is no longer maintained.
 
+> There is another NIH-plug-like framework called Truce, but it's heavily vibe-coded so I wouldn't trust it one bit.
+
 # New Experimental Frameworks
 
 There have been a few shiny new plugin development frameworks popping up over the past few years. While these are still experimental and may not have the same level of features and support of the established ones, give them a try if you're interested in shiny new things!
