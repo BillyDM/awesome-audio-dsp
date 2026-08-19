@@ -36,12 +36,10 @@ LV2 is a free and open source plugin standard created for use within the Linux e
 
 ## VST3 (aka VST version 3)
   - Why?: This plugin standard is widely used and has excellent support in most modern commercial DAWs.
-  - Why Not?: Requires a signed license agreement with Steinberg in order to distribute commercial (closed source) VST3 plugins (or to host VST3 plugins in a closed source host). The standard is based on a complicated and [messy](https://github.com/juce-framework/JUCE/blob/master/modules/juce_audio_processors/format_types/juce_VST3Headers.h#L32) C++ codebase with some weird design choices. Steinberg has also not been on-board with people distributing SDK bindings to other languages (like Rust).
-  - License: Proprietary / [GPLv3]
+  - Why Not?: The standard is based on a complicated and [messy](https://github.com/juce-framework/JUCE/blob/master/modules/juce_audio_processors/format_types/juce_VST3Headers.h#L32) C++ codebase with some weird design choices and ambiguous specifications. Steinberg has also had a long history of restrictive licensing practices (they only just recently switched to the MIT license as of October 2025).
+  - License: [MIT]
   - Platforms: Linux, Mac, Windows
   - Support: Supported by most modern commercial DAWs (with notable exception of Apple's DAW Logic) and a few open source DAWs.
-  - Distribution - If you are distributing your plugin with the [GPLv3] open source license (or host VST3 plugins with your own [GPLv3] host), then you do not need to have a signed license agreement with Steinberg. However, if you want to distribute your plugin closed source or create a closed-source host, then you need to get a signed [VST3 License Agreement](https://developer.steinberg.help/pages/viewpage.action?pageId=9797944).
-    - Also note that Steinberg has a history of changing their license agreements for however they see fit (like they did when they stopped giving out VST2 licenses). If you want to ever distribute plugins commercially, I would advise you to get a license agreement as soon as possible before Steinberg changes their mind.
   - SDK download: [VST3 SDK](https://github.com/steinbergmedia/vst3sdk)
 
 # Other APIs
