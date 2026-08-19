@@ -12,6 +12,7 @@ Tips and tools for optimizing audio software.
     - C/C++ (gcc or clang): `-O3`
     - C/C++ (msvc): `/O2`
     - Rust: `-C opt-level=3`
+    - Zig: `-O ReleaseFast` or `-O ReleaseSafe` (depending on which safety level you wish to use)
   - Sometimes the compiler optimizes so much that it removes the function you want to analyze entirely (i.e. dead code elimination). To fix this, use the following function attributes for your given language/compiler:
     - C/C++ (gcc): `__attribute__((optimize("O0")))`
         - *Place this on a function that calls the function you want to analyze, not the function itself. For example:*
@@ -43,6 +44,12 @@ Tips and tools for optimizing audio software.
       - ```rust
         #[no_mangle]
         pub fn foo_my_function_to_analyze() {
+          // ...
+        }
+        ```
+    - Zig: `export`
+      - ```zig
+        export fn foo_my_function_to_analyze() void {
           // ...
         }
         ```
