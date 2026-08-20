@@ -102,14 +102,18 @@ Jokes aside, this is a legitimate route you can take. Just be prepared for the e
 
 Here are some resources that can make your life easier:
 
+## The CLAP wrapper
+
+A new trend in the audio plugin development world is to just write your plugin against the raw [CLAP] plugin API with a compatible GUI library (perhaps using [CHOC] or [baseview] for cross-platform windowing), and then let the [clap-wrapper] library automatically generate VST3, AU, and standalone versions of your plugin for you. For a great example of this setup in action, see the [Spectrum](https://github.com/tadmn/spectrum) plugin.
+
+Or another option is to simply target CLAP only. :)
+
+* [Clack](https://github.com/prokopyl/clack) - A Rust crate offering low-level, safe Rust wrappers for the [CLAP] plugin API. Any of the baseview-compatible GUI libraries listed in the Plugin-Compatible GUI Libraries section below can be used.
+
 ## Windowing
 
 * [CHOC] (C++) - A random grab-bag of header-only, dependency-free, liberally-licensed C++ classes. It is very handy if you want to use or create a custom GUI library in C++, and it even includes support for [WebView](https://github.com/Tracktion/choc/blob/main/gui/choc_WebView.h).
 * [baseview] (Rust) - A low-level windowing system geared towards making audio plugin UIs.
-
-## The CLAP wrapper
-
-A new trend in the audio plugin development world is to just write your plugin against the raw [CLAP] plugin API with whatever GUI library (perhaps using [CHOC] or [baseview] for cross-platform windowing), and then let the [clap-wrapper] library automatically generate VST3, AU, and standalone versions of your plugin for you. For a great example of this setup in action, see the [Spectrum](https://github.com/tadmn/spectrum) plugin.
 
 ## Plugin-Compatible GUI Libraries
 
