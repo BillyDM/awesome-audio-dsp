@@ -8,7 +8,6 @@ Resources related to the publishing and distrubution of audio plugins.
 
 * [Chowdhury-DSP JUCE Template](https://github.com/Chowdhury-DSP/JUCEPluginTemplate/blob/main/.github/workflows/cmake.yml)
 * [NIH-plug](https://github.com/robbert-vdh/nih-plug/blob/master/.github/workflows/build.yml) (outdated)
-* [Pamplejuce](https://github.com/sudara/pamplejuce/blob/main/.github/workflows/build_and_test.yml)
 * [SurgeXT](https://github.com/surge-synthesizer/surge/blob/main/.github/workflows/build-release.yml)
 
 ## Compiling for Linux
@@ -26,6 +25,7 @@ If you use CI to build your plugins, then simply set the target to Ubuntu 22.04.
 ## Bundling
 
 * [cargo-nice-plug](https://codeberg.org/RustAudio/nice-plug/src/branch/main/crates/cargo-nice-plug) - A cargo command to bundle audio plugins in the Rust programming language. While it's made for the [nice-plug](https://codeberg.org/RustAudio/nice-plug) development framework, it can also be used on its own to bundle Rust plugins made with other frameworks such as [clack-plugin](https://github.com/prokopyl/clack).
+* [Chowdhury-DSP JUCE Template](https://github.com/Chowdhury-DSP/JUCEPluginTemplate) - Contains scripts for bundling plugins with [CMake](https://cmake.org/).
 
 ## Cross Compilation
 
