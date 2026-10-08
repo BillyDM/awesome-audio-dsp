@@ -88,20 +88,23 @@ When you want to get serious with audio DSP & audio plugin development, nothing 
 ## [Zig](https://ziglang.org/)
 - Pros:
   - A simple but powerful language that aims to be a modern successor to C.
+  - Easier to learn than C++ and Rust.
   - Has features which are a great fit for high performance realtime audio DSP:
     - No hidden control flow, function calls, allocations, or deallocations.
     - A built-in `Vector` type for easy autovectorization.
     - A builtin `@setFloatMode` function that can be used to enable floating point optimizations for a block of code (equivalent to `-ffast-math` in GCC).
     - Runtime safety checks can be disabled for a block of code, making optimizations easier.
     - First-class support for custom allocators (For example, you can run your entire plugin in a single allocation if you really wanted to.)
+    - A powerful "comptime" system for metaprogramming. This has many applications, including making your DSP generic over a sample type and/or vector width, generating parameter boilerplate code, and computing the values of a lookup table.
   - Less "footguns" than C and C++.
   - Has a [Strict No LLM / No AI Policy](https://ziglang.org/code-of-conduct/#strict-no-llm-no-ai-policy) if that is something you value.
   - Includes built in testing and fuzzing functionality.
-  - Zig is also a powerful build system, including the ability to easily compile C/C++ dependencies.
+  - Is also a powerful build system, including the ability to easily compile C/C++ dependencies and to cross compile to different operating systems and CPU architectures.
 - Cons:
   - Still a relatively young langauage, so the ecosystem is much sparser than C++ or Rust currently. (This is mitigated by being easy to use with C libraries.)
   - Has not reached 1.0 stability yet, so there may be some breaking changes to the language in future versions.
   - While it is safer than C/C++ (when compiled in `Debug` or `ReleaseSafe` mode), it is still not a memory-safe language, so some precautions are still needed when using it.
+  - No function multiversioning yet (but it is on the roadmap).
 - Resources:
   - There is a (very work on progress) audio plugin framework called [zigplug](https://codeberg.org/bandithedoge/zigplug). Also see [ZigAudio](https://codeberg.org/ZigAudio).
 
