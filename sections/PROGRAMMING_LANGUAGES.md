@@ -100,6 +100,7 @@ When you want to get serious with audio DSP & audio plugin development, nothing 
   - Has a [Strict No LLM / No AI Policy](https://ziglang.org/code-of-conduct/#strict-no-llm-no-ai-policy) if that is something you value.
   - Includes built in testing and fuzzing functionality.
   - Is also a powerful build system, including the ability to easily compile C/C++ dependencies and to cross compile to different operating systems and CPU architectures.
+  - Does not use a separate header/source file (yay).
 - Cons:
   - Still a relatively young langauage, so the ecosystem is much sparser than C++ or Rust currently. (This is mitigated by being easy to use with C libraries.)
   - Has not reached 1.0 stability yet, so there may be some breaking changes to the language in future versions.
