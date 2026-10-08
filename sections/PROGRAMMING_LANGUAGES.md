@@ -71,7 +71,6 @@ When you want to get serious with audio DSP & audio plugin development, nothing 
   - The language is more restrictive on what you are allowed to do, and thus requires more time up-front figuring out how to structure your code to make the compiler happy (this is of course by design). You are able to use explicit "unsafe" blocks when you need more control, but that can be susceptible to the same pitfalls of C/C++ if you're not careful.
   - If you want to use safe Rust for DSP, you need to rely a lot more on the compiler to properly optimize your code. While this works most of the time, it can sometimes fail in more complex scenarios, requiring you to either restructure your code or use unsafe blocks to fix it. Also some features such as SIMD intrinsics require unsafe blocks anyway (although a solution to this is in the works called [portable-simd](https://github.com/rust-lang/portable-simd), and there are other 3rd-party SIMD crates you can try).
   - Slower compile times.
-  - The language is still comparatively young, so library support such as GUIs and audio plugin development are not on the same level as C++. (There is however an active community of Rust developers working on some of these libraries. If you are interested in helping, check out the [Rust Audio Discord Server]!)
 - Resources:
   - [How to learn modern Rust](https://github.com/joaocarvalhoopen/How_to_learn_modern_Rust) - An extensive list of resources for learning Rust.
   - [How-to Optimize Rust Programs on Linux](http://www.codeofview.com/fix-rs/2017/01/24/how-to-optimize-rust-programs-on-linux/) - How-to guide on profiling Rust code on Linux.
@@ -85,6 +84,26 @@ When you want to get serious with audio DSP & audio plugin development, nothing 
   - [The Rust Performance Book](https://nnethercote.github.io/perf-book/title-page.html) - Tips on optimizing code in Rust.
 
 > I often get asked about beginner-friendly DSP learning resources which focus on the [Rust](https://www.rust-lang.org/) programming language. Unfortunately there isn't really anything out there. I would suggest learning DSP in another language first and then translating that knowledge to Rust later. The choice of language doesn't really matter that much for learning DSP, the main difference comes when it's time to create full applications/plugins *around* your DSP code.
+
+## [Zig](https://ziglang.org/)
+- Pros:
+  - A simple but powerful language that aims to be a modern successor to C.
+  - Has features which are a great fit for high performance realtime audio DSP:
+    - No hidden control flow, function calls, allocations, or deallocations.
+    - A built-in `Vector` type for easy autovectorization.
+    - A builtin `@setFloatMode` function that can be used to enable floating point optimizations for a block of code (equivalent to `-ffast-math` in GCC).
+    - Runtime safety checks can be disabled for a block of code, making optimizations easier.
+    - First-class support for custom allocators (For example, you can run your entire plugin in a single allocation if you really wanted to.)
+  - Less "footguns" than C and C++.
+  - Has a [Strict No LLM / No AI Policy](https://ziglang.org/code-of-conduct/#strict-no-llm-no-ai-policy) if that is something you value.
+  - Includes built in testing and fuzzing functionality.
+  - Zig is also a powerful build system, including the ability to easily compile C/C++ dependencies.
+- Cons:
+  - Still a relatively young langauage, so the ecosystem is much sparser than C++ or Rust currently. (This is mitigated by being easy to use with C libraries.)
+  - Has not reached 1.0 stability yet, so there may be some breaking changes to the language in future versions.
+  - While it is safer than C/C++ (when compiled in `Debug` or `ReleaseSafe` mode), it is still not a memory-safe language, so some precautions are still needed when using it.
+- Resources:
+  - There is a (very work on progress) audio plugin framework called [zigplug](https://codeberg.org/bandithedoge/zigplug). Also see [ZigAudio](https://codeberg.org/ZigAudio).
 
 # Domain Specific Languages
 
@@ -133,11 +152,7 @@ The following are newer programming languages that have the potential to be grea
 - [Odin](https://odin-lang.org/)
   - Aims to be a modern alternative to C.
   - Not a memory-safe language, so extra precautions are needed when using it with safety checks disabled.
-- [Zig](https://ziglang.org/)
-  - A simple but powerful language that aims to be a modern successor to C.
-  - Has no hidden control flows or allocations, and even has a built-in cross-platform SIMD library. This makes it a great fit for writing low-level realtime DSP code IMO.
-  - Not a memory-safe language, so extra precautions are needed when using it with safety checks disabled.
-  - There is an audio plugin framework in the works called [arbor](https://github.com/ArborealAudio/arbor).
+
 
 [AFL]: https://github.com/google/AFL
 [Honggfuzz]: https://github.com/google/honggfuzz
